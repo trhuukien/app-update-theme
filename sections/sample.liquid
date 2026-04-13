@@ -1,0 +1,307 @@
+{{ 'sample.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .sections-top > h2 {
+    font-size: {{ section.settings.bss_font_size }}%;
+  }
+{%- endstyle -%}
+
+{%- liquid
+  if section.settings.bss_item_view == 'single'
+    assign isSingleView = true
+    assign layoutContent = 'grid-col-1'
+    assign gridSingle = 'grid-single'
+    assign perPage = 1
+  else
+    assign isSingleView = false
+    assign layoutContent = 'grid-col-3'
+    assign gridSingle = ''
+    assign perPage = 3
+  endif
+
+  assign configImgAlign = section.settings.bss_img_alignment
+  assign configTextAlign = section.settings.bss_text_alignment
+-%}
+<div class="sections page-width {{ section.settings.bss_text_alignment }}">
+  <div class="sections-top text-center">
+    <h2>{{ section.settings.bss_heading }}</h2>
+  </div>
+
+  <div
+    id="splide-{{ section.id }}"
+    class="splide"
+    data-per-page="{{ perPage }}"
+    data-show-pagination="{{ section.settings.bss_show_pagination }}"
+    data-show-arrow="{{ section.settings.bss_btn_next_pre }}"
+  >
+    <div class="splide__track">
+      <div class="splide__list" class="sections-bottom d-grid {{ layoutContent }}">
+        {%- for block in section.blocks -%}
+          <div class="item splide__slide" {{ block.shopify_attributes }}>
+            <div class="d-grid padding-content {{ gridSingle }}">
+              <div class="content-text">
+                <div>
+                  {% for i in (1..block.settings.bss_review_star) %}
+                    *
+                  {% endfor %}
+                </div>
+                <h3>{{ block.settings.bss_title }}</h3>
+                <div>
+                  <p>{{ block.settings.bss_sample_text }}</p>
+                </div>
+              </div>
+
+              {% unless isSingleView -%}
+                <div
+                  class="
+                    auth-content
+                    {% if configImgAlign == "image_left" -%}
+                      d-flex
+                      {% case configTextAlign -%}
+                        {%- when "text-center" -%}
+                          justify-content-center
+                        {%- when "text-right" -%}
+                          justify-content-end
+                        {%- else -%}
+                          justify-content-start
+                      {%- endcase -%}
+                    {%- endif -%}
+                  "
+                >
+              {%- endunless -%}
+              <div
+                class="
+                  content-image
+                  {% if configTextAlign == "text-right" -%}
+                      order-last
+                  {%- endif -%}
+                "
+              >
+                <div
+                  class="
+                      img-border image-circle
+                    {% unless section.settings.bss_show_auth -%}
+                        hidden
+                      {%- endunless -%}
+                  "
+                >
+                  {%- if block.settings.image -%}
+                    {{ block.settings.image | image_url: width: 70, height: 70 | image_tag }}
+                  {% else %}
+                    <img class="empty-img" width="70px" height="70px">
+                  {%- endif -%}
+                </div>
+              </div>
+              <div class="content-auth auth-info">
+                <span>Name</span>
+                <p>Description</p>
+              </div>
+            </div>
+            {% unless isSingleView -%}
+              </div>
+            {% endunless -%}
+          </div>
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Test",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "range",
+      "id": "bss_font_size",
+      "min": 50,
+      "max": 200,
+      "step": 10,
+      "unit": "%",
+      "label": "Hedding size",
+      "default": 100
+    },
+    {
+      "type": "text",
+      "id": "bss_heading",
+      "label": "Heading",
+      "default": "Test"
+    },
+    {
+      "type": "select",
+      "id": "bss_text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "text-left",
+          "label": "Left"
+        },
+        {
+          "value": "text-center",
+          "label": "Center"
+        },
+        {
+          "value": "text-right",
+          "label": "Right"
+        }
+      ],
+      "default": "text-center"
+    },
+    {
+      "type": "select",
+      "id": "bss_item_view",
+      "label": "Testimonial items view",
+      "options": [
+        {
+          "value": "single",
+          "label": "Single"
+        },
+        {
+          "value": "multiple",
+          "label": "multiple"
+        }
+      ],
+      "default": "multiple"
+    },
+    {
+      "type": "checkbox",
+      "id": "bss_btn_next_pre",
+      "label": "Next/Previous arrows",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "bss_show_pagination",
+      "label": "Show pagination",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "bss_show_auth",
+      "label": "Show author's image",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "bss_img_alignment",
+      "label": "Author's image alignment",
+      "options": [
+        {
+          "value": "image_top",
+          "label": "image_top"
+        },
+        {
+          "value": "image_left",
+          "label": "image_left"
+        }
+      ],
+      "default": "image_top"
+    }
+  ],
+  "blocks": [
+   {
+       "name": "Testimonials",
+       "type": "testimonials",
+       "settings": [
+         {
+            "type": "select",
+            "id": "bss_review_star",
+            "label": "Icon",
+            "options": [
+              {
+                "value": "0",
+                "label": "Quote"
+              },
+              {
+                "value": "1",
+                "label": "1 star"
+              },
+              {
+                "value": "2",
+                "label": "2 star"
+              },
+              {
+                "value": "3",
+                "label": "3 star"
+              },
+              {
+                "value": "4",
+                "label": "4 star"
+              },
+              {
+                "value": "5",
+                "label": "5 star"
+              }
+            ],
+            "default": "0"
+          },
+         {
+            "type": "text",
+            "id": "bss_title",
+            "label": "Title",
+            "default": "Test title"
+          },
+         {
+            "type": "textarea",
+            "id": "bss_sample_text",
+            "label": "Sample text",
+            "default": "Add customer reviews and testimonials to showcase your store's happy customers"
+          },
+         {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+       ]
+     }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials",
+      "blocks": [
+        {
+          "type": "testimonials"
+        },
+        {
+          "type": "testimonials"
+        },
+        {
+          "type": "testimonials"
+        },
+        {
+          "type": "testimonials"
+        },
+        {
+          "type": "testimonials"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+{% javascript %}
+  function slider() {
+    const eles = document.querySelectorAll('.splide');
+    eles.forEach(ele => {
+      const isShowPagination = ele.getAttribute("data-show-pagination") == "true" ? true : false;
+      const isShowArrow = ele.getAttribute("data-show-arrow") == "true" ? true : false;
+      new Splide('#' + ele.getAttribute("id"), {
+        type : 'loop',
+        drag : 'free',
+        pagination: isShowPagination,
+        arrows: isShowArrow,
+        perPage: ele.getAttribute("data-per-page"),
+      }).mount();
+    });
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    slider();
+  });
+
+  document.addEventListener('shopify:section:load', function () {
+    slider();
+  });
+{% endjavascript %}

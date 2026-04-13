@@ -1,0 +1,130 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "cart-items": {
+      "type": "main-cart-items",
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cart-footer": {
+      "type": "main-cart-footer",
+      "blocks": {
+        "subtotal": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "buttons": {
+          "type": "buttons",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "subtotal",
+        "buttons"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "aad5d15b-18e5-4474-a587-73d8796cb4af": {
+      "type": "sample",
+      "blocks": {
+        "template--21777969676566__aad5d15b-18e5-4474-a587-73d8796cb4af-testimonials-1": {
+          "type": "testimonials",
+          "settings": {
+            "bss_review_star": "5",
+            "bss_title": "Test title",
+            "bss_sample_text": "Welcome to my shop!",
+            "image": "shopify://shop_images/kid2.png"
+          }
+        },
+        "template--21777969676566__aad5d15b-18e5-4474-a587-73d8796cb4af-testimonials-2": {
+          "type": "testimonials",
+          "settings": {
+            "bss_review_star": "2",
+            "bss_title": "Test title",
+            "bss_sample_text": "Welcome to my shop!",
+            "image": "shopify://shop_images/sayu.jpg"
+          }
+        },
+        "template--21777969676566__aad5d15b-18e5-4474-a587-73d8796cb4af-testimonials-3": {
+          "type": "testimonials",
+          "settings": {
+            "bss_review_star": "4",
+            "bss_title": "Test title",
+            "bss_sample_text": "Welcome to my shop!"
+          }
+        },
+        "7ed1abe7-fca8-4879-843d-65055b0887f5": {
+          "type": "testimonials",
+          "settings": {
+            "bss_review_star": "0",
+            "bss_title": "Test title",
+            "bss_sample_text": "Add customer reviews and testimonials to showcase your store's happy customers"
+          }
+        },
+        "065c3198-f31d-4428-8917-bd6e1614bec1": {
+          "type": "testimonials",
+          "settings": {
+            "bss_review_star": "0",
+            "bss_title": "Test title",
+            "bss_sample_text": "Add customer reviews and testimonials to showcase your store's happy customers"
+          }
+        },
+        "3ead405d-d2d6-4c25-9f34-6e16748e9043": {
+          "type": "testimonials",
+          "settings": {
+            "bss_review_star": "0",
+            "bss_title": "Test title",
+            "bss_sample_text": "Add customer reviews and testimonials to showcase your store's happy customers"
+          }
+        },
+        "21759e64-655b-4ee2-9d14-46589d14a257": {
+          "type": "testimonials",
+          "settings": {
+            "bss_review_star": "0",
+            "bss_title": "Test title",
+            "bss_sample_text": "Add customer reviews and testimonials to showcase your store's happy customers"
+          }
+        }
+      },
+      "block_order": [
+        "template--21777969676566__aad5d15b-18e5-4474-a587-73d8796cb4af-testimonials-1",
+        "template--21777969676566__aad5d15b-18e5-4474-a587-73d8796cb4af-testimonials-2",
+        "template--21777969676566__aad5d15b-18e5-4474-a587-73d8796cb4af-testimonials-3",
+        "7ed1abe7-fca8-4879-843d-65055b0887f5",
+        "065c3198-f31d-4428-8917-bd6e1614bec1",
+        "3ead405d-d2d6-4c25-9f34-6e16748e9043",
+        "21759e64-655b-4ee2-9d14-46589d14a257"
+      ],
+      "settings": {
+        "bss_font_size": 200,
+        "bss_heading": "Kizchannnnnn",
+        "bss_text_alignment": "text-center",
+        "bss_item_view": "multiple",
+        "bss_btn_next_pre": true,
+        "bss_show_pagination": false,
+        "bss_show_auth": true,
+        "bss_img_alignment": "image_top"
+      }
+    }
+  },
+  "order": [
+    "cart-items",
+    "cart-footer",
+    "aad5d15b-18e5-4474-a587-73d8796cb4af"
+  ]
+}
