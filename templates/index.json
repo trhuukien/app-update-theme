@@ -9,703 +9,1662 @@
  */
 {
   "sections": {
-    "custom_liquid_3rQGTM": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "hehehe",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "1770707372d1d0a9f5": {
-      "type": "apps",
-      "blocks": {
-        "forms_inline_6tt6DK": {
-          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
-          "settings": {
-            "form_id": "865979",
-            "text_color": "#202020",
-            "button_background_color": "#202020",
-            "button_label_color": "#ffffff",
-            "links_color": "#1878b9",
-            "errors_color": "#e02229",
-            "text_alignment": "center",
-            "form_alignment": "center",
-            "padding_top": 0,
-            "padding_bottom": 24,
-            "padding_right": 0,
-            "padding_left": 0
-          }
-        }
-      },
-      "block_order": [
-        "forms_inline_6tt6DK"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "inverse",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "b96801d9-6e0b-46dd-b7bc-966b584bc269": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "e294e033-a482-4813-b356-2065414b2d57": {
-      "type": "featured-product",
-      "blocks": {
-        "template--21777969742102__e294e033-a482-4813-b356-2065414b2d57-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "template--21777969742102__e294e033-a482-4813-b356-2065414b2d57-title-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "template--21777969742102__e294e033-a482-4813-b356-2065414b2d57-price-1": {
-          "type": "price",
-          "settings": {}
-        },
-        "template--21777969742102__e294e033-a482-4813-b356-2065414b2d57-variant_picker-1": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--21777969742102__e294e033-a482-4813-b356-2065414b2d57-quantity_selector-1": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "template--21777969742102__e294e033-a482-4813-b356-2065414b2d57-buy_buttons-1": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "template--21777969742102__e294e033-a482-4813-b356-2065414b2d57-share-1": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        }
-      },
-      "block_order": [
-        "template--21777969742102__e294e033-a482-4813-b356-2065414b2d57-text-1",
-        "template--21777969742102__e294e033-a482-4813-b356-2065414b2d57-title-1",
-        "template--21777969742102__e294e033-a482-4813-b356-2065414b2d57-price-1",
-        "template--21777969742102__e294e033-a482-4813-b356-2065414b2d57-variant_picker-1",
-        "template--21777969742102__e294e033-a482-4813-b356-2065414b2d57-quantity_selector-1",
-        "template--21777969742102__e294e033-a482-4813-b356-2065414b2d57-buy_buttons-1",
-        "template--21777969742102__e294e033-a482-4813-b356-2065414b2d57-share-1"
-      ],
-      "settings": {
-        "product": "",
-        "color_scheme": "",
-        "secondary_background": false,
-        "media_size": "medium",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "c61f24c8-edd9-43f6-8c91-253a3a9a5731": {
-      "type": "collection-list",
-      "blocks": {
-        "template--21777969742102__c61f24c8-edd9-43f6-8c91-253a3a9a5731-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--21777969742102__c61f24c8-edd9-43f6-8c91-253a3a9a5731-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "template--21777969742102__c61f24c8-edd9-43f6-8c91-253a3a9a5731-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21777969742102__c61f24c8-edd9-43f6-8c91-253a3a9a5731-featured_collection-1",
-        "template--21777969742102__c61f24c8-edd9-43f6-8c91-253a3a9a5731-featured_collection-2",
-        "template--21777969742102__c61f24c8-edd9-43f6-8c91-253a3a9a5731-featured_collection-3"
-      ],
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "bd533731-4f33-43de-b129-06ee5cd32940": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21777969742102__bd533731-4f33-43de-b129-06ee5cd32940-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "template--21777969742102__bd533731-4f33-43de-b129-06ee5cd32940-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "template--21777969742102__bd533731-4f33-43de-b129-06ee5cd32940-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--21777969742102__bd533731-4f33-43de-b129-06ee5cd32940-heading-1",
-        "template--21777969742102__bd533731-4f33-43de-b129-06ee5cd32940-text-1",
-        "template--21777969742102__bd533731-4f33-43de-b129-06ee5cd32940-button-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "142f7fee-b2a1-4454-bf48-3f51fe9bc942": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--21777969742102__142f7fee-b2a1-4454-bf48-3f51fe9bc942-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "template--21777969742102__142f7fee-b2a1-4454-bf48-3f51fe9bc942-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        },
-        "template--21777969742102__142f7fee-b2a1-4454-bf48-3f51fe9bc942-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--21777969742102__142f7fee-b2a1-4454-bf48-3f51fe9bc942-heading-1",
-        "template--21777969742102__142f7fee-b2a1-4454-bf48-3f51fe9bc942-text-1",
-        "template--21777969742102__142f7fee-b2a1-4454-bf48-3f51fe9bc942-button-1"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "a4fb980e-6433-4bf0-876a-96fb3fb633cb": {
-      "type": "image-banner",
-      "blocks": {
-        "template--21777969742102__a4fb980e-6433-4bf0-876a-96fb3fb633cb-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--21777969742102__a4fb980e-6433-4bf0-876a-96fb3fb633cb-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--21777969742102__a4fb980e-6433-4bf0-876a-96fb3fb633cb-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--21777969742102__a4fb980e-6433-4bf0-876a-96fb3fb633cb-heading-1",
-        "template--21777969742102__a4fb980e-6433-4bf0-876a-96fb3fb633cb-text-1",
-        "template--21777969742102__a4fb980e-6433-4bf0-876a-96fb3fb633cb-buttons-1"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "cc8b60cb-674e-42d4-8eb3-3fa99e0ad25b": {
+    "fe5dccd3-17fd-4fd3-ada9-a0e11305981c": {
       "type": "slideshow",
       "blocks": {
-        "template--21777969742102__cc8b60cb-674e-42d4-8eb3-3fa99e0ad25b-slide-1": {
+        "template--21828924539181__fe5dccd3-17fd-4fd3-ada9-a0e11305981c-slide-1": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "image": "shopify://shop_images/img_-_2024-09-04T141850.672.png",
+            "image_link": "",
+            "open_new_window_image": false,
+            "overlay_opacity": 0,
+            "enable_bakground": false,
+            "subheading": "",
+            "heading": "Effortlessly unlock life-enhancing experiences forever",
+            "highlight_type": "underline",
+            "heading_size": 160,
+            "heading_tag": "h2",
+            "text": "",
+            "button_label_1": "",
+            "button_link_1": "",
+            "open_new_window_button": false,
+            "show_button_style_1": "primary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "open_new_window_button_2": false,
+            "show_button_style_2": "primary",
+            "content_alignment": "custom",
+            "custom_horizontal": 11,
+            "custom_vertical": 50,
+            "alignment": "center",
+            "text_product": "Check out our products:",
+            "list_products": [],
+            "show_rating": false,
+            "content_background_color": "rgba(0,0,0,0)",
+            "color_text": "#02bab2",
+            "color_button": "#ffffff",
+            "color_text_button": "#000000",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_text_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "#ffffff",
+            "colors_text_link": "rgba(0,0,0,0)",
+            "color_heading_highlight_light": "rgba(0,0,0,0)"
           }
         },
-        "template--21777969742102__cc8b60cb-674e-42d4-8eb3-3fa99e0ad25b-slide-2": {
+        "971b1015-ef28-4d4a-a43c-646bfd6da4a0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "image_link": "",
+            "open_new_window_image": false,
+            "overlay_opacity": 0,
+            "enable_bakground": false,
+            "subheading": "ADD A TAGLINE",
+            "heading": "BANNER HEADING",
+            "highlight_type": "underline",
+            "heading_size": 170,
+            "heading_tag": "h2",
+            "text": "<p>Tell your brand's story through images</p>",
+            "button_label_1": "Button Label",
+            "button_link_1": "",
+            "open_new_window_button": false,
+            "show_button_style_1": "primary",
+            "button_label_2": "Button Label",
+            "button_link_2": "",
+            "open_new_window_button_2": false,
+            "show_button_style_2": "primary",
+            "content_alignment": "middle-center",
+            "custom_horizontal": 50,
+            "custom_vertical": 50,
+            "alignment": "center",
+            "text_product": "Check out our products:",
+            "list_products": [],
+            "show_rating": false,
+            "content_background_color": "rgba(0,0,0,0)",
+            "color_text": "rgba(0,0,0,0)",
+            "color_button": "#ffffff",
+            "color_text_button": "#000000",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_text_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "#ffffff",
+            "colors_text_link": "rgba(0,0,0,0)",
+            "color_heading_highlight_light": "rgba(0,0,0,0)"
           }
         }
       },
       "block_order": [
-        "template--21777969742102__cc8b60cb-674e-42d4-8eb3-3fa99e0ad25b-slide-1",
-        "template--21777969742102__cc8b60cb-674e-42d4-8eb3-3fa99e0ad25b-slide-2"
+        "template--21828924539181__fe5dccd3-17fd-4fd3-ada9-a0e11305981c-slide-1",
+        "971b1015-ef28-4d4a-a43c-646bfd6da4a0"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
+        "show_hero": false,
+        "auto_play": true,
         "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "7af03dbf-523c-4e6e-a587-30f634315257": {
-      "type": "collage",
-      "blocks": {
-        "template--21777969742102__7af03dbf-523c-4e6e-a587-30f634315257-image-1": {
-          "type": "image",
-          "settings": {}
-        },
-        "template--21777969742102__7af03dbf-523c-4e6e-a587-30f634315257-product-1": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "template--21777969742102__7af03dbf-523c-4e6e-a587-30f634315257-collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21777969742102__7af03dbf-523c-4e6e-a587-30f634315257-image-1",
-        "template--21777969742102__7af03dbf-523c-4e6e-a587-30f634315257-product-1",
-        "template--21777969742102__7af03dbf-523c-4e6e-a587-30f634315257-collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "293ab21f-eb85-40f9-a418-c43befd840a1": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--21777969742102__293ab21f-eb85-40f9-a418-c43befd840a1-column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--21777969742102__293ab21f-eb85-40f9-a418-c43befd840a1-column-2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--21777969742102__293ab21f-eb85-40f9-a418-c43befd840a1-column-3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21777969742102__293ab21f-eb85-40f9-a418-c43befd840a1-column-1",
-        "template--21777969742102__293ab21f-eb85-40f9-a418-c43befd840a1-column-2",
-        "template--21777969742102__293ab21f-eb85-40f9-a418-c43befd840a1-column-3"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "67465efd-0c25-4ae2-bdf2-528a0649b6d5": {
-      "type": "multirow",
-      "blocks": {
-        "template--21777969742102__67465efd-0c25-4ae2-bdf2-528a0649b6d5-row-1": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "template--21777969742102__67465efd-0c25-4ae2-bdf2-528a0649b6d5-row-2": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "template--21777969742102__67465efd-0c25-4ae2-bdf2-528a0649b6d5-row-3": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21777969742102__67465efd-0c25-4ae2-bdf2-528a0649b6d5-row-1",
-        "template--21777969742102__67465efd-0c25-4ae2-bdf2-528a0649b6d5-row-2",
-        "template--21777969742102__67465efd-0c25-4ae2-bdf2-528a0649b6d5-row-3"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "4c7aefc0-1792-49ad-b6da-229f6785038a": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--21777969742102__4c7aefc0-1792-49ad-b6da-229f6785038a-collapsible_row-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--21777969742102__4c7aefc0-1792-49ad-b6da-229f6785038a-collapsible_row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--21777969742102__4c7aefc0-1792-49ad-b6da-229f6785038a-collapsible_row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--21777969742102__4c7aefc0-1792-49ad-b6da-229f6785038a-collapsible_row-4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21777969742102__4c7aefc0-1792-49ad-b6da-229f6785038a-collapsible_row-1",
-        "template--21777969742102__4c7aefc0-1792-49ad-b6da-229f6785038a-collapsible_row-2",
-        "template--21777969742102__4c7aefc0-1792-49ad-b6da-229f6785038a-collapsible_row-3",
-        "template--21777969742102__4c7aefc0-1792-49ad-b6da-229f6785038a-collapsible_row-4"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "33101399-6fc9-4486-a0e2-74436f66dc0f": {
-      "type": "newsletter",
-      "blocks": {
-        "template--21777969742102__33101399-6fc9-4486-a0e2-74436f66dc0f-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "template--21777969742102__33101399-6fc9-4486-a0e2-74436f66dc0f-paragraph-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
-          }
-        },
-        "template--21777969742102__33101399-6fc9-4486-a0e2-74436f66dc0f-email_form-1": {
-          "type": "email_form",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "template--21777969742102__33101399-6fc9-4486-a0e2-74436f66dc0f-heading-1",
-        "template--21777969742102__33101399-6fc9-4486-a0e2-74436f66dc0f-paragraph-1",
-        "template--21777969742102__33101399-6fc9-4486-a0e2-74436f66dc0f-email_form-1"
-      ],
-      "settings": {
-        "color_scheme": "",
+        "show_arrow": false,
+        "slider_visual": "bars",
+        "transition_style": "fade",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_full_width": false,
+        "rounded_corner_image": false,
+        "desktop_height": "750",
+        "padding_top": 0,
+        "padding_bottom": 4,
+        "full_width_mobile": true,
+        "rounded_corner_image_mobile": false,
+        "mobile_height": "500",
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 4
       }
     },
-    "95a885c6-2cc5-4104-84a5-661324a3634b": {
-      "type": "contact-form",
+    "rich_text_YFmJkD": {
+      "type": "rich-text",
+      "blocks": {
+        "text_wfdjnD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Now is the time to get more out of life. By broadening your horizons you create more possibilities, more freedom and have more fun. Whether you learn a new language for new friendships, the love of your life, personal development, culture immersion, career advancement, adventure travel or as an enjoyable hobby, you will benefit tremendously. Stop missing out. Your rewarding experience begins today.</p><p><br/>We provide everything you need to excel in real-world conversations.</p><p>Which language do you want to speak?</p>",
+            "number_of_lines_shown": "none",
+            "read_more_label": "Read more"
+          }
+        }
+      },
+      "block_order": [
+        "text_wfdjnD"
+      ],
       "settings": {
-        "heading": "Contact form",
-        "heading_size": "h1",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "heading_light": "#0c2e44",
+        "text_light": "#2e4351",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "background_color_light": "rgba(0,0,0,0)",
+        "heading_dark": "rgba(0,0,0,0)",
+        "text_dark": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "content_alignment": "center",
+        "show_section_divider": false,
+        "make_full_page_width": true,
+        "padding_top": 52,
+        "padding_bottom": 52,
+        "content_alignment_mobile": "center",
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 20
       }
     },
-    "a1ca6b21-1217-4e81-bae3-06d52a58de42": {
-      "type": "video",
+    "text_column_with_image_QEfGay": {
+      "type": "text-column-with-image",
+      "blocks": {
+        "column_jqhkkf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/South_Africa.png",
+            "image_link": "shopify://pages/learn-afrikaans-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Afrikaans",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_e14nxu": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Albania.png",
+            "image_link": "shopify://pages/learn-albanian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Albanian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_zbjngy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ethiopia.png",
+            "image_link": "shopify://pages/learn-amharic-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Amharic",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_kdw8d1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Arabia.png",
+            "image_link": "shopify://pages/learn-arabic-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Arabic",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_u8in2c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Armenia.png",
+            "image_link": "shopify://pages/learn-armenian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Armenian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_t0s4w7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Azerbaijan.png",
+            "image_link": "shopify://pages/learn-azerbaijani-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Azerbaijani",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_0nlvj4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Basque.png",
+            "image_link": "shopify://pages/learn-basque-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Basque",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_bldo7q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Belarus.png",
+            "image_link": "shopify://pages/learn-belarusian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Belarusian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_lo0a4a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bangladesh.png",
+            "image_link": "shopify://pages/learn-bengali-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Bengali",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_q7jkak": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bosnia.png",
+            "image_link": "shopify://pages/learn-bosnian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Bosnian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_5h2whe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Brazil.png",
+            "image_link": "shopify://pages/learn-brazilian-portuguese-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Brazilian Portuguese",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_sig0nf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bulgaria.png",
+            "image_link": "shopify://pages/learn-bulgarian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Bulgarian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_3s6yo5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Hong_Kong.png",
+            "image_link": "shopify://pages/learn-cantonese-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Cantonese",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_ej9n0o": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Catalonia.png",
+            "image_link": "shopify://pages/learn-catalan-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Catalan",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_sor2ca": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/China.png",
+            "image_link": "shopify://pages/learn-chinese-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Chinese",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_ix1sjn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Croatia.png",
+            "image_link": "shopify://pages/learn-croatian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Croatian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_fkpctq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Czechia.png",
+            "image_link": "shopify://pages/learn-czech-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Czech",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_6g17q3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Denmark.png",
+            "image_link": "shopify://pages/learn-danish-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Danish",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_przmnr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Afghanistan.png",
+            "image_link": "shopify://pages/learn-dari-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Dari",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_qk91t5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Netherlands.png",
+            "image_link": "shopify://pages/learn-dutch-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Dutch",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_vnus53": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Egypt.png",
+            "image_link": "shopify://pages/learn-egyptian-arabic-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Egyptian Arabic",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_6ko3mx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Estonia.png",
+            "image_link": "shopify://pages/learn-estonian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Estonian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_v79ix7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Philippines.jpg",
+            "image_link": "shopify://pages/learn-filipino-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Filipino",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_ievwg5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Finland.jpg",
+            "image_link": "shopify://pages/learn-finnish-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Finnish",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_jrsaei": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/France.jpg",
+            "image_link": "shopify://pages/learn-french-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn French",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_b3dzim": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Georgia.jpg",
+            "image_link": "shopify://pages/learn-georgian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Georgian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_c4pglu": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Germany.jpg",
+            "image_link": "shopify://pages/learn-german-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn German",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_y8ryyv": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Greece.jpg",
+            "image_link": "shopify://pages/learn-greek-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Greek",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_pkayg4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Israel.jpg",
+            "image_link": "shopify://pages/learn-hebrew-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Hebrew",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_wyf2r8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/India.jpg",
+            "image_link": "shopify://pages/learn-hindi-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Hindi",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_5896h1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Hungary.jpg",
+            "image_link": "shopify://pages/learn-hungarian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Hungarian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_gnzjyp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Iceland.jpg",
+            "image_link": "shopify://pages/learn-icelandic-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Icelandic",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_yg0l3i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Indonesia.jpg",
+            "image_link": "shopify://pages/learn-indonesian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Indonesian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_5afxpf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Italy.jpg",
+            "image_link": "shopify://pages/learn-italian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Italian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_bjyyqm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Japan.jpg",
+            "image_link": "shopify://pages/learn-japanese-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Japanese",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_2qd8gr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Kazakhstan.jpg",
+            "image_link": "shopify://pages/learn-kazakh-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Kazakh",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_bqhye4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Kyrgyzstan.jpg",
+            "image_link": "shopify://pages/learn-kyrgyz-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Kyrgyz",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_psk1w3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Korea.jpg",
+            "image_link": "shopify://pages/learn-korean-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Korean",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_ykg220": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Kurdistan.jpg",
+            "image_link": "shopify://pages/learn-kurdish-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Kurdish",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_qw4eqa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Latvia.jpg",
+            "image_link": "shopify://pages/learn-latvian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Latvian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_qh7wc9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/lebanon.jpg",
+            "image_link": "shopify://pages/learn-lebanese-arabic-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Lebanese Arabic",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_6zgglo": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Congo.jpg",
+            "image_link": "shopify://pages/learn-lingala-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Lingala",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_jqhkkf",
+        "column_e14nxu",
+        "column_zbjngy",
+        "column_kdw8d1",
+        "column_u8in2c",
+        "column_t0s4w7",
+        "column_0nlvj4",
+        "column_bldo7q",
+        "column_lo0a4a",
+        "column_q7jkak",
+        "column_5h2whe",
+        "column_sig0nf",
+        "column_3s6yo5",
+        "column_ej9n0o",
+        "column_sor2ca",
+        "column_ix1sjn",
+        "column_fkpctq",
+        "column_6g17q3",
+        "column_przmnr",
+        "column_qk91t5",
+        "column_vnus53",
+        "column_6ko3mx",
+        "column_v79ix7",
+        "column_ievwg5",
+        "column_jrsaei",
+        "column_b3dzim",
+        "column_c4pglu",
+        "column_y8ryyv",
+        "column_pkayg4",
+        "column_wyf2r8",
+        "column_5896h1",
+        "column_gnzjyp",
+        "column_yg0l3i",
+        "column_5afxpf",
+        "column_bjyyqm",
+        "column_2qd8gr",
+        "column_bqhye4",
+        "column_psk1w3",
+        "column_ykg220",
+        "column_qw4eqa",
+        "column_qh7wc9",
+        "column_6zgglo"
+      ],
       "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
+        "title": "",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "secondary_background": "none",
+        "image_ratio": "100%",
+        "rounded_corner_image": true,
+        "column_content_alignment": "center",
+        "background_color_light": "rgba(0,0,0,0)",
+        "heading_light": "rgba(0,0,0,0)",
+        "text_light": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "heading_dark": "rgba(0,0,0,0)",
+        "text_dark": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "enable_desktop_slider": false,
+        "swiper_on_mobile": false,
+        "auto_play": false,
+        "change_bar_every": 5,
+        "column_layout_desktop": "lg:w-1/6",
+        "spacing_desktop": 42,
         "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_full_width": false,
+        "show_section_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "column_layout_mobile": "w-1/2",
+        "spacing_mobile": 30,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 20
       }
     },
-    "b130e4aa-6e84-489e-a4b6-8f99dde74e10": {
-      "type": "featured-blog",
+    "text_column_with_image_egMWtb": {
+      "type": "text-column-with-image",
+      "blocks": {
+        "column_d706ho": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Lithuania.jpg",
+            "image_link": "shopify://pages/learn-lithuanian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Lithuanian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_pcyyvv": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Macedonia.jpg",
+            "image_link": "shopify://pages/learn-macedonian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Macedonian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_z7glar": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Madagascar.jpg",
+            "image_link": "shopify://pages/learn-malagasy-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Malagasy",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_nvaruc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Malaysia.jpg",
+            "image_link": "shopify://pages/learn-malaysian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Malaysian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_m46dct": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Mallorca.jpg",
+            "image_link": "shopify://pages/learn-mallorcan-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Mallorcan",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_i1e5z7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Malta.jpg",
+            "image_link": "shopify://pages/learn-maltese-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Maltese",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_jfi807": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Mexico.jpg",
+            "image_link": "shopify://pages/learn-mexican-spanish-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Mexican Spanish",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_a3mdry": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Mongolia.jpg",
+            "image_link": "shopify://pages/learn-mongolian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Mongolian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_8kwyxt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Morocco.jpg",
+            "image_link": "shopify://pages/learn-moroccan-arabic-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Moroccan Arabic",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_iedh06": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Nepal.jpg",
+            "image_link": "shopify://pages/learn-nepali-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Nepali",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_2zhine": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Norway.jpg",
+            "image_link": "shopify://pages/learn-norwegian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Norwegian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_pr9dmm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Pakistan_2.jpg",
+            "image_link": "shopify://pages/learn-pashto-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Pashto",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_j6b7vp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Iran.jpg",
+            "image_link": "shopify://pages/learn-persian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Persian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_9nug5i": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Poland.jpg",
+            "image_link": "shopify://pages/learn-polish-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Polish",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_sk3flo": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Portugal.jpg",
+            "image_link": "shopify://pages/learn-portuguese-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Portuguese",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_mdq5kd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Punjab.jpg",
+            "image_link": "shopify://pages/learn-punjabi-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Punjabi",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_u5oav3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Romania.jpg",
+            "image_link": "shopify://pages/learn-romanian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Romanian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_abi9uc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Russia.jpg",
+            "image_link": "shopify://pages/learn-russian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Russian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_yd7hjn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Serbia.jpg",
+            "image_link": "shopify://pages/learn-serbian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Serbian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_8tnmfh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Shanghai.jpg",
+            "image_link": "shopify://pages/learn-shanghainese-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Shanghainese",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_boxrm8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sri_Lanka.jpg",
+            "image_link": "shopify://pages/learn-sinhala-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Sinhala",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_ywn7e1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Slovakia.jpg",
+            "image_link": "shopify://pages/learn-slovak-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Slovak",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_cypfzp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Slovenia.jpg",
+            "image_link": "shopify://pages/learn-slovene-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Slovene",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_t2bgbd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/South_America.jpg",
+            "image_link": "shopify://pages/learn-south-american-spanish-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn South American Spanish",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_nysbej": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Spain.jpg",
+            "image_link": "shopify://pages/learn-spanish-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Spanish",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_4bcgki": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Kenya.jpg",
+            "image_link": "shopify://pages/learn-swahili-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Swahili",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_s17b2j": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sweden.jpg",
+            "image_link": "shopify://pages/learn-swedish-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Swedish",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_z17qs2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Syria.jpg",
+            "image_link": "shopify://pages/learn-syrian-arabic-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Syrian Arabic",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_837829": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tamil_Nadu.jpg",
+            "image_link": "shopify://pages/learn-tamil-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Tamil",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_l6stvh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Thailand.jpg",
+            "image_link": "shopify://pages/learn-thai-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Thai",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_6gy9ta": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Tunisia.jpg",
+            "image_link": "shopify://pages/learn-tunisian-arabic-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Tunisian Arabic",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_345bv6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Turkey.jpg",
+            "image_link": "shopify://pages/learn-turkish-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Turkish",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_4nvk0c": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Ukraine.jpg",
+            "image_link": "shopify://pages/learn-ukrainian-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Ukrainian",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_inpplq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Pakistan.jpg",
+            "image_link": "shopify://pages/learn-urdu-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Urdu",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_qnsmdm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Uzbekistan.jpg",
+            "image_link": "shopify://pages/learn-uzbek-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Uzbek",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_goidg1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Vietnam.jpg",
+            "image_link": "shopify://pages/learn-vietnamese-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Vietnamese",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_8maorf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Senegal.jpg",
+            "image_link": "shopify://pages/learn-wolof-travel-course",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Learn Wolof",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_d706ho",
+        "column_pcyyvv",
+        "column_z7glar",
+        "column_nvaruc",
+        "column_m46dct",
+        "column_i1e5z7",
+        "column_jfi807",
+        "column_a3mdry",
+        "column_8kwyxt",
+        "column_iedh06",
+        "column_2zhine",
+        "column_pr9dmm",
+        "column_j6b7vp",
+        "column_9nug5i",
+        "column_sk3flo",
+        "column_mdq5kd",
+        "column_u5oav3",
+        "column_abi9uc",
+        "column_yd7hjn",
+        "column_8tnmfh",
+        "column_boxrm8",
+        "column_ywn7e1",
+        "column_cypfzp",
+        "column_t2bgbd",
+        "column_nysbej",
+        "column_4bcgki",
+        "column_s17b2j",
+        "column_z17qs2",
+        "column_837829",
+        "column_l6stvh",
+        "column_6gy9ta",
+        "column_345bv6",
+        "column_4nvk0c",
+        "column_inpplq",
+        "column_qnsmdm",
+        "column_goidg1",
+        "column_8maorf"
+      ],
       "settings": {
-        "heading": "Blog posts",
-        "heading_size": "h1",
-        "blog": "",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "f2bbd54b-beec-4ae2-a2ed-561114ddd8fa": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "68e72f28-2b76-4e26-9fa8-27e3376bf4b6": {
-      "type": "page",
-      "settings": {
-        "page": "",
-        "heading_size": "h1",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "secondary_background": "none",
+        "image_ratio": "100%",
+        "rounded_corner_image": true,
+        "column_content_alignment": "center",
+        "background_color_light": "rgba(0,0,0,0)",
+        "heading_light": "rgba(0,0,0,0)",
+        "text_light": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "heading_dark": "rgba(0,0,0,0)",
+        "text_dark": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "enable_desktop_slider": false,
+        "swiper_on_mobile": false,
+        "auto_play": false,
+        "change_bar_every": 5,
+        "column_layout_desktop": "lg:w-1/6",
+        "spacing_desktop": 42,
+        "full_width": false,
+        "padding_full_width": false,
+        "show_section_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "column_layout_mobile": "w-1/2",
+        "spacing_mobile": 30,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 20
       }
     }
   },
   "order": [
-    "custom_liquid_3rQGTM",
-    "1770707372d1d0a9f5",
-    "image_banner",
-    "b96801d9-6e0b-46dd-b7bc-966b584bc269",
-    "e294e033-a482-4813-b356-2065414b2d57",
-    "c61f24c8-edd9-43f6-8c91-253a3a9a5731",
-    "bd533731-4f33-43de-b129-06ee5cd32940",
-    "142f7fee-b2a1-4454-bf48-3f51fe9bc942",
-    "a4fb980e-6433-4bf0-876a-96fb3fb633cb",
-    "cc8b60cb-674e-42d4-8eb3-3fa99e0ad25b",
-    "7af03dbf-523c-4e6e-a587-30f634315257",
-    "293ab21f-eb85-40f9-a418-c43befd840a1",
-    "67465efd-0c25-4ae2-bdf2-528a0649b6d5",
-    "4c7aefc0-1792-49ad-b6da-229f6785038a",
-    "33101399-6fc9-4486-a0e2-74436f66dc0f",
-    "95a885c6-2cc5-4104-84a5-661324a3634b",
-    "a1ca6b21-1217-4e81-bae3-06d52a58de42",
-    "b130e4aa-6e84-489e-a4b6-8f99dde74e10",
-    "f2bbd54b-beec-4ae2-a2ed-561114ddd8fa",
-    "68e72f28-2b76-4e26-9fa8-27e3376bf4b6"
+    "fe5dccd3-17fd-4fd3-ada9-a0e11305981c",
+    "rich_text_YFmJkD",
+    "text_column_with_image_QEfGay",
+    "text_column_with_image_egMWtb"
   ]
 }

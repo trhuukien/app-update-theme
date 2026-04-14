@@ -1,0 +1,132 @@
+{%- if settings.product_reviews_app == 'trustoo' -%}
+  .head-button {
+    position: static;
+  }
+  .product-info .shopify-app-block {
+    width: 100%;
+  }
+  #seal-star-rating-widget {
+    margin-bottom: 1.25rem;
+  }
+  div#vstar-reviews .tt-qa,
+  div#vstar-reviews .tt-tabs-list {
+    padding: .75rem;
+  }
+  div#vstar-reviews .tt-tabs-list .tt-tab {
+    margin-bottom: 0.5rem;
+  }
+  div#vstar-tab {
+    z-index: 30;
+  }
+  #vstar-reviews .grid-review .related-product:hover {
+    background-size: 0;
+  }
+  .rtl #vstar-reviews .head-sort .sort-popup, .rtl #vstar-reviews .tt-reviews-sort .sort-popup {
+    right: auto;
+    left: 0;
+  }
+  .tt-swiper-next svg {
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .tt-swiper-pre svg {
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  #trustoo-review-detail.has-image .review-detail {
+    padding-bottom: 5rem;
+  }
+  div #vstar-reviews #reviews-footer {
+    padding-bottom: 1.2rem;
+  }
+  #trustoo-mask .trustoo-power .tt-power-cw, .trustoo-widget .trustoo-power .tt-power-cw {
+    display: inline-block;
+  }
+  div .tt-swiper-pre {
+    left: 15px;
+  }
+  div .tt-swiper-next {
+    right: 15px
+  }
+  .tt-swiper-wrapper {
+    direction: ltr;
+  }
+  .tt-head-content {
+    gap: 1rem;
+  }
+  .tt-head-right {
+    flex-grow: 1;
+    justify-content: end;
+  }
+  #vstar-reviews .head-sort:hover {
+    opacity: 1 !important;
+  }
+  .rtl #vstar-reviews .head-sort .sort-popup {
+    left: 0;
+    right: auto;
+  }
+  .rtl #vstar-reviews .head-sort .sort-popup .sort-list {
+    padding-left: 50px;
+    padding-right: 16px;
+  }
+  .rtl #vstar-reviews .head-sort .sort-popup .sort-active {
+    left: 25px;
+    right: auto;
+  }
+  @media (max-width: 1024px){
+    .product-info #vstar-reviews #reviews-head .head-left {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      padding: 1px;
+      text-align: left;
+    }
+    .product-info #vstar-reviews .head-left .product-rating,
+    .product-info #vstar-reviews.trustoo-rtl #reviews-head .product-rating {
+      padding: 0;
+      border: 0;
+    }
+    .product-info #vstar-reviews #reviews-head .tt-head-left {
+      display: block;
+    }
+    .product-info #vstar-reviews #reviews-head .tt-reviews-album {
+        margin-top: 20px;
+    }
+    #vstar-reviews .list-review.split {
+        flex-direction: column;
+    }
+  }
+   @media (max-width: 768px){
+    #vstar-reviews div#reviews-head.review-head-type2 {
+      padding: 40px 0 30px;
+    }
+    div #trustoo-review-detail .review-info {
+      padding-bottom: 2.5rem;
+    }
+    div #vstar-reviews {
+       padding-bottom: 2.5rem;
+    }
+  }
+  @media (min-width: 768px){
+    #trustoo-review-detail.has-image .review-detail {
+      padding-bottom: 1rem;
+    }
+    #vstar-reviews div#reviews-head,
+    #vstar-reviews div#reviews-head.review-head-type2 {
+      padding: 40px 10px 30px;
+    }
+    .rtl #vstar-window-review #reviews-head.review-head-type2 .head-sort {
+      margin-right: 0;
+      margin-left: 36px;
+    }
+  }
+{%- endif  -%}
+{%- if settings.product_reviews_app == 'judge' -%}
+  div[data-block-handle="featured_carousel"] {
+    width: 100%;
+    direction: ltr;
+  }
+{%- endif  -%}

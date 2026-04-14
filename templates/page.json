@@ -12,8 +12,24 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
+        "show_heading": true,
+        "heading_size": 100,
+        "heading_tag": "h1",
+        "show_breadcrumbs": true,
+        "show_breadcrumbs_border": true,
+        "full_width_breadcrumb": false,
+        "desktop_content_alignment": "text-left",
+        "mobile_content_alignment": "text-left",
+        "background_color_light": "#f2f2f2",
+        "text_color_light": "rgba(0,0,0,0)",
+        "textlink_color_light": "rgba(0,0,0,0)",
+        "background_color_dark": "#313131",
+        "text_color_dark": "rgba(0,0,0,0)",
+        "textlink_color_dark": "rgba(0,0,0,0)",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 0
       }
     }
   },

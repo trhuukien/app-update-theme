@@ -9,37 +9,62 @@
   - presentation: {String} Can only be "swatch"
 
   Usage:
-  {% render 'visual-display', type: value.display.type, value: value.display.value, presentation: filter.presentation %}
+  {% render 'visual-display', filter_value: filter_value, type: value.display.type, value: value.display.value, presentation: filter.presentation %}
 {% endcomment %}
-<div class="visual-display visual-display--presentation-{{ presentation }}{% unless type == "colors" or type == "image" %} empty{% endunless %}">
-  {%- case type -%}
-    {%- when 'colors' -%}
-      {% liquid
-        assign size_limit = value.size | at_most: 4
-        assign rotation = '0deg'
-        if size_limit == 2
-          assign rotation = '45deg'
-        endif
+{% liquid 
+  assign visual_style_compact = true
+  if settings.visual_value_style != "compact"
+    assign visual_style_compact = false
+  endif
+%}
+{% comment %} Visual style default value is compact, if it is not compact, it is large {% endcomment %}
+{%- case type -%}
+  {%- when 'colors' -%}
+    {% liquid
+      assign size_limit = value.size | at_most: 4
+      assign rotation = '0deg'
+      if size_limit == 2
+        assign rotation = '45deg'
+      endif
 
-        assign angle_increment = 360 | divided_by: size_limit
-        assign angle = 0
-      %}
-      {%- capture conic_gradient -%}
-        {%- for color in value limit: size_limit -%}
-          {{ color }} {{ angle }}deg{%- assign angle = angle | plus: angle_increment %} {{ angle }}deg{%- unless forloop.last %}, {%- endunless -%}
-        {%- endfor -%}
-      {%- endcapture -%}
+      assign angle_increment = 360 | divided_by: size_limit
+      assign angle = 0
+    %}
+    {%- capture conic_gradient -%}
+      {%- for color in value limit: size_limit -%}
+        {{ color }} {{ angle }}deg{%- assign angle = angle | plus: angle_increment %} {{ angle }}deg{%- unless forloop.last %}, {%- endunless -%}
+      {%- endfor -%}
+    {%- endcapture -%}
+    {% if visual_style_compact %}
       <div
-        class="visual-display__child"
+        class="color-filter h-5 w-5 min-w-[20px] rounded-full border-2 ml-0.5{% unless settings.filter_display_text %} mr-3{% endunless %}"
         style="background: conic-gradient({{ conic_gradient }}); transform: rotateZ({{ rotation }});"
       ></div>
-    {%- when 'image' -%}
-      {{
-        value
-        | image_url: width: 300
-        | image_tag: class: 'visual-display__child visual-display__image', alt: value.alt
-      }}
-    {%- else -%}
-      <div class="visual-display__child"></div>
-  {%- endcase -%}
-</div>
+    {% else %}
+      <div class="h-[70px] w-[70px] min-w-[70px] overflow-hidden border-2 color-filter ml-0.5">
+        <div class="w-full h-full" style="background: conic-gradient({{ conic_gradient }}); transform: rotateZ({{ rotation }});"></div>
+      </div>
+    {% endif %}
+  {%- when 'image' -%}
+    {% if visual_style_compact %}
+      <div class="color-filter h-5 w-5 min-w-[20px] rounded-full border-2 overflow-hidden top-0 left-0 ml-0.5{% unless settings.filter_display_text %} mr-3{% endunless %}">
+        {{
+          value
+          | image_url: width: 300
+          | image_tag: alt: value.alt, class: 'object-cover w-full h-full'
+        }}
+      </div>
+    {% else %}
+      <div class="h-[70px] w-[70px] min-w-[70px] overflow-hidden border-2 color-filter ml-0.5">
+        {{
+          value
+          | image_url: width: 300
+          | image_tag: alt: value.alt, class: 'w-full h-full object-cover top-0 left-0'
+        }}
+      </div>
+    {% endif %}
+{%- endcase -%}
+{% if settings.filter_display_text %}
+  <span class="p-break-words inline-block w-full ml-3">{{ filter_value.label | escape }} ({{ filter_value.count }})</span>
+{% endif %}
+  

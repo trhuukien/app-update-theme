@@ -1,0 +1,167 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "",
+            "text": "SPEAK A NEW LANGUAGE WITH EASE AND CONFIDENCE IN FIVE MINUTES A DAY",
+            "text_size": 110,
+            "link": "",
+            "open_new_window": false,
+            "button_label_or_code": "",
+            "button_link": "shopify://collections/all",
+            "open_new_window_button": false,
+            "button_color": "rgba(0,0,0,0)",
+            "button_text_color": "#ffffff",
+            "button_color_dark": "rgba(0,0,0,0)",
+            "button_text_color_dark": "#ffffff",
+            "timezone": "-4",
+            "end_year": 2023,
+            "end_month": "1",
+            "end_day": "1",
+            "end_hour": "1",
+            "end_minute": "0"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "settings": {
+        "enable": true,
+        "show_only_on_homepage": false,
+        "enable_sticky_bar": false,
+        "enable_carousel_on_desktop": true,
+        "backgound_color": "#02bab2",
+        "text_color": "#ffffff",
+        "textlink_color_light": "rgba(0,0,0,0)",
+        "backgound_color_dark": "#3e2f28",
+        "text_color_dark": "#ffffff",
+        "textlink_color_dark": "rgba(0,0,0,0)",
+        "menu": "",
+        "menu_position": "right",
+        "auto_switch_bar": true,
+        "change_bar_every": 5,
+        "show_navigation": true,
+        "show_social_icons": false,
+        "alignment": "right",
+        "show_language_selector": true,
+        "show_currency_selector": true,
+        "text_size_toolbar": 90
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        ".list-menu > li:last-child {font-size: 1.25rem;}",
+        ".list-menu {--colors-text-link: 12, 46, 68;}"
+      ],
+      "settings": {
+        "menu": "main-menu",
+        "select_motion": "hover",
+        "full_width": true,
+        "logo_position": "left-right",
+        "sticky_header_type": "none",
+        "logo": "shopify://shop_images/logo_7.png",
+        "logo_width": 180,
+        "logo_width_mobile": 100,
+        "show_social_icons": false,
+        "enable_on_homepage": true,
+        "enable_on_collection_page": false,
+        "shadow": 30,
+        "text_color_light": "#ffffff",
+        "textlink_color_light": "rgba(0,0,0,0)",
+        "text_color_dark": "#ffffff",
+        "textlink_color_dark": "rgba(0,0,0,0)",
+        "shadow_color": "#000000",
+        "shadow_color_dark": "#000000",
+        "header_show_language_selector": false,
+        "header_show_currency_selector": false,
+        "show_section_divider": false,
+        "padding_top": 24,
+        "padding_bottom": 24,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 16,
+        "padding_bottom_mobile": 16
+      }
+    },
+    "mobile-navigation": {
+      "type": "mobile-navigation",
+      "blocks": {
+        "mobile-navigation-2": {
+          "type": "account",
+          "settings": {}
+        },
+        "mobile-navigation-3": {
+          "type": "social",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "mobile-navigation-2",
+        "mobile-navigation-3"
+      ],
+      "settings": {
+        "menu": "main-menu",
+        "show_language_selector": true,
+        "show_currency_selector": true,
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "divider_color": "#f2f2f2",
+        "background_color_dark": "#202020",
+        "text_color_dark": "#ffffff",
+        "divider_color_dark": "#313131"
+      }
+    },
+    "custom_liquid_ir4QiB": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n.page__container h2.text-left {\n  text-align: center;\n}\n.shopify-policy__container .page__body h2,\n.page__container .page__body h2 {\n  font-size: var(--h2-font-size-mobile);\n}\n@media (min-width: 768px) {\n  .shopify-policy__container .page__body h2,\n  .page__container .page__body h2 {\n    font-size: var(--h2-font-size);\n  }\n}\n</style>",
+        "full_width": false,
+        "show_section_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "custom_liquid_44pEWB": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% style %}\n.text-container ul li {\n  list-style: none;\n}\n.text-container ul li::before {\n  content: \"\";\n  display: inline-block;\n  width: 24px;\n  height: 24px;\n  background-image: url(\"https://cdn.shopify.com/s/files/1/0887/5707/6309/files/icon_checked.png\");\n  background-size: contain;\n  background-repeat: no-repeat;\n  flex-shrink: 0;\n  margin-right: 0.25rem;\n}\n{% endstyle %}",
+        "full_width": false,
+        "show_section_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "mobile-navigation",
+    "custom_liquid_ir4QiB",
+    "custom_liquid_44pEWB"
+  ]
+}
