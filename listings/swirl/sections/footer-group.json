@@ -1,0 +1,88 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "text_qF4gwg": {
+          "type": "text",
+          "settings": {
+            "open_by_default": false,
+            "heading_text": "About",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>",
+            "show_social_icons": false,
+            "icon_layout": "horizontal",
+            "image_width": 100,
+            "link_image_footer": "",
+            "open_new_window": false
+          }
+        },
+        "e6c40a2a-58fc-4cf8-9184-a6607c25166c": {
+          "type": "link_list",
+          "settings": {
+            "open_by_default": false,
+            "heading_menu": "MOST SEARCHED",
+            "menu": "",
+            "show_social_icons": false
+          }
+        },
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "open_by_default": false,
+            "heading_menu": "OUR CONCEPT",
+            "menu": "",
+            "show_social_icons": false
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "open_by_default": false,
+            "heading_menu": "EXPLORE",
+            "menu": "",
+            "show_social_icons": false
+          }
+        },
+        "email_footer_zJHjic": {
+          "type": "email_footer",
+          "settings": {
+            "open_by_default": true,
+            "heading_email": "Subscribe to our emails",
+            "subtext_email": "<p>Be the first to know about new collections and exclusive offers.</p>",
+            "show_social_icons": true
+          }
+        }
+      },
+      "block_order": [
+        "text_qF4gwg",
+        "e6c40a2a-58fc-4cf8-9184-a6607c25166c",
+        "footer-0",
+        "footer-1",
+        "email_footer_zJHjic"
+      ],
+      "settings": {
+        "columns_desktop": 5,
+        "show_language_selector": true,
+        "show_currency_selector": true,
+        "show_social_icons": true,
+        "payment_enable": true,
+        "custom_payment": "",
+        "show_copyright": true,
+        "add_copyright_text": "",
+        "additional_layout": "horizontal",
+        "show_powered": true,
+        "enable_follow_on_shop": false,
+        "horizontal_position": "right",
+        "top_padding": 24,
+        "bottom_padding": 24,
+        "top_padding_mobile": 20,
+        "bottom_padding_mobile": 20
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

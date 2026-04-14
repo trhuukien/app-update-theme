@@ -1,62 +1,29 @@
 {{ 'page.css' | asset_url | stylesheet_tag: preload: true }}
-{% render 'section-divider' %}
-{%- style -%} 
-  #shopify-section-{{ section.id }}{
-    {% if section.settings.background_color_light.alpha != 0.0 %}
-      background: {{ section.settings.background_color_light }};
-      --background-color: {{ section.settings.background_color_light.red }}, {{ section.settings.background_color_light.green }}, {{ section.settings.background_color_light.blue }};
-    {% else %}
-      --background-color: {{ settings.colors_background.red }},{{ settings.colors_background.green }},{{ settings.colors_background.blue }};
-      background: {{ settings.colors_background }};
-    {% endif %}
-  }
-  .dark #shopify-section-{{ section.id }}{
-    {%- if section.settings.background_color_dark.alpha != 0.0 -%}
-      background: {{ section.settings.background_color_dark }};
-      --background-color: {{ section.settings.background_color_dark.red }}, {{ section.settings.background_color_dark.green }}, {{ section.settings.background_color_dark.blue }};
-    {%- else -%}
-      background: {{ settings.colors_dark_background }};
-      --background-color:  {{ settings.colors_dark_background.red }},{{ settings.colors_dark_background.green }},{{ settings.colors_dark_background.blue }};
-    {%- endif -%}
-  }
-  .section--{{ section.id }} {
-    {% if section.settings.text_light.alpha != 0.0 %}
-      --colors-text: {{ section.settings.text_light.red }},{{ section.settings.text_light.green }},{{ section.settings.text_light.blue }};
-    {% endif %}
-    {% if section.settings.heading_light.alpha != 0.0 %}
-      --colors-heading: {{ section.settings.heading_light.red }},{{ section.settings.heading_light.green }},{{ section.settings.heading_light.blue }};
-    {% endif %}
-  }
-  .dark .section--{{ section.id }} {
-    {% if section.settings.text_dark.alpha != 0.0 %}
-      --colors-text: {{ section.settings.text_dark.red }},{{ section.settings.text_dark.green }},{{ section.settings.text_dark.blue }};
-    {% else %}        
-      --colors-text: {{ settings.colors_dark_text.red }}, {{ settings.colors_dark_text.green }}, {{ settings.colors_dark_text.blue }};
-    {% endif %}
-    {% if section.settings.heading_dark.alpha != 0.0 %}
-      --colors-heading: {{ section.settings.heading_dark.red }},{{ section.settings.heading_dark.green }},{{ section.settings.heading_dark.blue }};
-    {% else %}        
-      --colors-heading: {{ settings.colors_dark_heading.red }}, {{ settings.colors_dark_heading.green }}, {{ settings.colors_dark_heading.blue }};
-    {% endif %}
+
+{%- style -%}
+  .x-section-page {
+    --max-width-page-container: calc((var(--page-width) + 40px) * {{ section.settings.max_container_page_width | times: 0.01 }});
   }
 {%- endstyle -%}
 
-<div class="text-container section--{{ section.id }} section-page relative mx-auto pt-[{{ section.settings.padding_top_mobile }}px] md:pt-[{{ section.settings.padding_top }}px] pb-[{{ section.settings.padding_bottom_mobile }}px] md:pb-[{{ section.settings.padding_bottom }}px] ltr">
-  <div class="{% if section.settings.full_width %} full-width{% else %} page-width{% endif %}">
-    <div class="page__container">
-      {%- assign language_name = page.metafields.custom.language.value.name.value -%}
-      {%- assign country_name = page.metafields.custom.language.value.country.value -%}
-      {%- assign country_code = page.metafields.custom.language.value.country_code.value -%}
+{% render 'section-divider' %}
 
+<div class="section-page relative mx-auto pt-[{{ section.settings.padding_top_mobile }}px] md:pt-[{{ section.settings.padding_top }}px] pb-[{{ section.settings.padding_bottom_mobile }}px] md:pb-[{{ section.settings.padding_bottom }}px] ltr">
+  <div class="x-section-page">
+    <div class="{% if section.settings.full_width %}w-full{% else %}page__container ml-auto mr-auto{% endif %} pr-5 pl-5">
       {%- if section.settings.select_page.title != blank -%}
-        <h2 class="h2 mb-5 pt-2 pb-2 text-left">{{ section.settings.select_page.title | escape | replace: 'language_name', language_name | replace: 'country_name', country_name | replace: 'country_code', country_code }}</h2>
+        <div class="mb-5 pt-2 pb-2">
+          {% unless settings.disable_heading_animation %}<div class="overflow-hidden" x-intersect.once="$el.querySelector('.anm-move-up')?.classList.add('active-anm-heading')">{% endunless %}
+            <h2 class="h2 text-left{% unless settings.disable_heading_animation %} anm-move-up{% endunless %}">{{ section.settings.select_page.title | escape }}</h2>
+          {% unless settings.disable_heading_animation %}</div>{% endunless %}
+        </div>
       {%- endif -%}
       <div class="page__body anm-fade-paragraph">
-        <div x-intersect.once="$el.classList.add('is-visible')" class="rte anm-fade-element text-[rgb(var(--colors-text))]">
+        <div x-intersect.once="$el.classList.add('is-visible')" class="rte anm-fade-element">
           {%- if section.settings.select_page.content != blank -%}
-            {{ section.settings.select_page.content | replace: 'language_name', language_name | replace: 'country_name', country_name | replace: 'country_code', country_code }}
+            {{ section.settings.select_page.content }}
           {%- endif -%}
-        </div>        
+        </div>
       </div>
     </div>
   </div>
@@ -74,6 +41,10 @@
   "settings": [
     {
       "type": "paragraph",
+      "content": "t:sections.user_guide_link.section_and_blocks.page"
+    },
+    {
+      "type": "paragraph",
       "content": "t:sections.main-page.settings.description"
     },
     {
@@ -82,56 +53,18 @@
       "label": "t:sections.featured-product.blocks.size_chart.settings.select_page.label"
     },
     {
-      "type": "color",
-      "id": "heading_light",
-      "label": "t:sections.all.text.color_heading_light",
-      "default": "rgba(0,0,0,0)"
-    },
-    {
-      "type": "color",
-      "id": "text_light",
-      "label": "t:sections.all.text.color",
-      "default": "rgba(0,0,0,0)"
-    },
-    {
-      "type": "color",
-      "id": "color_heading_highlight_light",
-      "label": "t:sections.all.text.color_heading_highlight_light",
-      "default": "rgba(0,0,0,0)"
-    },
-    {
-      "type": "color",
-      "id": "background_color_light",
-      "label": "t:sections.rich-text.settings.background_color_light.label",
-      "default": "rgba(0,0,0,0)"
-    },
-    {
-      "type": "color",
-      "id": "heading_dark",
-      "label": "t:sections.all.text.color_heading_dark",
-      "default": "rgba(0,0,0,0)"
-    },
-    {
-      "type": "color",
-      "id": "text_dark",
-      "label": "t:sections.all.text.color_dark",
-      "default": "rgba(0,0,0,0)"
-    },
-    {
-      "type": "color",
-      "id": "color_heading_highlight_dark",
-      "label": "t:sections.all.text.color_heading_highlight_dark",
-      "default": "rgba(0,0,0,0)"
-    },
-    {
-      "type": "color",
-      "id": "background_color_dark",
-      "label": "t:sections.rich-text.settings.background_color_dark.label",
-      "default": "rgba(0,0,0,0)"
-    },
-    {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "max_container_page_width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "t:settings_schema.layout.page_width",
+      "default": 100
     },
     {
       "type": "checkbox",
@@ -143,7 +76,7 @@
       "type": "checkbox",
       "id": "show_section_divider",
       "default": false,
-      "label": "t:sections.rich-text.settings.show_section_divider.label"
+      "label": "t:sections.all.show_section_divider.label"
     },
     {
       "type": "range",
@@ -173,7 +106,7 @@
       "id": "show_section_divider_mobile",
       "type": "checkbox",
       "default": false,
-      "label": "t:sections.collage.settings.show_divider.label"
+      "label": "t:sections.all.show_section_divider.label"
     },
     {
       "type": "range",
@@ -198,7 +131,8 @@
   ],
   "presets": [
     {
-      "name": "t:sections.section-page.name"
+      "name": "t:sections.section-page.name",
+      "category": "t:categories.blog_and_page"
     }
   ]
 }

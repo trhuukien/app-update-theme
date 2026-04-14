@@ -1,113 +1,92 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "quick_links_tKyJHb": {
-      "type": "quick-links",
+    "footer": {
+      "type": "footer",
       "blocks": {
-        "link_list_Kpwxt8": {
-          "type": "link_list",
+        "footer-2": {
+          "type": "text",
           "settings": {
-            "title": "FAQs",
-            "url": "shopify://products/test",
-            "open_new_window_button": false
+            "open_by_default": false,
+            "heading_text": "ABOUT US",
+            "subtext": "<p>Share store details, promotions, or brand content with your customers.</p>",
+            "show_social_icons": false,
+            "icon_layout": "horizontal",
+            "image_width": 100,
+            "link_image_footer": "",
+            "open_new_window": false
           }
         },
-        "link_list_rDTDz6": {
+        "footer-0": {
           "type": "link_list",
           "settings": {
-            "title": "CUSTOMER REVIEWS",
-            "url": "shopify://pages/customer-reviews",
-            "open_new_window_button": false
+            "open_by_default": false,
+            "heading_menu": "EXPLORE",
+            "menu": "main-menu",
+            "show_social_icons": false
           }
         },
-        "link_list_7FXVxf": {
+        "footer-1": {
           "type": "link_list",
           "settings": {
-            "title": "IMPRINT / PROVIDER",
-            "url": "shopify://pages/impressum",
-            "open_new_window_button": false
+            "open_by_default": false,
+            "heading_menu": "SHOP",
+            "menu": "main-menu",
+            "show_social_icons": false
           }
         },
-        "link_list_WBT4T6": {
+        "link_list_JMLJPG": {
           "type": "link_list",
           "settings": {
-            "title": "TERMS AND CONDITIONS",
-            "url": "shopify://policies/terms-of-service",
-            "open_new_window_button": false
+            "open_by_default": false,
+            "heading_menu": "INFORMATION",
+            "menu": "main-menu",
+            "show_social_icons": false
           }
         },
-        "link_list_inb4Hp": {
-          "type": "link_list",
+        "text_yLqzqQ": {
+          "type": "text",
           "settings": {
-            "title": "PRIVACY",
-            "url": "shopify://policies/privacy-policy",
-            "open_new_window_button": false
+            "open_by_default": false,
+            "heading_text": "LET’S CONNECT",
+            "subtext": "",
+            "show_social_icons": true,
+            "icon_layout": "vertical",
+            "image_width": 100,
+            "link_image_footer": "",
+            "open_new_window": false
           }
         }
       },
       "block_order": [
-        "link_list_Kpwxt8",
-        "link_list_rDTDz6",
-        "link_list_7FXVxf",
-        "link_list_WBT4T6",
-        "link_list_inb4Hp"
-      ],
-      "custom_css": [
-        "> div {border-top: 2px solid rgba(var(--colors-line-and-border), 1);}",
-        ".content-sections--23499451564373__quick_links_tKyJHb .quick-link-item.relative:after {border-color: rgba(var(--colors-line-and-border), 1);}"
+        "footer-2",
+        "footer-0",
+        "footer-1",
+        "link_list_JMLJPG",
+        "text_yLqzqQ"
       ],
       "settings": {
-        "alignment": "center",
-        "link_spacing": 40,
-        "show_lines": true,
-        "mobile_layout": "1",
-        "mobile_alignment": "start",
-        "bg_light": "rgba(0,0,0,0)",
-        "bg_dark": "rgba(0,0,0,0)",
-        "color_text_light": "rgba(0,0,0,0)",
-        "color_text_dark": "rgba(0,0,0,0)",
-        "top_padding": 52,
-        "bottom_padding": 0,
-        "top_padding_mobile": 40,
-        "bottom_padding_mobile": 0
-      }
-    },
-    "footer": {
-      "type": "footer",
-      "custom_css": [
-        ".additional-footer {text-transform: uppercase;}"
-      ],
-      "settings": {
-        "columns_desktop": 2,
+        "columns_desktop": 5,
         "show_language_selector": true,
         "show_currency_selector": true,
         "show_social_icons": false,
-        "payment_enable": false,
+        "payment_enable": true,
         "custom_payment": "",
         "show_copyright": true,
-        "add_copyright_text": "<p>ALL RIGHTS RESERVED. designed by <a href=\"https://omnithemes.com/\" title=\"https://omnithemes.com/\">Omni Themes</a></p>",
-        "additional_layout": "vertical",
-        "show_powered": false,
+        "add_copyright_text": "",
+        "additional_layout": "horizontal",
+        "show_powered": true,
         "enable_follow_on_shop": false,
-        "top_padding": 4,
-        "bottom_padding": 68,
-        "top_padding_mobile": 4,
-        "bottom_padding_mobile": 44
+        "horizontal_position": "right",
+        "top_padding": 0,
+        "bottom_padding": 40,
+        "top_padding_mobile": 0,
+        "bottom_padding_mobile": 28
       }
     }
   },
   "order": [
-    "quick_links_tKyJHb",
     "footer"
   ]
 }

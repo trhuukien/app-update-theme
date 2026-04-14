@@ -1,0 +1,1261 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "badges": {
+          "type": "badges",
+          "settings": {
+            "position_adapt": false
+          }
+        },
+        "55421213-3501-4f5a-a4dc-cdf04ddd113b": {
+          "type": "product_name",
+          "settings": {
+            "title_size": 100,
+            "heading_tag": "h2"
+          }
+        },
+        "rating_T9Va4c": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "text_size_price": 70
+          }
+        },
+        "55ca1e60-92a9-474e-8f28-0a4a939db138": {
+          "type": "inventory_status",
+          "settings": {
+            "incoming": false,
+            "message_incoming": "",
+            "message_backorder": "",
+            "hide_preorder": false
+          }
+        },
+        "feature_icon_fhqx3j": {
+          "type": "feature_icon",
+          "settings": {
+            "applied_collections": [],
+            "heading_size": 110,
+            "icon_size": 30,
+            "border_column": "none",
+            "content_alignment": "start",
+            "background_color_light": "rgba(0,0,0,0)",
+            "heading_light": "rgba(0,0,0,0)",
+            "text_light": "rgba(0,0,0,0)",
+            "line_border_light": "rgba(0,0,0,0)",
+            "color_icon_light": "rgba(0,0,0,0)",
+            "background_color_dark": "rgba(0,0,0,0)",
+            "heading_dark": "rgba(0,0,0,0)",
+            "text_dark": "rgba(0,0,0,0)",
+            "line_border_dark": "rgba(0,0,0,0)",
+            "color_icon_dark": "rgba(0,0,0,0)",
+            "icon_1": "truck",
+            "another_icon_1": "",
+            "custom_icon_1": "",
+            "title_1": "CLEANER TEETH",
+            "text_1": "<p>from natural abrasion.</p>",
+            "link_1": "",
+            "open_new_window_1": false,
+            "icon_2": "truck",
+            "another_icon_2": "",
+            "custom_icon_2": "",
+            "title_2": "CLEANER TEETH",
+            "text_2": "<p>from natural abrasion.</p>",
+            "link_2": "",
+            "open_new_window_2": false,
+            "icon_3": "truck",
+            "another_icon_3": "",
+            "custom_icon_3": "",
+            "title_3": "CLEANER TEETH",
+            "text_3": "<p>from natural abrasion.</p>",
+            "link_3": "",
+            "open_new_window_3": false,
+            "icon_4": "none",
+            "another_icon_4": "",
+            "custom_icon_4": "",
+            "title_4": "",
+            "text_4": "",
+            "link_4": "",
+            "open_new_window_4": false,
+            "icon_5": "none",
+            "another_icon_5": "",
+            "custom_icon_5": "",
+            "title_5": "",
+            "text_5": "",
+            "link_5": "",
+            "open_new_window_5": false,
+            "icon_6": "none",
+            "another_icon_6": "",
+            "custom_icon_6": "",
+            "title_6": "",
+            "text_6": "",
+            "link_6": "",
+            "open_new_window_6": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "show_variant_option": true,
+            "enable_color_swatches": true,
+            "swatch_size": "small"
+          }
+        },
+        "customize_picker_8N3Gkk": {
+          "type": "customize_picker",
+          "settings": {
+            "width_block": "w-full",
+            "picker_type": "radio_button",
+            "option_style": "normal",
+            "option_name": "Free gift",
+            "placeholder": "",
+            "required": false,
+            "hide_when_empty": false,
+            "option_text_note": "",
+            "option_list": "The Leash;The Collar;The Poop Bag Holder",
+            "option_select_note": "",
+            "minimum_select_value": 2,
+            "option_file_note": "",
+            "swatch_value": "",
+            "swatch_style": "round",
+            "min_date": "2023-12-12",
+            "max_date": "2023-12-31"
+          }
+        },
+        "gift_wrapping_iH9x9y": {
+          "type": "gift_wrapping",
+          "settings": {
+            "text_gift": "",
+            "show_border": true,
+            "color_icon_light": "rgba(0,0,0,0)",
+            "border_color_light": "rgba(0,0,0,0)",
+            "color_icon_dark": "rgba(0,0,0,0)",
+            "border_color_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "ffacb41b-c15e-41ee-864a-cfbf155d407d": {
+          "type": "estimate_delivery",
+          "settings": {
+            "hide_when_pre_order": false,
+            "box_type": "round",
+            "message": "<p>Estimated Delivery between earliest_delivery_date and latest_delivery_date. Order within time_to_cut_off</p>",
+            "tooltip_text": "",
+            "tooltip_icon": "none",
+            "custom_icon": "",
+            "tooltip_icon_position": "left",
+            "tooltip_message": "",
+            "show_background": false,
+            "show_border": true,
+            "background_color_light": "#e4edfa",
+            "message_color_light": "rgba(0,0,0,0)",
+            "border_color_light": "rgba(0,0,0,0)",
+            "background_color_dark": "#122540",
+            "message_color_dark": "#568ddd",
+            "border_color_dark": "rgba(0,0,0,0)",
+            "bg_tooltip_color_light": "rgba(0,0,0,0)",
+            "tooltip_color_light": "rgba(0,0,0,0)",
+            "bg_tooltip_color_dark": "rgba(0,0,0,0)",
+            "tooltip_color_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_button_style": "secondary",
+            "show_dynamic_checkout": true,
+            "show_atc_quantity": true,
+            "show_add_to_cart": true,
+            "show_price": false,
+            "hide_sale_price": true,
+            "show_gift_card_recipient": true,
+            "pickup_availability": true,
+            "hide_when_pre_order": false,
+            "preorder_button_label": "Pre-order",
+            "preorder_message": "<p>This product will be available for sale in 2 weeks, but you can pre-order now to receive 10% discount!</p>",
+            "preorder_show_dynamic_button": true,
+            "show_background": false,
+            "box_type": "square",
+            "background_color_light": "rgba(0,0,0,0)",
+            "message_color_light": "#ff0000",
+            "background_color_dark": "rgba(0,0,0,0)",
+            "message_color_dark": "#e99d0b",
+            "button_light": "rgba(0,0,0,0)",
+            "button_text_light": "rgba(0,0,0,0)",
+            "button_hover_light": "rgba(0,0,0,0)",
+            "button_text_hover_light": "rgba(0,0,0,0)",
+            "secondary_button_light": "rgba(0,0,0,0)",
+            "secondary_button_text_light": "rgba(0,0,0,0)",
+            "button_dark": "rgba(0,0,0,0)",
+            "button_text_dark": "rgba(0,0,0,0)",
+            "button_hover_dark": "rgba(0,0,0,0)",
+            "button_text_hover_dark": "rgba(0,0,0,0)",
+            "secondary_button_dark": "rgba(0,0,0,0)",
+            "secondary_button_text_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "frequently_bought_pwfDep": {
+          "type": "frequently_bought",
+          "settings": {
+            "icon": "truck",
+            "another_icon": "",
+            "custom_icon": "",
+            "text": "Frequently Bought Together",
+            "show_background": true,
+            "show_border": false,
+            "list_products": [],
+            "show_vendor": false,
+            "show_rating": false,
+            "show_highlighted_features": false,
+            "variant_type": "button",
+            "border_color_light": "rgba(0,0,0,0)",
+            "border_color_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "coupon_code_tVr3gr": {
+          "type": "coupon_code",
+          "settings": {
+            "block_edges": "rounded_corners",
+            "coupon_box_edges": "rounded_corners",
+            "icon": "hot-sale",
+            "another_icon": "",
+            "custom_icon": "",
+            "icon_size": 24,
+            "heading_text": "Best offers",
+            "coupon_text_1": "Flat discount of $30 on every order!",
+            "coupon_code_1": "SALEM30",
+            "coupon_text_2": "",
+            "coupon_code_2": "",
+            "background_color_light": "#ffeaea",
+            "heading_color_light": "rgba(0,0,0,0)",
+            "coupon_box_color_light": "rgba(0,0,0,0)",
+            "text_color_light": "rgba(0,0,0,0)",
+            "coupon_color_light": "rgba(0,0,0,0)",
+            "background_color_dark": "rgba(0,0,0,0)",
+            "heading_color_dark": "rgba(0,0,0,0)",
+            "coupon_box_color_dark": "rgba(0,0,0,0)",
+            "text_color_dark": "rgba(0,0,0,0)",
+            "coupon_color_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "collapsible_tab_q4TWUU": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "open_by_default": true,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "use_secondary_background": false,
+            "heading": "Benefits",
+            "tab_content": "<p>CLEANER TEETH <br/>from natural abrasion.<br/><br/>DIGESTIVE HEALTH<br/>from natural enzymes.<br/><br/>IMMUNE & HEART HEALTH<br/>from zinc and taurine.</p>"
+          }
+        },
+        "nutrition_fact_kcyc6r": {
+          "type": "nutrition_fact",
+          "settings": {
+            "show_in_tab": true,
+            "open_by_default": true,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "heading": "Nutrition",
+            "enable_background": false,
+            "metafield_key_list": "",
+            "nutrition_details": "<p>Protein (Min.): 53% <br/>Fat (Min.): 17% <br/>Fiber (Max.): 5%</p><p>Moisture (Max.): 8%</p>",
+            "extra_detail": "Calorie Content: ME = 3812 kcal/kg, ME = 238 kcal/cup",
+            "content_background_color": "rgba(0,0,0,0)",
+            "content_background_color_dark": "rgba(0,0,0,0)",
+            "loading_bar_color": "rgba(0,0,0,0)"
+          }
+        },
+        "collapsible_tab_gchcKN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_by_default": true,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "use_secondary_background": false,
+            "heading": "Ingredients",
+            "tab_content": "<p>Turkey, turkey heart, turkey liver, herring oil, mixed tocopherols (preservative), vitamin E supplement, zinc amino acid complex, iron amino acid complex, copper amino acid complex, manganese amino acid complex</p>"
+          }
+        },
+        "table_of_information_XXGL3d": {
+          "type": "table_of_information",
+          "settings": {
+            "show_in_tab": true,
+            "open_by_default": true,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "use_secondary_background": false,
+            "heading": "Feeding Guidelines",
+            "left_label": "Size",
+            "right_label": "Amount",
+            "details": "<p>XX-Small (6 lbs): 1⁄2 cup<br/>X-Small (12 lbs): 1 cup<br/>Small (18 lbs): 1 1⁄4 cups<br/>Medium (25 lbs): 1 1⁄2 cups<br/>Large (50 lbs): 2 3⁄4 cups</p>",
+            "text_to_use_for_empty_fields": "-",
+            "extra_details": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_by_default": false,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "use_secondary_background": false,
+            "heading": "Returns + Exchanges",
+            "tab_content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "collapsible_tab_RQc4pW": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_by_default": false,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "use_secondary_background": false,
+            "heading": "Giving Back",
+            "tab_content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "payment_methods_CWe3wG": {
+          "type": "payment_methods",
+          "settings": {
+            "heading": "Pay with",
+            "text": "Your transaction is protected with advanced security measures to keep your information confidential",
+            "custom_payment": "",
+            "show_secondary_background": false,
+            "show_border": true,
+            "background_color_light": "rgba(0,0,0,0)",
+            "heading_color_light": "rgba(0,0,0,0)",
+            "text_color_light": "rgba(0,0,0,0)",
+            "border_color_light": "rgba(0,0,0,0)",
+            "background_color_dark": "rgba(0,0,0,0)",
+            "heading_color_dark": "rgba(0,0,0,0)",
+            "text_color_dark": "rgba(0,0,0,0)",
+            "border_color_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "social-sharing": {
+          "type": "social_sharing",
+          "settings": {}
+        },
+        "sticky-atc": {
+          "type": "sticky_add_to_cart",
+          "settings": {
+            "desktop_display_type": "popup",
+            "show_quantity_selector": true,
+            "link_to_atc_btn": false
+          }
+        }
+      },
+      "block_order": [
+        "badges",
+        "55421213-3501-4f5a-a4dc-cdf04ddd113b",
+        "rating_T9Va4c",
+        "price",
+        "55ca1e60-92a9-474e-8f28-0a4a939db138",
+        "feature_icon_fhqx3j",
+        "variant_picker",
+        "customize_picker_8N3Gkk",
+        "gift_wrapping_iH9x9y",
+        "ffacb41b-c15e-41ee-864a-cfbf155d407d",
+        "buy_buttons",
+        "frequently_bought_pwfDep",
+        "coupon_code_tVr3gr",
+        "collapsible_tab_q4TWUU",
+        "nutrition_fact_kcyc6r",
+        "collapsible_tab_gchcKN",
+        "table_of_information_XXGL3d",
+        "collapsible-row-1",
+        "collapsible_tab_RQc4pW",
+        "payment_methods_CWe3wG",
+        "social-sharing",
+        "sticky-atc"
+      ],
+      "settings": {
+        "enable_sticky_image": true,
+        "show_product_name": false,
+        "title_size": 100,
+        "heading_tag": "h1",
+        "show_vendor": false,
+        "link_vendor": false,
+        "make_content_center": false,
+        "desktop_layout": "left",
+        "desktop_media_layout": "thumbnail_slider",
+        "show_arrow_button": true,
+        "mobile_media_size": "full_width",
+        "show_thumnail_mobile": false,
+        "transition_style": "fade",
+        "image_ratio": "natural",
+        "thumbnail_position": "vertical",
+        "enable_image_zoom": true,
+        "zoom_effect": "enlarge",
+        "enable_video_autoplay": false,
+        "enable_video_loop": false,
+        "show_first_image_avaiable": true,
+        "show_media_with_variant_selected": false,
+        "option_to_classify_variant_media": "",
+        "enable_microdata": false,
+        "show_breadcrumbs": true,
+        "show_breadcrumbs_border": false,
+        "full_width_breadcrumb": false,
+        "desktop_content_alignment": "text-left",
+        "mobile_content_alignment": "text-left",
+        "background_color_light": "rgba(0,0,0,0)",
+        "text_color_light": "rgba(0,0,0,0)",
+        "textlink_color_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "text_color_dark": "rgba(0,0,0,0)",
+        "textlink_color_dark": "rgba(0,0,0,0)",
+        "full_width": false,
+        "spacing_col": "small",
+        "padding_top": 48,
+        "padding_bottom": 32,
+        "padding_top_mobile": 16,
+        "padding_bottom_mobile": 16
+      }
+    },
+    "product_tabs_r3yFar": {
+      "type": "product-tabs",
+      "blocks": {
+        "tab_fYRzLq": {
+          "type": "tab",
+          "settings": {
+            "heading": "BENEFITS",
+            "page_tab": "",
+            "width_content": 100,
+            "subheading": "",
+            "headingcontent": "Benefits of raw butcher cut protein",
+            "highlight_type": "underline",
+            "heading_base_size": 90,
+            "text": "<p>✔ CLEANER TEETH<br/>from natural abrasion.</p><p>✔ DIGESTIVE HEALTH<br/>from natural enzymes.</p><p>✔ IMMUNE & HEART HEALTH<br/>from zinc and taurine.</p><p>✔ LEAN, STRONG MUSCLES<br/>from essential amino acids.</p>",
+            "number_of_lines_shown": "none",
+            "read_more_label": "Read more",
+            "see_less_label": "See less",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "text_alignment": "left",
+            "text_position": "center",
+            "show_sound_control": false,
+            "video_url": "",
+            "video_alt_text": "",
+            "enable_video_autoplay": false,
+            "desktop_height": "550px",
+            "image_alignment": "left",
+            "mobile_height": "400px",
+            "image_alignment_mobile": "left"
+          }
+        },
+        "tab_KKFX69": {
+          "type": "tab",
+          "settings": {
+            "heading": "INGREDIENTS",
+            "page_tab": "",
+            "width_content": 100,
+            "subheading": "",
+            "headingcontent": "High-quality ingredients",
+            "highlight_type": "underline",
+            "heading_base_size": 70,
+            "text": "<p>Turkey, turkey heart, turkey liver, herring oil, mixed tocopherols (preservative), vitamin E supplement, zinc amino acid complex, iron amino acid complex, copper amino acid complex, manganese amino acid complex</p>",
+            "number_of_lines_shown": "none",
+            "read_more_label": "Read more",
+            "see_less_label": "See less",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "text_alignment": "left",
+            "text_position": "center",
+            "show_sound_control": false,
+            "video_url": "",
+            "video_alt_text": "",
+            "enable_video_autoplay": false,
+            "desktop_height": "550px",
+            "image_alignment": "left",
+            "mobile_height": "400px",
+            "image_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "tab_fYRzLq",
+        "tab_KKFX69"
+      ],
+      "name": "t:sections.tabs.name",
+      "settings": {
+        "heading": "",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "tabs_desktop_alignment": "center",
+        "tabs_mobile_layout": "dropdown",
+        "review_tab_title": "Reviews",
+        "show_reviews_count": true,
+        "full_width": false,
+        "padding_top": 44,
+        "padding_bottom": 44,
+        "full_width_mobile": false,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28,
+        "background_color_light": "#f2f2ff",
+        "heading_light": "rgba(0,0,0,0)",
+        "text_light": "rgba(0,0,0,0)",
+        "button_light": "rgba(0,0,0,0)",
+        "button_text_light": "rgba(0,0,0,0)",
+        "button_hover_light": "rgba(0,0,0,0)",
+        "button_text_hover_light": "rgba(0,0,0,0)",
+        "background_color_dark": "#f2f2ff",
+        "heading_dark": "rgba(0,0,0,0)",
+        "text_dark": "rgba(0,0,0,0)",
+        "button_dark": "rgba(0,0,0,0)",
+        "button_text_dark": "rgba(0,0,0,0)",
+        "button_hover_dark": "rgba(0,0,0,0)",
+        "button_text_hover_dark": "rgba(0,0,0,0)"
+      }
+    },
+    "text_column_with_image_UETzPd": {
+      "type": "text-column-with-image",
+      "blocks": {
+        "column_XRFBF4": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Free-range Turkey",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "<p>Protein and gentle on the digestive. What’s more, it’s naturally low in fat and full of essential nutrients.</p>",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_89xKA4": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Pumpkin",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "<p>Pumpkin is super nutritious with a rich source of fibre and a whole host of immune-boosting nutrients.</p>",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_Qg78NR": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Spinach",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "<p>Spinach is rich in vitamin C, a powerful antioxidant that promotes skin health and immune function.</p>",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_4k3eFY": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Chamomile",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "<p>Chamomile is naturally relaxing, helping to calm and soothe overexcited or anxious dogs.</p>",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_XRFBF4",
+        "column_89xKA4",
+        "column_Qg78NR",
+        "column_4k3eFY"
+      ],
+      "name": "t:sections.text-column-image.name",
+      "settings": {
+        "title": "For us, ingredients matter",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "secondary_background": "none",
+        "image_ratio": "75%",
+        "adapt_corners": true,
+        "rounded_corner_image": false,
+        "column_content_alignment": "center",
+        "background_color_light": "rgba(0,0,0,0)",
+        "heading_light": "rgba(0,0,0,0)",
+        "text_light": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "heading_dark": "rgba(0,0,0,0)",
+        "text_dark": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "enable_desktop_slider": false,
+        "swiper_on_mobile": false,
+        "enable_arrow_mobile": false,
+        "auto_play": false,
+        "change_bar_every": 5,
+        "image_position_desktop": "top",
+        "column_layout_desktop": "lg:w-1/4",
+        "spacing_desktop": 28,
+        "full_width": false,
+        "padding_full_width": false,
+        "show_section_divider": false,
+        "padding_top": 84,
+        "padding_bottom": 68,
+        "image_position_mobile": "top",
+        "column_layout_mobile": "w-full",
+        "spacing_mobile": 16,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "rich_text_kaDKT7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JVrAVW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Storage and handling",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JVrAVW"
+      ],
+      "name": "t:sections.rich-text.name",
+      "settings": {
+        "heading_light": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "text_light": "rgba(0,0,0,0)",
+        "background_color_light": "rgba(0,0,0,0)",
+        "heading_dark": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "text_dark": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "content_alignment": "center",
+        "show_section_divider": true,
+        "make_full_page_width": true,
+        "padding_top": 64,
+        "padding_bottom": 28,
+        "content_alignment_mobile": "center",
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 28
+      }
+    },
+    "image_with_text_Wka8BF": {
+      "type": "image-with-text",
+      "blocks": {
+        "columns_Bhykcj": {
+          "type": "columns",
+          "settings": {
+            "icon": "another_icon",
+            "another_icon": "",
+            "custom_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewbox=\"0 0 64 65\" fill=\"none\">\n<path d=\"M24.3563 30.8097L29.1761 30.7773L31.7886 34.1742C31.9441 34.3784 32.1808 34.4822 32.4174 34.4822C32.586 34.4822 32.7545 34.4271 32.9003 34.3168C33.2472 34.051 33.312 33.5519 33.0462 33.205L31.1663 30.7611L33.3185 30.7449C33.756 30.7449 34.1094 30.3851 34.1061 29.9475C34.1061 29.51 33.7496 29.1469 33.3088 29.1599L30.9102 29.1761L32.8485 26.6479C33.1143 26.3011 33.0494 25.8019 32.7026 25.5361C32.3558 25.2703 31.8567 25.3352 31.5908 25.682L28.9038 29.1891L24.1715 29.2215L28.6543 24.6804C28.9622 24.3692 28.9589 23.8668 28.6478 23.5589C28.3366 23.2509 27.8342 23.2542 27.5262 23.5654L23.225 27.9249L23.144 23.9187L26.7937 20.5186C27.1147 20.2204 27.1308 19.718 26.8326 19.397C26.5344 19.0762 26.032 19.06 25.7111 19.3582L23.0987 21.7924L23.0564 19.7731C23.0468 19.3419 22.6935 18.9951 22.2656 18.9951C22.2591 18.9951 22.2558 18.9951 22.2494 18.9951C21.8118 19.0048 21.465 19.3647 21.4747 19.8022L21.5104 21.5687L19.0599 19.7017C18.7131 19.4359 18.214 19.504 17.9482 19.8508C17.6824 20.1976 17.7504 20.6968 18.0973 20.9626L21.5492 23.5946L21.6401 28.006L17.6046 23.8636C17.2999 23.5491 16.7975 23.5427 16.4831 23.8506C16.1687 24.1553 16.1622 24.6577 16.4702 24.9721L20.632 29.2442L16.2367 29.2765C16.227 29.2572 16.2238 29.2377 16.2108 29.2215L13.5237 25.0402C13.2872 24.6707 12.7977 24.5637 12.4282 24.8036C12.0587 25.0402 11.955 25.5296 12.1916 25.8992L14.373 29.2928L12.1041 29.309C11.6665 29.309 11.3132 29.6688 11.3164 30.1064C11.3164 30.5407 11.673 30.894 12.1073 30.894C12.1073 30.894 12.1105 30.894 12.1138 30.894L13.8706 30.881L12.3277 33.4255C12.1009 33.7982 12.2207 34.2877 12.5935 34.5145C12.7231 34.5923 12.8625 34.6313 13.0052 34.6313C13.2742 34.6313 13.5335 34.4951 13.6826 34.2487L15.7343 30.8713L20.3565 30.8389L16.1752 35.0753C15.8673 35.3865 15.8705 35.8889 16.1816 36.1968C16.3372 36.3492 16.5382 36.4237 16.7391 36.4237C16.9401 36.4237 17.1476 36.3459 17.3031 36.1871L21.7178 31.7173L21.828 37.1659L18.0811 39.759C17.7213 40.0086 17.6305 40.5013 17.8801 40.8611C18.1297 41.2208 18.6224 41.3116 18.9822 41.0621L21.8669 39.0653L21.922 41.7719C21.9318 42.203 22.2851 42.5465 22.7129 42.5465H22.7291C23.1667 42.5368 23.5135 42.177 23.5038 41.7394L23.4584 39.5386L25.9575 41.4834C26.1034 41.5968 26.2718 41.6487 26.4437 41.6487C26.6803 41.6487 26.9137 41.545 27.0692 41.344C27.3383 40.9972 27.2766 40.5013 26.9298 40.2322L23.4162 37.4998L23.3028 31.9993L27.818 36.6344C27.9735 36.7932 28.1777 36.8742 28.3852 36.8742C28.5926 36.8742 28.7839 36.7997 28.9395 36.6506C29.2539 36.3459 29.2604 35.8435 28.9524 35.5291L24.3563 30.813V30.8097Z\" fill=\"#C96535\"></path>\n<path d=\"M49.0507 36.9165C48.1367 36.4822 47.9648 36.346 47.9713 36.0641C47.9908 35.3607 47.9648 34.1873 47.9325 32.6996C47.8546 29.1147 47.7347 23.6952 48.0977 18.5999C48.3214 15.4557 46.9049 14.0555 46.0395 13.498C44.6068 12.5775 42.6686 12.5775 40.983 13.498C39.1711 14.4867 38.0886 16.3244 38.0886 18.4119C38.0886 21.8671 37.826 26.3595 37.6185 29.9671C37.4824 32.2944 37.3755 34.1355 37.3755 35.0658C37.3755 35.3672 36.8374 35.6168 35.9492 35.996C34.0045 36.8226 31.0679 38.0705 31.3466 43.0815C31.5541 46.7961 32.1342 49.3956 38.0886 51.5608C39.6249 52.1183 41.2521 52.3939 42.8403 52.3939C45.2551 52.3939 47.5824 51.7617 49.3846 50.5366C51.6438 49.0001 52.8819 46.6826 52.9598 43.84C53.0959 38.8387 50.6584 37.6815 49.0475 36.9133L49.0507 36.9165ZM51.3812 43.8011C51.3163 46.1154 50.3213 47.9921 48.4996 49.2303C45.9585 50.9579 41.9976 51.2983 38.6396 50.0763C33.2234 48.1056 33.1034 45.9631 32.9381 43.0005C32.721 39.098 34.7695 38.2293 36.5781 37.4611C37.6996 36.9847 38.9669 36.4465 38.9669 35.0723C38.9669 34.1841 39.0771 32.275 39.2068 30.0644C39.4175 26.4342 39.68 21.919 39.68 18.4151C39.68 16.895 40.4353 15.6081 41.7513 14.8918C42.3476 14.5644 42.9991 14.4023 43.615 14.4023C44.1919 14.4023 44.7397 14.545 45.1902 14.8367C46.1886 15.4785 46.6488 16.7426 46.5257 18.4897C46.1562 23.6596 46.2761 29.1244 46.3539 32.7385C46.3863 34.2036 46.4123 35.3607 46.3928 36.0252C46.3539 37.393 47.4754 37.9246 48.3733 38.3524C49.8351 39.0461 51.4914 39.8337 51.3812 43.8044V43.8011Z\" fill=\"#C96535\"></path>\n<path d=\"M47.6585 39.4965C46.7509 39.0654 45.0492 38.0152 45.1075 36.0121C45.14 34.9457 45.0751 34.8225 44.6051 34.7577C44.2745 34.7123 42.8419 34.6864 41.7981 34.6831C41.8143 33.8079 41.8986 32.2975 41.9991 30.5439L44.1675 30.6153C44.1675 30.6153 44.1838 30.6153 44.1935 30.6153C44.6181 30.6153 44.9714 30.2782 44.9844 29.8503C44.9973 29.4128 44.6569 29.0465 44.2194 29.0335L42.0899 28.9622C42.1288 28.2912 42.1676 27.6008 42.2065 26.8975L44.1675 26.9623C44.1675 26.9623 44.1838 26.9623 44.1935 26.9623C44.6181 26.9623 44.9714 26.6252 44.9844 26.1974C44.9973 25.7598 44.6569 25.3935 44.2194 25.3805L42.2876 25.3157C42.333 24.4276 42.3719 23.533 42.4075 22.6546L44.1675 22.7129C44.1675 22.7129 44.1838 22.7129 44.1935 22.7129C44.6181 22.7129 44.9714 22.3758 44.9844 21.948C44.9973 21.5104 44.6569 21.1442 44.2194 21.1312L42.4626 21.0728C42.4886 20.1069 42.5047 19.1767 42.5047 18.308C42.5047 17.8704 42.1514 17.5171 41.7139 17.5171C41.2763 17.5171 40.923 17.8704 40.923 18.308C40.923 21.7632 40.6604 26.2557 40.453 29.8633C40.3169 32.1906 40.2099 34.0316 40.2099 34.9651C40.2099 34.9846 40.2131 35.0008 40.2164 35.0202C40.2034 35.1045 40.1969 35.205 40.2001 35.3379C40.2423 37.26 38.4077 38.1578 37.2214 38.6635C35.484 39.4025 34.2329 39.934 34.395 42.9063C34.5441 45.5999 34.6283 47.0844 39.15 48.731C40.2877 49.1459 41.555 49.3631 42.8159 49.3631C46.0215 49.3631 49.8042 47.8818 49.9177 43.7069C50.0019 40.6148 48.968 40.1221 47.6585 39.503V39.4965Z\" fill=\"#C96535\"></path>\n</svg>",
+            "title": "Store frozen",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 100,
+            "text": "<p>Be sure to keep raw food frozen until ready for thawing. Thaw before feeding, avoid re-freezing.</p>",
+            "wide_desktop": 2,
+            "wide_mobile": "2"
+          }
+        },
+        "columns_67MeEY": {
+          "type": "columns",
+          "settings": {
+            "icon": "another_icon",
+            "another_icon": "",
+            "custom_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewbox=\"0 0 64 65\" fill=\"none\">\n\n<path d=\"M36.0846 34.7465C36.4462 35.0686 36.8736 35.3711 37.3009 35.6702C38.4154 36.4493 41.66 38.0075 43.9841 38.951C44.7337 39.2534 45.0789 38.6946 44.5299 38.0831C42.9979 36.3836 40.9697 33.9509 39.8289 32.728C39.7796 32.6754 39.7237 32.6195 39.6679 32.5636C39.7139 32.0771 39.7303 31.5446 39.7599 30.989C39.8519 29.3124 39.4542 22.8494 38.9347 19.7987C38.7671 18.8158 37.9551 18.8125 37.6724 19.7889C36.8834 22.5009 35.8742 27.889 35.3285 29.8811C35.1148 30.6602 34.9702 31.7976 35.1049 32.8102C35.0491 33.3493 35.2463 33.8161 35.5915 34.2402C35.7262 34.4407 35.8874 34.6116 36.0846 34.7432V34.7465Z\" fill=\"#C96535\"></path>\n<path d=\"M31.641 18.1186C32.0586 17.8951 32.4629 17.6979 32.841 17.5368C35.083 16.5671 42.805 13.9174 48.6401 20.1404C47.6474 20.2226 46.1023 20.2094 44.7611 20.124C44.3106 20.0977 43.9359 20.4297 43.9063 20.8735C43.8767 21.3172 44.212 21.6986 44.6558 21.7282C45.4119 21.7775 46.2337 21.8137 47.026 21.8137C48.6401 21.8137 50.1227 21.6658 50.6421 21.1759C50.8591 20.9721 50.9807 20.7026 50.9774 20.4166C50.9774 20.2883 50.984 20.124 50.9906 19.9267C51.0366 18.7597 51.122 16.5835 50.2542 14.5748C50.0767 14.1672 49.6033 13.9798 49.1989 14.1574C48.7913 14.3349 48.604 14.805 48.7815 15.2126C49.2713 16.3501 49.3962 17.6091 49.4094 18.6249C42.9168 12.1751 34.6392 15.0121 32.2032 16.064C31.7627 16.2548 30.9376 16.6426 29.9316 17.2475C30.3885 17.2672 30.8423 17.4184 31.2334 17.7176C31.3913 17.836 31.5227 17.974 31.641 18.1219V18.1186Z\" fill=\"#C96535\"></path>\n<path d=\"M52.6509 22.1198C52.4405 21.7286 51.954 21.5807 51.5627 21.7911C51.1715 22.0015 51.0236 22.4881 51.234 22.8792C54.2716 28.5697 55.1066 33.4777 53.7127 37.4654C52.4635 41.0387 49.4588 43.8757 44.7842 45.8942C42.0129 47.0941 39.245 47.5148 36.6281 47.1631C36.6479 47.6858 36.6348 48.2282 36.5723 48.7772C37.187 48.8528 37.805 48.8955 38.4329 48.8955C40.7177 48.8955 43.0715 48.386 45.4219 47.3702C50.5272 45.1644 53.8278 42.0085 55.2282 37.9946C56.7765 33.5632 55.9087 28.2245 52.6509 22.1198Z\" fill=\"#C96535\"></path>\n<path d=\"M23.4858 35.075C23.6338 35.19 23.8047 35.2426 23.9789 35.2426C24.2189 35.2426 24.4556 35.1374 24.6134 34.9336C24.8863 34.5818 24.8238 34.0789 24.4721 33.806L20.9085 31.0315L20.7935 25.4528L25.3728 30.1537C25.5306 30.3148 25.7409 30.397 25.9481 30.397C26.1552 30.397 26.3524 30.3214 26.5102 30.1701C26.8291 29.8611 26.8357 29.3516 26.5234 29.0328L21.8618 24.2496L26.7502 24.2168L29.3998 27.6619C29.5576 27.869 29.7976 27.9742 30.0376 27.9742C30.2086 27.9742 30.3795 27.9183 30.5274 27.8065C30.8792 27.537 30.9449 27.0307 30.6753 26.6789L28.7687 24.2003L30.9515 24.1839C31.3952 24.1839 31.7536 23.8189 31.7503 23.3752C31.7503 22.9347 31.3887 22.5763 30.9482 22.5763C30.9482 22.5763 30.9449 22.5763 30.9416 22.5763L28.5089 22.5928L30.4748 20.0286C30.7444 19.6768 30.6786 19.1706 30.3269 18.901C29.9751 18.6315 29.4688 18.6972 29.1993 19.0489L26.4741 22.6059L21.6745 22.6388L26.2209 18.0331C26.5332 17.7176 26.5299 17.2081 26.2144 16.8958C25.8988 16.5835 25.3892 16.5867 25.0769 16.9023L20.7146 21.3239L20.6323 17.2606L24.334 13.8122C24.6594 13.5097 24.6759 13.0001 24.3734 12.6747C24.071 12.3493 23.5615 12.3328 23.236 12.6353L20.5863 15.1041L20.5436 13.0561C20.5338 12.6188 20.1754 12.2671 19.7415 12.2671C19.735 12.2671 19.7317 12.2671 19.7251 12.2671C19.2813 12.2769 18.9295 12.6418 18.9394 13.0857L18.9755 14.8773L16.4903 12.9837C16.1352 12.7141 15.6323 12.7832 15.3627 13.135C15.0931 13.4867 15.1622 13.993 15.5139 14.2625L19.015 16.9319L19.1071 21.406L15.0143 17.2048C14.7053 16.8859 14.1957 16.8793 13.8768 17.1916C13.5579 17.5006 13.5514 18.0101 13.8637 18.329L18.0846 22.6618L13.6269 22.6947C13.6171 22.675 13.6138 22.6552 13.6007 22.6388L10.8755 18.398C10.6355 18.0233 10.139 17.9181 9.76428 18.1581C9.38954 18.398 9.28437 18.8945 9.52437 19.2692L11.7368 22.7111L9.43555 22.7275C8.99179 22.7275 8.63345 23.0924 8.63674 23.5362C8.63674 23.9768 8.99836 24.3351 9.43883 24.3351C9.43883 24.3351 9.44212 24.3351 9.44541 24.3351L11.2272 24.3219L9.6624 26.9025C9.43226 27.2805 9.55395 27.777 9.93198 28.0071C10.0634 28.086 10.2048 28.1221 10.3495 28.1221C10.6223 28.1221 10.8853 27.984 11.0365 27.7342L13.1175 24.3088L17.8053 24.2759L13.5645 28.5725C13.2522 28.8881 13.2555 29.3976 13.5711 29.7099C13.7289 29.8644 13.9327 29.9434 14.1365 29.9434C14.3404 29.9434 14.5507 29.8644 14.7085 29.7034L19.1859 25.1701L19.2977 30.6961L15.4975 33.326C15.1326 33.5792 15.0406 34.0789 15.2937 34.4438C15.5468 34.8087 16.0465 34.9007 16.4114 34.6475L19.3371 32.6225L19.3931 35.3675C19.4029 35.8047 19.7613 36.1532 20.1952 36.1532H20.2116C20.6554 36.1433 21.0072 35.7784 20.9973 35.3347L20.9512 33.1025L23.4858 35.075Z\" fill=\"#C96535\"></path>\n<path d=\"M30.1849 35.4003C29.6687 34.8119 29.0277 34.0821 28.1336 34.1544C27.2296 34.23 26.5359 35.0782 25.7075 36.4194C24.9119 37.708 24.0605 39.7034 23.2353 41.6298C22.877 42.4682 22.5056 43.3328 22.1538 44.1086C21.0821 46.4722 21.1578 48.7405 22.374 50.4959C23.6726 52.3763 26.1447 53.4513 29.0869 53.4513C29.3531 53.4513 29.6227 53.4414 29.8956 53.425C31.8088 53.3001 33.2192 52.5506 34.0903 51.1928C35.6353 48.7898 34.9384 45.2362 34.281 43.5135C33.4131 41.2354 30.5596 35.8276 30.1783 35.3937L30.1849 35.4003ZM31.6083 45.4334C31.5458 45.4498 31.4801 45.4564 31.4177 45.4564C31.0561 45.4564 30.7273 45.2099 30.6385 44.8416C30.3196 43.5267 29.6227 42.1559 28.5051 40.6436C28.242 40.2853 28.3176 39.7824 28.6727 39.5194C29.031 39.2564 29.534 39.332 29.797 39.687C31.0429 41.3734 31.8286 42.9349 32.2 44.4636C32.3053 44.8943 32.039 45.3282 31.6083 45.4334Z\" fill=\"#C96535\"></path>\n</svg>",
+            "title": "Defrost Properly",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 100,
+            "text": "<p>Place portion in a container and allow to thaw in the fridge. To accelerate the thawing process, place in sink of lukewarm water for 15 - 30 minutes, not to cook.</p>",
+            "wide_desktop": 2,
+            "wide_mobile": "2"
+          }
+        },
+        "columns_Qadw6G": {
+          "type": "columns",
+          "settings": {
+            "icon": "another_icon",
+            "another_icon": "",
+            "custom_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewbox=\"0 0 64 65\" fill=\"none\">\n\n<path d=\"M49.6122 33.7854C49.3831 32.8591 49.1209 31.8066 48.4038 30.9135C47.7198 30.0669 46.6706 29.6087 45.3593 29.5888C41.767 29.5324 34.237 29.632 28.1879 29.7084C24.9807 29.7482 22.2084 29.7847 20.3326 29.798C18.9647 29.8046 17.7097 30.4885 17.1386 31.5344C16.6207 32.4806 16.3485 33.0749 16.0596 33.709C15.95 33.9514 15.8339 34.2037 15.6978 34.486C15.2894 35.3458 15.2894 36.1659 15.6911 36.8034C16.053 37.3744 16.7038 37.723 17.547 37.8159C17.225 42.806 17.5072 46.6208 22.9289 47.0856C23.5365 47.1388 25.4853 47.1719 27.9953 47.1719C32.9488 47.1719 40.0936 47.0424 43.4967 46.6838C48.8951 46.1129 48.8121 40.5948 48.7723 37.9421C48.7723 37.723 48.7656 37.5205 48.7656 37.3346C48.7656 37.2914 48.759 37.2482 48.7523 37.2051C49.1076 37.0457 49.3997 36.8166 49.6056 36.5178C49.8612 36.1526 50.1036 35.5151 49.8181 34.5557C49.7451 34.3067 49.6786 34.0477 49.6122 33.7821V33.7854ZM43.3241 45.067C38.2642 45.6015 24.8446 45.6181 23.065 45.4687C19.3631 45.15 18.8153 43.2742 19.1705 37.8425C26.2157 37.8325 41.7536 37.7529 47.1421 37.4839C47.1421 37.6367 47.1421 37.7961 47.1487 37.9654C47.1986 41.3485 46.9462 44.6852 43.3241 45.067ZM48.2743 35.5915C48.1879 35.7177 47.9289 35.8107 47.6235 35.8306C42.6401 36.1393 24.559 36.2157 18.0152 36.2191C17.4475 36.2191 17.1519 36.0729 17.0656 35.9335C16.9759 35.7907 17.0125 35.5085 17.1685 35.1798C17.308 34.8877 17.4242 34.6287 17.5371 34.3797C17.8259 33.7489 18.0749 33.2044 18.563 32.3113C18.8485 31.7901 19.5822 31.4215 20.3425 31.4182C22.225 31.4082 24.9972 31.3717 28.2111 31.3286C34.2503 31.2489 41.767 31.1526 45.336 31.2091C46.1693 31.2223 46.7603 31.4581 47.1388 31.9295C47.6335 32.5404 47.836 33.3704 48.0352 34.1738C48.1082 34.466 48.1779 34.7516 48.261 35.0204C48.3406 35.2795 48.344 35.4886 48.2709 35.5882L48.2743 35.5915Z\" fill=\"#C96535\"></path>\n<path d=\"M23.4897 42.6698C22.9287 42.6698 22.7228 42.464 22.6564 42.3943C22.1518 41.8862 22.155 40.6147 22.1584 39.7714V39.5357C22.1584 39.0874 21.7965 38.7256 21.3483 38.7256C20.9001 38.7256 20.5382 39.0874 20.5382 39.5357V39.7647C20.5316 40.9434 20.525 42.5536 21.5077 43.5397C22.0057 44.041 22.673 44.2933 23.4931 44.2933C23.9413 44.2933 24.3032 43.9315 24.3032 43.4832C24.3032 43.035 23.9413 42.6731 23.4931 42.6731L23.4897 42.6698Z\" fill=\"#C96535\"></path>\n<path d=\"M46.1791 33.7754C45.8537 32.9852 45.359 31.79 43.6724 31.79H38.7886C38.3404 31.79 37.9785 32.1519 37.9785 32.6001C37.9785 33.0483 38.3404 33.4102 38.7886 33.4102H43.6724C44.2202 33.4102 44.3464 33.5828 44.6784 34.3929L44.7282 34.5157C44.8576 34.8279 45.1598 35.0137 45.4785 35.0137C45.5815 35.0137 45.6877 34.9938 45.7906 34.9507C46.2056 34.7781 46.4015 34.3033 46.2289 33.8883L46.1791 33.7688V33.7754Z\" fill=\"#C96535\"></path>\n<path d=\"M54.5131 23.5534C54.5064 23.4638 54.4931 23.3808 54.4799 23.3011C54.4799 23.2314 54.4699 23.1616 54.46 23.0919C54.2342 21.8336 53.3743 20.001 52.5011 18.9186C51.8172 18.072 50.7648 17.6139 49.4566 17.5939C44.0316 17.511 21.143 17.6072 15.479 17.6404C14.1843 17.6471 12.8263 18.5235 12.3117 19.3303C11.4352 20.7082 10.7513 22.0461 10.3363 22.9292C10.2433 23.1251 10.1869 23.3078 10.1536 23.477H10.137C9.99762 24.6159 10.0906 25.0375 10.2367 26.6079C10.3263 27.5608 11.2526 27.8197 12.5408 27.906C11.7241 42.189 14.0115 49.6956 19.3403 50.2036C20.4858 50.3132 24.3204 50.3961 28.9187 50.3961C35.3696 50.3961 43.3178 50.2335 47.4314 49.7488C54.1778 48.9553 53.4341 35.7812 53.0788 29.4499C53.0223 28.4704 52.9792 27.6902 52.9759 27.1657C54.0051 26.7241 54.6393 25.7646 54.5131 23.5568V23.5534ZM15.1968 20.3097C15.4724 19.9578 15.9837 19.8981 16.3356 20.1736C16.6875 20.4492 16.7473 20.9605 16.4717 21.3124C15.6883 22.3084 15.5986 23.1019 15.758 23.477C15.8575 23.7128 16.0866 23.8522 16.4352 23.8921C19.0116 23.8157 29.9114 23.726 30.3762 23.7228C30.8344 23.7228 31.1896 24.078 31.1929 24.5262C31.1962 24.9744 30.8377 25.3396 30.3895 25.343C30.2733 25.343 18.8788 25.4393 16.4286 25.5156C16.4186 25.5156 16.412 25.5156 16.402 25.5156C16.3755 25.5156 16.3522 25.5156 16.3257 25.5122C15.3562 25.4226 14.6026 24.9113 14.2606 24.1145C13.7958 23.0322 14.1344 21.6444 15.1902 20.3065L15.1968 20.3097ZM47.2422 48.1319C40.4626 48.9287 22.1391 48.8357 19.493 48.5834C13.9021 48.0522 13.7194 35.6916 14.161 27.9591C19.1544 28.0654 27.252 27.9824 30.9738 28.0289C36.2726 28.0953 48.527 27.6935 50.7415 27.5608C50.9506 27.5474 51.1598 27.5342 51.359 27.5142C51.3756 28.0455 51.4121 28.7261 51.4586 29.5362C51.7607 34.918 52.4712 47.5177 47.2422 48.1319Z\" fill=\"#C96535\"></path>\n</svg>",
+            "title": "Storage and Safety",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 100,
+            "text": "<p>Do not cook as our recipe contains bone. It is important to discard any thawed product that no longer look or smells fresh.</p>",
+            "wide_desktop": 2,
+            "wide_mobile": "2"
+          }
+        },
+        "columns_pArNxQ": {
+          "type": "columns",
+          "settings": {
+            "icon": "another_icon",
+            "another_icon": "",
+            "custom_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100%\" height=\"100%\" viewbox=\"0 0 64 65\" fill=\"none\">\n\n<path d=\"M53.5226 48.2922L52.2145 41.3123C52.134 40.8897 51.7717 40.5711 51.3492 40.5576C50.249 40.514 49.1991 40.172 48.5015 39.9472L47.6261 39.6688C44.8891 38.7968 44.0641 38.5351 41.0855 38.411C39.2174 38.3373 37.3558 39.3502 35.5514 40.3329C34.2399 41.0474 33.0022 41.7216 31.9725 41.8289C31.3117 41.8959 30.3089 41.8624 29.2456 41.8255C26.5791 41.7316 23.3558 41.6209 22.0645 42.9088C21.9538 43.6971 22.1182 44.0325 22.2624 44.217C22.8963 45.0354 25.1738 45.2132 28.0884 45.3574C31.2111 45.5117 32.1603 45.8638 32.9955 46.169C33.5758 46.3837 34.0788 46.5682 35.3367 46.6722C35.6519 46.699 35.8834 46.9741 35.8566 47.286C35.833 47.5845 35.5815 47.8093 35.2897 47.8093C35.273 47.8093 35.2596 47.8093 35.2428 47.8093C33.8307 47.6918 33.2068 47.4637 32.603 47.239C31.8048 46.9472 30.9797 46.642 28.0314 46.4944C24.5063 46.32 22.2993 46.1254 21.3601 44.9146C20.9844 44.4283 20.8369 43.8145 20.9073 43.0229C14.0918 40.5442 12.4953 41.366 11.1636 42.7009C11.1 42.7647 11.0698 42.8552 11.0832 42.9458C11.0966 43.0363 11.1536 43.1135 11.2341 43.1538C12.1599 43.6301 13.421 44.3109 14.8633 45.0891C19.9078 47.8059 26.8206 51.529 29.6984 52.2501C29.9936 52.3238 30.329 52.3574 30.7013 52.3574C32.8948 52.3574 36.3027 51.17 39.6097 50.0162C42.6989 48.9395 45.8953 47.826 47.0357 48.1681C48.8705 48.7181 51.2116 49.1642 52.4425 49.3789C52.7444 49.4326 53.0497 49.3353 53.2643 49.1174C53.479 48.8993 53.5729 48.5907 53.5159 48.2888L53.5226 48.2922Z\" fill=\"#C96535\"></path>\n<path d=\"M27.9756 31.9814C27.3115 32.035 26.9627 32.7025 26.7547 33.1016C26.493 33.6013 26.2248 34.346 25.9665 35.0637C25.8558 35.3689 25.7485 35.6742 25.6411 35.9559C25.2185 37.0628 25.3124 38.1193 25.9094 38.9277C26.4596 39.6756 27.3618 40.0915 28.4083 40.0915C28.4955 40.0915 28.5826 40.0915 28.6732 40.0814C29.5889 40.0211 30.0886 39.5481 30.3503 39.1624C31.1955 37.9013 30.5985 36.0029 30.5281 35.7916C30.2765 35.0369 29.3407 32.9372 29.1361 32.6655C28.9282 32.3905 28.5826 31.931 27.979 31.9814H27.9756Z\" fill=\"#C96535\"></path>\n<path d=\"M12.0011 25.9301C12.0649 25.9333 12.1018 25.9267 12.1488 25.9166C12.2829 25.9065 13.0644 25.8663 16.9887 25.8663C18.2197 25.8663 19.3432 25.7958 20.3361 25.7355C22.154 25.6215 23.7237 25.5242 24.2771 26.0172C24.3274 26.0608 24.4482 26.1681 24.5287 26.4533C24.3576 26.5841 24.2101 26.7484 24.0893 26.943C23.4084 28.0331 23.774 29.7604 23.8512 30.0958C23.9351 30.4547 24.2503 30.7129 24.6192 30.7264C24.6327 30.7264 25.877 30.77 27.3026 30.77C27.5709 30.77 27.8459 30.77 28.1243 30.7633C31.4683 30.7197 32.3572 30.4681 32.441 29.5424C32.451 29.4283 32.4678 29.3009 32.4846 29.1667C32.602 28.2142 32.8669 26.1044 31.0491 25.3129C30.7237 20.5903 27.2355 20.1476 24.9278 19.9765C24.9278 19.6645 24.9379 19.2755 24.9714 18.8462C25.9911 19.0809 27.1717 18.9568 28.074 18.4605C28.9494 17.9774 29.4492 17.1892 29.4424 16.2937C29.4324 15.1633 28.9159 14.5462 28.4832 14.2276C27.695 13.6473 26.4976 13.5333 24.9144 13.8922C24.5857 13.0268 23.8142 12.2051 22.4089 12.2051C20.5742 12.2051 20.0409 13.2214 19.7323 13.8654C18.6523 13.5634 17.0524 13.6037 16.0864 14.1706C15.2479 14.6603 14.879 15.4955 15.0701 16.4614C15.5767 19.0038 17.9379 18.873 19.4103 18.7623V19.8792C17.9479 19.8088 14.879 19.6813 12.0682 19.6813C11.6188 19.6813 11.2532 20.0402 11.2498 20.4897L11.1895 25.0814C11.1895 25.0814 11.1895 25.1016 11.1895 25.1083C11.1895 25.5577 11.5517 25.9267 12.0045 25.9267L12.0011 25.9301ZM12.8765 21.3248C16.4453 21.355 20.1449 21.5596 20.1852 21.563C20.4099 21.5798 20.6313 21.4959 20.7956 21.3416C20.9599 21.1873 21.0505 20.9726 21.0505 20.7446V17.8903C21.0505 17.6689 20.9599 17.4542 20.799 17.2999C20.6379 17.1456 20.4233 17.0652 20.202 17.0685C19.937 17.0786 19.6586 17.0987 19.3768 17.1188C17.4952 17.2631 16.8814 17.1456 16.6801 16.1394C16.6198 15.8443 16.7002 15.7269 16.8679 15.6162C17.5723 15.1433 19.2158 15.3143 19.5445 15.5323C19.7122 15.6732 19.9268 15.7437 20.1449 15.7269C20.3629 15.7101 20.5642 15.6061 20.705 15.4384C20.9297 15.1701 21.0672 14.8817 21.1914 14.6267C21.453 14.0766 21.5637 13.8486 22.4089 13.8486C23.3413 13.8486 23.4621 14.5999 23.4722 14.9151C23.4722 15.1735 23.5963 15.4183 23.8076 15.5692C24.0155 15.7235 24.2839 15.7671 24.5321 15.6933C26.5647 15.0762 27.2958 15.3881 27.5172 15.5491C27.5876 15.6028 27.8057 15.7604 27.809 16.3071C27.809 16.4145 27.809 16.7365 27.2925 17.0249C26.5546 17.4308 25.3873 17.4206 24.74 17.0047C24.5085 16.8538 24.2167 16.8337 23.9652 16.9444C23.7136 17.0551 23.5325 17.2865 23.489 17.5582C23.2139 19.195 23.3213 20.7345 23.3245 20.8016C23.3547 21.2041 23.6734 21.5294 24.0759 21.5596C24.2235 21.573 24.3778 21.5832 24.5321 21.5932C26.9201 21.7643 29.3922 21.9386 29.4424 25.9301C29.4458 26.3124 29.7142 26.6378 30.0864 26.7216C30.8948 26.8994 31.0625 27.379 30.8646 28.9588C29.9858 29.1265 27.5776 29.1667 25.3538 29.1097C25.3068 28.6133 25.3236 28.0699 25.4846 27.815C25.5248 27.7513 25.555 27.7345 25.6054 27.7245C25.9945 27.6373 26.2628 27.2817 26.246 26.8859C26.2024 25.9669 25.9173 25.2861 25.3739 24.7997C24.3107 23.8471 22.6034 23.9544 20.2388 24.1021C19.2695 24.1624 18.1693 24.2328 16.992 24.2328C15.097 24.2328 13.7017 24.2429 12.8397 24.2597L12.8799 21.3282L12.8765 21.3248ZM12.4976 25.7656C12.3969 25.8428 12.2863 25.8931 12.1756 25.9133C12.2963 25.8864 12.4036 25.8361 12.4976 25.7656Z\" fill=\"#C96535\"></path>\n</svg>",
+            "title": "Wash Well",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 100,
+            "text": "<p>Standard safe hygienic practices should be followed at all times when handling fresh, raw food; ensure all utensils.</p>",
+            "wide_desktop": 2,
+            "wide_mobile": "2"
+          }
+        }
+      },
+      "block_order": [
+        "columns_Bhykcj",
+        "columns_67MeEY",
+        "columns_Qadw6G",
+        "columns_pArNxQ"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "show_hero": false,
+        "desktop_height": "450px",
+        "mobile_height": "natural",
+        "desktop_image_width": "medium",
+        "image_layout": "normal",
+        "adapt_radius": false,
+        "image_corner_radius": 0,
+        "show_sound_control": false,
+        "video_url": "",
+        "video_alt_text": "",
+        "enable_video_autoplay": false,
+        "content_layout": "no-overlap",
+        "spacing_image": false,
+        "text_position": "center",
+        "text_alignment": "start",
+        "background_color_light": "#ffffff",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "line_border": "none",
+        "icon_position": "col",
+        "icon_size": 65,
+        "alignment": "left",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "heading_color_light": "rgba(0,0,0,0)",
+        "text_color_light": "rgba(0,0,0,0)",
+        "line_border_light": "rgba(0,0,0,0)",
+        "icon_color_light": "rgba(0,0,0,0)",
+        "heading_color_dark": "rgba(0,0,0,0)",
+        "text_color_dark": "rgba(0,0,0,0)",
+        "line_border_dark": "rgba(0,0,0,0)",
+        "icon_color_dark": "rgba(0,0,0,0)",
+        "image_alignment": "left",
+        "full_width": true,
+        "padding_full_width": false,
+        "top_padding": 0,
+        "bottom_padding": 0,
+        "image_alignment_mobile": "left",
+        "full_width_mobile": true,
+        "top_padding_mobile": 0,
+        "bottom_padding_mobile": 0
+      }
+    },
+    "image_with_text_8PJGHA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ykCLNj": {
+          "type": "heading",
+          "settings": {
+            "subheading": "SUCCESS STORIES.",
+            "heading": "“I moved my dog to Swirl one years ago now when he started to become fussy with meals & haven’t looked back. He loves this food, it’s easy to store, deliveries are always on time & it’s easy to manage your preferences online.",
+            "highlight_type": "underline",
+            "heading_base_size": 90,
+            "heading_tag": "h3",
+            "text": "<p>MIA D.</p>",
+            "number_of_lines_shown": "none",
+            "read_more_label": "Read more",
+            "see_less_label": "See less",
+            "heading_light": "#ffffff",
+            "text_light": "#ffffff",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "heading_dark": "#ffffff",
+            "text_dark": "#ffffff",
+            "color_heading_highlight_dark": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ykCLNj"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "show_hero": false,
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_width": "medium",
+        "image_layout": "normal",
+        "adapt_radius": false,
+        "image_corner_radius": 0,
+        "show_sound_control": false,
+        "video_url": "",
+        "video_alt_text": "",
+        "enable_video_autoplay": false,
+        "content_layout": "no-overlap",
+        "spacing_image": false,
+        "text_position": "center",
+        "text_alignment": "start",
+        "background_color_light": "#4546a8",
+        "background_color_dark": "#4546a8",
+        "line_border": "dashed",
+        "icon_position": "col",
+        "icon_size": 45,
+        "alignment": "center",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "heading_color_light": "rgba(0,0,0,0)",
+        "text_color_light": "rgba(0,0,0,0)",
+        "line_border_light": "rgba(0,0,0,0)",
+        "icon_color_light": "rgba(0,0,0,0)",
+        "heading_color_dark": "rgba(0,0,0,0)",
+        "text_color_dark": "rgba(0,0,0,0)",
+        "line_border_dark": "rgba(0,0,0,0)",
+        "icon_color_dark": "rgba(0,0,0,0)",
+        "image_alignment": "left",
+        "full_width": true,
+        "padding_full_width": false,
+        "top_padding": 0,
+        "bottom_padding": 0,
+        "image_alignment_mobile": "left",
+        "full_width_mobile": false,
+        "top_padding_mobile": 0,
+        "bottom_padding_mobile": 0
+      }
+    },
+    "scrolling_banner_XarVYk": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "heading_adULXg": {
+          "type": "heading",
+          "settings": {
+            "text": "FRESH",
+            "highlight_type": "underline",
+            "text_size": 100,
+            "text_outline": "rgba(0,0,0,0)",
+            "text_fill": "#89392b",
+            "spacing_left": 0,
+            "spacing_right": 0,
+            "spacing_left_mobile": 0,
+            "spacing_right_mobile": 0
+          }
+        },
+        "heading_YpWyPy": {
+          "type": "heading",
+          "settings": {
+            "text": "AAFCO CERTIFICATE",
+            "highlight_type": "underline",
+            "text_size": 100,
+            "text_outline": "#89392b",
+            "text_fill": "rgba(0,0,0,0)",
+            "spacing_left": 0,
+            "spacing_right": 0,
+            "spacing_left_mobile": 0,
+            "spacing_right_mobile": 0
+          }
+        },
+        "heading_DpHRjW": {
+          "type": "heading",
+          "settings": {
+            "text": "ORGANIC",
+            "highlight_type": "underline",
+            "text_size": 100,
+            "text_outline": "rgba(0,0,0,0)",
+            "text_fill": "#89392b",
+            "spacing_left": 0,
+            "spacing_right": 0,
+            "spacing_left_mobile": 0,
+            "spacing_right_mobile": 0
+          }
+        },
+        "heading_7AyrpY": {
+          "type": "heading",
+          "settings": {
+            "text": "REAL INGREDIENTS",
+            "highlight_type": "underline",
+            "text_size": 100,
+            "text_outline": "#89392b",
+            "text_fill": "rgba(0,0,0,0)",
+            "spacing_left": 0,
+            "spacing_right": 0,
+            "spacing_left_mobile": 0,
+            "spacing_right_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_adULXg",
+        "heading_YpWyPy",
+        "heading_DpHRjW",
+        "heading_7AyrpY"
+      ],
+      "name": "t:sections.scrolling_promotion.name",
+      "settings": {
+        "show_border": true,
+        "speed": 50,
+        "direction": "right",
+        "pause_hover": true,
+        "enable_rotating_effect": false,
+        "overlay_opacity": 0,
+        "bg_light": "#fedbc4",
+        "color_text_light": "rgba(0,0,0,0)",
+        "color_text_light_2": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "bg_dark": "rgba(0,0,0,0)",
+        "color_text_dark": "rgba(0,0,0,0)",
+        "color_text_dark_2": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "space_block": 80,
+        "desktop_height": "750px",
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "space_block_mobile": 110,
+        "mobile_height": "500px",
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28
+      }
+    },
+    "media_gallery_MMQf8h": {
+      "type": "media-gallery",
+      "blocks": {
+        "media_BF3tC7": {
+          "type": "media",
+          "settings": {
+            "image_link": "",
+            "open_new_window": false,
+            "show_sound_control": false,
+            "video_url": "",
+            "enable_video_autoplay": true,
+            "video_alt_text": "",
+            "enable_content_overlay": true,
+            "content_position": "bottom",
+            "overlay_opacity": 20,
+            "number_of_columns": 1,
+            "number_of_row": 1,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "icon_size": 45,
+            "sub_title": "MONTHLY OFFER",
+            "title": "-40% OFF",
+            "highlight_type": "underline",
+            "title_size": 90,
+            "text": "",
+            "text_size": 100,
+            "text_align": "center",
+            "media_position": "top",
+            "button_label": "Shop deals",
+            "button_link": "",
+            "open_new_window_button": false,
+            "show_button_style": "primary",
+            "color_overlay": "rgba(0,0,0,0)",
+            "title_color": "#ffffff",
+            "text_color": "#ffffff",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "background_button": "rgba(0,0,0,0)",
+            "color_button": "rgba(0,0,0,0)",
+            "background_button_hover": "rgba(0,0,0,0)",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)"
+          }
+        },
+        "product_AM96Nf": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "product_metafield": "",
+            "product_image_ratio": "use_theme_setting",
+            "text_size": 100,
+            "show_vendor": false,
+            "show_rating": true,
+            "show_highlighted_features": true,
+            "show_highlighted_attributes": true,
+            "show_quickview": true,
+            "info_alignment": "center",
+            "number_of_columns": 1,
+            "number_of_row": 1
+          }
+        },
+        "product_aryJRw": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "product_metafield": "",
+            "product_image_ratio": "use_theme_setting",
+            "text_size": 100,
+            "show_vendor": false,
+            "show_rating": true,
+            "show_highlighted_features": true,
+            "show_highlighted_attributes": true,
+            "show_quickview": true,
+            "info_alignment": "center",
+            "number_of_columns": 1,
+            "number_of_row": 1
+          }
+        },
+        "product_Wyi333": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "product_metafield": "",
+            "product_image_ratio": "use_theme_setting",
+            "text_size": 100,
+            "show_vendor": false,
+            "show_rating": true,
+            "show_highlighted_features": true,
+            "show_highlighted_attributes": true,
+            "show_quickview": true,
+            "info_alignment": "center",
+            "number_of_columns": 1,
+            "number_of_row": 1
+          }
+        },
+        "product_NcTB6j": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "product_metafield": "",
+            "product_image_ratio": "use_theme_setting",
+            "text_size": 100,
+            "show_vendor": false,
+            "show_rating": true,
+            "show_highlighted_features": true,
+            "show_highlighted_attributes": true,
+            "show_quickview": true,
+            "info_alignment": "center",
+            "number_of_columns": 1,
+            "number_of_row": 1
+          }
+        }
+      },
+      "block_order": [
+        "media_BF3tC7",
+        "product_AM96Nf",
+        "product_aryJRw",
+        "product_Wyi333",
+        "product_NcTB6j"
+      ],
+      "name": "t:sections.media-gallery.name",
+      "settings": {
+        "heading": "Customers also loved",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "subheading": "",
+        "text": "",
+        "background_color_light": "rgba(0,0,0,0)",
+        "heading_color_light": "rgba(0,0,0,0)",
+        "heading_highlight_color_light": "rgba(0,0,0,0)",
+        "text_color_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "heading_color_dark": "rgba(0,0,0,0)",
+        "heading_highlight_color_dark": "rgba(0,0,0,0)",
+        "text_color_dark": "rgba(0,0,0,0)",
+        "swiper_on_mobile": false,
+        "enable_arrow_mobile": false,
+        "auto_play": false,
+        "change_slides_speed": 5,
+        "max_columns": 5,
+        "spacing": 20,
+        "height_desktop": 440,
+        "keep_ratio_on_different_width": false,
+        "show_section_divider": false,
+        "full_width": false,
+        "padding_full_width": false,
+        "edge_style": "rounded_corners",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "min_columns_mobile": "1",
+        "spacing_mobile": 20,
+        "height_mobile": 250,
+        "show_section_divider_mobile": false,
+        "full_width_mobile": false,
+        "edge_style_mobile": "adapt",
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "custom_css": [],
+      "settings": {
+        "heading": "Goes well with these",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "products_to_show": 10,
+        "background_color_light": "",
+        "background_color_dark": "",
+        "show_vendor": false,
+        "show_rating": true,
+        "show_highlighted_features": true,
+        "show_highlighted_attributes": true,
+        "show_quickview": true,
+        "enable_carousel_desktop": true,
+        "enable_swiper_mobile": true,
+        "enable_arrow_mobile": false,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_section_divider": true,
+        "spacing": 20,
+        "padding_top": 60,
+        "padding_bottom": 100,
+        "columns_mobile": "2",
+        "show_section_divider_mobile": true,
+        "spacing_mobile": 20,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "multicolumn_YFtdiP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RCmV9y": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "another_icon": "",
+            "custom_icon": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 100,
+            "text": "<p>30 days health guarantee</p>"
+          }
+        },
+        "column_wrDBXN": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "another_icon": "",
+            "custom_icon": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 100,
+            "text": "<p>4.5 out of 20,861 reviews</p>"
+          }
+        },
+        "column_WcbY3i": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "another_icon": "",
+            "custom_icon": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 100,
+            "text": "<p>Ordered before 12pm, shipped today</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_RCmV9y",
+        "column_wrDBXN",
+        "column_WcbY3i"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "title": "",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "secondary_background": "section",
+        "border_column": "none",
+        "column_content_alignment": "center",
+        "icon_position": "next",
+        "icon_size": 24,
+        "enable_desktop_slider": true,
+        "swiper_on_mobile": false,
+        "enable_arrow_mobile": false,
+        "auto_play": true,
+        "change_bar_every": 5,
+        "background_color_light": "#fedbc4",
+        "heading_light": "rgba(0,0,0,0)",
+        "text_light": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "line_border_light": "rgba(0,0,0,0)",
+        "color_icon_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "heading_dark": "rgba(0,0,0,0)",
+        "text_dark": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "line_border_dark": "rgba(0,0,0,0)",
+        "color_icon_dark": "rgba(0,0,0,0)",
+        "column_layout_desktop": "lg:w-1/3",
+        "section_height_desktop": "md:py-0",
+        "spacing_desktop": 28,
+        "full_width": false,
+        "padding_full_width": false,
+        "show_section_divider": false,
+        "padding_top": 8,
+        "padding_bottom": 12,
+        "column_layout_mobile": "w-full",
+        "section_height_mobile": "py-5",
+        "spacing_mobile": 16,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product_tabs_r3yFar",
+    "text_column_with_image_UETzPd",
+    "rich_text_kaDKT7",
+    "image_with_text_Wka8BF",
+    "image_with_text_8PJGHA",
+    "scrolling_banner_XarVYk",
+    "media_gallery_MMQf8h",
+    "product-recommendations",
+    "multicolumn_YFtdiP"
+  ]
+}

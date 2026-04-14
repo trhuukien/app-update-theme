@@ -16,11 +16,15 @@ endif
           </span>
           {{ 'templates.contact.form.error_heading' | t }}
         </h2>
-        <ul class="w-full max-w-[570px] ml-auto mr-auto pl-12">
+        <ul class="w-full max-w-[570px] ml-auto mr-auto pl-12 rtl:pl-0 rtl:pr-12">
           {%- for field in form.errors -%}
             <li class="list-disc mt-3.5 mb-3.5">
               {%- if field == 'form' -%}
-                {{ form.errors.messages[field] }}
+                {% if form.errors.messages[field] contains '&lt;a' %}
+                  {{ form.errors.messages[field] | replace: '&lt;', '<' | replace: '&gt;', '>' | replace: '<a', '<a class="nav-link relative effect-inline"' }}
+                {% else %}
+                  {{ form.errors.messages[field] }}
+                {% endif %}
               {%- else -%}
                 <a href="#RegisterForm-{{ field }}" class="hidden_notice underline underline-offset-2 disable-effect hover:text-[rgb(var(--colors-text-link))] hover:opacity-100">
                   {{ form.errors.translated_fields[field] | capitalize }}
@@ -31,9 +35,7 @@ endif
           {%- endfor -%}
         </ul>
       {% endcapture %}
-      {% if check_notice contains 'href="/account/login#recover"' %}
-        {{ check_notice }}
-      {% endif %}
+      {{ check_notice }}
     {%- endif -%}
     <div class="relative mr-auto ml-auto mb-2.5 max-w-[570px]">
       <input

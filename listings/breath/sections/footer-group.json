@@ -1,0 +1,106 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "6e14d716-34f7-4d5e-8ead-3a9d85267c71": {
+          "type": "contact",
+          "settings": {
+            "open_by_default": false,
+            "heading_menu": "Need help?",
+            "icon_1": "another_icon",
+            "another_icon_1": "",
+            "custom_icon": "<svg width=\"100%\" height=\"100%\" viewbox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill=\"none\" d=\"M9.19953 12.165C9.62972 12.709 10.1032 13.242 10.6181 13.7569C11.133 14.2719 11.6661 14.7453 12.21 15.1754C13.256 16.0028 14.738 15.9165 15.681 14.9735L15.9993 14.6553C16.9384 13.7161 18.4752 13.7161 19.4144 14.6553L20.6813 15.9221C22.9688 18.2096 19.3021 21.2938 17.838 21.5154C14.9421 22.4707 10.5541 20.8876 7.02078 17.3543C3.48746 13.821 1.90429 9.43295 2.85965 6.53701C3.08113 5.07287 6.16539 1.40623 8.45293 3.69373L9.71976 4.9606C10.659 5.89978 10.659 7.43662 9.71976 8.37576L9.40148 8.69408C8.45847 9.63705 8.37222 11.119 9.19953 12.165Z\" stroke=\"white\" stroke-width=\"1.2\" stroke-miterlimit=\"22.926\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path fill=\"none\" d=\"M14.3906 6.35283C15.2843 6.53689 16.1045 6.97885 16.7497 7.62408C17.3857 8.2601 17.8244 9.06635 18.013 9.9458\" stroke=\"white\" stroke-width=\"1.2\" stroke-miterlimit=\"22.926\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path fill=\"none\" d=\"M12.0469 3.97608C14.3759 3.50471 16.7862 4.23147 18.4665 5.91178C20.1441 7.58932 20.8714 9.99479 20.4043 12.3208\" stroke=\"white\" stroke-width=\"1.2\" stroke-miterlimit=\"22.926\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>",
+            "title_1": "Call us 24/7",
+            "text_1": "1908474783",
+            "text_link_1": "",
+            "open_new_window_1": false,
+            "enable_text_link_1": true,
+            "icon_2": "another_icon",
+            "another_icon_2": "",
+            "custom_icon_2": "<svg width=\"100%\" height=\"100%\" viewbox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_1123_7184)\">\n<path fill=\"none\" d=\"M17.4141 3.1875L20.0657 5.83917\" stroke=\"white\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path fill=\"none\" d=\"M7.39514 8.4375H3.5625C2.52698 8.4375 1.6875 9.27698 1.6875 10.3125V17.8125C1.6875 18.848 2.52698 19.6875 3.5625 19.6875C4.59802 19.6875 5.4375 20.527 5.4375 21.5625V23.4375L8.45358 20.4214C8.9235 19.9515 9.56086 19.6875 10.2255 19.6875H20.4375C21.473 19.6875 22.3125 18.848 22.3125 17.8125V10.3125C22.3125 9.92297 22.1937 9.56114 21.9904 9.26133\" stroke=\"white\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path fill=\"none\" d=\"M21.3883 1.86168C22.1205 2.59391 22.1205 3.78111 21.3883 4.5133L14.8114 11.0902L11.0625 12.1874L12.1597 8.43857L18.7366 1.86168C19.4688 1.12944 20.656 1.12944 21.3883 1.86168Z\" stroke=\"white\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path fill=\"none\" d=\"M8.4375 15.1875H10.3125\" stroke=\"white\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_1123_7184\">\n<rect width=\"24\" height=\"24\" fill=\"white\" transform=\"translate(0 0.375)\"></rect>\n</clippath>\n</defs>\n</svg>",
+            "title_2": "Need help with your order?",
+            "text_2": "Contact",
+            "text_link_2": "",
+            "open_new_window_2": false,
+            "enable_text_link_2": true,
+            "icon_3": "another_icon",
+            "another_icon_3": "",
+            "custom_icon_3": "<svg width=\"100%\" height=\"100%\" viewbox=\"0 0 24 25\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill=\"none\" d=\"M12 3.15625C6.89676 3.15625 2.73258 7.35332 2.78168 12.4655L2.78125 21.5937L2.93406 21.4409C4.22606 20.1489 6.2034 19.8084 7.83691 20.6271C9.07324 21.2467 10.4722 21.5945 11.9588 21.5937C17.0333 21.5961 21.1696 17.5398 21.2183 12.4655C21.2674 7.35332 17.1855 3.15625 12 3.15625Z\" stroke=\"white\" stroke-width=\"1.2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path fill=\"none\" d=\"M8.67969 12.752C8.88765 12.752 9.05664 12.583 9.05664 12.375C9.05664 12.167 8.88765 11.998 8.67969 11.998C8.47172 11.998 8.30273 12.167 8.30273 12.375C8.30273 12.583 8.47172 12.752 8.67969 12.752Z\" stroke=\"white\" stroke-width=\"1.2\"></path>\n<path fill=\"none\" d=\"M12.0391 12.752C12.247 12.752 12.416 12.583 12.416 12.375C12.416 12.167 12.247 11.998 12.0391 11.998C11.8311 11.998 11.6621 12.167 11.6621 12.375C11.6621 12.583 11.8311 12.752 12.0391 12.752Z\" stroke=\"white\" stroke-width=\"1.2\"></path>\n<path fill=\"none\" d=\"M15.3984 12.752C15.6064 12.752 15.7754 12.583 15.7754 12.375C15.7754 12.167 15.6064 11.998 15.3984 11.998C15.1905 11.998 15.0215 12.167 15.0215 12.375C15.0215 12.583 15.1905 12.752 15.3984 12.752Z\" stroke=\"white\" stroke-width=\"1.2\"></path>\n</svg>",
+            "title_3": "Available 24/7 via chat",
+            "text_3": "Chat With Us",
+            "text_link_3": "",
+            "open_new_window_3": false,
+            "enable_text_link_3": true
+          }
+        },
+        "link_list_twazjd": {
+          "type": "link_list",
+          "settings": {
+            "open_by_default": false,
+            "heading_menu": "SHOP",
+            "menu": "",
+            "show_social_icons": false
+          }
+        },
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "open_by_default": false,
+            "heading_menu": "ABOUT",
+            "menu": "",
+            "show_social_icons": false
+          }
+        },
+        "link_list_9hN7Bf": {
+          "type": "link_list",
+          "settings": {
+            "open_by_default": false,
+            "heading_menu": "HELP",
+            "menu": "",
+            "show_social_icons": false
+          }
+        },
+        "email_footer_krheCV": {
+          "type": "email_footer",
+          "settings": {
+            "open_by_default": false,
+            "heading_email": "SUBSCRIBE TO OUR EMAILS",
+            "subtext_email": "<p>Apply for our free membership to receive exclusive deals, news and events.</p>",
+            "show_social_icons": true
+          }
+        }
+      },
+      "block_order": [
+        "6e14d716-34f7-4d5e-8ead-3a9d85267c71",
+        "link_list_twazjd",
+        "footer-1",
+        "link_list_9hN7Bf",
+        "email_footer_krheCV"
+      ],
+      "settings": {
+        "columns_desktop": 5,
+        "show_language_selector": false,
+        "show_currency_selector": true,
+        "show_social_icons": false,
+        "payment_enable": true,
+        "custom_payment": "",
+        "show_copyright": true,
+        "add_copyright_text": "",
+        "additional_layout": "horizontal",
+        "show_powered": false,
+        "enable_follow_on_shop": false,
+        "horizontal_position": "right",
+        "top_padding": 32,
+        "bottom_padding": 32,
+        "top_padding_mobile": 8,
+        "bottom_padding_mobile": 28
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,5 +1,5 @@
-if (!window.Eurus.loadedScript.includes('speech-search.js')) {
-  window.Eurus.loadedScript.push('speech-search.js');
+if (!window.Eurus.loadedScript.has('speech-search.js')) {
+  window.Eurus.loadedScript.add('speech-search.js');
 
   requestAnimationFrame(() => {
     document.addEventListener("alpine:init", () => {
@@ -9,7 +9,7 @@ if (!window.Eurus.loadedScript.includes('speech-search.js')) {
         searchInput: null,
         searchBtn: null,
         show: false,
-        init() {
+        initSpeechSearch() {
           const userAgent = window.navigator.userAgent.toLowerCase();
           if ('webkitSpeechRecognition' in window
             && userAgent.indexOf('chrome') > -1 && !!window.chrome

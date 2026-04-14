@@ -1,0 +1,1061 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "badges": {
+          "type": "badges",
+          "settings": {
+            "position_adapt": false
+          }
+        },
+        "55421213-3501-4f5a-a4dc-cdf04ddd113b": {
+          "type": "product_name",
+          "settings": {
+            "title_size": 100,
+            "heading_tag": "h2"
+          }
+        },
+        "rating_T9Va4c": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "text_size_price": 70
+          }
+        },
+        "55ca1e60-92a9-474e-8f28-0a4a939db138": {
+          "type": "inventory_status",
+          "settings": {
+            "incoming": false,
+            "message_incoming": "",
+            "message_backorder": "",
+            "hide_preorder": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "show_variant_option": true,
+            "enable_color_swatches": true,
+            "swatch_size": "medium"
+          }
+        },
+        "size_chart_BztXK6": {
+          "type": "size_chart",
+          "settings": {
+            "heading": "How to measure",
+            "select_page": "contact",
+            "size_chart_type": "popup"
+          }
+        },
+        "engraving_yJrDre": {
+          "type": "engraving",
+          "settings": {
+            "engraving_option_label": "Engraving personalize by adding your pet name (+$10)",
+            "engraving_required": false,
+            "engrave_option_note": ""
+          }
+        },
+        "ffacb41b-c15e-41ee-864a-cfbf155d407d": {
+          "type": "estimate_delivery",
+          "settings": {
+            "hide_when_pre_order": false,
+            "box_type": "round",
+            "message": "<p>Estimated Delivery between earliest_delivery_date and latest_delivery_date. Order within time_to_cut_off</p>",
+            "tooltip_text": "",
+            "tooltip_icon": "none",
+            "custom_icon": "",
+            "tooltip_icon_position": "left",
+            "tooltip_message": "",
+            "show_background": false,
+            "show_border": false,
+            "background_color_light": "rgba(0,0,0,0)",
+            "message_color_light": "rgba(0,0,0,0)",
+            "border_color_light": "rgba(0,0,0,0)",
+            "background_color_dark": "rgba(0,0,0,0)",
+            "message_color_dark": "rgba(0,0,0,0)",
+            "border_color_dark": "rgba(0,0,0,0)",
+            "bg_tooltip_color_light": "rgba(0,0,0,0)",
+            "tooltip_color_light": "rgba(0,0,0,0)",
+            "bg_tooltip_color_dark": "rgba(0,0,0,0)",
+            "tooltip_color_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_button_style": "secondary",
+            "show_dynamic_checkout": true,
+            "show_atc_quantity": true,
+            "show_add_to_cart": true,
+            "show_price": true,
+            "hide_sale_price": true,
+            "show_gift_card_recipient": true,
+            "pickup_availability": true,
+            "hide_when_pre_order": false,
+            "preorder_button_label": "Pre-order",
+            "preorder_message": "<p>This product will be available for sale in 2 weeks, but you can pre-order now to receive 10% discount!</p>",
+            "preorder_show_dynamic_button": true,
+            "show_background": false,
+            "box_type": "square",
+            "background_color_light": "rgba(0,0,0,0)",
+            "message_color_light": "#ff0000",
+            "background_color_dark": "rgba(0,0,0,0)",
+            "message_color_dark": "#e99d0b",
+            "button_light": "rgba(0,0,0,0)",
+            "button_text_light": "rgba(0,0,0,0)",
+            "button_hover_light": "rgba(0,0,0,0)",
+            "button_text_hover_light": "rgba(0,0,0,0)",
+            "secondary_button_light": "rgba(0,0,0,0)",
+            "secondary_button_text_light": "rgba(0,0,0,0)",
+            "button_dark": "rgba(0,0,0,0)",
+            "button_text_dark": "rgba(0,0,0,0)",
+            "button_hover_dark": "rgba(0,0,0,0)",
+            "button_text_hover_dark": "rgba(0,0,0,0)",
+            "secondary_button_dark": "rgba(0,0,0,0)",
+            "secondary_button_text_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "icon_text_qaPqYM": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "delivery-truck",
+            "another_icon": "",
+            "custom_icon": "",
+            "icon_size": 24,
+            "text": "<p>Free shipping on orders over $30!</p>",
+            "background_color_light": "rgba(0,0,0,0)",
+            "text_light": "rgba(0,0,0,0)",
+            "background_color_dark": "rgba(0,0,0,0)",
+            "text_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "payment_methods_CWe3wG": {
+          "type": "payment_methods",
+          "settings": {
+            "heading": "Pay with",
+            "text": "Your transaction is protected with advanced security measures to keep your information confidential",
+            "custom_payment": "",
+            "show_secondary_background": false,
+            "show_border": true,
+            "background_color_light": "rgba(0,0,0,0)",
+            "heading_color_light": "rgba(0,0,0,0)",
+            "text_color_light": "rgba(0,0,0,0)",
+            "border_color_light": "rgba(0,0,0,0)",
+            "background_color_dark": "rgba(0,0,0,0)",
+            "heading_color_dark": "rgba(0,0,0,0)",
+            "text_color_dark": "rgba(0,0,0,0)",
+            "border_color_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "coupon_code_tVr3gr": {
+          "type": "coupon_code",
+          "settings": {
+            "block_edges": "rounded_corners",
+            "coupon_box_edges": "rounded_corners",
+            "icon": "hot-sale",
+            "another_icon": "",
+            "custom_image": "",
+            "custom_icon": "",
+            "icon_size": 30,
+            "heading_text": "Best offers",
+            "coupon_text_1": "Flat discount of $30 on every order!",
+            "coupon_code_1": "SALEM30",
+            "coupon_text_2": "",
+            "coupon_code_2": "",
+            "background_color_light": "#ffeaea",
+            "heading_color_light": "rgba(0,0,0,0)",
+            "coupon_box_color_light": "rgba(0,0,0,0)",
+            "text_color_light": "rgba(0,0,0,0)",
+            "coupon_color_light": "rgba(0,0,0,0)",
+            "background_color_dark": "rgba(0,0,0,0)",
+            "heading_color_dark": "rgba(0,0,0,0)",
+            "coupon_box_color_dark": "rgba(0,0,0,0)",
+            "text_color_dark": "rgba(0,0,0,0)",
+            "coupon_color_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "collapsible_tab_q4TWUU": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_by_default": true,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "use_secondary_background": false,
+            "heading": "Pet Suitability & Product care",
+            "tab_content": "<p>• Suitable for all dog breeds - size guide available to determine the perfect fit<br/>• Easy to clean, the collar can be hand washed with mild soap and left to air dry<br/>• Do not soak, bleach, iron, dry clean, or tumble dry</p>"
+          }
+        },
+        "collapsible_tab_gchcKN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_by_default": true,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "use_secondary_background": false,
+            "heading": "Features",
+            "tab_content": "<p>• Lightweight, durable neoprene for a comfortable fit<br/>• Quick-drying material to keep your dog cool and dry<br/>• Plastic buckle and keeper for added security<br/>• Sturdy stainless steel attachment ring<br/>• Designed in Australia</p>"
+          }
+        },
+        "collapsible_tab_bbr36P": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_by_default": true,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "use_secondary_background": false,
+            "heading": "Specifications",
+            "tab_content": "<p>• Adjustable sizing to fit various neck sizes<br/>• To ensure a proper snug fit, always measure your dog’s neck before purchasing<br/>• Material: Neoprene with nylon webbing</p>"
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_by_default": false,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "use_secondary_background": false,
+            "heading": "Returns + Exchanges",
+            "tab_content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "collapsible_tab_RQc4pW": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open_by_default": false,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "use_secondary_background": false,
+            "heading": "Giving Back",
+            "tab_content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "social-sharing": {
+          "type": "social_sharing",
+          "settings": {}
+        },
+        "sticky-atc": {
+          "type": "sticky_add_to_cart",
+          "settings": {
+            "desktop_display_type": "popup",
+            "show_quantity_selector": true,
+            "link_to_atc_btn": false
+          }
+        }
+      },
+      "block_order": [
+        "badges",
+        "55421213-3501-4f5a-a4dc-cdf04ddd113b",
+        "rating_T9Va4c",
+        "price",
+        "55ca1e60-92a9-474e-8f28-0a4a939db138",
+        "variant_picker",
+        "size_chart_BztXK6",
+        "engraving_yJrDre",
+        "ffacb41b-c15e-41ee-864a-cfbf155d407d",
+        "buy_buttons",
+        "icon_text_qaPqYM",
+        "payment_methods_CWe3wG",
+        "coupon_code_tVr3gr",
+        "collapsible_tab_q4TWUU",
+        "collapsible_tab_gchcKN",
+        "collapsible_tab_bbr36P",
+        "collapsible-row-1",
+        "collapsible_tab_RQc4pW",
+        "social-sharing",
+        "sticky-atc"
+      ],
+      "settings": {
+        "enable_sticky_image": true,
+        "show_product_name": false,
+        "title_size": 100,
+        "heading_tag": "h1",
+        "show_vendor": false,
+        "link_vendor": false,
+        "make_content_center": false,
+        "desktop_layout": "left",
+        "desktop_media_layout": "thumbnail_slider",
+        "show_arrow_button": true,
+        "mobile_media_size": "75%",
+        "show_thumnail_mobile": false,
+        "transition_style": "fade",
+        "image_ratio": "square",
+        "thumbnail_position": "horizontal",
+        "enable_image_zoom": true,
+        "zoom_effect": "enlarge",
+        "enable_video_autoplay": false,
+        "enable_video_loop": false,
+        "show_first_image_avaiable": true,
+        "show_media_with_variant_selected": false,
+        "option_to_classify_variant_media": "",
+        "enable_microdata": false,
+        "show_breadcrumbs": true,
+        "show_breadcrumbs_border": false,
+        "full_width_breadcrumb": false,
+        "desktop_content_alignment": "text-left",
+        "mobile_content_alignment": "text-left",
+        "background_color_light": "rgba(0,0,0,0)",
+        "text_color_light": "rgba(0,0,0,0)",
+        "textlink_color_light": "#202020",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "text_color_dark": "rgba(0,0,0,0)",
+        "textlink_color_dark": "#ffffff",
+        "full_width": false,
+        "spacing_col": "small",
+        "padding_top": 48,
+        "padding_bottom": 100,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 60
+      }
+    },
+    "shop_the_look_gXHRw4": {
+      "type": "shop-the-look",
+      "blocks": {
+        "look_YUzgb8": {
+          "type": "look",
+          "settings": {
+            "product": "",
+            "color_hotspot": "#000000",
+            "hotspot_desktop_horizontal": 29,
+            "hotspot_desktop_vertical": 74,
+            "hotspot_mobile_horizontal": 27,
+            "hotspot_mobile_vertical": 86
+          }
+        },
+        "look_Ncge68": {
+          "type": "look",
+          "settings": {
+            "product": "",
+            "color_hotspot": "#000000",
+            "hotspot_desktop_horizontal": 34,
+            "hotspot_desktop_vertical": 50,
+            "hotspot_mobile_horizontal": 29,
+            "hotspot_mobile_vertical": 50
+          }
+        }
+      },
+      "block_order": [
+        "look_YUzgb8",
+        "look_Ncge68"
+      ],
+      "name": "t:sections.shop_the_look.name",
+      "settings": {
+        "heading": "Complete the look",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "subheading": "",
+        "image_desktop": "",
+        "product_card_edges": "square",
+        "image_ratio": "square",
+        "info_alignment": "center",
+        "desktop_size": "small",
+        "show_quickview": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "show_highlighted_features": true,
+        "show_highlighted_attributes": true,
+        "image_alignment": "left",
+        "full_width": true,
+        "padding_full_width": false,
+        "show_section_divider": false,
+        "desktop_height": "natural",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "mobile_height": "natural",
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "media_gallery_hKeczj": {
+      "type": "media-gallery",
+      "blocks": {
+        "media_HKKXLD": {
+          "type": "media",
+          "settings": {
+            "image": "",
+            "image_link": "",
+            "open_new_window": false,
+            "show_sound_control": false,
+            "video_url": "",
+            "enable_video_autoplay": true,
+            "video_alt_text": "",
+            "enable_content_overlay": true,
+            "content_position": "bottom",
+            "overlay_opacity": 20,
+            "number_of_columns": 1,
+            "number_of_row": 1,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "icon_size": 45,
+            "sub_title": "MONTHLY OFFER",
+            "title": "-40% OFF",
+            "highlight_type": "underline",
+            "title_size": 90,
+            "text": "",
+            "text_size": 100,
+            "text_align": "center",
+            "media_position": "top",
+            "button_label": "Shop deals",
+            "button_link": "",
+            "open_new_window_button": false,
+            "show_button_style": "primary",
+            "color_overlay": "rgba(0,0,0,0)",
+            "title_color": "#ffffff",
+            "text_color": "#ffffff",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "background_button": "rgba(0,0,0,0)",
+            "color_button": "rgba(0,0,0,0)",
+            "background_button_hover": "rgba(0,0,0,0)",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)"
+          }
+        },
+        "product_PxDMLy": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "product_metafield": "",
+            "product_image_ratio": "use_theme_setting",
+            "text_size": 100,
+            "show_vendor": false,
+            "show_rating": true,
+            "show_highlighted_features": true,
+            "show_highlighted_attributes": true,
+            "show_quickview": true,
+            "info_alignment": "center",
+            "number_of_columns": 1,
+            "number_of_row": 1
+          }
+        },
+        "product_z3MHDg": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "product_metafield": "",
+            "product_image_ratio": "use_theme_setting",
+            "text_size": 100,
+            "show_vendor": false,
+            "show_rating": true,
+            "show_highlighted_features": true,
+            "show_highlighted_attributes": true,
+            "show_quickview": true,
+            "info_alignment": "center",
+            "number_of_columns": 1,
+            "number_of_row": 1
+          }
+        },
+        "product_MgcHDM": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "product_metafield": "",
+            "product_image_ratio": "use_theme_setting",
+            "text_size": 100,
+            "show_vendor": false,
+            "show_rating": true,
+            "show_highlighted_features": true,
+            "show_highlighted_attributes": true,
+            "show_quickview": true,
+            "info_alignment": "center",
+            "number_of_columns": 1,
+            "number_of_row": 1
+          }
+        },
+        "product_VkryEi": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "product_metafield": "",
+            "product_image_ratio": "use_theme_setting",
+            "text_size": 100,
+            "show_vendor": false,
+            "show_rating": true,
+            "show_highlighted_features": true,
+            "show_highlighted_attributes": true,
+            "show_quickview": true,
+            "info_alignment": "center",
+            "number_of_columns": 1,
+            "number_of_row": 1
+          }
+        }
+      },
+      "block_order": [
+        "media_HKKXLD",
+        "product_PxDMLy",
+        "product_z3MHDg",
+        "product_MgcHDM",
+        "product_VkryEi"
+      ],
+      "name": "t:sections.media-gallery.name",
+      "settings": {
+        "heading": "Customers also loved",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "subheading": "",
+        "text": "",
+        "background_color_light": "rgba(0,0,0,0)",
+        "heading_color_light": "rgba(0,0,0,0)",
+        "heading_highlight_color_light": "rgba(0,0,0,0)",
+        "text_color_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "heading_color_dark": "rgba(0,0,0,0)",
+        "heading_highlight_color_dark": "rgba(0,0,0,0)",
+        "text_color_dark": "rgba(0,0,0,0)",
+        "swiper_on_mobile": false,
+        "enable_arrow_mobile": false,
+        "auto_play": false,
+        "change_slides_speed": 5,
+        "max_columns": 5,
+        "spacing": 20,
+        "height_desktop": 440,
+        "keep_ratio_on_different_width": false,
+        "show_section_divider": false,
+        "full_width": false,
+        "padding_full_width": false,
+        "edge_style": "rounded_corners",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "min_columns_mobile": "1",
+        "spacing_mobile": 20,
+        "height_mobile": 250,
+        "show_section_divider_mobile": false,
+        "full_width_mobile": false,
+        "edge_style_mobile": "adapt",
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "scrolling_banner_XarVYk": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "heading_adULXg": {
+          "type": "heading",
+          "settings": {
+            "text": "POWERED BY SUPERFOODS",
+            "highlight_type": "underline",
+            "text_size": 90,
+            "text_outline": "#89392b",
+            "text_fill": "rgba(0,0,0,0)",
+            "spacing_left": 0,
+            "spacing_right": 0,
+            "spacing_left_mobile": 0,
+            "spacing_right_mobile": 0
+          }
+        },
+        "heading_YpWyPy": {
+          "type": "heading",
+          "settings": {
+            "text": "SLOW-COOKED DELICIOUSNESS",
+            "highlight_type": "underline",
+            "text_size": 90,
+            "text_outline": "rgba(0,0,0,0)",
+            "text_fill": "#89392b",
+            "spacing_left": 0,
+            "spacing_right": 0,
+            "spacing_left_mobile": 0,
+            "spacing_right_mobile": 0
+          }
+        },
+        "heading_DpHRjW": {
+          "type": "heading",
+          "settings": {
+            "text": "AAFCO CERTIFICATE",
+            "highlight_type": "underline",
+            "text_size": 90,
+            "text_outline": "#89392b",
+            "text_fill": "rgba(0,0,0,0)",
+            "spacing_left": 0,
+            "spacing_right": 0,
+            "spacing_left_mobile": 0,
+            "spacing_right_mobile": 0
+          }
+        },
+        "heading_7AyrpY": {
+          "type": "heading",
+          "settings": {
+            "text": "GUT-FRIENDLY PREBIOTICS",
+            "highlight_type": "underline",
+            "text_size": 90,
+            "text_outline": "rgba(0,0,0,0)",
+            "text_fill": "#89392b",
+            "spacing_left": 0,
+            "spacing_right": 0,
+            "spacing_left_mobile": 0,
+            "spacing_right_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_adULXg",
+        "heading_YpWyPy",
+        "heading_DpHRjW",
+        "heading_7AyrpY"
+      ],
+      "name": "t:sections.scrolling_promotion.name",
+      "settings": {
+        "show_border": false,
+        "speed": 50,
+        "direction": "right",
+        "pause_hover": false,
+        "enable_rotating_effect": false,
+        "overlay_opacity": 0,
+        "bg_light": "#fedbc4",
+        "color_text_light": "rgba(0,0,0,0)",
+        "color_text_light_2": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "bg_dark": "rgba(0,0,0,0)",
+        "color_text_dark": "rgba(0,0,0,0)",
+        "color_text_dark_2": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "space_block": 80,
+        "desktop_height": "750px",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "space_block_mobile": 40,
+        "mobile_height": "500px",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "Frequently bought with",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "products_to_show": 10,
+        "background_color_light": "",
+        "background_color_dark": "",
+        "show_vendor": false,
+        "show_rating": true,
+        "show_highlighted_features": true,
+        "show_highlighted_attributes": true,
+        "show_quickview": true,
+        "enable_carousel_desktop": true,
+        "enable_swiper_mobile": true,
+        "enable_arrow_mobile": false,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_section_divider": false,
+        "spacing": 20,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "columns_mobile": "2",
+        "show_section_divider_mobile": false,
+        "spacing_mobile": 20,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60
+      }
+    },
+    "social_feeds_FByaVw": {
+      "type": "social-feeds",
+      "blocks": {
+        "social_post_z7rb4Y": {
+          "type": "social-post",
+          "settings": {
+            "social_post_image": "",
+            "enable_video_autoplay": true,
+            "show_sound_control": false,
+            "social_post_content": "<p>Enter the main content of the social post to be displayed in the feed. Aim for concise, engaging text that aligns with the tone and purpose of the brand.</p>",
+            "number_of_lines_shown": "none",
+            "read_more_label": "Read more",
+            "see_less_label": "See less",
+            "social_post_link": "",
+            "open_new_window_button": true,
+            "integrated_social_media": "adapt",
+            "account_username": "Eurus",
+            "list_products": [],
+            "show_products_on_image": true
+          }
+        },
+        "social_post_xrcaE7": {
+          "type": "social-post",
+          "settings": {
+            "social_post_image": "",
+            "enable_video_autoplay": true,
+            "show_sound_control": false,
+            "social_post_content": "<p>Enter the main content of the social post to be displayed in the feed. Aim for concise, engaging text that aligns with the tone and purpose of the brand.</p>",
+            "number_of_lines_shown": "none",
+            "read_more_label": "Read more",
+            "see_less_label": "See less",
+            "social_post_link": "",
+            "open_new_window_button": true,
+            "integrated_social_media": "adapt",
+            "account_username": "Eurus",
+            "list_products": [],
+            "show_products_on_image": true
+          }
+        },
+        "social_post_8ngd8F": {
+          "type": "social-post",
+          "settings": {
+            "social_post_image": "",
+            "enable_video_autoplay": true,
+            "show_sound_control": false,
+            "social_post_content": "<p>Enter the main content of the social post to be displayed in the feed. Aim for concise, engaging text that aligns with the tone and purpose of the brand.</p>",
+            "number_of_lines_shown": "none",
+            "read_more_label": "Read more",
+            "see_less_label": "See less",
+            "social_post_link": "",
+            "open_new_window_button": true,
+            "integrated_social_media": "adapt",
+            "account_username": "Eurus",
+            "list_products": [],
+            "show_products_on_image": true
+          }
+        },
+        "social_post_dYadGy": {
+          "type": "social-post",
+          "settings": {
+            "social_post_image": "",
+            "enable_video_autoplay": true,
+            "show_sound_control": false,
+            "social_post_content": "<p>Enter the main content of the social post to be displayed in the feed. Aim for concise, engaging text that aligns with the tone and purpose of the brand.</p>",
+            "number_of_lines_shown": "none",
+            "read_more_label": "Read more",
+            "see_less_label": "See less",
+            "social_post_link": "",
+            "open_new_window_button": true,
+            "integrated_social_media": "adapt",
+            "account_username": "Eurus",
+            "list_products": [],
+            "show_products_on_image": true
+          }
+        },
+        "social_post_TbENFY": {
+          "type": "social-post",
+          "settings": {
+            "social_post_image": "",
+            "enable_video_autoplay": true,
+            "show_sound_control": false,
+            "social_post_content": "<p>Enter the main content of the social post to be displayed in the feed. Aim for concise, engaging text that aligns with the tone and purpose of the brand.</p>",
+            "number_of_lines_shown": "none",
+            "read_more_label": "Read more",
+            "see_less_label": "See less",
+            "social_post_link": "",
+            "open_new_window_button": true,
+            "integrated_social_media": "adapt",
+            "account_username": "Eurus",
+            "list_products": [],
+            "show_products_on_image": true
+          }
+        }
+      },
+      "block_order": [
+        "social_post_z7rb4Y",
+        "social_post_xrcaE7",
+        "social_post_8ngd8F",
+        "social_post_dYadGy",
+        "social_post_TbENFY"
+      ],
+      "name": "t:sections.social-feeds.name",
+      "settings": {
+        "heading": "2,000+ happy customers also bought",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "subheading": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "open_new_window_button": false,
+        "show_button_style": "secondary",
+        "integrated_social_media": "instagram",
+        "media_ratio": "aspect-[9/16]",
+        "show_border": true,
+        "background_color_light": "rgba(0,0,0,0)",
+        "heading_light": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "text_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "heading_dark": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "text_dark": "rgba(0,0,0,0)",
+        "button_light": "rgba(0,0,0,0)",
+        "button_text_light": "rgba(0,0,0,0)",
+        "button_hover_light": "rgba(0,0,0,0)",
+        "button_text_hover_light": "rgba(0,0,0,0)",
+        "secondary_button_light": "rgba(0,0,0,0)",
+        "secondary_button_text_light": "rgba(0,0,0,0)",
+        "colors_text_link": "rgba(0,0,0,0)",
+        "button_dark": "rgba(0,0,0,0)",
+        "button_text_dark": "rgba(0,0,0,0)",
+        "button_hover_dark": "rgba(0,0,0,0)",
+        "button_text_hover_dark": "rgba(0,0,0,0)",
+        "secondary_button_dark": "rgba(0,0,0,0)",
+        "secondary_button_text_dark": "rgba(0,0,0,0)",
+        "colors_text_link_dark": "rgba(0,0,0,0)",
+        "enable_carousel_on_desktop": true,
+        "show_navigation": true,
+        "swiper_on_mobile": true,
+        "enable_arrow_mobile": false,
+        "change_slides_speed": 5,
+        "columns_desktop": 4,
+        "full_width": true,
+        "padding_full_width": true,
+        "show_section_divider": true,
+        "spacing": 8,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "columns_mobile": "2",
+        "full_width_mobile": false,
+        "show_section_divider_mobile": true,
+        "spacing_mobile": 8,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60
+      }
+    },
+    "related_blog_posts_3gMyhF": {
+      "type": "related-blog-posts",
+      "name": "t:sections.featured-blog.related_blog",
+      "settings": {
+        "heading": "Related blog posts",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "subheading": "",
+        "post_limit": 3,
+        "blog": "dog-care",
+        "related_to_product_via": "product_tag",
+        "show_show_more": false,
+        "show_view_all": false,
+        "view_all_position": "top",
+        "handle_blog": "",
+        "metafield_key": "",
+        "title_size": 140,
+        "content_alignment": "left",
+        "show_image": true,
+        "image_ratio": "75",
+        "item_secondary_background": false,
+        "show_author": false,
+        "show_name": false,
+        "show_date": true,
+        "show_excerpt": true,
+        "show_tag": false,
+        "show_comment_counts": false,
+        "show_read_more": false,
+        "button_read_more_label": "READ NOW",
+        "columns_desktop": 3,
+        "enable_desktop_slider": false,
+        "swiper_on_mobile": false,
+        "enable_arrow_mobile": false,
+        "auto_play": false,
+        "change_slides_speed": 5,
+        "full_width": false,
+        "spacing": 28,
+        "show_section_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "columns_mobile": "1",
+        "spacing_mobile": 20,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 60
+      }
+    },
+    "faq_yJqcc4": {
+      "type": "faq",
+      "blocks": {
+        "frequently_asked_question_bx6pxT": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "faq",
+            "another_icon": "",
+            "custom_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<path d=\"M20.2854 6.85213C20.0227 6.02513 19.4551 5.45108 18.5178 5.33753C17.8238 5.25648 17.3308 4.91594 17.0811 4.26404C17.0389 4.15702 16.9838 4.05323 16.9254 3.94945C16.4908 3.15485 15.2811 2.70729 14.4184 3.01864C13.1665 3.46945 12.4076 4.83161 12.6216 6.39808C12.8584 7.04348 12.5795 7.64028 12.08 8.24348C10.8541 9.72893 9.65409 11.237 8.50274 12.7743C8.01949 13.4197 7.46814 13.77 6.65084 13.7927C5.74274 13.8154 5.05189 14.2597 4.50056 14.9505C3.31029 16.4359 3.92974 18.1711 5.81729 18.5278C6.52434 18.664 6.94274 19.0273 7.23784 19.6338C7.38704 19.9386 7.59459 20.2565 7.86379 20.4543C8.91459 21.2327 10.0465 21.0932 10.9124 20.1267C11.5546 19.41 11.9016 18.5894 11.6778 17.6327C11.493 16.8381 11.707 16.2154 12.2324 15.583C13.4389 14.1397 14.613 12.6673 15.7319 11.1592C16.2508 10.4619 16.8378 10.1084 17.7232 10.0565C19.0238 9.98188 19.8314 9.17433 20.2692 8.03593C20.4054 7.68568 20.3989 7.21538 20.2822 6.85213H20.2854ZM7.47784 18.0186C7.22164 17.5646 6.62164 17.5873 6.17084 17.5808C5.51569 17.5711 5.51894 16.5559 6.17084 16.5657C7.00759 16.5786 7.90594 16.7084 8.35679 17.5062C8.67784 18.077 7.80219 18.5894 7.48109 18.0186H7.47784ZM17.6357 6.66403C17.5578 6.94943 17.2822 7.06298 17.0097 7.01753C16.1665 6.87808 15.5827 6.13863 15.4984 5.31808C15.4692 5.04243 15.7514 4.80891 16.0076 4.80891C16.3027 4.80891 16.4876 5.04243 16.5168 5.31808C16.5557 5.70403 16.9092 5.97648 17.2822 6.03808C17.5546 6.08348 17.7038 6.42078 17.6357 6.66403Z\" fill=\"#89392B\"></path>\n</svg>",
+            "heading": "How much should I feed my dog?",
+            "row_content": "<p>Variable factors like lifestyle, appetite and temperament can all impact on a pet’s eventual weight, which is why there is no substitute for knowing your pet.  <br/><br/>We recommend that a healthy dog should have a natural waist and that you should be able to feel, but not see, their ribcage. <br/><br/>As a rule of “paw”, an adult dog should eat around 2% to 3% of its ideal body weight per day.  For example, a dog weighing 10kg should eat 200g to 300g of raw pet food per day.  </p>"
+          }
+        },
+        "frequently_asked_question_zWVDxy": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "heart",
+            "another_icon": "",
+            "custom_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<path d=\"M22.0178 7.76343C21.8062 7.07258 20.2493 6.93708 19.9849 6.50073C19.8295 6.24293 19.9056 5.95863 19.6577 5.70413C19.3767 5.41653 18.9668 5.29093 18.5801 5.24463C15.8729 4.90749 17.2248 7.90228 14.8085 8.56998C13.3045 8.98318 7.94628 9.32033 6.93808 8.15018C6.32988 7.44278 6.15138 5.19508 5.00108 5.60493C3.3946 5.96193 4.57136 8.18983 5.22253 9.00633C5.48038 9.33023 5.90348 9.55173 6.25058 9.77648C6.49518 9.93513 6.85878 9.96823 7.02073 10.2062C7.20253 10.464 6.80918 12.3779 6.80258 12.7018C6.78603 13.4654 6.75298 14.2257 6.72653 14.9859C6.70343 15.5644 6.66373 16.4106 7.38433 16.6023C8.08843 16.7908 8.75613 16.1594 9.06023 15.6041C9.34783 15.0818 9.37758 13.0655 9.69158 12.9101C9.99898 12.758 10.7394 13.0258 11.1129 13.0655C11.6815 13.1216 13.8995 12.3779 14.0813 12.9564C14.1838 13.2869 14.0515 14.9 14.1606 15.4124C14.2267 15.7264 14.0284 16.1528 14.2399 16.4205C14.7027 17.0023 15.4564 16.9064 15.853 16.2751C16.3522 15.4785 16.3621 14.662 16.5406 13.7894C16.7852 12.6027 16.9736 11.0822 17.6876 10.0707C18.4842 8.94018 18.9933 8.94683 20.127 9.00298C21.6905 9.08233 22.1996 8.34188 22.0211 7.75353L22.0178 7.76343Z\" fill=\"#89392B\"></path>\n<path d=\"M14.5564 5.60837C14.8208 4.99025 15.0522 4.33246 15.396 3.754C15.7298 3.18876 14.8506 2.6764 14.5167 3.24164C14.1828 3.80688 13.9415 4.4779 13.6771 5.09602C13.568 5.35057 13.6044 5.63812 13.8589 5.79347C14.0705 5.92242 14.4473 5.86292 14.5564 5.61167V5.60837Z\" fill=\"#89392B\"></path>\n<path d=\"M11.4764 2.75511C11.5491 3.5914 11.2054 4.37811 11.6516 5.16151C11.9755 5.73006 12.8548 5.21771 12.5309 4.64916C12.2201 4.10375 12.5474 3.3534 12.4945 2.75841C12.4383 2.11053 11.4202 2.10392 11.4764 2.75841V2.75511Z\" fill=\"#89392B\"></path>\n<path d=\"M8.10672 4.06086C8.43727 4.70543 8.46702 5.41283 8.96947 5.97803C9.40577 6.46728 10.1231 5.74668 9.69007 5.25743C9.28677 4.8046 9.26032 4.07739 8.98597 3.5452C8.68517 2.96344 7.80592 3.47579 8.10672 4.05756V4.06086Z\" fill=\"#89392B\"></path>\n<path d=\"M19.1574 11.9545C19.7788 11.6041 20.5325 11.7594 21.177 11.4818C21.4316 11.3727 21.4845 11.0025 21.3588 10.7843C21.2101 10.5232 20.9126 10.4934 20.6614 10.6025C20.3771 10.7248 19.9639 10.6918 19.6631 10.738C19.2995 10.7909 18.9624 10.8934 18.6417 11.0752C18.0699 11.3991 18.5855 12.2784 19.1541 11.9545H19.1574Z\" fill=\"#89392B\"></path>\n<path d=\"M18.4735 14.609C19.0685 14.8007 19.6535 15.0123 20.2353 15.2436C20.4931 15.3461 20.7906 15.1313 20.86 14.8866C20.9427 14.5991 20.7576 14.3611 20.5031 14.2619C19.9213 14.0338 19.3362 13.8223 18.7412 13.6272C18.1165 13.4256 17.8487 14.4073 18.4702 14.609H18.4735Z\" fill=\"#89392B\"></path>\n<path d=\"M17.1772 16.4171C17.5541 16.8535 17.8648 17.3327 18.1226 17.8451C18.4201 18.4302 19.2994 17.9145 19.0019 17.3328C18.7011 16.7411 18.3275 16.2023 17.8945 15.6998C17.4681 15.2007 16.7508 15.9246 17.1739 16.4204L17.1772 16.4171Z\" fill=\"#89392B\"></path>\n<path d=\"M13.8154 18.7669C14.06 19.4511 14.3741 20.099 14.7773 20.7072C15.1376 21.2526 16.0202 20.7436 15.6566 20.1949C15.3029 19.6627 15.0153 19.1008 14.7972 18.4992C14.579 17.8876 13.594 18.1521 13.8154 18.7702V18.7669Z\" fill=\"#89392B\"></path>\n<path d=\"M11.2875 19.4312C11.2313 20.132 11.228 20.8328 11.2875 21.5335C11.3404 22.1814 12.3585 22.188 12.3056 21.5335C12.2494 20.8328 12.2494 20.132 12.3056 19.4312C12.3585 18.7768 11.3404 18.7834 11.2875 19.4312Z\" fill=\"#89392B\"></path>\n<path d=\"M8.92615 18.073C8.5493 18.7242 8.2485 19.4117 8.02045 20.129C7.8221 20.7537 8.80385 21.0215 9.00215 20.4001C9.2038 19.7654 9.47155 19.1638 9.8054 18.5886C10.1327 18.0201 9.2534 17.5077 8.92615 18.0763V18.073Z\" fill=\"#89392B\"></path>\n<path d=\"M5.32749 15.9544C4.56063 16.3279 4.07142 16.794 3.40701 17.2898C2.88805 17.6766 3.39379 18.5625 3.91936 18.1691C4.55402 17.6964 5.13579 17.1775 5.83984 16.8337C6.42824 16.5461 5.91259 15.6702 5.32749 15.9544Z\" fill=\"#89392B\"></path>\n<path d=\"M4.50059 13.3727C4.38159 13.4289 4.17665 13.3991 4.04443 13.4256C3.92213 13.4487 3.80643 13.4818 3.68744 13.5148C3.41638 13.5974 3.16517 13.7032 2.87759 13.6999C2.2231 13.6867 2.2231 14.7048 2.87759 14.718C3.26103 14.7246 3.59819 14.6089 3.95849 14.4965C4.31218 14.3875 4.67247 14.4073 5.01295 14.2519C5.60795 13.9776 5.09225 13.1016 4.50059 13.3727Z\" fill=\"#89392B\"></path>\n<path d=\"M5.22091 11.0556C4.39785 10.6457 3.56817 10.2557 2.72526 9.88546C2.13027 9.62431 1.61131 10.5003 2.21291 10.7647C3.05251 11.135 3.88549 11.525 4.70856 11.9349C5.29361 12.2258 5.80931 11.3465 5.22091 11.0556Z\" fill=\"#89392B\"></path>\n<path d=\"M17.1818 5.9917C15.8926 5.9917 14.2796 7.0792 14.8051 7.5618C15.3274 8.0444 17.0198 8.20635 17.3834 7.3998\" fill=\"#89392B\"></path>\n</svg>",
+            "heading": "Can I feed my puppy bones and treats?",
+            "row_content": "<p>Variable factors like lifestyle, appetite and temperament can all impact on a pet’s eventual weight, which is why there is no substitute for knowing your pet.  We recommend that a healthy dog should have a natural waist and that you should be able to feel, but not see, their ribcage. As a rule of “paw”, an adult dog should eat around 2% to 3% of its ideal body weight per day.  For example, a dog weighing 10kg should eat 200g to 300g of raw pet food per day.  <br/><br/></p>"
+          }
+        },
+        "frequently_asked_question_jNxCA9": {
+          "type": "frequently_asked_question",
+          "settings": {
+            "icon": "heart",
+            "another_icon": "",
+            "custom_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<path d=\"M22.6909 18.67L22.0198 15.0944C21.9792 14.8778 21.7936 14.7154 21.577 14.7077C21.0143 14.6845 20.4747 14.5104 20.1189 14.3944L19.6703 14.2513C18.2683 13.8046 17.8448 13.6712 16.319 13.6073C15.3618 13.5706 14.4084 14.0889 13.4841 14.5936C12.8131 14.9591 12.1788 15.3052 11.6508 15.3613C11.3124 15.3961 10.798 15.3787 10.2546 15.3593C8.88936 15.311 7.23596 15.2549 6.57461 15.9143C6.51661 16.3185 6.60171 16.4887 6.67516 16.5854C7.00006 17.005 8.16806 17.0959 9.66096 17.1694C11.2602 17.2487 11.7475 17.4285 12.1768 17.5851C12.4746 17.6954 12.7318 17.7901 13.3758 17.8423C13.5363 17.8559 13.6562 17.997 13.6426 18.1575C13.6291 18.3103 13.5015 18.4263 13.3526 18.4263C13.3448 18.4263 13.3371 18.4263 13.3274 18.4263C12.6042 18.3664 12.2851 18.2484 11.9738 18.1343C11.5658 17.9835 11.1423 17.8288 9.63196 17.7534C7.82581 17.6625 6.69451 17.5639 6.21496 16.9431C6.02156 16.6937 5.94616 16.3804 5.98291 15.9743C2.49046 14.7038 1.67247 15.1254 0.989837 15.808C0.956962 15.8409 0.941492 15.8873 0.949227 15.9337C0.956962 15.9801 0.985967 16.0188 1.02658 16.04C1.50036 16.2837 2.14818 16.6337 2.88689 17.0321C5.47236 18.4244 9.01506 20.3331 10.4906 20.7005C10.6414 20.7391 10.8135 20.7566 11.005 20.7566C12.1285 20.7566 13.8747 20.1493 15.5706 19.5576C17.1544 19.0065 18.7923 18.436 19.3763 18.612C20.3162 18.8943 21.517 19.1225 22.1475 19.2327C22.3022 19.2598 22.4588 19.2095 22.569 19.0993C22.6793 18.9871 22.7276 18.8286 22.6986 18.6758L22.6909 18.67Z\" fill=\"#89392B\"></path>\n<path d=\"M14.4324 4.37378C13.9277 4.29836 13.276 4.21714 12.7654 4.22294C12.7229 4.01409 12.1872 2.95438 12.0944 2.61983C12.0635 2.50767 11.9242 2.50187 11.8778 2.61016C11.6264 3.19417 11.4737 3.70082 11.1237 4.23648C10.8007 4.28676 9.2382 4.26742 9.17435 4.41826C9.1531 4.46853 9.17435 4.52848 9.2169 4.55169C9.7081 4.80308 10.1278 5.13375 10.6654 5.45865C10.5339 5.8299 10.2941 6.7678 10.18 7.1449C10.149 7.2493 10.2747 7.35375 10.3598 7.2667C10.7195 6.9921 11.4698 6.528 11.8102 6.3501C12.34 6.675 12.6262 6.9805 13.1831 7.25705C13.2682 7.2996 13.3359 7.1971 13.3301 7.1217C13.2779 6.4816 13.2122 6.03875 13.1116 5.4064C13.2914 5.29425 14.4227 4.70639 14.5175 4.55555C14.5677 4.47433 14.5175 4.38925 14.4324 4.37571\" fill=\"#89392B\"></path>\n<path d=\"M19.5941 6.89696C19.1106 6.73261 18.4841 6.53536 17.9794 6.45026C17.9755 6.23756 17.6371 5.09856 17.6062 4.7524C17.5965 4.63637 17.4592 4.60543 17.3954 4.70405C17.0434 5.23391 16.8036 5.70381 16.3627 6.16791C16.0359 6.15826 14.5024 5.86046 14.4135 5.99776C14.3845 6.04221 14.3941 6.10606 14.4309 6.13506C14.8679 6.46961 15.2218 6.86991 15.6936 7.28761C15.4983 7.62986 15.0942 8.50781 14.9143 8.85976C14.866 8.95646 14.9704 9.08216 15.069 9.01251C15.4713 8.80756 16.2931 8.48266 16.6605 8.37051C17.1227 8.78436 17.3509 9.13631 17.8479 9.50756C17.9233 9.56366 18.0103 9.47471 18.0161 9.40121C18.0799 8.76306 18.0935 8.31636 18.1089 7.67626C18.3062 7.59891 19.5245 7.22186 19.6444 7.09036C19.7082 7.02071 19.6714 6.92596 19.5922 6.89891\" fill=\"#89392B\"></path>\n<path d=\"M22.9971 10.4824C22.5059 10.3451 21.8697 10.1846 21.3611 10.1266C21.3437 9.91391 20.9434 8.79811 20.8931 8.45196C20.8757 8.33591 20.7384 8.31271 20.6804 8.41521C20.3594 8.96441 20.1448 9.44786 19.7309 9.93516C19.4041 9.94481 17.8571 9.73211 17.7759 9.87521C17.7488 9.92161 17.7623 9.98546 17.801 10.0125C18.2574 10.3219 18.6325 10.7029 19.1257 11.0916C18.9497 11.4435 18.5939 12.3447 18.4372 12.7044C18.3928 12.803 18.5069 12.9229 18.5997 12.8475C18.9903 12.6193 19.7928 12.2499 20.1525 12.1165C20.6379 12.5052 20.8835 12.8417 21.4017 13.1859C21.481 13.2381 21.5622 13.1453 21.5642 13.0698C21.5912 12.4278 21.5796 11.9811 21.5603 11.341C21.7518 11.2521 22.9488 10.8073 23.0609 10.67C23.1209 10.5965 23.0803 10.5037 22.999 10.4824\" fill=\"#89392B\"></path>\n<path d=\"M9.30969 6.23595C8.80109 6.26495 8.14554 6.3191 7.64664 6.4293C7.56154 6.234 6.82089 5.3077 6.66039 4.99637C6.60624 4.89195 6.46894 4.91515 6.44574 5.0312C6.32004 5.6558 6.27364 6.1818 6.03964 6.7774C5.73219 6.8934 4.20061 7.19315 4.16966 7.35365C4.16 7.40585 4.19287 7.46195 4.23735 7.4755C4.76914 7.6205 5.24679 7.85835 5.84044 8.0672C5.78824 8.45785 5.74379 9.42475 5.71089 9.8173C5.70124 9.9256 5.84624 10.003 5.91199 9.90045C6.20789 9.55815 6.84799 8.94905 7.14384 8.70535C7.72784 8.91615 8.07204 9.15595 8.67349 9.31065C8.76434 9.33385 8.81079 9.21975 8.78949 9.1482C8.60774 8.53325 8.45304 8.11365 8.22484 7.51415C8.37759 7.3672 9.36579 6.5608 9.42764 6.39255C9.46054 6.3036 9.39089 6.2301 9.30774 6.234\" fill=\"#89392B\"></path>\n<path d=\"M5.9852 10.842C5.4747 10.8227 4.81912 10.813 4.31053 10.8768C4.24478 10.6738 3.59503 9.67983 3.46547 9.35688C3.42292 9.24858 3.28369 9.25829 3.24888 9.37044C3.06324 9.97959 2.96848 10.4978 2.67841 11.0702C2.36127 11.1553 0.808438 11.3081 0.762028 11.4666C0.746558 11.5189 0.775563 11.5769 0.818108 11.5943C1.33249 11.7896 1.78693 12.0719 2.3574 12.3368C2.26845 12.7197 2.13115 13.6789 2.06153 14.0657C2.0422 14.172 2.17949 14.2629 2.25298 14.1662C2.57979 13.8529 3.27402 13.3095 3.59503 13.0949C4.15583 13.3598 4.47491 13.6306 5.0589 13.8433C5.14785 13.8761 5.20395 13.7659 5.1904 13.6924C5.0686 13.062 4.95449 12.6308 4.78431 12.012C4.95062 11.8805 6.01035 11.1708 6.0877 11.0103C6.1283 10.9252 6.06835 10.844 5.98325 10.842\" fill=\"#89392B\"></path>\n</svg>",
+            "heading": "How often should I feed my dog?",
+            "row_content": "<p>Variable factors like lifestyle, appetite and temperament can all impact on a pet’s eventual weight, which is why there is no substitute for knowing your pet.  <br/>We recommend that a healthy dog should have a natural waist and that you should be able to feel, but not see, their ribcage. <br/>As a rule of “paw”, an adult dog should eat around 2% to 3% of its ideal body weight per day.  For example, a dog weighing 10kg should eat 200g to 300g of raw pet food per day.  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "frequently_asked_question_bx6pxT",
+        "frequently_asked_question_zWVDxy",
+        "frequently_asked_question_jNxCA9"
+      ],
+      "name": "t:sections.question_and_answer.name",
+      "settings": {
+        "heading": "Frequently asked questions",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "show_border": false,
+        "row_background": false,
+        "collapsible": true,
+        "show_view_all": false,
+        "view_all_position": "bottom",
+        "button_link": "",
+        "open_new_window": false,
+        "background_color_light": "#f9f9f9",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "enable_microdata_schema": false,
+        "desktop_layout": "1",
+        "image_alignment": "left",
+        "desktop_height": "550px",
+        "show_section_divider": false,
+        "make_full_page_width": false,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "image_alignment_mobile": "left",
+        "mobile_height": "250px",
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60
+      }
+    },
+    "multicolumn_YFtdiP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RCmV9y": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "another_icon": "",
+            "custom_image": "",
+            "custom_icon": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 100,
+            "text": "<p>30 days health guarantee</p>"
+          }
+        },
+        "column_wrDBXN": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "another_icon": "",
+            "custom_image": "",
+            "custom_icon": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 100,
+            "text": "<p>4.5 out of 20,861 reviews</p>"
+          }
+        },
+        "column_WcbY3i": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "another_icon": "",
+            "custom_image": "",
+            "custom_icon": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 100,
+            "text": "<p>Ordered before 12pm, shipped today</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_RCmV9y",
+        "column_wrDBXN",
+        "column_WcbY3i"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "title": "",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "secondary_background": "section",
+        "border_column": "none",
+        "column_content_alignment": "center",
+        "icon_position": "next",
+        "icon_size": 24,
+        "enable_desktop_slider": false,
+        "swiper_on_mobile": true,
+        "enable_arrow_mobile": false,
+        "auto_play": true,
+        "change_bar_every": 5,
+        "background_color_light": "#fedbc4",
+        "heading_light": "rgba(0,0,0,0)",
+        "text_light": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "line_border_light": "rgba(0,0,0,0)",
+        "color_icon_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "heading_dark": "rgba(0,0,0,0)",
+        "text_dark": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "line_border_dark": "rgba(0,0,0,0)",
+        "color_icon_dark": "rgba(0,0,0,0)",
+        "column_layout_desktop": "lg:w-1/3",
+        "section_height_desktop": "md:py-0",
+        "spacing_desktop": 28,
+        "full_width": false,
+        "padding_full_width": false,
+        "show_section_divider": false,
+        "padding_top": 12,
+        "padding_bottom": 16,
+        "column_layout_mobile": "w-full",
+        "section_height_mobile": "py-5",
+        "spacing_mobile": 16,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "shop_the_look_gXHRw4",
+    "media_gallery_hKeczj",
+    "scrolling_banner_XarVYk",
+    "product-recommendations",
+    "social_feeds_FByaVw",
+    "related_blog_posts_3gMyhF",
+    "faq_yJqcc4",
+    "multicolumn_YFtdiP"
+  ]
+}

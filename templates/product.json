@@ -1,1038 +1,21 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "promotion_banner_qb8c8h": {
-      "type": "promotion-banner",
-      "blocks": {
-        "image_banner_rc6zRV": {
-          "type": "image_banner",
-          "settings": {
-            "heading": "Our customers have taken us to the top",
-            "highlight_type": "underline",
-            "heading_size": 160,
-            "heading_tag": "h2",
-            "subheading": "",
-            "text": "",
-            "text_size": 130,
-            "content_box_type": "square",
-            "add_frame": false,
-            "color_content_box_light": "rgba(0,0,0,0)",
-            "color_content_box_dark": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "image_banner_rc6zRV"
-      ],
-      "settings": {
-        "heading": "Promotion Banner",
-        "image": "shopify://shop_images/img_-_2024-09-04T144115.003.png",
-        "image_link": "",
-        "open_new_window": false,
-        "image_overlay_opacity": 0,
-        "content_position": "center",
-        "content_horizontal": 50,
-        "content_vertical": 50,
-        "position_content_mobile": "center",
-        "content_alignment": "center",
-        "show_hero": false,
-        "full_width": true,
-        "padding_full_width": false,
-        "rounded_corner_image": false,
-        "desktop_height": "750px",
-        "padding_top": 0,
-        "padding_bottom": 28,
-        "full_width_mobile": true,
-        "rounded_corner_image_mobile": false,
-        "mobile_height": "400px",
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 20
-      }
-    },
-    "flash_sale_DnnmAY": {
-      "type": "flash-sale",
-      "blocks": {
-        "image_banner_jTABmV": {
-          "type": "image_banner",
-          "settings": {
-            "heading": "Hype sale now on! An unprecedented 95% discount is all yours!",
-            "highlight_type": "underline",
-            "heading_size": 110,
-            "heading_tag": "h2",
-            "text": "<p>Don't miss this truly exceptional value-for-money special offer!</p>",
-            "text_size": 120,
-            "coupon_code": "",
-            "coupon_color": "#ffffff",
-            "coupon_color_dark": "rgba(0,0,0,0)"
-          }
-        },
-        "countdown_timer_GakxBC": {
-          "type": "countdown_timer",
-          "settings": {
-            "timezone": "-4",
-            "end_year": 2024,
-            "end_month": "9",
-            "end_day": "10",
-            "end_hour": "0",
-            "end_minute": "0",
-            "timer_style": "square",
-            "border_style": "line_vertical",
-            "overlay_opacity": 100,
-            "timer_color_countdown": "#ffffff",
-            "text_color_countdown": "#ffffff",
-            "bg_color_countdown": "rgba(0,0,0,0)",
-            "spacing_col": 40,
-            "spacing_col_mobile": 8
-          }
-        }
-      },
-      "block_order": [
-        "image_banner_jTABmV",
-        "countdown_timer_GakxBC"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "show_hero": false,
-        "border_section": "none",
-        "content_layout": "horizontal",
-        "content_alignment": "left",
-        "full_width": false,
-        "padding_full_width": false,
-        "rounded_corner_image": true,
-        "spacing_col": 40,
-        "spacing_row": 32,
-        "padding_top": 0,
-        "padding_bottom": 28,
-        "content_alignment_mobile": "center",
-        "full_width_mobile": false,
-        "rounded_corner_image_mobile": true,
-        "spacing_row_mobile": 20,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 20,
-        "background_color_light": "#02bab2",
-        "heading_light": "#ffffff",
-        "text_light": "#ffffff",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "line_border_light": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "line_border_dark": "rgba(0,0,0,0)"
-      }
-    },
-    "page_9na79f": {
-      "type": "page",
-      "custom_css": [
-        ".text-container {--h2-font-size: var(--h3-font-size); text-align: center;}",
-        ".text-container .text-left {max-width: 56rem; display: inline-block;}",
-        "table {max-width: 1024px; display: inline-table;}",
-        "table td,table tr,table {border: none;}"
-      ],
-      "settings": {
-        "select_page": "as-featured-in-the-media",
-        "heading_light": "rgba(0,0,0,0)",
-        "text_light": "rgba(0,0,0,0)",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 28,
-        "padding_bottom": 60,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 44
-      }
-    },
-    "page_ahy8eK": {
-      "type": "page",
-      "custom_css": [
-        ".text-container {background: linear-gradient( 90deg, rgba(6, 48, 166, 1) 10.5%, rgba(2, 203, 204, 1) 75.5% );}"
-      ],
-      "settings": {
-        "select_page": "why-should-you-learn-languages-with-our-courses",
-        "heading_light": "#ffffff",
-        "text_light": "#ffffff",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 52,
-        "padding_bottom": 52,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "rich_text_j4eHr3": {
-      "type": "rich-text",
-      "blocks": {
-        "text_YKkL6R": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Are you ready to speak French with ease and confidence?</p>",
-            "number_of_lines_shown": "none",
-            "read_more_label": "Read more"
-          }
-        },
-        "button_MyYhT9": {
-          "type": "button",
-          "settings": {
-            "button_label": "Please scroll down for more information or BUY NOW",
-            "button_link": "#shopify-section-template--23499450220885__main",
-            "open_new_window_button": false,
-            "show_button_style_1": "primary",
-            "button_label_2": "",
-            "open_new_window_button_2": false,
-            "button_link_2": "",
-            "show_button_style_2": "primary",
-            "color_button": "rgba(0,0,0,0)",
-            "color_button_hover": "rgba(0,0,0,0)",
-            "color_text_button": "rgba(0,0,0,0)",
-            "color_text_button_hover": "rgba(0,0,0,0)",
-            "color_button_secondary": "rgba(0,0,0,0)",
-            "secondary_button_text": "rgba(0,0,0,0)"
-          }
-        },
-        "heading_tYmVfx": {
-          "type": "heading",
-          "settings": {
-            "heading": "Convenient And Easy Website Navigation:",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "heading_tag": "h2"
-          }
-        },
-        "text_FpiFtW": {
-          "type": "text",
-          "settings": {
-            "text": "<p></p><p>This website is designed to provide you with the specific information that you require. These instant-scroll links will get you straight to where you want to go. Simply click on an instant-scroll link for:</p><ul><li>A detailed description or a summary of this particular course.A comparison with our competitors.</li><li>How our effective learning methods strategically reinforce the correct response.</li><li>How you will save time with these modern courses.</li><li>What our customers are saying about us.</li><li>Why multi-device online learning is efficient and stress-free.</li></ul><p>If you would like information on all of the above, simply scroll down this page. We warmly invite you to take your time and continue reading until you are ready to check out our current special offer. Our website has no pop-ups or flickering messages, just relevant content. Enjoy!</p>",
-            "number_of_lines_shown": "none",
-            "read_more_label": "Read more"
-          }
-        }
-      },
-      "block_order": [
-        "text_YKkL6R",
-        "button_MyYhT9",
-        "heading_tYmVfx",
-        "text_FpiFtW"
-      ],
-      "custom_css": [
-        "h2 {text-align: left;}",
-        ".anm-fade-paragraph > div:last-child {text-align: left;}"
-      ],
-      "settings": {
-        "heading_light": "rgba(0,0,0,0)",
-        "text_light": "#2e4351",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "content_alignment": "center",
-        "show_section_divider": false,
-        "make_full_page_width": true,
-        "padding_top": 40,
-        "padding_bottom": 44,
-        "content_alignment_mobile": "center",
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "page_HkGJaV": {
-      "type": "page",
-      "custom_css": [
-        ".text-container {background: linear-gradient( 270deg, rgba(6, 48, 166, 1) 10.5%, rgba(2, 203, 204, 1) 75.5% );}"
-      ],
-      "settings": {
-        "select_page": "an-overview-of-the-language-basic-course",
-        "heading_light": "#ffffff",
-        "text_light": "#ffffff",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 20,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "page_AUwe3R": {
-      "type": "page",
-      "custom_css": [
-        ".text-container {background: linear-gradient( 270deg, rgba(6, 48, 166, 1) 10.5%, rgba(2, 203, 204, 1) 75.5% );}"
-      ],
-      "settings": {
-        "select_page": "an-overview-of-the-conversation-categories-in-the-basic-course",
-        "heading_light": "#ffffff",
-        "text_light": "#ffffff",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 12,
-        "padding_bottom": 28,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "page_VgXg73": {
-      "type": "page",
-      "custom_css": [
-        ".text-container {background: linear-gradient( 270deg, rgba(6, 48, 166, 1) 10.5%, rgba(2, 203, 204, 1) 75.5% );}"
-      ],
-      "settings": {
-        "select_page": "the-languages-basic-course-provides-you-with",
-        "heading_light": "#ffffff",
-        "text_light": "#ffffff",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 52,
-        "padding_bottom": 60,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "rich_text_BVh4tW": {
-      "type": "rich-text",
-      "blocks": {
-        "text_LCjExj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Would you like to learn more effectively and get perfect results much faster than you would with conventional methods? </p><p>Would you like goal-specific motivational techniques and complete immersion learning methods that guarantee success? </p><p>Would you like the freedom to determine when, for how long and where you learn?</p><p>Would you like an intuitive and thorough approach to learning the essential basics of French?</p><p>Would you like to make a great impression on French speakers?</p>",
-            "number_of_lines_shown": "none",
-            "read_more_label": "Read more"
-          }
-        },
-        "text_kdh4e9": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Yes? Then the French Basic Course is right for you!</strong></p>",
-            "number_of_lines_shown": "none",
-            "read_more_label": "Read more"
-          }
-        }
-      },
-      "block_order": [
-        "text_LCjExj",
-        "text_kdh4e9"
-      ],
-      "custom_css": [
-        ".anm-fade-paragraph > div {padding: 0px;}",
-        "@media (min-width: 768px) {.anm-fade-paragraph {font-size: 20px; } .anm-fade-paragraph > div:nth-child(2) {padding-top: 0px; font-size: 22px; }}"
-      ],
-      "settings": {
-        "heading_light": "rgba(0,0,0,0)",
-        "text_light": "#ffffff",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "#0560a3",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "#0560a3",
-        "content_alignment": "left",
-        "show_section_divider": false,
-        "make_full_page_width": true,
-        "padding_top": 44,
-        "padding_bottom": 44,
-        "content_alignment_mobile": "left",
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "page_tfYgCt": {
-      "type": "page",
-      "settings": {
-        "select_page": "the-advantages-of-completing-both-the-basic-course-and-the-intermediate-course",
-        "heading_light": "rgba(0,0,0,0)",
-        "text_light": "rgba(0,0,0,0)",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 76,
-        "padding_bottom": 28,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "page_CDy8m6": {
-      "type": "page",
-      "settings": {
-        "select_page": "you-will-receive-a-better-product-at-a-better-price",
-        "heading_light": "rgba(0,0,0,0)",
-        "text_light": "rgba(0,0,0,0)",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "#dde6f4",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 76,
-        "padding_bottom": 76,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "page_zjfjKc": {
-      "type": "page",
-      "settings": {
-        "select_page": "profound-scientific-knowledge-company-mission-statement",
-        "heading_light": "rgba(0,0,0,0)",
-        "text_light": "rgba(0,0,0,0)",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "page_hDmtrc": {
-      "type": "page",
-      "custom_css": [],
-      "settings": {
-        "select_page": "an-overview-of-our-effective-learning-methods",
-        "heading_light": "#ffffff",
-        "text_light": "#ffffff",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "#0560a3",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "text_column_with_image_qwLJPR": {
-      "type": "text-column-with-image",
-      "blocks": {
-        "column_yUtdNE": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-10T101039.335.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Instant Check",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>This is a quick way to learn and test yourself. Read a word / commonly-used phrase / sentence from a dialog text and think about the translation. You will also hear the word / phrase / sentence in French. Click on 'Show answer', then click on whether you knew the correct answer or not. This saves time because you don't have to type in the answer. You can switch back and forth between testing yourself in English or in French.</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        },
-        "column_ribCFT": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-10T101043.431.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Multiple Choice",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>Read a word in either French or English and think about the translation. Listen to the word in French. You will then be presented with your choice of between three and fifteen possible translations (you can choose how many possible translations appear). You then have fun choosing the one correct translation.</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        },
-        "column_inicNx": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093443.026.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Entering Text",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>This is a very thorough method. You can type in the translation of words or commonly-used phrases. If your spelling is correct, simply move on. If not, type in the correct spelling as shown. This learning method ensures that you have spelled every word and phrase in the course correctly.</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        },
-        "column_zRUXFe": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093253.732.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Read and Listen",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>Read through a list of French words, commonly-used phrases or sentences from the dialog texts. With a simple click you can also hear all of the words / phrases / sentences in French, as often as you wish. Listening is a relaxing yet very effective learning method. You automatically associate what you hear with what you read. The entire contents of a lesson will be presented, which provides a convenient overview of the particular lesson.</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        },
-        "column_g8Tahg": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093258.372.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Quick-Show",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>Read the words or sentences as they appear on your screen, listen to them in French and then repeat what you have just heard. This is a copying game. Pretend you’re an actor and you have to imitate the native speakers. Whatever they say, you have to say. You will quickly develop accurate French pronunciation and intonation. You can decide how much time elapses before the next word or sentence appears.</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        },
-        "column_ErAAML": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093302.238.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Learn Individual Words",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>Read an individual word in either English or French. You will also see a picture that depicts the meaning of the word. Think about the translation, then with a simple click the correct translation appears. Your progress is greatly supported by a familiar context. Based on your existing knowledge, a clear connection between the sight of the picture and the sound of the French word is created.</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        },
-        "column_YM9WwN": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093305.739.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Hidden Text",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>A list of covered words or sentences will be presented to you, in your choice of either English or French. You simply uncover the correct translation by 'hovering' over the covered section with your cursor. This is the fastest way to test your knowledge of French words and sentences.</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        },
-        "column_PKQGn3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093309.312.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Dictation",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>Individual words or sentences will be read to you in French. You then type in what you have just heard, without reference to the text or the English translation. This exercise is recommended for those who are nearing the end of a course and would like to practice their French spelling or sentence structure.</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        },
-        "column_7BNNb3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093313.389.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Flash Cards",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>You can make your own flash cards by printing words and sentences onto paper. This is a great way to learn when you don't have Internet access. All you need is a standard printer with standard paper and a pair of scissors. You can print out the current lesson, or all lessons.</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        },
-        "column_9p9Nk8": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093316.899.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Digital Dictionary with Search Function",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>Type a word into the 'Search function' and it will instantly be translated. You can view all of the references to the word in the course at the same time so that you learn how the word is used in various contexts. With a simple click you can also hear all of the references in French.</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        },
-        "column_7qMih4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093320.455.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Complete the Word",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>Only the first part of a word will be visible and you have to complete the word. This learning method is very helpful when focusing on French words where the last part of the word changes to give a slightly different meaning.</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        },
-        "column_LCQDNq": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093324.824.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Jumbled Words",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>The words of a sentence will be randomly scrambled. You then put the words back together in the correct order by considering the translation. This learning method improves your French grammar, comprehension and sentence construction.</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        },
-        "column_dUFKzK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093330.515.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Missing Word - Cloze Test",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>Read a sentence in French with a word missing. Think about the correct way to fill in the gap. You then fill in the gap by clicking on the designated symbol or pressing 'Enter'. This learning method improves your French grammar, comprehension and sentence construction.</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "column_yUtdNE",
-        "column_ribCFT",
-        "column_inicNx",
-        "column_zRUXFe",
-        "column_g8Tahg",
-        "column_ErAAML",
-        "column_YM9WwN",
-        "column_PKQGn3",
-        "column_7BNNb3",
-        "column_9p9Nk8",
-        "column_7qMih4",
-        "column_LCQDNq",
-        "column_dUFKzK"
-      ],
-      "custom_css": [
-        ".lg\\:w-1\\/4 > div {padding: 15px; border: dashed 1px rgba(var(--colors-line-and-border), 1); border-radius: 6px;}",
-        ".splide__list {justify-content: left;}"
-      ],
-      "settings": {
-        "title": "",
-        "highlight_type": "underline",
-        "heading_size": 100,
-        "heading_tag": "h2",
-        "secondary_background": "section",
-        "image_ratio": "natural",
-        "rounded_corner_image": false,
-        "column_content_alignment": "center",
-        "background_color_light": "#0560a3",
-        "heading_light": "#ffffff",
-        "text_light": "#ffffff",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "enable_desktop_slider": false,
-        "swiper_on_mobile": true,
-        "auto_play": false,
-        "change_bar_every": 5,
-        "column_layout_desktop": "lg:w-1/4",
-        "spacing_desktop": 28,
-        "full_width": false,
-        "padding_full_width": false,
-        "show_section_divider": false,
-        "padding_top": 28,
-        "padding_bottom": 28,
-        "column_layout_mobile": "w-full",
-        "spacing_mobile": 16,
-        "full_width_mobile": false,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 20
-      }
-    },
-    "page_MgACji": {
-      "type": "page",
-      "settings": {
-        "select_page": "various-learning-tricks-and-tips",
-        "heading_light": "rgba(0,0,0,0)",
-        "text_light": "rgba(0,0,0,0)",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "#dde6f4",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 44,
-        "padding_bottom_mobile": 44
-      }
-    },
-    "page_KTfxUV": {
-      "type": "page",
-      "custom_css": [
-        ".rte ul {list-style-position: inside;}"
-      ],
-      "settings": {
-        "select_page": "learn-french-32-9-faster-with-super-learning-music",
-        "heading_light": "#ffffff",
-        "text_light": "#ffffff",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "#047faf",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "page_Y9Gdfw": {
-      "type": "page",
-      "settings": {
-        "select_page": "what-our-customers-are-saying-about-us",
-        "heading_light": "rgba(0,0,0,0)",
-        "text_light": "rgba(0,0,0,0)",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "#f1f2ea",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "page_YnrwJD": {
-      "type": "page",
-      "custom_css": [
-        "img {width: 50%;}"
-      ],
-      "settings": {
-        "select_page": "learning-online-is-easy-safe-efficient-and-stress-free",
-        "heading_light": "#ffffff",
-        "text_light": "#ffffff",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "#047faf",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 56,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "page_tTXiVf": {
-      "type": "page",
-      "settings": {
-        "select_page": "eighteen-reasons-why-streaming-is-awesome",
-        "heading_light": "#0c2e44",
-        "text_light": "#2e4351",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "#dde6f4",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 56,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "page_KyJ6hY": {
-      "type": "page",
-      "custom_css": [
-        ".h2.text-left {display: none;}"
-      ],
-      "settings": {
-        "select_page": "maybe-ive-found-another-language-course-that-seems-very-cheap-whats-your-opinion",
-        "heading_light": "#ffffff",
-        "text_light": "#ffffff",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "#02b2c2",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "text_column_with_image_T3M796": {
-      "type": "text-column-with-image",
-      "blocks": {
-        "column_HDMPYi": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-10T110615.554.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "David Barenberg,",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>Co-CEO and owner ofLearnLanguages24</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        },
-        "column_XFgAt6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-10T110610.477.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Brad Daynes,",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>Co-CEO and owner ofLearnLanguages24</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        },
-        "column_U3G96D": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-10T110606.827.png",
-            "image_link": "",
-            "open_new_window_image": false,
-            "sub_title": "",
-            "title": "Udo Gollub,",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "text": "<p>CEO and owner ofOnline Media World</p>",
-            "button_label": "",
-            "button_link": "",
-            "open_new_window": false,
-            "show_button_style": "primary"
-          }
-        }
-      },
-      "block_order": [
-        "column_HDMPYi",
-        "column_XFgAt6",
-        "column_U3G96D"
-      ],
-      "settings": {
-        "title": "Our personal promise to you",
-        "highlight_type": "underline",
-        "heading_size": 100,
-        "heading_tag": "h2",
-        "secondary_background": "column",
-        "image_ratio": "150%",
-        "rounded_corner_image": false,
-        "column_content_alignment": "start",
-        "background_color_light": "rgba(0,0,0,0)",
-        "heading_light": "rgba(0,0,0,0)",
-        "text_light": "rgba(0,0,0,0)",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "enable_desktop_slider": false,
-        "swiper_on_mobile": false,
-        "auto_play": false,
-        "change_bar_every": 5,
-        "column_layout_desktop": "lg:w-1/3",
-        "spacing_desktop": 28,
-        "full_width": false,
-        "padding_full_width": false,
-        "show_section_divider": false,
-        "padding_top": 64,
-        "padding_bottom": 64,
-        "column_layout_mobile": "w-full",
-        "spacing_mobile": 16,
-        "full_width_mobile": false,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 20
-      }
-    },
-    "page_gwyJAJ": {
-      "type": "page",
-      "custom_css": [
-        ".h2.text-left {display: none;}"
-      ],
-      "settings": {
-        "select_page": "try-our-courses-without-any-risk-at-all",
-        "heading_light": "rgba(0,0,0,0)",
-        "text_light": "rgba(0,0,0,0)",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 28,
-        "padding_bottom": 28,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
         "rating_AeRdFJ": {
           "type": "rating",
-          "disabled": true,
           "settings": {}
-        },
-        "text_YphThh": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>Buy your {{ product.title }} language Courses here</h2>",
-            "number_of_lines_shown": "none",
-            "read_more_label": "Read more"
-          }
         },
         "product_name_xkPbAa": {
           "type": "product_name",
-          "disabled": true,
           "settings": {
             "title_size": 100,
             "heading_tag": "h1"
           }
         },
-        "text_fNKLrY": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You are minutes away from speaking a new language with ease and confidence. Your complete peace of mind is very important to us, therefore we provide <strong>three guarantees :</strong>a 31 day <strong>100%-money-back </strong>satisfaction guarantee, a <strong>lifetime-access </strong>guarantee and a <strong>lowest-price-ever </strong>guarantee. You have no risk at all and nothing to lose, but a lot to gain.<br/><br/>Please select <strong>one of the three options </strong>depending on whether you want to be fluent in <strong>several languages</strong>, you want to be fluent in <strong>one language </strong>or you only want a <strong>single course</strong>.<br/><br/>Our prices are listed in U.S. dollars for international reference, but payment in Shopify’s checkout will automatically be in your local currency using the current exchange rate. Once you have selected one of the three options by clicking on the Buy Now button, you can pay in your local currency.</p>",
-            "number_of_lines_shown": "none",
-            "read_more_label": "Read more"
-          }
-        },
         "price": {
           "type": "price",
-          "disabled": true,
           "settings": {
             "show_tax_and_shipping": false,
             "text_size_price": 70
@@ -1040,9 +23,9 @@
         },
         "ffacb41b-c15e-41ee-864a-cfbf155d407d": {
           "type": "estimate_delivery",
-          "disabled": true,
           "settings": {
             "hide_when_pre_order": false,
+            "box_type": "square",
             "message": "<p>Estimated delivery between <strong>earliest_delivery_date and latest_delivery_date.</strong></p>",
             "tooltip_text": "",
             "tooltip_icon": "none",
@@ -1050,9 +33,8 @@
             "tooltip_icon_position": "left",
             "tooltip_message": "",
             "show_background": true,
-            "box_type": "square",
-            "background_color_light": "#e4edfa",
-            "message_color_light": "#568ddd",
+            "background_color_light": "rgba(0,0,0,0)",
+            "message_color_light": "rgba(0,0,0,0)",
             "background_color_dark": "rgba(0,0,0,0)",
             "message_color_dark": "rgba(0,0,0,0)",
             "bg_tooltip_color_light": "rgba(0,0,0,0)",
@@ -1070,13 +52,8 @@
             "swatch_size": "small"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "gift_wrapping_EK3NQn": {
           "type": "gift_wrapping",
-          "disabled": true,
           "settings": {
             "text_gift": "",
             "color_icon_light": "rgba(0,0,0,0)",
@@ -1086,7 +63,10 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "show_button_style": "secondary",
             "show_dynamic_checkout": true,
+            "show_add_to_cart": true,
+            "show_atc_quantity": true,
             "show_gift_card_recipient": true,
             "pickup_availability": false,
             "hide_when_pre_order": false,
@@ -1132,36 +112,42 @@
             "line_border_dark": "rgba(0,0,0,0)",
             "color_icon_dark": "rgba(0,0,0,0)",
             "icon_1": "none",
+            "another_icon_1": "",
             "custom_icon_1": "",
             "title_1": "ICON",
             "text_1": "<ul><li>Anti-Aging</li><li>Firms</li><li>Moisturizes</li></ul>",
             "link_1": "",
             "open_new_window_1": false,
             "icon_2": "none",
+            "another_icon_2": "",
             "custom_icon_2": "",
             "title_2": "ICON",
             "text_2": "<ul><li>Mature</li><li>Dry</li><li>Sensitive</li></ul>",
             "link_2": "",
             "open_new_window_2": false,
             "icon_3": "none",
+            "another_icon_3": "",
             "custom_icon_3": "",
             "title_3": "ICON",
             "text_3": "<p>Fragrance-free</p>",
             "link_3": "",
             "open_new_window_3": false,
             "icon_4": "truck",
+            "another_icon_4": "",
             "custom_icon_4": "",
             "title_4": "",
             "text_4": "",
             "link_4": "",
             "open_new_window_4": false,
             "icon_5": "truck",
+            "another_icon_5": "",
             "custom_icon_5": "",
             "title_5": "",
             "text_5": "",
             "link_5": "",
             "open_new_window_5": false,
             "icon_6": "truck",
+            "another_icon_6": "",
             "custom_icon_6": "",
             "title_6": "",
             "text_6": "",
@@ -1172,16 +158,20 @@
         "description": {
           "type": "description",
           "settings": {
-            "show_in_tab": false,
-            "open_by_default": false,
+            "show_in_tab": true,
+            "open_by_default": true,
             "make_content_center": false,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "heading": "Description",
             "number_of_lines_shown": "none",
-            "read_more_label": "Read more"
+            "read_more_label": "Read more",
+            "see_less_label": "See less"
           }
         },
         "complementary_XCwmDV": {
           "type": "complementary",
-          "disabled": true,
           "settings": {
             "heading": "Buy It With",
             "show_tab": false,
@@ -1192,15 +182,16 @@
             "enable_swiper_mobile": true,
             "image_ratio": "square",
             "show_vendor": false,
-            "show_product_rating": false
+            "show_product_rating": false,
+            "add_as_bundle": false
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "open_by_default": false,
             "icon": "none",
+            "another_icon": "",
             "custom_icon": "",
             "use_secondary_background": false,
             "heading": "Returns + Exchanges",
@@ -1209,10 +200,10 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "open_by_default": false,
             "icon": "none",
+            "another_icon": "",
             "custom_icon": "",
             "use_secondary_background": false,
             "heading": "Giving Back",
@@ -1221,26 +212,23 @@
         },
         "social-sharing": {
           "type": "social_sharing",
-          "disabled": true,
           "settings": {}
         },
         "sticky-atc": {
           "type": "sticky_add_to_cart",
           "settings": {
             "desktop_display_type": "full_width",
-            "show_quantity_selector": false
+            "show_quantity_selector": false,
+            "link_to_atc_btn": false
           }
         }
       },
       "block_order": [
         "rating_AeRdFJ",
-        "text_YphThh",
         "product_name_xkPbAa",
-        "text_fNKLrY",
         "price",
         "ffacb41b-c15e-41ee-864a-cfbf155d407d",
         "variant_picker",
-        "quantity_selector",
         "gift_wrapping_EK3NQn",
         "buy_buttons",
         "feature_icon_99BxnX",
@@ -1250,9 +238,6 @@
         "collapsible-row-0",
         "social-sharing",
         "sticky-atc"
-      ],
-      "custom_css": [
-        ".main-product .content-template--23499450220885__main {background: linear-gradient( 90deg, rgba(6, 48, 166, 1) 10.5%, rgba(2, 203, 204, 1) 75.5% ); color: #ffffff; --colors-heading: (1, 1, 1);}"
       ],
       "settings": {
         "enable_sticky_image": true,
@@ -1267,18 +252,20 @@
         "show_arrow_button": true,
         "mobile_media_size": "full_width",
         "show_thumnail_mobile": false,
-        "image_ratio": "square",
+        "transition_style": "fade",
+        "image_ratio": "3/4",
         "thumbnail_position": "vertical",
         "enable_image_zoom": false,
+        "zoom_effect": "enlarge",
         "enable_video_autoplay": false,
         "enable_video_loop": false,
         "show_first_image_avaiable": true,
         "show_media_with_variant_selected": false,
         "option_to_classify_variant_media": "",
         "enable_microdata": false,
-        "show_breadcrumbs": false,
-        "show_breadcrumbs_border": false,
-        "full_width_breadcrumb": false,
+        "show_breadcrumbs": true,
+        "show_breadcrumbs_border": true,
+        "full_width_breadcrumb": true,
         "desktop_content_alignment": "text-center",
         "mobile_content_alignment": "text-center",
         "background_color_light": "rgba(0,0,0,0)",
@@ -1295,72 +282,118 @@
         "padding_bottom_mobile": 28
       }
     },
-    "rich_text_gRAqnb": {
-      "type": "rich-text",
+    "text_column_with_image_xN4x99": {
+      "type": "text-column-with-image",
       "blocks": {
-        "heading_9b7rwR": {
-          "type": "heading",
+        "column_XFGnjQ": {
+          "type": "column",
           "settings": {
-            "heading": "P.S. Would you like a recap of why this is a Great deal?",
+            "image_link": "",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Column",
             "highlight_type": "underline",
             "heading_size": 100,
-            "heading_tag": "h2"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
           }
         },
-        "text_by3thf": {
-          "type": "text",
+        "column_XhWpXW": {
+          "type": "column",
           "settings": {
-            "text": "<p><strong>No other company in the world</strong> offers lifetime access to an equivalent set of French language courses for our low price! Our multimedia courses are superior to, or as effective as, the language courses offered by the largest companies in the world; yet their price is up to five times higher than our price. Furthermore your French vocabulary will be twice as extensive with our courses because we provide you with twice as many words, which equates to even more value-for-money. Our competitors provide up to 3000 words and phrases. We provide over 7000 words and phrases, ranked according to importance. We provide the most comprehensive courses on the market.<br/></p><p>These online courses can be accessed by any device at <strong>any time from anywhere.</strong> You will learn precisely what you want to learn precisely when you want to learn it and will do so at your personal optimal learning pace. Each session will be seamlessly integrated into your schedule for effortless learning on your terms.<br/></p><p>Once you have purchased these five courses you <strong>own them for life</strong>. You may pass your courses on to your family and friends, as the courses can be reset to new. Our competitors won't let you do this, but we're here to support you. You, as well as your family and friends, can also retake the courses as many times as desired at any time in the future and it won't ever cost another cent. All future upgrades and improvements are free.<br/></p><p>The courses will certainly make <strong>beneficial gifts</strong> one day. You will make some fortunate people very happy with the gift of a foreign language education. Let's say you become fluent in French within the next few months and then, years from now, you decide to retake your courses at a slow pace just for fun. Many years after that you decide to pass your courses on to friends as beneficial gifts. Let's say during all of those years your courses were actively used for three years. $97 divided by three years is $2,70 a month. Would you regard $2,70 a month for a rewarding skill as great value-for-money?<br/></p><p>The ability to speak another language is a skill that you will <strong>continuously benefit from for life</strong>, therefore the price structure of language courses should also be viewed in the long-term. For example, after ten years of unlimited access your courses cost $0,80 a month. The one-off fee of $97 divided by ten years is $0,80 a month, which is certainly great value-for-money.<br/></p><p>You had the <strong>complete personal flexibility</strong> to take / retake / pass on your courses whenever it was convenient for all of those years, as well as the benefits that are continuously derived from speaking French fluently. Spread out over a lifetime, the price becomes insignificantly low. That is the advantage of a one-off fee: the price is locked in and cannot increase, but the value-for-money increases every month for life.<br/></p><p>We want to make this decision as easy as possible for you. This <strong>exceptional 60% discount</strong> is the biggest in our company's history. $97 is the lowest price we have ever offered to individual customers for these five French language courses. This current special offer will end! We reserve the right to remove this special offer at any time, without warning. Why spend more later, when it's too late to save $150?<br/></p><p>Simply order now and you won't ever spend another cent. <strong>This is handled for life</strong>. Furthermore, all credit / debit card and PayPal fees are currently included in our low price. We have partnered with the world's most popular and secure payment companies, PayPal and Stripe.<br/></p><p>These courses are completely <strong>tax-free</strong> for you, regardless of which country you live in. If there is any tax, we will pay it. Most of our customers live outside of the European Union and therefore are not subject to local sales tax, known as VAT in Europe. In order to comply with this law we are required to ask for your country of primary residence.<br/></p><p><strong>We are a reputable, trustworthy and ethical company</strong> that is bound by all applicable EU laws. Your email address will not be shared with any third party. All necessary precautions have been put in place to ensure that your email address is completely protected.<br/></p><p>Learning French is enjoyable and rewarding! Studies have reported an <strong>increase in cognitive ability and self-confidence</strong> in those that can speak more than one language. Both foreigners and locals have more respect for a person that can speak a foreign language because the ability is immediately perceived as a sign of superior intelligence.<br/></p><p>As the world becomes 'smaller' with each passing month those that can only speak one language will continue to be at a disadvantage, regardless of which country they are from and which language they speak. This disadvantage could be in the form of opportunities missed or fun experiences denied. <strong>Learning French has never been this affordable and this easy</strong>, so there simply is no reason why you should miss out.<br/></p><p>A wonderful sense of achievement is derived from the ability to speak another language. You have more options, more freedom, more fun and <strong>get more out of life</strong>. Whether you learn French for new friendships, the love of your life, personal development, culture immersion, career advancement, adventure travel or as an enjoyable hobby, you will benefit tremendously.<br/></p><p><strong>Fluency is at your fingertips</strong>. Don't miss this opportunity to become fluent in French at a 60% discount. We take you from absolute beginner to absolute mastery. Our unique learning methods are <strong>empirically proven to accelerate progress</strong> with minimal effort, so that learning French is both easy and fun.<br/></p><p>All of the benefits that are continuously derived from speaking French fluently are yours forever. You will make a great impression on everyone you meet for a very reasonable one-off fee. $97 is an economical price for a rewarding skill you will have for life. Simply order now and these <strong>bestselling courses are all yours at the lowest price ever</strong>. Do you agree that it makes sense to lock in the lowest price? We provide a 100%-money-back guarantee, so you have no risk and nothing to lose but a lot to gain. Join our one million satisfied customers and speak French with ease and confidence right now.</p>",
-            "number_of_lines_shown": "none",
-            "read_more_label": "Read more"
+            "image_link": "",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Column",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
           }
         },
-        "button_8dBV64": {
-          "type": "button",
+        "column_aL3qa7": {
+          "type": "column",
           "settings": {
-            "button_label": "Buy your French language courses here!",
-            "button_link": "#x-product-template-9548679119189-template--23499450220885__main",
-            "open_new_window_button": false,
-            "show_button_style_1": "secondary",
-            "button_label_2": "",
-            "open_new_window_button_2": false,
-            "button_link_2": "",
-            "show_button_style_2": "secondary",
-            "color_button": "rgba(0,0,0,0)",
-            "color_button_hover": "rgba(0,0,0,0)",
-            "color_text_button": "rgba(0,0,0,0)",
-            "color_text_button_hover": "rgba(0,0,0,0)",
-            "color_button_secondary": "rgba(0,0,0,0)",
-            "secondary_button_text": "rgba(0,0,0,0)"
+            "image_link": "",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Column",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_c9CV8d": {
+          "type": "column",
+          "settings": {
+            "image_link": "",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Column",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
           }
         }
       },
       "block_order": [
-        "heading_9b7rwR",
-        "text_by3thf",
-        "button_8dBV64"
+        "column_XFGnjQ",
+        "column_XhWpXW",
+        "column_aL3qa7",
+        "column_c9CV8d"
       ],
-      "custom_css": [
-        ".h2 {text-align: center;}"
-      ],
+      "name": "t:sections.text-column-image.name",
       "settings": {
-        "heading_light": "rgba(0,0,0,0)",
-        "text_light": "#2e4351",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "title": "Text columns with images",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "secondary_background": "column",
+        "image_ratio": "75%",
+        "rounded_corner_image": false,
+        "column_content_alignment": "center",
         "background_color_light": "rgba(0,0,0,0)",
+        "heading_light": "rgba(0,0,0,0)",
+        "text_light": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
         "heading_dark": "rgba(0,0,0,0)",
         "text_dark": "rgba(0,0,0,0)",
         "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "content_alignment": "left",
+        "enable_desktop_slider": false,
+        "swiper_on_mobile": false,
+        "enable_arrow_mobile": false,
+        "auto_play": false,
+        "change_bar_every": 5,
+        "image_position_desktop": "top",
+        "column_layout_desktop": "lg:w-1/4",
+        "spacing_desktop": 28,
+        "full_width": false,
+        "padding_full_width": false,
         "show_section_divider": false,
-        "make_full_page_width": true,
         "padding_top": 60,
-        "padding_bottom": 60,
-        "content_alignment_mobile": "left",
+        "padding_bottom": 0,
+        "image_position_mobile": "top",
+        "column_layout_mobile": "w-full",
+        "spacing_mobile": 16,
+        "full_width_mobile": false,
         "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 0
       }
     },
     "product-recommendations": {
@@ -1377,9 +410,11 @@
         "background_color_dark": "",
         "show_vendor": false,
         "show_rating": true,
+        "show_highlighted_attributes": true,
         "show_quickview": true,
         "enable_carousel_desktop": false,
         "enable_swiper_mobile": true,
+        "enable_arrow_mobile": false,
         "columns_desktop": 5,
         "full_width": true,
         "show_section_divider": false,
@@ -1392,33 +427,786 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 20
       }
+    },
+    "featured_collection_z9r7qr": {
+      "type": "featured-collection",
+      "blocks": {
+        "collection_zaYYJA": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "show_description": true,
+            "description": "",
+            "number_of_lines_shown": "none",
+            "read_more_label": "Read more",
+            "see_less_label": "See less",
+            "show_vendor": false,
+            "show_rating": false,
+            "show_highlighted_attributes": true,
+            "show_quickview": true,
+            "show_promotion": false,
+            "promotion_position": "left",
+            "card_link": "",
+            "open_new_window": false,
+            "heading": "Featured collection",
+            "highlight_type": "underline",
+            "heading_size": 70,
+            "content": "<p>Announce a promotion.</p>",
+            "text_size": 100,
+            "content_alignment": "center",
+            "content_position": "bottom",
+            "button_label": "See more",
+            "button_link": "",
+            "open_new_window_button": false,
+            "show_button_style": "primary",
+            "enable_text_overlay": false,
+            "overlay_opacity": 0,
+            "image_ratio": "100",
+            "background_color": "rgba(0,0,0,0)",
+            "color_text": "rgba(0,0,0,0)",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "color_button": "rgba(0,0,0,0)",
+            "color_text_button": "rgba(0,0,0,0)",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_text_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)",
+            "show_sound_control": false,
+            "video_url": "",
+            "enable_video_autoplay": false,
+            "video_alt_text": "",
+            "product_card": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_zaYYJA"
+      ],
+      "settings": {
+        "title": "Featured Collection",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "subheading": "ADD A TAGLINE",
+        "text": "",
+        "show_view_all": false,
+        "view_all_position": "top",
+        "view_all_button_style": "text-link",
+        "title_size": 120,
+        "title_style": "none",
+        "title_position": "under",
+        "tab_button_style": "label",
+        "color_background": "rgba(0,0,0,0)",
+        "color_text": "rgba(0,0,0,0)",
+        "color_background_secondary": "rgba(0,0,0,0)",
+        "color_text_secondary": "rgba(0,0,0,0)",
+        "color_background_hover": "rgba(0,0,0,0)",
+        "color_text_hover": "rgba(0,0,0,0)",
+        "color_background_dark": "rgba(0,0,0,0)",
+        "color_text_dark": "rgba(0,0,0,0)",
+        "color_background_secondary_dark": "rgba(0,0,0,0)",
+        "color_text_secondary_dark": "rgba(0,0,0,0)",
+        "color_background_hover_dark": "rgba(0,0,0,0)",
+        "color_text_hover_dark": "rgba(0,0,0,0)",
+        "enable_desktop_slider": false,
+        "slider_style": "horizontal",
+        "swiper_on_mobile": false,
+        "enable_arrow_mobile": false,
+        "auto_play": false,
+        "change_slides_speed": 5,
+        "columns_desktop": 4,
+        "rows_desktop": 1,
+        "spacing": 30,
+        "full_width": true,
+        "show_section_divider": false,
+        "padding_top": 100,
+        "padding_bottom": 80,
+        "columns_mobile": "2",
+        "spacing_mobile": 16,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "331e6fca-2947-4a19-89c5-9396be0d666a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--21918975852859__331e6fca-2947-4a19-89c5-9396be0d666a-column-1": {
+          "type": "column",
+          "settings": {
+            "icon": "flower",
+            "another_icon": "",
+            "custom_icon": "",
+            "title": "COLUMN",
+            "highlight_type": "underline",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 100,
+            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.</p>"
+          }
+        },
+        "template--21918975852859__331e6fca-2947-4a19-89c5-9396be0d666a-column-2": {
+          "type": "column",
+          "settings": {
+            "icon": "planet",
+            "another_icon": "",
+            "custom_icon": "",
+            "title": "COLUMN",
+            "highlight_type": "underline",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 100,
+            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.</p>"
+          }
+        },
+        "template--21918975852859__331e6fca-2947-4a19-89c5-9396be0d666a-column-3": {
+          "type": "column",
+          "settings": {
+            "icon": "star",
+            "another_icon": "",
+            "custom_icon": "",
+            "title": "COLUMN",
+            "highlight_type": "underline",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 100,
+            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.</p>"
+          }
+        },
+        "template--21918975852859__331e6fca-2947-4a19-89c5-9396be0d666a-column-4": {
+          "type": "column",
+          "settings": {
+            "icon": "cloud-rain",
+            "another_icon": "",
+            "custom_icon": "",
+            "title": "COLUMN",
+            "highlight_type": "underline",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 100,
+            "text": "<p>Pair text with an image to focus on a product, collection or blog post. Add details on availability, style, or even provide a review.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21918975852859__331e6fca-2947-4a19-89c5-9396be0d666a-column-1",
+        "template--21918975852859__331e6fca-2947-4a19-89c5-9396be0d666a-column-2",
+        "template--21918975852859__331e6fca-2947-4a19-89c5-9396be0d666a-column-3",
+        "template--21918975852859__331e6fca-2947-4a19-89c5-9396be0d666a-column-4"
+      ],
+      "settings": {
+        "title": "",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "secondary_background": "section",
+        "border_column": "none",
+        "column_content_alignment": "center",
+        "icon_position": "above",
+        "icon_size": 45,
+        "enable_desktop_slider": false,
+        "swiper_on_mobile": true,
+        "enable_arrow_mobile": false,
+        "auto_play": true,
+        "change_bar_every": 5,
+        "background_color_light": "rgba(0,0,0,0)",
+        "heading_light": "rgba(0,0,0,0)",
+        "text_light": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "line_border_light": "rgba(0,0,0,0)",
+        "color_icon_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "heading_dark": "rgba(0,0,0,0)",
+        "text_dark": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "line_border_dark": "rgba(0,0,0,0)",
+        "color_icon_dark": "rgba(0,0,0,0)",
+        "column_layout_desktop": "lg:w-1/4",
+        "section_height_desktop": "md:py-7",
+        "spacing_desktop": 28,
+        "full_width": false,
+        "padding_full_width": false,
+        "show_section_divider": false,
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "column_layout_mobile": "w-full",
+        "section_height_mobile": "py-5",
+        "spacing_mobile": 16,
+        "full_width_mobile": true,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "31318fc4-4c4e-4f2e-aca5-a42a85b71d86": {
+      "type": "collage",
+      "blocks": {
+        "57ce0b54-e71f-4fe1-900c-12e795e7ce1a": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 0,
+            "image_link": "",
+            "open_new_window": false,
+            "image_padding": false,
+            "number_of_columns": 2,
+            "number_of_row": 2,
+            "title": "",
+            "highlight_type": "underline",
+            "title_size": 80,
+            "text": "",
+            "text_size": 100,
+            "button_label": "",
+            "button_link": "",
+            "show_button_style": "primary",
+            "open_new_window_button": false,
+            "text_align": "center",
+            "content_position": "center",
+            "title_color": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "color_button": "rgba(0,0,0,0)",
+            "color_text_button": "rgba(0,0,0,0)",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_text_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)"
+          }
+        },
+        "template--21828924539181__31318fc4-4c4e-4f2e-aca5-a42a85b71d86-product-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "show_quickview": true,
+            "info_alignment": "center",
+            "desktop_size": "large",
+            "number_of_columns": 1,
+            "number_of_row": 1
+          }
+        },
+        "95e16f52-9d60-462b-b185-c91fb31cc11c": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "show_quickview": true,
+            "info_alignment": "center",
+            "desktop_size": "large",
+            "number_of_columns": 1,
+            "number_of_row": 1
+          }
+        },
+        "896cd81c-7b24-4161-90c6-659a182e1734": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "show_quickview": true,
+            "info_alignment": "center",
+            "desktop_size": "large",
+            "number_of_columns": 1,
+            "number_of_row": 1
+          }
+        },
+        "8faff488-e22e-482e-8e8a-191fa1386524": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "show_quickview": true,
+            "info_alignment": "center",
+            "desktop_size": "large",
+            "number_of_columns": 1,
+            "number_of_row": 1
+          }
+        }
+      },
+      "block_order": [
+        "57ce0b54-e71f-4fe1-900c-12e795e7ce1a",
+        "template--21828924539181__31318fc4-4c4e-4f2e-aca5-a42a85b71d86-product-1",
+        "95e16f52-9d60-462b-b185-c91fb31cc11c",
+        "896cd81c-7b24-4161-90c6-659a182e1734",
+        "8faff488-e22e-482e-8e8a-191fa1386524"
+      ],
+      "settings": {
+        "heading": "Exclusive for you",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "subheading": "ADD A TAGLINE",
+        "text": "",
+        "background_color_light": "rgba(0,0,0,0)",
+        "heading_color_light": "rgba(0,0,0,0)",
+        "heading_highlight_color_light": "rgba(0,0,0,0)",
+        "text_color_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "heading_color_dark": "rgba(0,0,0,0)",
+        "text_color_dark": "rgba(0,0,0,0)",
+        "heading_highlight_color_dark": "rgba(0,0,0,0)",
+        "show_vendor": false,
+        "show_rating": false,
+        "show_highlighted_attributes": true,
+        "max_columns": 4,
+        "spacing": 28,
+        "full_width": true,
+        "show_section_divider": false,
+        "padding_top": 92,
+        "padding_bottom": 100,
+        "min_columns_mobile": "2",
+        "spacing_mobile": 20,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 32
+      }
+    },
+    "ec753deb-9b85-432b-ad75-2c2fd240c350": {
+      "type": "media-gallery",
+      "blocks": {
+        "template--21828924539181__ec753deb-9b85-432b-ad75-2c2fd240c350-media-2": {
+          "type": "media",
+          "settings": {
+            "image_link": "",
+            "open_new_window": false,
+            "show_sound_control": false,
+            "video_url": "",
+            "enable_video_autoplay": true,
+            "video_alt_text": "",
+            "enable_content_overlay": true,
+            "content_position": "center",
+            "overlay_opacity": 0,
+            "number_of_columns": 2,
+            "number_of_row": 1,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "icon_size": 45,
+            "sub_title": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_size": 80,
+            "text": "<h2>Follow us on</h2><h2>Instagram</h2>",
+            "text_size": 130,
+            "text_align": "right",
+            "media_position": "top",
+            "button_label": "Follow @Eurus",
+            "button_link": "",
+            "open_new_window_button": false,
+            "show_button_style": "primary",
+            "color_overlay": "rgba(0,0,0,0)",
+            "title_color": "#ffffff",
+            "text_color": "#ffffff",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "background_button": "#ffffff",
+            "color_button": "#242424",
+            "background_button_hover": "rgba(0,0,0,0)",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)"
+          }
+        },
+        "template--21828924539181__ec753deb-9b85-432b-ad75-2c2fd240c350-media-3": {
+          "type": "media",
+          "settings": {
+            "image_link": "",
+            "open_new_window": false,
+            "show_sound_control": false,
+            "video_url": "",
+            "enable_video_autoplay": true,
+            "video_alt_text": "",
+            "enable_content_overlay": true,
+            "content_position": "center",
+            "overlay_opacity": 0,
+            "number_of_columns": 1,
+            "number_of_row": 1,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "icon_size": 45,
+            "sub_title": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_size": 80,
+            "text": "",
+            "text_size": 130,
+            "text_align": "center",
+            "media_position": "top",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window_button": false,
+            "show_button_style": "primary",
+            "color_overlay": "rgba(0,0,0,0)",
+            "title_color": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "background_button": "rgba(0,0,0,0)",
+            "color_button": "rgba(0,0,0,0)",
+            "background_button_hover": "rgba(0,0,0,0)",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)"
+          }
+        },
+        "e201a23e-7152-431b-bd6e-681a502ff504": {
+          "type": "media",
+          "settings": {
+            "image_link": "",
+            "open_new_window": false,
+            "show_sound_control": false,
+            "video_url": "",
+            "enable_video_autoplay": true,
+            "video_alt_text": "",
+            "enable_content_overlay": true,
+            "content_position": "center",
+            "overlay_opacity": 0,
+            "number_of_columns": 1,
+            "number_of_row": 1,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "icon_size": 45,
+            "sub_title": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_size": 80,
+            "text": "",
+            "text_size": 130,
+            "text_align": "center",
+            "media_position": "top",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window_button": false,
+            "show_button_style": "primary",
+            "color_overlay": "rgba(0,0,0,0)",
+            "title_color": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "background_button": "rgba(0,0,0,0)",
+            "color_button": "rgba(0,0,0,0)",
+            "background_button_hover": "rgba(0,0,0,0)",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)"
+          }
+        },
+        "5599b296-b06c-4496-8800-62a2bdab8c49": {
+          "type": "media",
+          "settings": {
+            "image_link": "",
+            "open_new_window": false,
+            "show_sound_control": false,
+            "video_url": "",
+            "enable_video_autoplay": true,
+            "video_alt_text": "",
+            "enable_content_overlay": true,
+            "content_position": "center",
+            "overlay_opacity": 0,
+            "number_of_columns": 1,
+            "number_of_row": 1,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "icon_size": 45,
+            "sub_title": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_size": 80,
+            "text": "",
+            "text_size": 130,
+            "text_align": "center",
+            "media_position": "top",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window_button": false,
+            "show_button_style": "primary",
+            "color_overlay": "rgba(0,0,0,0)",
+            "title_color": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "background_button": "rgba(0,0,0,0)",
+            "color_button": "rgba(0,0,0,0)",
+            "background_button_hover": "rgba(0,0,0,0)",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)"
+          }
+        },
+        "18e177f8-e77d-48ba-b580-1d5bff64df63": {
+          "type": "media",
+          "settings": {
+            "image_link": "",
+            "open_new_window": false,
+            "show_sound_control": false,
+            "video_url": "",
+            "enable_video_autoplay": true,
+            "video_alt_text": "",
+            "enable_content_overlay": true,
+            "content_position": "center",
+            "overlay_opacity": 0,
+            "number_of_columns": 1,
+            "number_of_row": 1,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "icon_size": 45,
+            "sub_title": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_size": 80,
+            "text": "",
+            "text_size": 130,
+            "text_align": "center",
+            "media_position": "top",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window_button": false,
+            "show_button_style": "primary",
+            "color_overlay": "rgba(0,0,0,0)",
+            "title_color": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "background_button": "rgba(0,0,0,0)",
+            "color_button": "rgba(0,0,0,0)",
+            "background_button_hover": "rgba(0,0,0,0)",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)"
+          }
+        },
+        "media_Xgx9Bb": {
+          "type": "media",
+          "settings": {
+            "image_link": "",
+            "open_new_window": false,
+            "show_sound_control": false,
+            "video_url": "",
+            "enable_video_autoplay": true,
+            "video_alt_text": "",
+            "enable_content_overlay": true,
+            "content_position": "center",
+            "overlay_opacity": 0,
+            "number_of_columns": 1,
+            "number_of_row": 1,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "icon_size": 45,
+            "sub_title": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_size": 80,
+            "text": "",
+            "text_size": 130,
+            "text_align": "center",
+            "media_position": "top",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window_button": false,
+            "show_button_style": "primary",
+            "color_overlay": "rgba(0,0,0,0)",
+            "title_color": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "background_button": "rgba(0,0,0,0)",
+            "color_button": "rgba(0,0,0,0)",
+            "background_button_hover": "rgba(0,0,0,0)",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)"
+          }
+        },
+        "media_h6zbW4": {
+          "type": "media",
+          "settings": {
+            "image_link": "",
+            "open_new_window": false,
+            "show_sound_control": false,
+            "video_url": "",
+            "enable_video_autoplay": true,
+            "video_alt_text": "",
+            "enable_content_overlay": true,
+            "content_position": "center",
+            "overlay_opacity": 0,
+            "number_of_columns": 1,
+            "number_of_row": 1,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "icon_size": 45,
+            "sub_title": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_size": 80,
+            "text": "",
+            "text_size": 130,
+            "text_align": "center",
+            "media_position": "top",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window_button": false,
+            "show_button_style": "primary",
+            "color_overlay": "rgba(0,0,0,0)",
+            "title_color": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "background_button": "rgba(0,0,0,0)",
+            "color_button": "rgba(0,0,0,0)",
+            "background_button_hover": "rgba(0,0,0,0)",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)"
+          }
+        },
+        "media_DUzBGP": {
+          "type": "media",
+          "settings": {
+            "image_link": "",
+            "open_new_window": false,
+            "show_sound_control": false,
+            "video_url": "",
+            "enable_video_autoplay": true,
+            "video_alt_text": "",
+            "enable_content_overlay": true,
+            "content_position": "center",
+            "overlay_opacity": 0,
+            "number_of_columns": 1,
+            "number_of_row": 1,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "icon_size": 45,
+            "sub_title": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_size": 80,
+            "text": "",
+            "text_size": 130,
+            "text_align": "center",
+            "media_position": "top",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window_button": false,
+            "show_button_style": "primary",
+            "color_overlay": "rgba(0,0,0,0)",
+            "title_color": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "background_button": "rgba(0,0,0,0)",
+            "color_button": "rgba(0,0,0,0)",
+            "background_button_hover": "rgba(0,0,0,0)",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)"
+          }
+        },
+        "media_3YEQxp": {
+          "type": "media",
+          "settings": {
+            "image_link": "",
+            "open_new_window": false,
+            "show_sound_control": false,
+            "video_url": "",
+            "enable_video_autoplay": true,
+            "video_alt_text": "",
+            "enable_content_overlay": true,
+            "content_position": "center",
+            "overlay_opacity": 0,
+            "number_of_columns": 1,
+            "number_of_row": 1,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "icon_size": 45,
+            "sub_title": "",
+            "title": "",
+            "highlight_type": "underline",
+            "title_size": 80,
+            "text": "",
+            "text_size": 130,
+            "text_align": "center",
+            "media_position": "top",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window_button": false,
+            "show_button_style": "primary",
+            "color_overlay": "rgba(0,0,0,0)",
+            "title_color": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "background_button": "rgba(0,0,0,0)",
+            "color_button": "rgba(0,0,0,0)",
+            "background_button_hover": "rgba(0,0,0,0)",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "template--21828924539181__ec753deb-9b85-432b-ad75-2c2fd240c350-media-2",
+        "template--21828924539181__ec753deb-9b85-432b-ad75-2c2fd240c350-media-3",
+        "e201a23e-7152-431b-bd6e-681a502ff504",
+        "5599b296-b06c-4496-8800-62a2bdab8c49",
+        "18e177f8-e77d-48ba-b580-1d5bff64df63",
+        "media_Xgx9Bb",
+        "media_h6zbW4",
+        "media_DUzBGP",
+        "media_3YEQxp"
+      ],
+      "settings": {
+        "heading": "IMAGE GALLERY",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "subheading": "",
+        "text": "<p>This is an image gallery block but you can use this block as an Instagram Feed.</p>",
+        "background_color_light": "rgba(0,0,0,0)",
+        "heading_color_light": "rgba(0,0,0,0)",
+        "heading_highlight_color_light": "rgba(0,0,0,0)",
+        "text_color_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "heading_color_dark": "rgba(0,0,0,0)",
+        "heading_highlight_color_dark": "rgba(0,0,0,0)",
+        "text_color_dark": "rgba(0,0,0,0)",
+        "max_columns": 5,
+        "spacing": 30,
+        "height_desktop": 300,
+        "keep_ratio_on_different_width": false,
+        "show_section_divider": true,
+        "full_width": true,
+        "padding_full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 28,
+        "swiper_on_mobile": false,
+        "enable_arrow_mobile": false,
+        "min_columns_mobile": "1",
+        "spacing_mobile": 16,
+        "height_mobile": 250,
+        "show_section_divider_mobile": true,
+        "full_width_mobile": false,
+        "padding_top_mobile": 48,
+        "padding_bottom_mobile": 28
+      }
     }
   },
   "order": [
-    "promotion_banner_qb8c8h",
-    "flash_sale_DnnmAY",
-    "page_9na79f",
-    "page_ahy8eK",
-    "rich_text_j4eHr3",
-    "page_HkGJaV",
-    "page_AUwe3R",
-    "page_VgXg73",
-    "rich_text_BVh4tW",
-    "page_tfYgCt",
-    "page_CDy8m6",
-    "page_zjfjKc",
-    "page_hDmtrc",
-    "text_column_with_image_qwLJPR",
-    "page_MgACji",
-    "page_KTfxUV",
-    "page_Y9Gdfw",
-    "page_YnrwJD",
-    "page_tTXiVf",
-    "page_KyJ6hY",
-    "text_column_with_image_T3M796",
-    "page_gwyJAJ",
     "main",
-    "rich_text_gRAqnb",
-    "product-recommendations"
+    "text_column_with_image_xN4x99",
+    "product-recommendations",
+    "featured_collection_z9r7qr",
+    "331e6fca-2947-4a19-89c5-9396be0d666a",
+    "31318fc4-4c4e-4f2e-aca5-a42a85b71d86",
+    "ec753deb-9b85-432b-ad75-2c2fd240c350"
   ]
 }

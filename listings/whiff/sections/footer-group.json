@@ -1,0 +1,97 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-2": {
+          "type": "text",
+          "settings": {
+            "open_by_default": false,
+            "heading_text": "",
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>",
+            "show_social_icons": false,
+            "icon_layout": "horizontal",
+            "image": "",
+            "image_width": 80,
+            "link_image_footer": "",
+            "open_new_window": false
+          }
+        },
+        "7fcecb2f-a55e-4a53-b50d-d34d8d9d4e9d": {
+          "type": "link_list",
+          "settings": {
+            "open_by_default": false,
+            "heading_menu": "CUSTOMER CARE",
+            "menu": "main-menu",
+            "show_social_icons": false
+          }
+        },
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "open_by_default": false,
+            "heading_menu": "COMPANY",
+            "menu": "main-menu",
+            "show_social_icons": false
+          }
+        },
+        "text_VrhE4F": {
+          "type": "text",
+          "settings": {
+            "open_by_default": false,
+            "heading_text": "Custom text",
+            "subtext": "",
+            "show_social_icons": true,
+            "icon_layout": "vertical",
+            "image_width": 100,
+            "link_image_footer": "",
+            "open_new_window": false
+          }
+        },
+        "image_PnYRkD": {
+          "type": "image",
+          "settings": {
+            "image": "",
+            "image_width": 150,
+            "link_image_footer": "",
+            "open_new_window": false,
+            "rounded_corner_image": false,
+            "alignment": "left",
+            "text": "",
+            "spacing": 28
+          }
+        }
+      },
+      "block_order": [
+        "footer-2",
+        "7fcecb2f-a55e-4a53-b50d-d34d8d9d4e9d",
+        "footer-0",
+        "text_VrhE4F",
+        "image_PnYRkD"
+      ],
+      "settings": {
+        "columns_desktop": 5,
+        "show_language_selector": true,
+        "show_currency_selector": true,
+        "show_social_icons": false,
+        "payment_enable": true,
+        "custom_payment": "",
+        "show_copyright": true,
+        "add_copyright_text": "",
+        "additional_layout": "horizontal",
+        "show_powered": true,
+        "enable_follow_on_shop": false,
+        "horizontal_position": "right",
+        "top_padding": 0,
+        "bottom_padding": 16,
+        "top_padding_mobile": 0,
+        "bottom_padding_mobile": 28
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
