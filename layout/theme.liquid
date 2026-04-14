@@ -86,36 +86,9 @@
         /* INP mobile */
         touch-action: manipulation;
       }
-
-      .scroll-indicator {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 6px;
-  height: 0; /* sẽ được cập nhật bằng JS */
-  background: linear-gradient(to bottom, #00f260, #0575e6);
-  border-radius: 6px;
-  z-index: 9999;
-  pointer-events: none;
-  transition: height 0.1s ease-out;
-}
     {% endstyle %}
-
-    <script>
-      document.addEventListener('scroll', () => {
-  const scrollTop = window.scrollY;
-  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-  const percent = (scrollTop / docHeight) * 100;
-
-  const indicator = document.querySelector('.scroll-indicator');
-  indicator.style.height = `${percent}%`;
-});
-
-    </script>
   </head>
   <body class="gradient scrollbar-body overflow-x-hidden text-[{{ settings.text_base_size | times: 0.007875 }}rem] md:text-[{{ settings.text_base_size | times: 0.00875 }}rem]{% if settings.lang_direction contains request.locale.iso_code %} rtl{% endif %}" x-data :class="$store.xPopup.open && 'overflow-hidden padding-scrollbar'" x-init="$store.xPopup.setWidthScrollbar()">
-    <div class="scroll-indicator"></div>
-    
     <a class="skip-to-content absolute -z-10 button button-solid hidden lg:block pt-2.5 pb-2.5 pl-6 pr-6 lg:pt-3 lg:pb-3 mt-0.5 ml-0.5 leading-normal justify-center cursor-pointer focus-visible:z-60" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>

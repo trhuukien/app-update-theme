@@ -183,9 +183,23 @@
                   }
                 {%- endstyle -%}
                 <div x-slide-index="{{ forloop.index | minus: 1 }}" class="h-auto w-full flex items-center md:flex justify-center splide__slide x-splide-slide gradient text-center py-3 pl-5 pr-5{% if section.settings.menu == blank %} lg:pr-5 lg:pl-5{% else %} lg:pl-0 lg:pr-0{% endif %}{% if forloop.index > 1 and section.settings.enable_carousel_on_desktop == false %} md:border-t md:border-solid{% endif %}" {{ block.shopify_attributes }}>
-                  {%- if block.settings.text != blank -%}
+                  {% if page.template_suffix == 'product-express-course' %}
+                    {% assign text_config = block.settings.text_express_course %}
+                  {% elsif page.template_suffix == 'product-basic-course' %}
+                    {% assign text_config = block.settings.text_basic_course %}
+                  {% elsif page.template_suffix == 'product-intermediate' %}
+                    {% assign text_config = block.settings.text_intermediate_course %}
+                  {% elsif page.template_suffix == 'product-proficiency' %}
+                    {% assign text_config = block.settings.text_proficiency_course %}
+                  {% elsif page.template_suffix == 'product-business-course' %}
+                    {% assign text_config = block.settings.text_business_course %}
+                  {% else %}
+                    {% assign text_config = block.settings.text %}
+                  {% endif %}
+
+                  {%- if text_config != blank -%}
                     <div 
-                      {% if block.settings.text contains '{count_down}' %}
+                      {% if text_config contains '{count_down}' %}
                         x-data="{ loading: true, textLoad: ' - ', days: 0, hours: 0, minutes: 0, seconds: 0 }"
                         x-intersect.once='$nextTick(() => {
                           $store.xHelper.countdown({
@@ -206,7 +220,7 @@
                         })'
                       {% endif %}
                       class="flex items-center flex-wrap justify-center gap-x-5 gap-y-2 ltr">
-                      {% if block.settings.text contains '{count_down}' %}
+                      {% if text_config contains '{count_down}' %}
                         {% capture countdown %}
                           <span class="inline-block width-countdown">
                             <span x-html="loading?textLoad:days">- </span>D&nbsp;&nbsp;
@@ -228,7 +242,7 @@
                             </span>
                           </div>
                         {%- endif -%}
-                        {% assign text = block.settings.text | replace: "{count_down}", countdown %}
+                        {% assign text = text_config | replace: "{count_down}", countdown | replace: "language_name", page.metafields.custom.language.value.name.value | upcase %}
                         {%- if block.settings.link != blank -%}
                           <p>
                             <a href="{{ block.settings.link }}"{% if block.settings.open_new_window %} target="_blank"{% endif %} class="button-link relative hover-text-link x-announcement-bar-block-data leading-[initial]"
@@ -815,6 +829,36 @@
           "id": "text",
           "default": "Hurry up! 30% OFF Sale Ends Soon {count_down}",
           "label": "t:sections.announcement-bar.blocks.announcement.text.label",
+          "info": "t:sections.announcement-bar.blocks.announcement.text.info"
+        },
+        {
+          "type": "text",
+          "id": "text_express_course",
+          "label": "Text Express Course",
+          "info": "t:sections.announcement-bar.blocks.announcement.text.info"
+        },
+        {
+          "type": "text",
+          "id": "text_basic_course",
+          "label": "Text Basic Course",
+          "info": "t:sections.announcement-bar.blocks.announcement.text.info"
+        },
+        {
+          "type": "text",
+          "id": "text_intermediate_course",
+          "label": "Text Intermediate Course",
+          "info": "t:sections.announcement-bar.blocks.announcement.text.info"
+        },
+        {
+          "type": "text",
+          "id": "text_proficiency_course",
+          "label": "Text Proficiency Course",
+          "info": "t:sections.announcement-bar.blocks.announcement.text.info"
+        },
+        {
+          "type": "text",
+          "id": "text_business_course",
+          "label": "Text Business Course",
           "info": "t:sections.announcement-bar.blocks.announcement.text.info"
         },
         {

@@ -8,6 +8,20 @@
     Usage:
     {% render 'multi-selectors' %}
 {% endcomment %}
+{% style %}
+  .country-options::-webkit-scrollbar {
+    width: {{ settings.scrollbar_width }};
+  }
+  .country-options {
+    width: max-content;
+    max-width: 220px;
+  }
+
+  .announcement-bar-toolbar .country-options {
+    right: 0;
+    left: unset;
+  }
+{% endstyle %}
 {% liquid 
   if enable_footer
     assign direction = 'multi-selectors flex flex-col lg:flex-row lg:items-center lg:justify-center md:flex-row'

@@ -15,13 +15,13 @@
         "image_banner_WKQpiN": {
           "type": "image_banner",
           "settings": {
-            "heading": "The {{ page.metafields.custom.language.value.name.value }} Express Course",
+            "heading": "Our customers have taken us to the top",
             "highlight_type": "underline",
-            "heading_size": 170,
+            "heading_size": 100,
             "heading_tag": "h2",
             "subheading": "",
             "text": "",
-            "text_size": 130,
+            "text_size": 140,
             "content_box_type": "square",
             "add_frame": false,
             "color_content_box_light": "rgba(0,0,0,0)",
@@ -34,25 +34,25 @@
       ],
       "settings": {
         "heading": "Promotion Banner",
-        "image": "shopify://shop_images/img_-_2024-09-04T144115.003.png",
+        "image": "shopify://shop_images/OurCustomers2025-4.png",
         "image_link": "",
         "open_new_window": false,
         "image_overlay_opacity": 0,
-        "content_position": "center",
-        "content_horizontal": 50,
-        "content_vertical": 50,
-        "position_content_mobile": "center",
+        "content_position": "bottom-center",
+        "content_horizontal": 0,
+        "content_vertical": 0,
+        "position_content_mobile": "bottom-center",
         "content_alignment": "center",
         "show_hero": true,
         "full_width": true,
         "padding_full_width": false,
         "rounded_corner_image": false,
-        "desktop_height": "750px",
+        "desktop_height": "650px",
         "padding_top": 0,
-        "padding_bottom": 28,
+        "padding_bottom": 0,
         "full_width_mobile": true,
         "rounded_corner_image_mobile": false,
-        "mobile_height": "400px",
+        "mobile_height": "250px",
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 20
       }
@@ -63,12 +63,13 @@
         "image_banner_Qi88An": {
           "type": "image_banner",
           "settings": {
-            "heading": "Hype sale now on! An unprecedented 95% discount is all yours!",
+            "heading": "Hype sale now on!",
+            "heading_2": "An unprecedented 95% discount is all yours!",
             "highlight_type": "underline",
-            "heading_size": 100,
+            "heading_size": 80,
             "heading_tag": "h2",
-            "text": "<p>Don't miss this truly exceptional value-for-money special offer!<br/><br/></p>",
-            "text_size": 100,
+            "text": "",
+            "text_size": 170,
             "coupon_code": "",
             "coupon_color": "rgba(0,0,0,0)",
             "coupon_color_dark": "rgba(0,0,0,0)"
@@ -79,9 +80,9 @@
           "settings": {
             "loop_time": "1",
             "timezone": "-4",
-            "end_year": 2023,
-            "end_month": "1",
-            "end_day": "1",
+            "end_year": 2025,
+            "end_month": "6",
+            "end_day": "11",
             "end_hour": "0",
             "end_minute": "0",
             "timer_style": "square",
@@ -93,23 +94,42 @@
             "spacing_col": 40,
             "spacing_col_mobile": 8
           }
+        },
+        "image_banner_GrR4XT": {
+          "type": "image_banner",
+          "settings": {
+            "heading": "",
+            "heading_2": "",
+            "highlight_type": "underline",
+            "heading_size": 100,
+            "heading_tag": "h2",
+            "text": "<p>Don't miss this truly exceptional value-for-money special offer!</p>",
+            "text_size": 130,
+            "coupon_code": "",
+            "coupon_color": "rgba(0,0,0,0)",
+            "coupon_color_dark": "rgba(0,0,0,0)"
+          }
         }
       },
       "block_order": [
         "image_banner_Qi88An",
-        "countdown_timer_YhAcHH"
+        "countdown_timer_YhAcHH",
+        "image_banner_GrR4XT"
+      ],
+      "custom_css": [
+        "@media (min-width: 1024px) {.flash-sale-text:last-child {max-width: 20%; } .anm-fade-element:last-child {min-width: 0; }}"
       ],
       "settings": {
         "image_overlay_opacity": 0,
         "show_hero": false,
         "border_section": "none",
         "content_layout": "horizontal",
-        "content_alignment": "left",
+        "content_alignment": "center",
         "full_width": false,
         "padding_full_width": false,
         "rounded_corner_image": true,
-        "spacing_col": 40,
-        "spacing_row": 32,
+        "spacing_col": 50,
+        "spacing_row": 20,
         "padding_top": 20,
         "padding_bottom": 0,
         "content_alignment_mobile": "center",
@@ -140,6 +160,7 @@
       ],
       "settings": {
         "select_page": "as-featured-in-the-media",
+        "id": "",
         "heading_light": "rgba(0,0,0,0)",
         "text_light": "rgba(0,0,0,0)",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -163,7 +184,8 @@
         ".text-container {background: linear-gradient( 90deg, rgba(6, 48, 166, 1) 10.5%, rgba(2, 203, 204, 1) 75.5% );}"
       ],
       "settings": {
-        "select_page": "why-should-you-learn-languages-with-our-courses",
+        "select_page": "why-should-you-learn-language_name-with-our-courses",
+        "id": "",
         "heading_light": "#ffffff",
         "text_light": "#ffffff",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -184,7 +206,7 @@
     "custom_liquid_d78mfF": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"flex gap-2 justify-center items-center\">\n<div><img src=\"https://flagcdn.com/32x24/{{page.metafields.custom.language.value.country_code.value | downcase }}.png\"   srcset=\"https://flagcdn.com/64x48/{{page.metafields.custom.language.value.country_code.value | downcase }}.png 2x, https://flagcdn.com/96x72/{{page.metafields.custom.language.value.country_code.value | downcase }}.png 3x\" width=\"32\" height=\"24\" /></div>\n\n<p>Are you ready to speak {{ page.metafields.custom.language.value.name.value }} with ease and confidence?</p>\n</div>\n\n\n<a href=\"#checkout\">\n<p class=\"mt-2 md:mt-4 button button-solid pt-2.5 pb-2.5 pl-7 pr-7 md:pl-9 md:pr-9 md:pt-3 md:pb-3 leading-normal cursor-pointer w-max mx-auto max-w-full text-center\">\n    <span class=\"button-text is-focus-button:opacity-0\">Please scroll down for more information or BUY NOW</span></p>\n</a>",
+        "custom_liquid": "<div class=\"flex gap-2 justify-center items-center\">\n<div><img src=\"https://flagcdn.com/32x24/{{page.metafields.custom.language.value.country_code.value | downcase }}.png\"   srcset=\"https://flagcdn.com/64x48/{{page.metafields.custom.language.value.country_code.value | downcase }}.png 2x, https://flagcdn.com/96x72/{{page.metafields.custom.language.value.country_code.value | downcase }}.png 3x\" width=\"32\" height=\"24\" /></div>\n\n<p>Are you ready to speak {{ page.metafields.custom.language.value.name.value }} with ease and confidence?</p>\n</div>\n\n\n<a href=\"#checkout\">\n<p style=\"overflow: hidden; will-change: transform; background-color: #02B1FF; box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);\" class=\"mt-2 md:mt-4 button button-solid pt-2.5 pb-2.5 pl-7 pr-7 md:pl-9 md:pr-9 md:pt-3 md:pb-3 leading-normal cursor-pointer w-max mx-auto max-w-full text-center\">\n    <span class=\"button-text is-focus-button:opacity-0\">Please scroll down for more information or BUY NOW</span></p>\n</a>",
         "full_width": false,
         "show_section_divider": false,
         "padding_top": 40,
@@ -210,7 +232,8 @@
         "text_Am8Uae": {
           "type": "text",
           "settings": {
-            "text": "<p></p><p>This website is designed to provide you with the specific information that you require. These instant-scroll links will get you straight to where you want to go. Simply click on an instant-scroll link for:</p><ul><li>A detailed description or a summary of this particular course.A comparison with our competitors.</li><li>How our effective learning methods strategically reinforce the correct response.</li><li>How you will save time with these modern courses.</li><li>What our customers are saying about us.</li><li>Why multi-device online learning is efficient and stress-free.</li></ul><p>If you would like information on all of the above, simply scroll down this page. We warmly invite you to take your time and continue reading until you are ready to check out our current special offer. Our website has no pop-ups or flickering messages, just relevant content. Enjoy!</p>",
+            "text": "<p></p><p>This website is designed to provide you with the specific information that you require. Simply click on an instant-scroll link for:</p><ul><li>A <strong>detailed overview</strong> or a <strong>brief</strong> <strong>summary</strong> of this course.</li><li>A <strong>comparison</strong> with our competitors.</li><li>How our effective <strong>learning methods</strong> strategically reinforce the correct response.</li><li>How you will <strong>save time</strong> with our proven courses.</li><li>What our <strong>customers are saying</strong> about us.</li><li>Why multi-device <strong>online learning</strong> is efficient and stress-free.</li></ul><p>If you would like information on all of the above, simply scroll down this page. Every word on our entire website was lovingly written by us, with zero use of AI.</p><p>We warmly invite you to take your time and continue reading until you are ready to check out our current special offer by clicking on the BUY NOW button. Our website has no pop-ups or flickering messages, just relevant and authentic content. Enjoy!</p>",
+            "text_size": 100,
             "number_of_lines_shown": "none",
             "read_more_label": "Read more"
           }
@@ -241,7 +264,7 @@
         "content_alignment_mobile": "center",
         "show_section_divider_mobile": false,
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 28
+        "padding_bottom_mobile": 20
       }
     },
     "page_nFKJeP": {
@@ -250,7 +273,8 @@
         ".text-container {background: linear-gradient( 270deg, rgba(6, 48, 166, 1) 10.5%, rgba(2, 203, 204, 1) 75.5% );}"
       ],
       "settings": {
-        "select_page": "an-overview-of-the-language-basic-course",
+        "select_page": "an-overview-of-the-language_name-basic-course",
+        "id": "",
         "heading_light": "#ffffff",
         "text_light": "#ffffff",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -261,7 +285,7 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
+        "padding_top": 44,
         "padding_bottom": 60,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
@@ -274,7 +298,8 @@
         ".text-container {background: linear-gradient( 270deg, rgba(6, 48, 166, 1) 10.5%, rgba(2, 203, 204, 1) 75.5% );}"
       ],
       "settings": {
-        "select_page": "an-overview-of-the-conversation-categories-in-the-basic-course",
+        "select_page": "an-overview-of-the-conversation-categories-in-the-basic-course-1",
+        "id": "",
         "heading_light": "#ffffff",
         "text_light": "#ffffff",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -298,7 +323,8 @@
         ".text-container {background: linear-gradient( 270deg, rgba(6, 48, 166, 1) 10.5%, rgba(2, 203, 204, 1) 75.5% );}"
       ],
       "settings": {
-        "select_page": "the-languages-basic-course-provides-you-with",
+        "select_page": "the-language_name-basic-course-provides-you-with",
+        "id": "",
         "heading_light": "#ffffff",
         "text_light": "#ffffff",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -310,7 +336,7 @@
         "full_width": false,
         "show_section_divider": false,
         "padding_top": 0,
-        "padding_bottom": 60,
+        "padding_bottom": 44,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 28
@@ -322,7 +348,8 @@
         "text_DDBVpr": {
           "type": "text",
           "settings": {
-            "text": "<p>Would you like to learn more effectively and get perfect results much faster than you would with conventional methods? </p><p>Would you like goal-specific motivational techniques and complete immersion learning methods that guarantee success? </p><p>Would you like the freedom to determine when, for how long and where you learn?</p><p>Would you like an intuitive and thorough approach to learning the essential basics of {{ page.metafields.custom.language.value.name.value }}?</p><p>Would you like to make a great impression on {{ page.metafields.custom.language.value.name.value }} speakers?</p><p><strong>Yes? Then the </strong>{{ page.metafields.custom.language.value.name.value }}<strong>  Basic Course is right for you!</strong></p>",
+            "text": "<p>Would you like to learn more effectively and get perfect results much faster than you would with conventional methods?</p><p>Would you like goal-specific motivational techniques and complete immersion learning methods that guarantee success?</p><p>Would you like the freedom to determine when, for how long and where you learn?</p><p>Would you like a thorough and intuitive approach to learning the most important {{ page.metafields.custom.language.value.name.value }} words, phrases and colloquial expressions?</p><p>Would you like to make a great impression on {{ page.metafields.custom.language.value.name.value }} speakers?</p><p><strong>Yes? Then the </strong><strong>{{ page.metafields.custom.language.value.name.value }}</strong><strong>  Express Course is right for you!</strong></p>",
+            "text_size": 100,
             "number_of_lines_shown": "none",
             "read_more_label": "Read more{{ page.metafields.custom.language.value.name.value }}"
           }
@@ -340,33 +367,12 @@
         "text_dark": "rgba(0,0,0,0)",
         "color_heading_highlight_dark": "rgba(0,0,0,0)",
         "background_color_dark": "rgba(0,0,0,0)",
-        "content_alignment": "left",
+        "content_alignment": "center",
         "show_section_divider": false,
         "make_full_page_width": true,
-        "padding_top": 28,
-        "padding_bottom": 28,
+        "padding_top": 44,
+        "padding_bottom": 44,
         "content_alignment_mobile": "center",
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "page_dBY76k": {
-      "type": "page",
-      "settings": {
-        "select_page": "the-advantages-of-completing-both-the-basic-course-and-the-intermediate-course",
-        "heading_light": "rgba(0,0,0,0)",
-        "text_light": "rgba(0,0,0,0)",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
         "padding_bottom_mobile": 28
@@ -375,7 +381,8 @@
     "page_fVWedC": {
       "type": "page",
       "settings": {
-        "select_page": "you-will-receive-a-better-product-at-a-better-price",
+        "select_page": "you-will-receive-a-better-product-at-a-better-price-1",
+        "id": "",
         "heading_light": "rgba(0,0,0,0)",
         "text_light": "rgba(0,0,0,0)",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -386,8 +393,8 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 44,
+        "padding_bottom": 40,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
         "padding_bottom_mobile": 28
@@ -396,7 +403,8 @@
     "page_tHE6Wf": {
       "type": "page",
       "settings": {
-        "select_page": "profound-scientific-knowledge-company-mission-statement",
+        "select_page": "profound-scientific-knowledge-company-mission-statement-1",
+        "id": "",
         "heading_light": "rgba(0,0,0,0)",
         "text_light": "rgba(0,0,0,0)",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -407,17 +415,18 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 44,
+        "padding_bottom": 44,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
+        "padding_bottom_mobile": 20
       }
     },
     "page_ctmHMC": {
       "type": "page",
       "settings": {
-        "select_page": "an-overview-of-our-effective-learning-methods",
+        "select_page": "an-overview-of-our-effective-learning-methods-1",
+        "id": "",
         "heading_light": "#ffffff",
         "text_light": "#ffffff",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -428,7 +437,7 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
+        "padding_top": 44,
         "padding_bottom": 40,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
@@ -441,7 +450,7 @@
         "heading_TGNwFp": {
           "type": "heading",
           "settings": {
-            "heading": "Choose the learning methods that are right for you!",
+            "heading": "Choose the learning methods that are right for you",
             "highlight_type": "underline",
             "heading_size": 100,
             "heading_tag": "h2"
@@ -450,7 +459,8 @@
         "text_EkPyG6": {
           "type": "text",
           "settings": {
-            "text": "<p>These effective methods ensure that you learn French easily, naturally and quickly. The complete immersion achieves perfect results by systematically reinforcing the correct response.</p><p>We provide many learning methods because different people learn differently. Our versatile courses are designed to suit every type of learner, so we have empirically-proven learning methods that will be a perfect match for you. Your innate ability to learn a language will be supported and leveraged, regardless of age. These innovative methods are derived from the most important discoveries in language science and learning theory:</p>",
+            "text": "<p>These effective methods ensure that you learn {{ page.metafields.custom.language.value.name.value }} quickly, naturally and easily. The complete immersion achieves perfect results by systematically reinforcing the correct response.</p><p>We provide many learning methods because different people learn differently. Our versatile courses are designed to suit every type of learner, so we have empirically-proven learning methods that will be a perfect match for you.</p><p>Your innate ability to learn a language will be supported and leveraged, regardless of age. These innovative methods are derived from the most important discoveries in language science and learning theory:</p>",
+            "text_size": 100,
             "number_of_lines_shown": "none",
             "read_more_label": "Read more"
           }
@@ -489,7 +499,7 @@
         "column_yUtdNE": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-10T101039.335.png",
+            "image": "shopify://shop_images/brainstorm-4222728_1280.jpg",
             "image_link": "",
             "open_new_window_image": false,
             "sub_title": "",
@@ -506,7 +516,7 @@
         "column_ribCFT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-10T101043.431.png",
+            "image": "shopify://shop_images/choice-4111580_1280.jpg",
             "image_link": "",
             "open_new_window_image": false,
             "sub_title": "",
@@ -523,7 +533,7 @@
         "column_inicNx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093443.026.png",
+            "image": "shopify://shop_images/seniors-9792533_640.png",
             "image_link": "",
             "open_new_window_image": false,
             "sub_title": "",
@@ -540,14 +550,14 @@
         "column_zRUXFe": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093253.732.png",
+            "image": "shopify://shop_images/audio-8324329_1280.png",
             "image_link": "",
             "open_new_window_image": false,
             "sub_title": "",
             "title": "Read and Listen",
             "highlight_type": "underline",
             "heading_size": 100,
-            "text": "<p>Read through a list of {{ page.metafields.custom.language.value.name.value }} words, commonly-used phrases or sentences from the dialog texts. With a simple click you can also hear all of the words / phrases / sentences in {{ page.metafields.custom.language.value.name.value }}, as often as you wish. Listening is a relaxing yet very effective learning method. You automatically associate what you hear with what you read. The entire contents of a lesson will be presented, which provides a convenient overview of the particular lesson.</p>",
+            "text": "<p>Read through a list of {{ page.metafields.custom.language.value.name.value }} words or commonly-used phrases. With a simple click you can also hear all of the words / phrases in {{ page.metafields.custom.language.value.name.value }}, as often as you wish. Listening is a relaxing yet very effective learning method. You automatically associate what you hear with what you read. The entire contents of a lesson will be presented, which provides a convenient overview of the particular lesson.</p>",
             "button_label": "",
             "button_link": "",
             "open_new_window": false,
@@ -557,7 +567,7 @@
         "column_g8Tahg": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093258.372.png",
+            "image": "shopify://shop_images/public-speaking-8093767_1280.png",
             "image_link": "",
             "open_new_window_image": false,
             "sub_title": "",
@@ -574,7 +584,7 @@
         "column_ErAAML": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093302.238.png",
+            "image": "shopify://shop_images/woman-5888934_1280.jpg",
             "image_link": "",
             "open_new_window_image": false,
             "sub_title": "",
@@ -591,7 +601,7 @@
         "column_YM9WwN": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093305.739.png",
+            "image": "shopify://shop_images/blinded-icon-2797396_1280.png",
             "image_link": "",
             "open_new_window_image": false,
             "sub_title": "",
@@ -608,7 +618,7 @@
         "column_PKQGn3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093309.312.png",
+            "image": "shopify://shop_images/woman-9191080_1280.jpg",
             "image_link": "",
             "open_new_window_image": false,
             "sub_title": "",
@@ -625,7 +635,7 @@
         "column_7BNNb3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093313.389.png",
+            "image": "shopify://shop_images/folder-25125_1280.png",
             "image_link": "",
             "open_new_window_image": false,
             "sub_title": "",
@@ -642,14 +652,14 @@
         "column_9p9Nk8": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093316.899.png",
+            "image": "shopify://shop_images/bullet-814706_1280.jpg",
             "image_link": "",
             "open_new_window_image": false,
             "sub_title": "",
             "title": "Digital Dictionary with Search Function",
             "highlight_type": "underline",
             "heading_size": 100,
-            "text": "<p>Type a word into the 'Search function' and it will instantly be translated. You can view all of the references to the word in the course at the same time so that you learn how the word is used in various contexts. With a simple click you can also hear all of the references in {{ page.metafields.custom.language.value.name.value }}.</p>",
+            "text": "<p>Type a word into the 'Search function' and it will instantly be translated. You can view all of the references to the word in the course at the same time, so that you learn how the word is used in various contexts. With a simple click you can also hear all of the references in {{ page.metafields.custom.language.value.name.value }}.</p>",
             "button_label": "",
             "button_link": "",
             "open_new_window": false,
@@ -659,7 +669,7 @@
         "column_7qMih4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-18T093320.455.png",
+            "image": "shopify://shop_images/scrabble-2378253_1280.jpg",
             "image_link": "",
             "open_new_window_image": false,
             "sub_title": "",
@@ -696,9 +706,10 @@
         "highlight_type": "underline",
         "heading_size": 100,
         "heading_tag": "h2",
+        "enable_title_link": false,
         "secondary_background": "section",
         "image_ratio": "natural",
-        "rounded_corner_image": false,
+        "rounded_corner_image": true,
         "column_content_alignment": "center",
         "background_color_light": "#0560a3",
         "heading_light": "#ffffff",
@@ -710,27 +721,28 @@
         "color_heading_highlight_dark": "rgba(0,0,0,0)",
         "enable_desktop_slider": false,
         "swiper_on_mobile": true,
-        "auto_play": false,
-        "change_bar_every": 5,
+        "auto_play": true,
+        "change_bar_every": 3,
         "column_layout_desktop": "lg:w-1/4",
         "spacing_desktop": 28,
         "full_width": false,
         "padding_full_width": false,
         "show_section_divider": false,
         "padding_top": 0,
-        "padding_bottom": 60,
+        "padding_bottom": 8,
         "column_layout_mobile": "w-full",
         "spacing_mobile": 16,
         "full_width_mobile": false,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 28
+        "padding_bottom_mobile": 8
       }
     },
     "page_mMKwmY": {
       "type": "page",
       "settings": {
-        "select_page": "various-learning-tricks-and-tips",
+        "select_page": "various-learning-tricks-and-tips-1",
+        "id": "",
         "heading_light": "rgba(0,0,0,0)",
         "text_light": "rgba(0,0,0,0)",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -741,8 +753,8 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 44,
+        "padding_bottom": 44,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
         "padding_bottom_mobile": 28
@@ -751,7 +763,8 @@
     "page_Ugg84P": {
       "type": "page",
       "settings": {
-        "select_page": "learn-language-faster-with-super-learning-music",
+        "select_page": "learn-language_name-32-9-faster-with-super-learning-music",
+        "id": "",
         "heading_light": "#ffffff",
         "text_light": "#ffffff",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -762,7 +775,7 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
+        "padding_top": 44,
         "padding_bottom": 60,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
@@ -772,7 +785,8 @@
     "page_9C9ebR": {
       "type": "page",
       "settings": {
-        "select_page": "what-our-customers-are-saying-about-us",
+        "select_page": "what-our-customers-are-saying-about-us-1",
+        "id": "",
         "heading_light": "rgba(0,0,0,0)",
         "text_light": "rgba(0,0,0,0)",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -783,17 +797,18 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 44,
+        "padding_bottom": 0,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
+        "padding_bottom_mobile": 0
       }
     },
     "page_rBpdP4": {
       "type": "page",
       "settings": {
-        "select_page": "learning-online-is-easy-safe-efficient-and-stress-free",
+        "select_page": "learning-online-is-easy-safe-efficient-and-stress-free-1",
+        "id": "",
         "heading_light": "#ffffff",
         "text_light": "#ffffff",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -804,8 +819,8 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 44,
+        "padding_bottom": 44,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
         "padding_bottom_mobile": 28
@@ -814,7 +829,8 @@
     "page_KA7cY7": {
       "type": "page",
       "settings": {
-        "select_page": "eighteen-reasons-why-streaming-is-awesome",
+        "select_page": "eighteen-reasons-why-streaming-is-awesome-1",
+        "id": "",
         "heading_light": "rgba(0,0,0,0)",
         "text_light": "rgba(0,0,0,0)",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -825,11 +841,11 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 44,
+        "padding_bottom": 4,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
+        "padding_bottom_mobile": 4
       }
     },
     "page_xzbyAz": {
@@ -838,7 +854,8 @@
         ".h2.text-left {display: none;}"
       ],
       "settings": {
-        "select_page": "maybe-ive-found-another-language-course-that-seems-very-cheap-whats-your-opinion",
+        "select_page": "whats-on-your-mind",
+        "id": "",
         "heading_light": "#ffffff",
         "text_light": "#ffffff",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -849,10 +866,10 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 32,
-        "padding_bottom": 60,
+        "padding_top": 4,
+        "padding_bottom": 44,
         "show_section_divider_mobile": false,
-        "padding_top_mobile": 12,
+        "padding_top_mobile": 4,
         "padding_bottom_mobile": 28
       }
     },
@@ -860,6 +877,7 @@
       "type": "page",
       "settings": {
         "select_page": "our-personal-promise-to-you",
+        "id": "our-personal-promise-to-you",
         "heading_light": "rgba(0,0,0,0)",
         "text_light": "rgba(0,0,0,0)",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -870,35 +888,36 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 44,
+        "padding_bottom": 4,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
+        "padding_bottom_mobile": 4
       }
     },
     "custom_liquid_GfCMNE": {
       "type": "custom-liquid",
       "custom_css": [
-        ".custom-liquid {background: linear-gradient(90deg, #0630a6 0%, #02c9cb 100%);}",
+        ".custom-liquid {background: linear-gradient(0deg, #0630a6 0%, #02c9cb 100%);}",
         ".custom-liquid .checkout-heading,.custom-liquid .checkout-footer,.custom-liquid .checkout-heading .h2,.custom-liquid .checkout-heading .h3 {color: #ffffff;}"
       ],
       "settings": {
         "custom_liquid": "{%- render 'learn-languages-24-checkout' -%}",
-        "full_width": true,
+        "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "full_width_mobile": true,
+        "padding_top": 24,
+        "padding_bottom": 4,
+        "full_width_mobile": false,
         "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 4
       }
     },
     "page_BLtyAF": {
       "type": "page",
       "settings": {
         "select_page": "p-s-would-you-like-a-recap-of-why-this-is-a-great-deal-1",
+        "id": "",
         "heading_light": "rgba(0,0,0,0)",
         "text_light": "rgba(0,0,0,0)",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -909,11 +928,11 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 0,
+        "padding_bottom": 20,
         "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 20
       }
     }
   },
@@ -928,7 +947,6 @@
     "page_Ggjajn",
     "page_aiaj4h",
     "rich_text_GFk6it",
-    "page_dBY76k",
     "page_fVWedC",
     "page_tHE6Wf",
     "page_ctmHMC",

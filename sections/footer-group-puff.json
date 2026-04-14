@@ -11,6 +11,21 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_VhnmtA": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<script>\n  window.bss_money_data = {\n    {% for entry in shop.metaobjects.money_data.values %}\n      \"{{ entry.name }}\": \"{{ entry.money.value | default: 0 | money_without_trailing_zeros }}\"{% unless forloop.last %},{% endunless %}\n    {% endfor %}\n  };\n\n\nwindow.addEventListener('load', function () {\ndocument.querySelectorAll('[data-money]').forEach(el => {\n      const key = el.dataset.money;\n      if (window.bss_money_data[key]) {\n        el.textContent = window.bss_money_data[key];\n      }\n    });\n  });\n</script>",
+        "full_width": false,
+        "show_section_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
     "quick_links_tKyJHb": {
       "type": "quick-links",
       "blocks": {
@@ -18,7 +33,7 @@
           "type": "link_list",
           "settings": {
             "title": "FAQs",
-            "url": "shopify://products/test",
+            "url": "shopify://pages/faq",
             "open_new_window_button": false
           }
         },
@@ -76,7 +91,7 @@
         "bg_dark": "rgba(0,0,0,0)",
         "color_text_light": "rgba(0,0,0,0)",
         "color_text_dark": "rgba(0,0,0,0)",
-        "top_padding": 52,
+        "top_padding": 40,
         "bottom_padding": 0,
         "top_padding_mobile": 40,
         "bottom_padding_mobile": 0
@@ -89,7 +104,7 @@
       ],
       "settings": {
         "columns_desktop": 2,
-        "show_language_selector": true,
+        "show_language_selector": false,
         "show_currency_selector": true,
         "show_social_icons": false,
         "payment_enable": false,
@@ -100,13 +115,14 @@
         "show_powered": false,
         "enable_follow_on_shop": false,
         "top_padding": 4,
-        "bottom_padding": 68,
+        "bottom_padding": 100,
         "top_padding_mobile": 4,
-        "bottom_padding_mobile": 44
+        "bottom_padding_mobile": 100
       }
     }
   },
   "order": [
+    "custom_liquid_VhnmtA",
     "quick_links_tKyJHb",
     "footer"
   ]

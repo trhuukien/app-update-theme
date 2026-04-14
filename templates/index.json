@@ -15,7 +15,7 @@
         "template--21828924539181__fe5dccd3-17fd-4fd3-ada9-a0e11305981c-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/img_-_2024-09-04T141850.672.png",
+            "image": "shopify://shop_images/onlinehome_bg.jpg",
             "image_link": "",
             "open_new_window_image": false,
             "overlay_opacity": 0,
@@ -23,7 +23,7 @@
             "subheading": "",
             "heading": "Effortlessly unlock life-enhancing experiences forever",
             "highlight_type": "underline",
-            "heading_size": 160,
+            "heading_size": 90,
             "heading_tag": "h2",
             "text": "",
             "button_label_1": "",
@@ -35,8 +35,8 @@
             "open_new_window_button_2": false,
             "show_button_style_2": "primary",
             "content_alignment": "custom",
-            "custom_horizontal": 11,
-            "custom_vertical": 50,
+            "custom_horizontal": 7,
+            "custom_vertical": 40,
             "alignment": "center",
             "text_product": "Check out our products:",
             "list_products": [],
@@ -100,7 +100,7 @@
         "971b1015-ef28-4d4a-a43c-646bfd6da4a0"
       ],
       "settings": {
-        "show_hero": false,
+        "show_hero": true,
         "auto_play": true,
         "change_slides_speed": 5,
         "show_arrow": false,
@@ -114,7 +114,7 @@
         "padding_bottom": 4,
         "full_width_mobile": true,
         "rounded_corner_image_mobile": false,
-        "mobile_height": "500",
+        "mobile_height": "400",
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 4
       }
@@ -125,7 +125,8 @@
         "text_wfdjnD": {
           "type": "text",
           "settings": {
-            "text": "<p>Now is the time to get more out of life. By broadening your horizons you create more possibilities, more freedom and have more fun. Whether you learn a new language for new friendships, the love of your life, personal development, culture immersion, career advancement, adventure travel or as an enjoyable hobby, you will benefit tremendously. Stop missing out. Your rewarding experience begins today.</p><p><br/>We provide everything you need to excel in real-world conversations.</p><p>Which language do you want to speak?</p>",
+            "text": "<p>Now is the time to get more out of life. By broadening your horizons you create more possibilities, more freedom and have more fun. Whether you learn a new language for new friendships, the love of your life, culture immersion, cognitive development, career advancement, heritage connection, adventure travel or as an enjoyable hobby, you will benefit tremendously. Stop missing out. Your rewarding journey begins today.</p><p><br/>We provide everything you need to excel in real-world conversations.</p><p>Which language do you want to speak?</p>",
+            "text_size": 120,
             "number_of_lines_shown": "none",
             "read_more_label": "Read more"
           }
@@ -160,7 +161,7 @@
         "column_jqhkkf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/South_Africa.png",
+            "image": "shopify://shop_images/bo-kaap-3324534_1280.jpg",
             "image_link": "shopify://pages/learn-afrikaans-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -177,7 +178,7 @@
         "column_e14nxu": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Albania.png",
+            "image": "shopify://shop_images/pexels-analogicus-3383763-5223938.jpg",
             "image_link": "shopify://pages/learn-albanian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -211,7 +212,7 @@
         "column_kdw8d1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Arabia.png",
+            "image": "shopify://shop_images/pexels-mohamad-tamer-2406731.jpg",
             "image_link": "shopify://pages/learn-arabic-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -228,7 +229,7 @@
         "column_u8in2c": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Armenia.png",
+            "image": "shopify://shop_images/pexels-anna-romanova-1406375-20227706.jpg",
             "image_link": "shopify://pages/learn-armenian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -245,7 +246,7 @@
         "column_t0s4w7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Azerbaijan.png",
+            "image": "shopify://shop_images/zulfugar-karimov-our1UWhCMKk-unsplash.jpg",
             "image_link": "shopify://pages/learn-azerbaijani-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -262,7 +263,7 @@
         "column_0nlvj4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Basque.png",
+            "image": "shopify://shop_images/pexels-pixabay-258846_900524fa-f333-4acd-b5fd-b4e3170ad4ae.jpg",
             "image_link": "shopify://pages/learn-basque-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -279,7 +280,7 @@
         "column_bldo7q": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Belarus.png",
+            "image": "shopify://shop_images/jayde-keroi-QzYdBBXkfVs-unsplash.jpg",
             "image_link": "shopify://pages/learn-belarusian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -296,7 +297,7 @@
         "column_lo0a4a": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Bangladesh.png",
+            "image": "shopify://shop_images/pexels-zihad-bin-rahim-1334544100-29239623.jpg",
             "image_link": "shopify://pages/learn-bengali-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -313,7 +314,7 @@
         "column_q7jkak": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Bosnia.png",
+            "image": "shopify://shop_images/Bosnisch-Big-01.webp",
             "image_link": "shopify://pages/learn-bosnian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -330,7 +331,7 @@
         "column_5h2whe": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Brazil.png",
+            "image": "shopify://shop_images/pexels-joao-ricardo-januzzi-94538344-9229056.jpg",
             "image_link": "shopify://pages/learn-brazilian-portuguese-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -347,7 +348,7 @@
         "column_sig0nf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Bulgaria.png",
+            "image": "shopify://shop_images/pexels-andreas-ebner-246992646-14525792.jpg",
             "image_link": "shopify://pages/learn-bulgarian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -381,7 +382,7 @@
         "column_ej9n0o": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Catalonia.png",
+            "image": "shopify://shop_images/pexels-regan-dsouza-1315522347-33053345.jpg",
             "image_link": "shopify://pages/learn-catalan-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -398,7 +399,7 @@
         "column_sor2ca": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/China.png",
+            "image": "shopify://shop_images/pexels-ruiyang-zhang-915467-3204950.jpg",
             "image_link": "shopify://pages/learn-chinese-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -415,7 +416,7 @@
         "column_ix1sjn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Croatia.png",
+            "image": "shopify://shop_images/pexels-vince-2265876.jpg",
             "image_link": "shopify://pages/learn-croatian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -449,7 +450,7 @@
         "column_6g17q3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Denmark.png",
+            "image": "shopify://shop_images/Daenisch-Big-01-750.webp",
             "image_link": "shopify://pages/learn-danish-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -466,7 +467,7 @@
         "column_przmnr": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Afghanistan.png",
+            "image": "shopify://shop_images/pexels-abdul-naser-sahebzada-883339869-19734670.jpg",
             "image_link": "shopify://pages/learn-dari-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -483,7 +484,7 @@
         "column_qk91t5": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Netherlands.png",
+            "image": "shopify://shop_images/pexels-axp-photography-500641970-16429358.jpg",
             "image_link": "shopify://pages/learn-dutch-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -517,7 +518,7 @@
         "column_6ko3mx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Estonia.png",
+            "image": "shopify://shop_images/estonia-2797148_1280.jpg",
             "image_link": "shopify://pages/learn-estonian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -534,7 +535,7 @@
         "column_v79ix7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Philippines.jpg",
+            "image": "shopify://shop_images/pexels-udgam-jain-2148798149-30628071.jpg",
             "image_link": "shopify://pages/learn-filipino-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -551,7 +552,7 @@
         "column_ievwg5": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Finland.jpg",
+            "image": "shopify://shop_images/Finnisch-Big-01.webp",
             "image_link": "shopify://pages/learn-finnish-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -568,7 +569,7 @@
         "column_jrsaei": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/France.jpg",
+            "image": "shopify://shop_images/pexels-thorsten-technoman-109353-338515.jpg",
             "image_link": "shopify://pages/learn-french-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -585,7 +586,7 @@
         "column_b3dzim": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Georgia.jpg",
+            "image": "shopify://shop_images/trinity-cathedral-8573136_1920.jpg",
             "image_link": "shopify://pages/learn-georgian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -602,7 +603,7 @@
         "column_c4pglu": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Germany.jpg",
+            "image": "shopify://shop_images/pexels-pixabay-86456_75d5ee45-920c-43d1-bc36-e576772ca29c.jpg",
             "image_link": "shopify://pages/learn-german-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -619,7 +620,7 @@
         "column_y8ryyv": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Greece.jpg",
+            "image": "shopify://shop_images/pexels-pixabay-50594.jpg",
             "image_link": "shopify://pages/learn-greek-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -636,7 +637,7 @@
         "column_pkayg4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Israel.jpg",
+            "image": "shopify://shop_images/pexels-haleyve-2087322_a814a0a4-31c5-4f6d-bf21-557ec48c3fd2.jpg",
             "image_link": "shopify://pages/learn-hebrew-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -653,7 +654,7 @@
         "column_wyf2r8": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/India.jpg",
+            "image": "shopify://shop_images/taj-mahal-5519945_1920_b2f8842c-dbcf-40cc-a71d-5c42eb088eee.jpg",
             "image_link": "shopify://pages/learn-hindi-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -670,7 +671,7 @@
         "column_5896h1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Hungary.jpg",
+            "image": "shopify://shop_images/pexels-pixabay-159412.jpg",
             "image_link": "shopify://pages/learn-hungarian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -687,7 +688,7 @@
         "column_gnzjyp": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Iceland.jpg",
+            "image": "shopify://shop_images/pexels-therato-1933239.jpg",
             "image_link": "shopify://pages/learn-icelandic-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -721,7 +722,7 @@
         "column_5afxpf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Italy.jpg",
+            "image": "shopify://shop_images/pexels-james-kampeis-6746044.jpg",
             "image_link": "shopify://pages/learn-italian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -738,7 +739,7 @@
         "column_bjyyqm": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Japan.jpg",
+            "image": "shopify://shop_images/pexels-charlespostiaux-2752037.jpg",
             "image_link": "shopify://pages/learn-japanese-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -755,7 +756,7 @@
         "column_2qd8gr": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Kazakhstan.jpg",
+            "image": "shopify://shop_images/Kasachisch-Big-01.webp",
             "image_link": "shopify://pages/learn-kazakh-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -772,7 +773,7 @@
         "column_bqhye4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Kyrgyzstan.jpg",
+            "image": "shopify://shop_images/pexels-collab-media-173741945-24603295.jpg",
             "image_link": "shopify://pages/learn-kyrgyz-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -789,7 +790,7 @@
         "column_psk1w3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Korea.jpg",
+            "image": "shopify://shop_images/pexels-caro-32830486.jpg",
             "image_link": "shopify://pages/learn-korean-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -806,7 +807,7 @@
         "column_ykg220": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Kurdistan.jpg",
+            "image": "shopify://shop_images/pexels-firaswaad-32628522.jpg",
             "image_link": "shopify://pages/learn-kurdish-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -823,7 +824,7 @@
         "column_qw4eqa": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Latvia.jpg",
+            "image": "shopify://shop_images/latvia-3725548_1280.jpg",
             "image_link": "shopify://pages/learn-latvian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -840,7 +841,7 @@
         "column_qh7wc9": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/lebanon.jpg",
+            "image": "shopify://shop_images/mosque-3720333_1920.jpg",
             "image_link": "shopify://pages/learn-lebanese-arabic-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -857,7 +858,7 @@
         "column_6zgglo": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Congo.jpg",
+            "image": "shopify://shop_images/pexels-gal-shapira-9557818.jpg",
             "image_link": "shopify://pages/learn-lingala-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -921,12 +922,13 @@
         "highlight_type": "underline",
         "heading_size": 100,
         "heading_tag": "h2",
+        "enable_title_link": true,
         "secondary_background": "none",
         "image_ratio": "100%",
         "rounded_corner_image": true,
         "column_content_alignment": "center",
         "background_color_light": "rgba(0,0,0,0)",
-        "heading_light": "rgba(0,0,0,0)",
+        "heading_light": "#02bab2",
         "text_light": "rgba(0,0,0,0)",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
         "background_color_dark": "rgba(0,0,0,0)",
@@ -958,7 +960,7 @@
         "column_d706ho": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Lithuania.jpg",
+            "image": "shopify://shop_images/vilnius-1029717_1280.jpg",
             "image_link": "shopify://pages/learn-lithuanian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -975,7 +977,7 @@
         "column_pcyyvv": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Macedonia.jpg",
+            "image": "shopify://shop_images/lex-melony-8N2EkUijcMY-unsplash.jpg",
             "image_link": "shopify://pages/learn-macedonian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -992,7 +994,7 @@
         "column_z7glar": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Madagascar.jpg",
+            "image": "shopify://shop_images/pexels-magda-ehlers-pexels-3822505.jpg",
             "image_link": "shopify://pages/learn-malagasy-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1009,7 +1011,7 @@
         "column_nvaruc": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Malaysia.jpg",
+            "image": "shopify://shop_images/Malaysisch-Big-01.webp",
             "image_link": "shopify://pages/learn-malaysian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1026,7 +1028,7 @@
         "column_m46dct": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Mallorca.jpg",
+            "image": "shopify://shop_images/tom-podmore-SaW5DBItJHI-unsplash.jpg",
             "image_link": "shopify://pages/learn-mallorcan-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1043,7 +1045,7 @@
         "column_i1e5z7": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Malta.jpg",
+            "image": "shopify://shop_images/pexels-som-thapa-magar-1885434-3496763.jpg",
             "image_link": "shopify://pages/learn-maltese-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1060,7 +1062,7 @@
         "column_jfi807": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Mexico.jpg",
+            "image": "shopify://shop_images/anna-sullivan-zvUy4_sBAuM-unsplash.jpg",
             "image_link": "shopify://pages/learn-mexican-spanish-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1077,7 +1079,7 @@
         "column_a3mdry": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Mongolia.jpg",
+            "image": "shopify://shop_images/Mongolisch-Big-01.webp",
             "image_link": "shopify://pages/learn-mongolian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1094,7 +1096,7 @@
         "column_8kwyxt": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Morocco.jpg",
+            "image": "shopify://shop_images/pexels-ryutaro-5472524.jpg",
             "image_link": "shopify://pages/learn-moroccan-arabic-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1111,7 +1113,7 @@
         "column_iedh06": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Nepal.jpg",
+            "image": "shopify://shop_images/pexels-nishchal-rimal-1220164-2320243_c1d0ba32-873b-4c57-83ab-9f305f5d7a34.jpg",
             "image_link": "shopify://pages/learn-nepali-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1128,7 +1130,7 @@
         "column_2zhine": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Norway.jpg",
+            "image": "shopify://shop_images/mountains-8108961_1280.jpg",
             "image_link": "shopify://pages/learn-norwegian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1145,7 +1147,7 @@
         "column_pr9dmm": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Pakistan_2.jpg",
+            "image": "shopify://shop_images/ali-kazim-RWIzDzHCV1Q-unsplash.jpg",
             "image_link": "shopify://pages/learn-pashto-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1162,7 +1164,7 @@
         "column_j6b7vp": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Iran.jpg",
+            "image": "shopify://shop_images/pexels-hamid-mohammad-hossein-zadeh-ha-37404025-30976924.jpg",
             "image_link": "shopify://pages/learn-persian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1179,7 +1181,7 @@
         "column_9nug5i": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Poland.jpg",
+            "image": "shopify://shop_images/kamil-gliwinski-xcPw1-5OHTk-unsplash_a877eb7e-12fa-46a5-9a88-20c8ed4d611f.jpg",
             "image_link": "shopify://pages/learn-polish-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1196,7 +1198,7 @@
         "column_sk3flo": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Portugal.jpg",
+            "image": "shopify://shop_images/pexels-nextvoyage-3780224.jpg",
             "image_link": "shopify://pages/learn-portuguese-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1213,7 +1215,7 @@
         "column_mdq5kd": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Punjab.jpg",
+            "image": "shopify://shop_images/pexels-navnidh-5458388_d68e58b8-d11f-47cd-a0c5-bbe3a4d7787a.jpg",
             "image_link": "shopify://pages/learn-punjabi-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1230,7 +1232,7 @@
         "column_u5oav3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Romania.jpg",
+            "image": "shopify://shop_images/peles-castle-2534375_1280.jpg",
             "image_link": "shopify://pages/learn-romanian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1264,7 +1266,7 @@
         "column_yd7hjn": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Serbia.jpg",
+            "image": "shopify://shop_images/pexels-andreas-ebner-246992646-14525794_64a8ccc2-df58-492d-87b8-b52c71c10f2f.jpg",
             "image_link": "shopify://pages/learn-serbian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1281,7 +1283,7 @@
         "column_8tnmfh": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Shanghai.jpg",
+            "image": "shopify://shop_images/pexels-nickkwanhk-2614820.jpg",
             "image_link": "shopify://pages/learn-shanghainese-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1298,7 +1300,7 @@
         "column_boxrm8": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Sri_Lanka.jpg",
+            "image": "shopify://shop_images/pexels-tomas-malik-793526-1998439.jpg",
             "image_link": "shopify://pages/learn-sinhala-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1315,7 +1317,7 @@
         "column_ywn7e1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Slovakia.jpg",
+            "image": "shopify://shop_images/pexels-wacho-31873804.jpg",
             "image_link": "shopify://pages/learn-slovak-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1332,7 +1334,7 @@
         "column_cypfzp": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Slovenia.jpg",
+            "image": "shopify://shop_images/Slowenisch-Big-02.webp",
             "image_link": "shopify://pages/learn-slovene-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1349,7 +1351,7 @@
         "column_t2bgbd": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/South_America.jpg",
+            "image": "shopify://shop_images/Suedamerika-Big-10-400.webp",
             "image_link": "shopify://pages/learn-south-american-spanish-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1366,7 +1368,7 @@
         "column_nysbej": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Spain.jpg",
+            "image": "shopify://shop_images/pexels-emilio-sanchez-hernandez-285921208-28390677.jpg",
             "image_link": "shopify://pages/learn-spanish-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1383,7 +1385,7 @@
         "column_4bcgki": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Kenya.jpg",
+            "image": "shopify://shop_images/elephants-8171393_1920.jpg",
             "image_link": "shopify://pages/learn-swahili-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1400,7 +1402,7 @@
         "column_s17b2j": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Sweden.jpg",
+            "image": "shopify://shop_images/Schwedisch-Big-01.webp",
             "image_link": "shopify://pages/learn-swedish-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1417,7 +1419,7 @@
         "column_z17qs2": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Syria.jpg",
+            "image": "shopify://shop_images/mohanned-al-rahmah-AO_U_MY4CBA-unsplash.jpg",
             "image_link": "shopify://pages/learn-syrian-arabic-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1434,7 +1436,7 @@
         "column_837829": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Tamil_Nadu.jpg",
+            "image": "shopify://shop_images/pexels-sunil-singam-2153303751-32654427.jpg",
             "image_link": "shopify://pages/learn-tamil-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1451,7 +1453,7 @@
         "column_l6stvh": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Thailand.jpg",
+            "image": "shopify://shop_images/pexels-gije-16963635.jpg",
             "image_link": "shopify://pages/learn-thai-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1468,7 +1470,7 @@
         "column_6gy9ta": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Tunisia.jpg",
+            "image": "shopify://shop_images/pexels-bedis-elacheche-310026-891126.jpg",
             "image_link": "shopify://pages/learn-tunisian-arabic-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1485,7 +1487,7 @@
         "column_345bv6": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Turkey.jpg",
+            "image": "shopify://shop_images/pexels-azim-keskin-71368175-8412712.jpg",
             "image_link": "shopify://pages/learn-turkish-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1502,7 +1504,7 @@
         "column_4nvk0c": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Ukraine.jpg",
+            "image": "shopify://shop_images/pexels-freestockpro-12932192.jpg",
             "image_link": "shopify://pages/learn-ukrainian-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1519,7 +1521,7 @@
         "column_inpplq": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Pakistan.jpg",
+            "image": "shopify://shop_images/ali-kazim-KOwjW3N0Cto-unsplash.jpg",
             "image_link": "shopify://pages/learn-urdu-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1536,7 +1538,7 @@
         "column_qnsmdm": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Uzbekistan.jpg",
+            "image": "shopify://shop_images/pexels-axp-photography-500641970-16681674.jpg",
             "image_link": "shopify://pages/learn-uzbek-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1553,7 +1555,7 @@
         "column_goidg1": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Vietnam.jpg",
+            "image": "shopify://shop_images/ha-long-4364342_1280.jpg",
             "image_link": "shopify://pages/learn-vietnamese-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1570,7 +1572,7 @@
         "column_8maorf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Senegal.jpg",
+            "image": "shopify://shop_images/pexels-timon-cornelissen-241844481-24509379.jpg",
             "image_link": "shopify://pages/learn-wolof-travel-course",
             "open_new_window_image": false,
             "sub_title": "",
@@ -1629,12 +1631,13 @@
         "highlight_type": "underline",
         "heading_size": 100,
         "heading_tag": "h2",
+        "enable_title_link": true,
         "secondary_background": "none",
         "image_ratio": "100%",
         "rounded_corner_image": true,
         "column_content_alignment": "center",
         "background_color_light": "rgba(0,0,0,0)",
-        "heading_light": "rgba(0,0,0,0)",
+        "heading_light": "#02bab2",
         "text_light": "rgba(0,0,0,0)",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
         "background_color_dark": "rgba(0,0,0,0)",

@@ -15,8 +15,8 @@
         "show_heading": true,
         "heading_size": 100,
         "heading_tag": "h1",
-        "show_breadcrumbs": true,
-        "show_breadcrumbs_border": true,
+        "show_breadcrumbs": false,
+        "show_breadcrumbs_border": false,
         "full_width_breadcrumb": false,
         "desktop_content_alignment": "text-left",
         "mobile_content_alignment": "text-left",
@@ -111,7 +111,7 @@
         "text_CzJUeX": {
           "type": "text",
           "settings": {
-            "text": "<p>Please see <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy policy</a> and the <a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Terms and Conditions</a>.</p><p>LearnLanguages24 is a reputable, trustworthy and ethical company that is bound by all applicable EU laws. Your email address will not be shared with any third party. All necessary precautions to protect your email address have been implemented.</p>",
+            "text": "<p>LearnLanguages24 is a reputable, trustworthy and ethical company that is bound by all applicable EU laws. Your email address will not be shared with any third party. All necessary precautions to protect your email address have been implemented.</p><p>Please see our <a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy policy</a> and  <a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Terms and Conditions</a> for further information.</p><p></p>",
             "number_of_lines_shown": "none",
             "read_more_label": "Read more"
           }

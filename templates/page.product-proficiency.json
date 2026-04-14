@@ -17,7 +17,7 @@
           "settings": {
             "heading": "The {{ page.metafields.custom.language.value.name.value }} Proficiency Course",
             "highlight_type": "underline",
-            "heading_size": 170,
+            "heading_size": 130,
             "heading_tag": "h2",
             "subheading": "",
             "text": "",
@@ -34,133 +34,34 @@
       ],
       "settings": {
         "heading": "Promotion Banner",
-        "image": "shopify://shop_images/img_-_2024-09-04T144115.003.png",
+        "image": "shopify://shop_images/man-7795548_1280.jpg",
         "image_link": "",
         "open_new_window": false,
         "image_overlay_opacity": 0,
-        "content_position": "center",
-        "content_horizontal": 50,
-        "content_vertical": 50,
-        "position_content_mobile": "center",
+        "content_position": "bottom-center",
+        "content_horizontal": 0,
+        "content_vertical": 0,
+        "position_content_mobile": "bottom-center",
         "content_alignment": "center",
         "show_hero": true,
         "full_width": true,
         "padding_full_width": false,
         "rounded_corner_image": false,
-        "desktop_height": "750px",
+        "desktop_height": "natural",
         "padding_top": 0,
-        "padding_bottom": 28,
+        "padding_bottom": 0,
         "full_width_mobile": true,
         "rounded_corner_image_mobile": false,
-        "mobile_height": "400px",
+        "mobile_height": "500px",
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 20
-      }
-    },
-    "flash_sale_pNyYbr": {
-      "type": "flash-sale",
-      "blocks": {
-        "image_banner_Qi88An": {
-          "type": "image_banner",
-          "settings": {
-            "heading": "Hype sale now on! An unprecedented 95% discount is all yours!",
-            "highlight_type": "underline",
-            "heading_size": 100,
-            "heading_tag": "h2",
-            "text": "<p>Don't miss this truly exceptional value-for-money special offer!<br/><br/></p>",
-            "text_size": 100,
-            "coupon_code": "",
-            "coupon_color": "rgba(0,0,0,0)",
-            "coupon_color_dark": "rgba(0,0,0,0)"
-          }
-        },
-        "countdown_timer_YhAcHH": {
-          "type": "countdown_timer",
-          "settings": {
-            "loop_time": "1",
-            "timezone": "-4",
-            "end_year": 2023,
-            "end_month": "1",
-            "end_day": "1",
-            "end_hour": "0",
-            "end_minute": "0",
-            "timer_style": "square",
-            "border_style": "line_vertical",
-            "overlay_opacity": 100,
-            "timer_color_countdown": "#ffffff",
-            "text_color_countdown": "#ffffff",
-            "bg_color_countdown": "rgba(0,0,0,0)",
-            "spacing_col": 40,
-            "spacing_col_mobile": 8
-          }
-        }
-      },
-      "block_order": [
-        "image_banner_Qi88An",
-        "countdown_timer_YhAcHH"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "show_hero": false,
-        "border_section": "none",
-        "content_layout": "horizontal",
-        "content_alignment": "left",
-        "full_width": false,
-        "padding_full_width": false,
-        "rounded_corner_image": true,
-        "spacing_col": 40,
-        "spacing_row": 32,
-        "padding_top": 20,
-        "padding_bottom": 0,
-        "content_alignment_mobile": "center",
-        "full_width_mobile": false,
-        "rounded_corner_image_mobile": true,
-        "spacing_row_mobile": 20,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0,
-        "background_color_light": "#02bab2",
-        "heading_light": "#ffffff",
-        "text_light": "#ffffff",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "line_border_light": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "line_border_dark": "rgba(0,0,0,0)"
-      }
-    },
-    "page_aPkd9w": {
-      "type": "page",
-      "custom_css": [
-        ".text-container {--h2-font-size: var(--h3-font-size); text-align: center;}",
-        ".text-container .text-left {max-width: 56rem; display: inline-block;}",
-        "table {max-width: 1024px; display: inline-table;}",
-        "table td,table tr,table {border: none;}"
-      ],
-      "settings": {
-        "select_page": "as-featured-in-the-media",
-        "heading_light": "rgba(0,0,0,0)",
-        "text_light": "rgba(0,0,0,0)",
-        "color_heading_highlight_light": "rgba(0,0,0,0)",
-        "background_color_light": "rgba(0,0,0,0)",
-        "heading_dark": "rgba(0,0,0,0)",
-        "text_dark": "rgba(0,0,0,0)",
-        "color_heading_highlight_dark": "rgba(0,0,0,0)",
-        "background_color_dark": "rgba(0,0,0,0)",
-        "full_width": false,
-        "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
+        "padding_bottom_mobile": 0
       }
     },
     "page_7qi3YK": {
       "type": "page",
       "settings": {
         "select_page": "a-brief-overview-of-the-proficiency-course",
+        "id": "",
         "heading_light": "rgba(0,0,0,0)",
         "text_light": "rgba(0,0,0,0)",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -171,11 +72,11 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 44,
+        "padding_bottom": 32,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
+        "padding_bottom_mobile": 8
       }
     },
     "custom_liquid_d78mfF": {
@@ -184,7 +85,7 @@
         ".custom-liquid {background-color: #dde6f4;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"flex gap-2 justify-center items-center\">\n<div><img src=\"https://flagcdn.com/32x24/{{page.metafields.custom.language.value.country_code.value | downcase }}.png\"   srcset=\"https://flagcdn.com/64x48/{{page.metafields.custom.language.value.country_code.value | downcase }}.png 2x, https://flagcdn.com/96x72/{{page.metafields.custom.language.value.country_code.value | downcase }}.png 3x\" width=\"32\" height=\"24\" /></div>\n\n<p>Are you ready to speak {{ page.metafields.custom.language.value.name.value }} with ease and confidence?</p>\n</div>\n\n\n<a href=\"#checkout\">\n<p class=\"mt-2 md:mt-4 button button-solid pt-2.5 pb-2.5 pl-7 pr-7 md:pl-9 md:pr-9 md:pt-3 md:pb-3 leading-normal cursor-pointer w-max mx-auto max-w-full text-center\">\n    <span class=\"button-text is-focus-button:opacity-0\">Please scroll down for more information or BUY NOW</span></p>\n</a>",
+        "custom_liquid": "<div class=\"flex gap-2 justify-center items-center\">\n<div><img src=\"https://flagcdn.com/32x24/{{page.metafields.custom.language.value.country_code.value | downcase }}.png\"   srcset=\"https://flagcdn.com/64x48/{{page.metafields.custom.language.value.country_code.value | downcase }}.png 2x, https://flagcdn.com/96x72/{{page.metafields.custom.language.value.country_code.value | downcase }}.png 3x\" width=\"32\" height=\"24\" /></div>\n\n<p>Are you ready to speak {{ page.metafields.custom.language.value.name.value }} with ease and confidence?</p>\n</div>\n\n\n<a href=\"#checkout\">\n<p style=\"overflow: hidden; will-change: transform; background-color: #02B1FF; box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);\" class=\"mt-2 md:mt-4 button button-solid pt-2.5 pb-2.5 pl-7 pr-7 md:pl-9 md:pr-9 md:pt-3 md:pb-3 leading-normal cursor-pointer w-max mx-auto max-w-full text-center\">\n    <span class=\"button-text is-focus-button:opacity-0\">Please scroll down for more information or BUY NOW</span></p>\n</a>",
         "full_width": false,
         "show_section_divider": false,
         "padding_top": 0,
@@ -204,6 +105,7 @@
       ],
       "settings": {
         "select_page": "a-detailed-description-of-the-proficiency-course",
+        "id": "",
         "heading_light": "#ffffff",
         "text_light": "#ffffff",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -214,8 +116,8 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 44,
+        "padding_bottom": 44,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
         "padding_bottom_mobile": 28
@@ -225,6 +127,7 @@
       "type": "page",
       "settings": {
         "select_page": "the-proficiency-course-provides-you-with",
+        "id": "",
         "heading_light": "rgba(0,0,0,0)",
         "text_light": "rgba(0,0,0,0)",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -235,8 +138,8 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 44,
+        "padding_bottom": 44,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
         "padding_bottom_mobile": 28
@@ -248,7 +151,8 @@
         "text_DDBVpr": {
           "type": "text",
           "settings": {
-            "text": "<p>Would you like to learn more effectively and get perfect results much faster than you would with conventional methods?<br/> <br/>Would you like goal-specific motivational techniques and complete immersion learning methods that guarantee success?<br/> <br/>Would you like to learn {{ page.metafields.custom.language.value.name.value }} naturally, effortlessly and quickly?<br/> <br/>Would you like the freedom to determine when, for how long and where you learn?<br/> <br/>Would you like a thorough and intuitive approach to learning specialized {{ page.metafields.custom.language.value.name.value }} vocabulary?<br/> <br/>Would you like to make a great impression on {{ page.metafields.custom.language.value.name.value }} speakers?<br/> <br/>Would you like to be completely fluent in {{ page.metafields.custom.language.value.name.value }}?<br/> <br/><strong>Yes? Then the </strong><strong>{{ page.metafields.custom.language.value.name.value }}</strong><strong> Proficiency Course is right for you!</strong></p>",
+            "text": "<p>Would you like to learn more effectively and get perfect results much faster than you would with conventional methods?<br/> <br/>Would you like goal-specific motivational techniques and complete immersion learning methods that guarantee success?<br/> <br/>Would you like to learn {{ page.metafields.custom.language.value.name.value }} quickly, naturally and effortlessly?<br/> <br/>Would you like the freedom to determine when, for how long and where you learn?<br/> <br/>Would you like a thorough and intuitive approach to learning specialized {{ page.metafields.custom.language.value.name.value }} vocabulary?<br/> <br/>Would you like to make a great impression on {{ page.metafields.custom.language.value.name.value }} speakers?<br/> <br/>Would you like to be completely fluent in {{ page.metafields.custom.language.value.name.value }}?<br/> <br/><strong>Yes? Then the </strong><strong>{{ page.metafields.custom.language.value.name.value }}</strong><strong> Proficiency Course is right for you!</strong></p>",
+            "text_size": 100,
             "number_of_lines_shown": "none",
             "read_more_label": "Read more{{ page.metafields.custom.language.value.name.value }}"
           }
@@ -266,39 +170,23 @@
         "text_dark": "rgba(0,0,0,0)",
         "color_heading_highlight_dark": "rgba(0,0,0,0)",
         "background_color_dark": "rgba(0,0,0,0)",
-        "content_alignment": "left",
+        "content_alignment": "center",
         "show_section_divider": false,
         "make_full_page_width": true,
-        "padding_top": 28,
-        "padding_bottom": 28,
+        "padding_top": 40,
+        "padding_bottom": 40,
         "content_alignment_mobile": "center",
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
         "padding_bottom_mobile": 28
       }
     },
-    "custom_liquid_GfCMNE": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".custom-liquid {background: linear-gradient(90deg, #0630a6 0%, #02c9cb 100%);}",
-        ".custom-liquid .checkout-heading,.custom-liquid .checkout-footer,.custom-liquid .checkout-heading .h2,.custom-liquid .checkout-heading .h3 {color: #ffffff;}"
-      ],
-      "settings": {
-        "custom_liquid": "{%- render 'learn-languages-24-checkout' -%}",
-        "full_width": true,
-        "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "full_width_mobile": true,
-        "show_section_divider_mobile": false,
-        "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
-      }
-    },
-    "page_BLtyAF": {
+    "page_kVzcUF": {
       "type": "page",
+      "name": "t:sections.section-page.name",
       "settings": {
-        "select_page": "p-s-would-you-like-a-recap-of-why-this-is-a-great-deal-1",
+        "select_page": "our-personal-promise-to-you",
+        "id": "our-personal-promise-to-you",
         "heading_light": "rgba(0,0,0,0)",
         "text_light": "rgba(0,0,0,0)",
         "color_heading_highlight_light": "rgba(0,0,0,0)",
@@ -309,23 +197,62 @@
         "background_color_dark": "rgba(0,0,0,0)",
         "full_width": false,
         "show_section_divider": false,
-        "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_top": 40,
+        "padding_bottom": 4,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 28,
-        "padding_bottom_mobile": 28
+        "padding_bottom_mobile": 4
+      }
+    },
+    "custom_liquid_GfCMNE": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".custom-liquid {background: linear-gradient(0deg, #0630a6 0%, #02c9cb 100%);}",
+        ".custom-liquid .checkout-heading,.custom-liquid .checkout-footer,.custom-liquid .checkout-heading .h2,.custom-liquid .checkout-heading .h3 {color: #ffffff;}"
+      ],
+      "settings": {
+        "custom_liquid": "{%- render 'learn-languages-24-checkout' -%}",
+        "full_width": false,
+        "show_section_divider": false,
+        "padding_top": 24,
+        "padding_bottom": 4,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 4
+      }
+    },
+    "page_BLtyAF": {
+      "type": "page",
+      "settings": {
+        "select_page": "p-s-would-you-like-a-recap-of-why-this-is-a-great-deal-1",
+        "id": "",
+        "heading_light": "rgba(0,0,0,0)",
+        "text_light": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "background_color_light": "rgba(0,0,0,0)",
+        "heading_dark": "rgba(0,0,0,0)",
+        "text_dark": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "full_width": false,
+        "show_section_divider": false,
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 20
       }
     }
   },
   "order": [
     "promotion_banner_GhzDPh",
-    "flash_sale_pNyYbr",
-    "page_aPkd9w",
     "page_7qi3YK",
     "custom_liquid_d78mfF",
     "page_BpUyaX",
     "page_wxpTb7",
     "rich_text_GFk6it",
+    "page_kVzcUF",
     "custom_liquid_GfCMNE",
     "page_BLtyAF"
   ]

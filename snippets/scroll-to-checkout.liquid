@@ -1,6 +1,6 @@
-<div id="scroll-to-checkout" class="fixed transition-all duration-300 ease-in-out opacity-100 translate-y-0 pointer-events-auto" style="bottom: 3%; right: 2%;">
+<div id="scroll-to-checkout" class="fixed transition-all duration-300 ease-in-out opacity-100 translate-y-0 pointer-events-auto z-[60]" style="bottom: 3%; right: 2%;">
   <a href="#checkout">
-    <p style="background-color: #02B1FF; max-width: 350px; box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);" class="mt-2 md:mt-4 button button-solid pt-2.5 pb-2.5 pl-7 pr-7 md:pl-9 md:pr-9 md:pt-3 md:pb-3 leading-normal cursor-pointer w-full mx-auto text-center z-50">
+    <p style="overflow: hidden; will-change: transform; background-color: #02B1FF; max-width: 350px; box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);" class="mt-2 md:mt-4 button button-solid pt-2.5 pb-2.5 pl-7 pr-7 md:pl-9 md:pr-9 md:pt-3 md:pb-3 leading-normal cursor-pointer w-full mx-auto text-center">
       <span class="button-text is-focus-button:opacity-0">Please scroll down for more information or BUY NOW</span>
     </p>
   </a>
@@ -17,8 +17,7 @@
       const rect = el.getBoundingClientRect();
       const windowHeight = window.innerHeight || document.documentElement.clientHeight;
       const windowWidth = window.innerWidth || document.documentElement.clientWidth;
-    
-      // Kiểm tra nếu phần tử có bất kỳ phần nào nằm trong viewport
+
       return (
         rect.top < windowHeight &&
         rect.bottom > 0 &&

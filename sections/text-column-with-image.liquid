@@ -158,6 +158,18 @@
   {% endif %}
 {%- endstyle -%}
 
+{%- if section.settings.enable_title_link -%}
+{% style %}
+  #x-text-column-with-image-{{ section.id }} .column-hover:hover .hover-text-link {
+    color: rgb(var(--colors-text-link));
+  }
+  #x-text-column-with-image-{{ section.id }} .column-hover:hover .nav-link:after {
+    transform: scaleX(1);
+    transform-origin: 0% 0%;
+  }
+{% endstyle %}
+{% endif %}
+
 {% render 'section-divider' %}
 <div class="section--{{ section.id }}{% if section.settings.secondary_background == "section" %} bg--{{ section.id }}{% endif %} pb-[{{ section.settings.padding_bottom_mobile }}px] pt-[{{ section.settings.padding_top_mobile }}px] md:pb-[{{ section.settings.padding_bottom }}px] md:pt-[{{ section.settings.padding_top }}px] section--{{ section.id }}{% if section.settings.padding_full_width and section.settings.full_width %} md:pl-5 md:pr-5{% endif %}">
   <div class="relative{% if section.settings.full_width %} md:pl-0 md:pr-0{% else %} page-width mx-auto{% endif %}{% if section.settings.full_width_mobile %} full-width-mobile{% else %} pl-5 pr-5{% endif %}">
@@ -264,7 +276,7 @@
               {% endunless %} 
               "
             >
-              <div class="h-full{% if section.settings.secondary_background == "column" %} bg--{{ section.id }}{% endif %}{% if section.settings.rounded_corner_image %} rounded-[10px]{% endif %}" {{ block.shopify_attributes }} >
+              <div class="column-hover h-full{% if section.settings.secondary_background == "column" %} bg--{{ section.id }}{% endif %}{% if section.settings.rounded_corner_image %} rounded-[10px]{% endif %}" {{ block.shopify_attributes }} >
                 <div class="overflow-hidden h-0 relative w-full pb-[{{ section.settings.image_ratio }}] {% if section.settings.image_ratio == 'round' %} rounded-full pb-[100%]{% elsif section.settings.rounded_corner_image %} rounded-[10px]{% endif %}{% if section.settings.image_ratio == 'natural' and block.settings.image == blank %} pb-[100%]{% endif %}"{% if section.settings.image_ratio == 'natural' and block.settings.image != blank %} style='padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;'{% endif %}>
                   {% if block.settings.image_link %}
                     <a href="{{ block.settings.image_link }}" {% if block.settings.open_new_window_image %}target="_blank"{% endif %} class="w-full h-full z-0 overflow-hidden absolute top-0 left-0">
@@ -309,15 +321,30 @@
                       <p class="empty:hidden pb-1 p-break-words text-{{ column_content_alignment }}">{{ block.settings.sub_title | escape }}</p>
                     {% endif %}
                     {% if block.settings.title != blank %}
-                      <p class="h3 empty:hidden p-break-words heading-{{ block.id }} text-{{ column_content_alignment }} leading-tight pb-1">
-                        {% render 'heading-highlight',
-                          headingId: block.id,
-                          heading: block.settings.title,
-                          highlight_type: block.settings.highlight_type,
-                          color_heading_highlight_dark: section.settings.color_heading_highlight_dark,
-                          color_heading_highlight_light: section.settings.color_heading_highlight_light
-                        %}
-                      </p>
+                      {%- if section.settings.enable_title_link -%}
+                        <p class="h3 empty:hidden p-break-words heading-{{ block.id }} text-{{ column_content_alignment }} leading-tight pb-1">
+                          <a href="{{ block.settings.image_link | default: '#' }}" class="nav-link hover-text-link leading-[initial] relative">
+                            {% render 'heading-highlight',
+                              headingId: block.id,
+                              heading: block.settings.title,
+                              highlight_type: block.settings.highlight_type,
+                              color_heading_highlight_dark: section.settings.color_heading_highlight_dark,
+                              color_heading_highlight_light: section.settings.color_heading_highlight_light
+                            %}
+                          </a>
+                        <p>
+                      {% else %}
+                        <p class="h3 empty:hidden p-break-words heading-{{ block.id }} text-{{ column_content_alignment }} leading-tight pb-1">
+                          {% render 'heading-highlight',
+                            headingId: block.id,
+                            heading: block.settings.title,
+                            highlight_type: block.settings.highlight_type,
+                            color_heading_highlight_dark: section.settings.color_heading_highlight_dark,
+                            color_heading_highlight_light: section.settings.color_heading_highlight_light
+                          %}
+                        </p>
+                      {% endif %}
+                      
                     {% endif %}
                     {% if block.settings.text != blank %}
                       <div class="rte text-{{ column_content_alignment }}">
@@ -445,6 +472,12 @@
           "label": "p"
         }
       ]
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_title_link",
+      "default": false,
+      "label": "Enable coulumns title link?"
     },
     {
       "type": "select",
@@ -772,7 +805,7 @@
           "id": "image_link",
           "label": "t:sections.mobile-navigation.blocks.image_link.name"
         },
-         {
+        {
           "type": "checkbox",
           "id": "open_new_window_image",
           "default": false,

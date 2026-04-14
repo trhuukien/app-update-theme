@@ -41,7 +41,7 @@
   }
 {%- endstyle -%}
 
-<div class="text-container section--{{ section.id }} section-page relative mx-auto pt-[{{ section.settings.padding_top_mobile }}px] md:pt-[{{ section.settings.padding_top }}px] pb-[{{ section.settings.padding_bottom_mobile }}px] md:pb-[{{ section.settings.padding_bottom }}px] ltr">
+<div {% if section.settings.id %}id="{{ section.settings.id }}"{% endif %} class="text-container section--{{ section.id }} section-page relative mx-auto pt-[{{ section.settings.padding_top_mobile }}px] md:pt-[{{ section.settings.padding_top }}px] pb-[{{ section.settings.padding_bottom_mobile }}px] md:pb-[{{ section.settings.padding_bottom }}px] ltr">
   <div class="{% if section.settings.full_width %} full-width{% else %} page-width{% endif %}">
     <div class="page__container">
       {%- assign language_name = page.metafields.custom.language.value.name.value -%}
@@ -80,6 +80,11 @@
       "type": "page",
       "id": "select_page",
       "label": "t:sections.featured-product.blocks.size_chart.settings.select_page.label"
+    },
+    {
+      "type": "text",
+      "id": "id",
+      "label": "Element ID"
     },
     {
       "type": "color",

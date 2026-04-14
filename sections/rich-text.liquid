@@ -95,9 +95,23 @@
               </p>
             {% endif %}
           {%- when 'text' -%}
+            {%- liquid 
+              assign text_size = settings.text_base_size | times: block.settings.text_size | times: 0.0000875
+            -%}
+            {%- style -%}  
+              .rich-text-{{ block.id }} {
+                font-size: {{ text_size | times: 0.9 }}rem;
+              }
+              @media (min-width: 767px){
+                .rich-text-{{ block.id }} {
+                  font-size: {{ text_size }}rem; 
+                }
+              }
+            {%- endstyle -%}
+
             <div 
               x-intersect.once="$el.classList.add('is-visible')"
-              class="p-break-words rte pt-2 pb-2 leading-tight text-[rgb(var(--colors-text))] anm-fade-element" 
+              class="p-break-words rte pt-2 pb-2 leading-tight text-[rgb(var(--colors-text))] anm-fade-element rich-text-{{ block.id }}" 
               {{ block.shopify_attributes }}
             >
               {%- render 'truncate-text', 
@@ -539,6 +553,16 @@
           "id": "text",
           "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
           "label": "t:sections.rich-text.blocks.text.settings.text.label"
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "min": 50,
+          "max": 200,
+          "unit": "%",
+          "step": 10,
+          "default": 100,
+          "label": "t:sections.rich-text.blocks.caption.settings.caption_size.label"
         },
         {
           "type": "select",

@@ -33,6 +33,11 @@
   if section.settings.enable_on_collection_page and template.name == "collection" and template.name == "product"
     assign transparent = true
   endif
+  if section.settings.enable_on_course_page and template.name == "page"
+    if page.template_suffix == 'product-express-course' or page.template_suffix == 'product-basic-course' or page.template_suffix == 'product-intermediate' or page.template_suffix == 'product-proficiency' or page.template_suffix == 'product-business-course'
+      assign transparent = true
+    endif
+  endif
   assign class_logo = "w-[" | append: section.settings.logo_width_mobile | append: "px] md:w-[" | append: section.settings.logo_width | append: "px] h-auto"
   assign logo_name = settings.heading_base_size | times: 0.0225
   if section.settings.header_show_currency_selector or section.settings.show_social_icons or section.settings.header_show_language_selector
@@ -464,6 +469,12 @@
       "id": "enable_on_collection_page",
       "default": true,
       "label": "t:sections.header.settings.enable_on_collection_page.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_on_course_page",
+      "default": true,
+      "label": "Enable on course page"
     },
     {
       "type": "image_picker",

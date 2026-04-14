@@ -20,6 +20,11 @@
             "icon": "none",
             "custom_icon": "",
             "text": "SPEAK A NEW LANGUAGE WITH EASE AND CONFIDENCE IN FIVE MINUTES A DAY",
+            "text_express_course": "LEARN language_name QUICKLY, NATURALLY AND EFFORTLESSLY WITH OUR ONLINE COURSE",
+            "text_basic_course": "LEARN language_name QUICKLY, NATURALLY AND EFFORTLESSLY WITH OUR ONLINE COURSES",
+            "text_intermediate_course": "MAKE A GREAT IMPRESSION ON EVERYONE YOU MEET",
+            "text_proficiency_course": "RECEIVE THE BENEFITS OF FLUENCY",
+            "text_business_course": "MAKE AN INVESTMENT IN YOUR FUTURE",
             "text_size": 110,
             "link": "",
             "open_new_window": false,
@@ -49,7 +54,7 @@
         "enable_carousel_on_desktop": true,
         "backgound_color": "#02bab2",
         "text_color": "#ffffff",
-        "textlink_color_light": "rgba(0,0,0,0)",
+        "textlink_color_light": "#0c2e44",
         "backgound_color_dark": "#3e2f28",
         "text_color_dark": "#ffffff",
         "textlink_color_dark": "rgba(0,0,0,0)",
@@ -60,7 +65,7 @@
         "show_navigation": true,
         "show_social_icons": false,
         "alignment": "right",
-        "show_language_selector": true,
+        "show_language_selector": false,
         "show_currency_selector": true,
         "text_size_toolbar": 90
       }
@@ -69,7 +74,7 @@
       "type": "header",
       "custom_css": [
         ".list-menu > li:last-child {font-size: 1.25rem;}",
-        ".list-menu {--colors-text-link: 12, 46, 68;}"
+        ".list-menu {--colors-text-link1: 12, 46, 68;}"
       ],
       "settings": {
         "menu": "main-menu",
@@ -77,24 +82,25 @@
         "full_width": true,
         "logo_position": "left-right",
         "sticky_header_type": "none",
-        "logo": "shopify://shop_images/logo_7.png",
-        "logo_width": 180,
-        "logo_width_mobile": 100,
+        "logo": "shopify://shop_images/LL24-Globe-transparent.png",
+        "logo_width": 330,
+        "logo_width_mobile": 150,
         "show_social_icons": false,
         "enable_on_homepage": true,
-        "enable_on_collection_page": false,
+        "enable_on_collection_page": true,
+        "enable_on_course_page": true,
         "shadow": 30,
         "text_color_light": "#ffffff",
         "textlink_color_light": "rgba(0,0,0,0)",
         "text_color_dark": "#ffffff",
         "textlink_color_dark": "rgba(0,0,0,0)",
-        "shadow_color": "#000000",
-        "shadow_color_dark": "#000000",
+        "shadow_color": "#038017",
+        "shadow_color_dark": "#038017",
         "header_show_language_selector": false,
         "header_show_currency_selector": false,
         "show_section_divider": false,
-        "padding_top": 24,
-        "padding_bottom": 24,
+        "padding_top": 20,
+        "padding_bottom": 0,
         "show_section_divider_mobile": false,
         "padding_top_mobile": 16,
         "padding_bottom_mobile": 16
@@ -106,15 +112,10 @@
         "mobile-navigation-2": {
           "type": "account",
           "settings": {}
-        },
-        "mobile-navigation-3": {
-          "type": "social",
-          "settings": {}
         }
       },
       "block_order": [
-        "mobile-navigation-2",
-        "mobile-navigation-3"
+        "mobile-navigation-2"
       ],
       "settings": {
         "menu": "main-menu",
@@ -144,8 +145,9 @@
     },
     "custom_liquid_44pEWB": {
       "type": "custom-liquid",
+      "name": "Style UL tag",
       "settings": {
-        "custom_liquid": "{% style %}\n.text-container ul li {\n  list-style: none;\n}\n.text-container ul li::before {\n  content: \"\";\n  display: inline-block;\n  width: 24px;\n  height: 24px;\n  background-image: url(\"https://cdn.shopify.com/s/files/1/0887/5707/6309/files/icon_checked.png\");\n  background-size: contain;\n  background-repeat: no-repeat;\n  flex-shrink: 0;\n  margin-right: 0.25rem;\n}\n{% endstyle %}",
+        "custom_liquid": "{% style %}\n.text-container ul {\n  list-style-image: url(\"https://cdn.shopify.com/s/files/1/0887/5707/6309/files/icon_checked.png?width=24\");\n}\n.text-container ul li::before {\n  content: none;\n  display: inline-block;\n  width: 24px;\n  height: 24px;\n  background-image: url(\"https://cdn.shopify.com/s/files/1/0887/5707/6309/files/icon_checked.png\");\n  background-size: contain;\n  background-repeat: no-repeat;\n  flex-shrink: 0;\n  margin-right: 0.25rem;\n}\n{% endstyle %}",
         "full_width": false,
         "show_section_divider": false,
         "padding_top": 0,

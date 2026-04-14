@@ -212,16 +212,31 @@
               {%- if block.settings.heading != blank or block.settings.text != blank -%}
                 <div class="flash-sale-text grow flex-wrap text-{{ section.settings.content_alignment_mobile }} lg:text-{{ section.settings.content_alignment }} md:flex-col xl:flex-row xl:items-center" {{ block.shopify_attributes }}>
                   {%- if block.settings.heading != blank -%}
-                    <{{ block.settings.heading_tag }} class="heading-{{ block.id }} empty:hidden h2 block leading-tight p-break-words anm-fade-element" x-intersect.once="$el.classList.add('is-visible')">
-                      {% render 'heading-highlight',
-                        headingId: block.id,
-                        heading: block.settings.heading,
-                        highlight_type: block.settings.highlight_type,
-                        color_heading_highlight_dark: section.settings.color_heading_highlight_dark,
-                        color_heading_highlight_light: section.settings.color_heading_highlight_light
-                      %}
-                    </{{ block.settings.heading_tag }}>
+                    <div>
+                      <{{ block.settings.heading_tag }} class="heading-{{ block.id }} empty:hidden h2 block leading-tight p-break-words anm-fade-element" x-intersect.once="$el.classList.add('is-visible')">
+                        {% render 'heading-highlight',
+                          headingId: block.id,
+                          heading: block.settings.heading,
+                          highlight_type: block.settings.highlight_type,
+                          color_heading_highlight_dark: section.settings.color_heading_highlight_dark,
+                          color_heading_highlight_light: section.settings.color_heading_highlight_light
+                        %}
+                      </{{ block.settings.heading_tag }}>
+
+                      {%- if block.settings.heading_2 != blank -%}
+                        <{{ block.settings.heading_tag }} class="heading-{{ block.id }} empty:hidden h2 block leading-tight p-break-words anm-fade-element" x-intersect.once="$el.classList.add('is-visible')">
+                          {% render 'heading-highlight',
+                            headingId: block.id,
+                            heading: block.settings.heading_2,
+                            highlight_type: block.settings.highlight_type,
+                            color_heading_highlight_dark: section.settings.color_heading_highlight_dark,
+                            color_heading_highlight_light: section.settings.color_heading_highlight_light
+                          %}
+                        </{{ block.settings.heading_tag }}>
+                      {%- endif -%}
+                    </div>
                   {%- endif -%}
+                  
                   {%- if block.settings.text != blank -%}
                     {% if block.settings.coupon_code != blank %}
                       {%- capture couponCode -%}
@@ -364,7 +379,7 @@
                 }
                 @media screen and (min-width: 768px) {
                   .timer--{{ block.id }} {
-                    font-size: {{ settings.heading_base_size | times: 0.019 }}rem;
+                    font-size: {{ settings.heading_base_size | times: 0.024 }}rem;
                   }
                   .x-countdown-{{ block.id }} {
                     margin-left: -{{ block.settings.spacing_col | times: 0.5 }}px;
@@ -758,13 +773,19 @@
     {
       "type": "image_banner",
       "name": "t:sections.promotion-banner.blocks.image_banner.name",
-      "limit": 1,
+      "limit": 2,
       "settings": [
         {
           "type": "text",
           "id": "heading",
           "default": "Sale 45% Off",
           "label": "t:sections.promotion-banner.blocks.image_banner.settings.heading.label",
+          "info": "t:settings_schema.typography.settings.heading_highlight_type.info"
+        },
+        {
+          "type": "text",
+          "id": "heading_2",
+          "label": "Heading line 2",
           "info": "t:settings_schema.typography.settings.heading_highlight_type.info"
         },
         {
@@ -971,11 +992,11 @@
           "options": [
             {
               "value": "0",
-              "label": "Enable"
+              "label": "Disable"
             },
             {
               "value": "1",
-              "label": "Disable"
+              "label": "Enable"
             }
           ],
           "default": "1",
