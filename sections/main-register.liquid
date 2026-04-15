@@ -6,7 +6,7 @@ else
 endif
 %}
 <div class="px-5 pt-[{{ section.settings.top_padding_mobile }}px] md:pt-[{{ section.settings.top_padding }}px] pb-[{{ section.settings.bottom_padding_mobile }}px] md:pb-[{{ section.settings.bottom_padding }}px]">
-  <h1 class="h2 text-center mb-7 md:mb-9">{{ 'customer.register.title' | t }}</h1>
+  <h1 class="h2 text-center mb-6 md:mb-6">{{ 'customer.register.title' | t }}</h1>
   {%- form 'create_customer' -%}
     {%- if form.errors -%}
       {% capture check_notice %}
@@ -16,7 +16,7 @@ endif
           </span>
           {{ 'templates.contact.form.error_heading' | t }}
         </h2>
-        <ul class="w-full max-w-[570px] ml-auto mr-auto pl-12">
+        <ul class="w-full max-w-[570px] ml-auto mr-auto pl-12 rtl:pl-0 rtl:pr-12">
           {%- for field in form.errors -%}
             <li class="list-disc mt-3.5 mb-3.5">
               {%- if field == 'form' -%}
@@ -31,16 +31,20 @@ endif
           {%- endfor -%}
         </ul>
       {% endcapture %}
-      {% if check_notice contains 'href="/account/login#recover"' %}
-        {{ check_notice }}
-      {% endif %}
+      {{ check_notice }}
     {%- endif -%}
+
+    <div class="relative max-w-[570px] mr-auto ml-auto mb-3.5">
+      <h4 class="h4">{{ 'drsorbie.account.label_individual_info' | t }}</h4>
+    </div>
+
     <div class="relative mr-auto ml-auto mb-2.5 max-w-[570px]">
       <input
         id="RegisterForm-FirstName"
         class="w-full input border px-5 lg:px-8 pt-5 pb-1 md:pt-5 md:pb-2 focus:outline-none focus:border-current bg-transparent placeholder:opacity-0{% if settings.edges_type == 'rounded_corners' %} rounded-md{% else %} rounded-none{% endif %}{% if is_rtl %} text-right{% endif %}"
         type="text"
         name="customer[first_name]"
+        required="required"
         {% if form.first_name %}value="{{ form.first_name }}"{% endif %}
         autocomplete="given-name"
         placeholder="{{ 'customer.register.first_name' | t }}"
@@ -58,6 +62,7 @@ endif
         class="w-full input border px-5 lg:px-8 pt-5 pb-1 md:pt-5 md:pb-2 focus:outline-none focus:border-current bg-transparent placeholder:opacity-0{% if settings.edges_type == 'rounded_corners' %} rounded-md{% else %} rounded-none{% endif %}{% if is_rtl %} text-right{% endif %}"
         type="text"
         name="customer[last_name]"
+        required="required"
         {% if form.last_name %}value="{{ form.last_name }}"{% endif %}
         autocomplete="family-name"
         placeholder="{{ 'customer.register.last_name' | t }}"
@@ -127,6 +132,109 @@ endif
         <span class="ml-0.5">{{ form.errors.translated_fields['password'] | capitalize }} {{ form.errors.messages['password'] }}.</span>
       </span>
     {%- endif -%}
+
+    <div class="relative max-w-[570px] mr-auto ml-auto mb-3.5 mt-4 md:mt-6">
+      <h4 class="h4">{{ 'drsorbie.account.label_company_info' | t }}</h4>
+    </div>
+
+    <div class="relative max-w-[570px] mr-auto ml-auto mb-2.5">
+      <input
+        x-model="$store.xAccount.company_name"
+        id="RegisterForm-company_name"
+        class="w-full input border px-5 lg:px-8 pt-5 pb-1 md:pt-5 md:pb-2 focus:outline-none focus:border-current bg-transparent placeholder:opacity-0{% if form.errors contains 'password' %} border-[rgba(var(--color-error))] focus:border-[rgba(var(--color-error))]{% endif %}{% if settings.edges_type == 'rounded_corners' %} !rounded-md{% else %} rounded-none{% endif %}{% if is_rtl %} text-right{% endif %}"
+        name="b2b[company_name]"
+        required="required"
+        placeholder="{{ 'drsorbie.account.company_name' | t }}"
+      >
+      <label
+        for="RegisterForm-company_name"
+        class="absolute top-1/2{% if is_rtl %} right-5 lg:right-8{% else %} left-5 lg:left-8{% endif %} -translate-y-1/2 input_focus:text-xs input_focus:top-3.5 input_not_empty:top-3.5 input_not_empty:text-xs"
+      >
+        {{ 'drsorbie.account.company_name' | t }}
+      </label>
+    </div>
+    <div class="relative max-w-[570px] mr-auto ml-auto mb-2.5">
+      <input
+        x-model="$store.xAccount.uid"
+        id="RegisterForm-uid"
+        class="w-full input border px-5 lg:px-8 pt-5 pb-1 md:pt-5 md:pb-2 focus:outline-none focus:border-current bg-transparent placeholder:opacity-0{% if form.errors contains 'password' %} border-[rgba(var(--color-error))] focus:border-[rgba(var(--color-error))]{% endif %}{% if settings.edges_type == 'rounded_corners' %} !rounded-md{% else %} rounded-none{% endif %}{% if is_rtl %} text-right{% endif %}"
+        name="b2b[uid]"
+        placeholder="{{ 'drsorbie.account.uid' | t }}"
+      >
+      <label
+        for="RegisterForm-uid"
+        class="absolute top-1/2{% if is_rtl %} right-5 lg:right-8{% else %} left-5 lg:left-8{% endif %} -translate-y-1/2 input_focus:text-xs input_focus:top-3.5 input_not_empty:top-3.5 input_not_empty:text-xs"
+      >
+        {{ 'drsorbie.account.uid' | t }}
+      </label>
+    </div>
+    <div class="relative max-w-[570px] mr-auto ml-auto mb-2.5">
+      <input
+        x-model="$store.xAccount.contact_person"
+        id="RegisterForm-contact_person"
+        class="w-full input border px-5 lg:px-8 pt-5 pb-1 md:pt-5 md:pb-2 focus:outline-none focus:border-current bg-transparent placeholder:opacity-0{% if form.errors contains 'password' %} border-[rgba(var(--color-error))] focus:border-[rgba(var(--color-error))]{% endif %}{% if settings.edges_type == 'rounded_corners' %} !rounded-md{% else %} rounded-none{% endif %}{% if is_rtl %} text-right{% endif %}"
+        name="b2b[contact_person]"
+        required="required"
+        placeholder="{{ 'drsorbie.account.contact_person' | t }}"
+      >
+      <label
+        for="RegisterForm-contact_person"
+        class="absolute top-1/2{% if is_rtl %} right-5 lg:right-8{% else %} left-5 lg:left-8{% endif %} -translate-y-1/2 input_focus:text-xs input_focus:top-3.5 input_not_empty:top-3.5 input_not_empty:text-xs"
+      >
+        {{ 'drsorbie.account.contact_person' | t }}
+      </label>
+    </div>
+    <div class="relative max-w-[570px] mr-auto ml-auto mb-2.5">
+      <input
+        x-model="$store.xAccount.address"
+        id="RegisterForm-address"
+        class="w-full input border px-5 lg:px-8 pt-5 pb-1 md:pt-5 md:pb-2 focus:outline-none focus:border-current bg-transparent placeholder:opacity-0{% if form.errors contains 'password' %} border-[rgba(var(--color-error))] focus:border-[rgba(var(--color-error))]{% endif %}{% if settings.edges_type == 'rounded_corners' %} !rounded-md{% else %} rounded-none{% endif %}{% if is_rtl %} text-right{% endif %}"
+        name="b2b[address]"
+        required="required"
+        placeholder="{{ 'drsorbie.account.address' | t }}"
+      >
+      <label
+        for="RegisterForm-address"
+        class="absolute top-1/2{% if is_rtl %} right-5 lg:right-8{% else %} left-5 lg:left-8{% endif %} -translate-y-1/2 input_focus:text-xs input_focus:top-3.5 input_not_empty:top-3.5 input_not_empty:text-xs"
+      >
+        {{ 'drsorbie.account.address' | t }}
+      </label>
+    </div>
+    <div class="relative max-w-[570px] mr-auto ml-auto mb-2.5">
+      <input
+        x-model="$store.xAccount.email"
+        id="RegisterForm-emailB2B"
+        class="w-full input border px-5 lg:px-8 pt-5 pb-1 md:pt-5 md:pb-2 focus:outline-none focus:border-current bg-transparent placeholder:opacity-0{% if form.errors contains 'password' %} border-[rgba(var(--color-error))] focus:border-[rgba(var(--color-error))]{% endif %}{% if settings.edges_type == 'rounded_corners' %} !rounded-md{% else %} rounded-none{% endif %}{% if is_rtl %} text-right{% endif %}"
+        type="email"
+        name="b2b[email]"
+        required="required"
+        placeholder="{{ 'drsorbie.account.email' | t }}"
+      >
+      <label
+        for="RegisterForm-email"
+        class="absolute top-1/2{% if is_rtl %} right-5 lg:right-8{% else %} left-5 lg:left-8{% endif %} -translate-y-1/2 input_focus:text-xs input_focus:top-3.5 input_not_empty:top-3.5 input_not_empty:text-xs"
+      >
+        {{ 'drsorbie.account.email' | t }}
+      </label>
+    </div>
+    <div class="relative max-w-[570px] mr-auto ml-auto mb-2.5">
+      <input
+        x-model="$store.xAccount.phone_number"
+        id="RegisterForm-phone_number"
+        class="w-full input border px-5 lg:px-8 pt-5 pb-1 md:pt-5 md:pb-2 focus:outline-none focus:border-current bg-transparent placeholder:opacity-0{% if form.errors contains 'password' %} border-[rgba(var(--color-error))] focus:border-[rgba(var(--color-error))]{% endif %}{% if settings.edges_type == 'rounded_corners' %} !rounded-md{% else %} rounded-none{% endif %}{% if is_rtl %} text-right{% endif %}"
+        name="b2b[phone_number]"
+        required="required"
+        placeholder="{{ 'drsorbie.account.phone_number' | t }}"
+      >
+      <label
+        for="RegisterForm-phone_number"
+        class="absolute top-1/2{% if is_rtl %} right-5 lg:right-8{% else %} left-5 lg:left-8{% endif %} -translate-y-1/2 input_focus:text-xs input_focus:top-3.5 input_not_empty:top-3.5 input_not_empty:text-xs"
+      >
+        {{ 'drsorbie.account.phone_number' | t }}
+      </label>
+    </div>
+    <input type="hidden" name="customer[note]" :value="$store.xAccount.note">
+
     <div class="w-full flex justify-center">
       <button class="button button-solid w-full block mr-auto ml-auto max-w-[570px] pt-2.5 pb-2.5 md:pt-3 md:pb-3 mt-8 leading-normal">
         {% assign button_label = 'customer.register.submit' | t %}

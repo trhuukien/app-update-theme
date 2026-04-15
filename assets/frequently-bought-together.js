@@ -1,11 +1,12 @@
-if (!window.Eurus.loadedScript.includes('frequently-bought-together.js')) {
-  window.Eurus.loadedScript.push('frequently-bought-together.js');
+if (!window.Eurus.loadedScript.has('frequently-bought-together.js')) {
+  window.Eurus.loadedScript.add('frequently-bought-together.js');
   
   requestAnimationFrame(() => {
     document.addEventListener("alpine:init", () => {
       Alpine.data('xProductFrequently', (
         sectionId
       ) => ({
+        load: false,
         show: false,
         products: "",
         productsList: [],
@@ -28,6 +29,33 @@ if (!window.Eurus.loadedScript.includes('frequently-bought-together.js')) {
             }));
           });
         },
+        renderRatingYotpo(el) {
+          const arrayRatingYotpo = Array.from(document.getElementById(`list-rating-yotpo-${sectionId}`).children)
+          Array.from(el.querySelectorAll('.rating-review')).map((item, index) => {
+            for (let i=0; i<arrayRatingYotpo.length; i++) {
+              if (item.querySelector('.yotpo') || item.querySelector('.yotpo') != null ) {
+                let checkReplaceRating = false
+                const interval = setInterval(() => {
+                  if (arrayRatingYotpo[i].querySelector('.star-container') || arrayRatingYotpo[i].querySelector('.yotpo-sr-bottom-line-left-panel')) {
+                    if (item.querySelector('.yotpo') && item.querySelector('.yotpo').getAttribute('data-product-id') == arrayRatingYotpo[i].querySelector('.yotpo-widget-instance').getAttribute('data-yotpo-product-id')) {
+                      item.innerHTML = arrayRatingYotpo[i].innerHTML
+                      checkReplaceRating = true
+                    }
+                    clearInterval(interval)
+                  }
+                }, 500)
+                if (checkReplaceRating) {
+                  break;
+                }
+                setTimeout(() => {
+                  if (interval) {
+                    clearInterval(interval)
+                  }
+                }, 3000)
+              }
+            }
+          })
+        },
         openPopup() {
           this.show = true;
           Alpine.store('xPopup').open = true;
@@ -36,13 +64,43 @@ if (!window.Eurus.loadedScript.includes('frequently-bought-together.js')) {
           this.show = false;
           Alpine.store('xPopup').close();
         },
-        addToListDraft(el, productId, productUrl, hasVariant, cal) {
+        addToListDraft(el, productId, productUrl, hasVariant, cal, name_edt) {
           let productsListDraft = JSON.parse(JSON.stringify(this.productsListDraft));
           const productName = el.closest(".x-product-fbt-data").querySelector(".product-name").textContent;
-          const currentVariant =  JSON.parse(el.closest(".x-product-fbt-data").querySelector(".current-variant").textContent);
+
+          let currentVariant =  JSON.parse(el.closest(".x-product-fbt-data").querySelector(".current-variant").textContent);
+          if(Object.keys(currentVariant).length === 0) {
+            let variantsData = el.closest(".x-product-fbt-data").querySelector('[type="application/json"]');
+            if (variantsData) {
+              let productVariants = JSON.parse(el.closest(".x-product-fbt-data").querySelector('[type="application/json"]').textContent);
+              for (const variant of productVariants) {
+                if (variant.available) {
+                  currentVariant = variant;
+                  break;
+                }
+              }
+            }
+          }         
           const price = !hasVariant && JSON.parse(el.closest(".x-product-fbt-data").querySelector(".current-price").textContent);
           const featured_image = currentVariant.featured_image ? currentVariant.featured_image.src : el.closest(".x-product-fbt-data").querySelector(".featured-image").textContent;
+          const vendor = el.closest(".x-product-fbt-data").querySelector(".vendor") ? el.closest(".x-product-fbt-data").querySelector(".vendor")?.textContent : '';
+          const rating = el.closest(".x-product-fbt-data").querySelector(".rating-fbt-mini") ? el.closest(".x-product-fbt-data").querySelector(".rating-fbt-mini")?.innerHTML : '';
+          const edtElement = el.closest(".x-product-fbt-data").querySelector(`.hidden.cart-edt-properties-${productId}`);
+          let shippingMessage = '';
+          if(edtElement){
+            shippingMessage = edtElement.value.replace("time_to_cut_off", Alpine.store('xEstimateDelivery').noti);
+          }
+          const preorderElement = el.closest(".x-product-fbt-data").querySelector('.hidden.preorder-edt-properties');
+          let preorderMessage = '';
+          if(preorderElement){
+            preorderMessage = preorderElement.value;
+          }
           
+          const properties = {
+            ...(name_edt && shippingMessage && { [name_edt]: shippingMessage }),
+            ...(preorderMessage && { Preorder: preorderMessage }),
+          };          
+
           let productQuantity = parseInt(el.closest(".x-product-fbt-data").querySelector(".current-quantity").value);
           if (cal == 'plus') {
             productQuantity = productQuantity + 1;
@@ -52,7 +110,7 @@ if (!window.Eurus.loadedScript.includes('frequently-bought-together.js')) {
           }
           let variantId = hasVariant ? currentVariant.id : currentVariant; 
           let newProductsListDraft = [];
-          let newItem = hasVariant ? { ...currentVariant, title: currentVariant.title.replaceAll("\\",""), product_id: productId, product_name: productName, productUrl: `${productUrl}?variant=${currentVariant.id}`, featured_image: featured_image, quantity: productQuantity} : { id: variantId, product_id: productId, product_name: productName, productUrl: productUrl, featured_image: featured_image, quantity: productQuantity, price: price}
+          let newItem = hasVariant ? { ...currentVariant, title: currentVariant.title.replaceAll("\\",""), product_id: productId, product_name: productName, productUrl: `${productUrl}?variant=${currentVariant.id}`, featured_image: featured_image, quantity: productQuantity, vendor: vendor, rating: rating, "properties": properties} : { id: variantId, product_id: productId, product_name: productName, productUrl: productUrl, featured_image: featured_image, quantity: productQuantity, price: price, vendor: vendor, rating: rating, "properties": properties}
           productsListDraft = productsListDraft.filter(item => item.id !== variantId);
           newProductsListDraft = [...productsListDraft , newItem];
           newProductsListDraft = newProductsListDraft.filter(item => item.quantity > 0);
@@ -61,57 +119,68 @@ if (!window.Eurus.loadedScript.includes('frequently-bought-together.js')) {
         },
         addToList(el) {
           this.productsList = this.productsListDraft;
-          this. closePopup(el);
+          this.closePopup(el);
         },
-        handleAddToCart(el) {
-          let items = JSON.parse(JSON.stringify(this.productsList));
-          
+        async handleAddToCart(el) {
           this.loading = true;
-          fetch(window.Shopify.routes.root + 'cart/add.js', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body:  JSON.stringify({ "items": items, "sections":  Alpine.store('xCartHelper').getSectionsToRender().map((section) => section.id) })
-          }).then((response) => {
-            return response.json();
-          }).then((response) => {
-            if (response.status == '422') {
-              const error_message = el.closest('.list-items').querySelector('.cart-warning');
+          await Alpine.store('xCartHelper').waitForEstimateUpdate();
+          window.updatingEstimate = true;
 
-              this.errorMessage = true;
-              if (error_message) {
-                error_message.textContent = response.description;
+          setTimeout(() => {
+            let items = JSON.parse(JSON.stringify(this.productsList));
+
+            fetch(window.Shopify.routes.root + 'cart/add.js', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json'
+              },
+              body:  JSON.stringify({ "items": items, "sections":  Alpine.store('xCartHelper').getSectionsToRender().map((section) => section.id) })
+            }).then((response) => {
+              return response.json();
+            }).then((response) => {
+              if (response.status == '422') {
+                const error_message = el.closest('.list-items').querySelector('.cart-warning');
+  
+                this.errorMessage = true;
+                if (error_message) {
+                  error_message.textContent = response.description;
+                }
+                return;
+              } 
+  
+              this.errorMessage = false;
+  
+              Alpine.store('xCartHelper').getSectionsToRender().forEach((section => {
+                const sectionElement = document.querySelector(section.selector);
+  
+                if (sectionElement) {
+                  if (response.sections[section.id])
+                    sectionElement.innerHTML = getSectionInnerHTML(response.sections[section.id], section.selector);
+                }
+              }));
+              if (Alpine.store('xQuickView') && Alpine.store('xQuickView').show) {
+                Alpine.store('xQuickView').show = false;
               }
-              return;
-            } 
-
-            this.errorMessage = false;
-
-            Alpine.store('xCartHelper').getSectionsToRender().forEach((section => {
-              const sectionElement = document.querySelector(section.selector);
-
-              if (sectionElement) {
-                if (response.sections[section.id])
-                  sectionElement.innerHTML = getSectionInnerHTML(response.sections[section.id], section.selector);
+              Alpine.store('xPopup').close();
+              if (Alpine.store('xCartNoti') && Alpine.store('xCartNoti').enable) {
+                Alpine.store('xCartNoti').setItem(response); 
+              } else {
+                Alpine.store('xMiniCart').openCart();
+                document.dispatchEvent(new CustomEvent("eurus:cart:redirect"));
               }
-            }));
-            if (Alpine.store('xQuickView') && Alpine.store('xQuickView').show) {
-              Alpine.store('xQuickView').show = false;
-            }
-            Alpine.store('xPopup').close();
-            Alpine.store('xMiniCart').openCart();
-            Alpine.store('xCartHelper').currentItemCount = parseInt(document.querySelector('#cart-icon-bubble span').innerHTML);
-            document.dispatchEvent(new CustomEvent("eurus:cart:items-changed"));
-            this.productsList = [];
-            this.productsListDraft = [];
-            this.totalPrice = 0;
-          })
-          .catch((error) => {
-            console.error('Error:', error);
-          }).finally(() => {
-            this.loading = false;
-          })
+              Alpine.store('xCartHelper').currentItemCount = parseInt(document.querySelector('#cart-icon-bubble span').innerHTML);
+              document.dispatchEvent(new CustomEvent("eurus:cart:items-changed"));
+              this.productsList = [];
+              this.productsListDraft = [];
+              this.totalPrice = 0;
+            })
+            .catch((error) => {
+              console.error('Error:', error);
+            }).finally(() => {
+              Alpine.store('xCartHelper').updateEstimateShippingFull();
+              this.loading = false;
+            })
+          }, 0)
         },
         removeItem(el, indexItem) {
           let item = this.productsList[indexItem]
@@ -128,6 +197,7 @@ if (!window.Eurus.loadedScript.includes('frequently-bought-together.js')) {
       }));
 
       Alpine.data('xProductItemFBT', (
+        el,
         sectionId,
         handleSectionId,
         productUrl,
@@ -159,7 +229,16 @@ if (!window.Eurus.loadedScript.includes('frequently-bought-together.js')) {
           })
         },
         renderAddButton() {
-          const currentVariant = JSON.parse(document.getElementById('current-variant-'+ sectionId).textContent);
+          let currentVariant = JSON.parse(document.getElementById('current-variant-'+ sectionId).textContent);
+          if(typeof currentVariant === 'object' && Object.keys(currentVariant).length === 0) {
+            let productVariants = JSON.parse(el.closest(".x-product-fbt-data").querySelector('[type="application/json"]').textContent);
+            for (const variant of productVariants) {
+              if (variant.available) {
+                currentVariant = variant;
+                break;
+              }
+            }
+          }
           let variantId = typeof currentVariant === 'object' ? currentVariant?.id : currentVariant;
           const itemVariant = this.productList.find(({ id }) => id === variantId);
           if (itemVariant) {

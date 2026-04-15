@@ -1,5 +1,5 @@
-if (!window.Eurus.loadedScript.includes('pagination.js')) {
-  window.Eurus.loadedScript.push('pagination.js');
+if (!window.Eurus.loadedScript.has('pagination.js')) {
+  window.Eurus.loadedScript.add('pagination.js');
 
   requestAnimationFrame(() => {
     document.addEventListener("alpine:init", () => {
@@ -20,9 +20,11 @@ if (!window.Eurus.loadedScript.includes('pagination.js')) {
             for (let i = 0; i < newProducts.length; i++) {
               setTimeout(() => {
                 productsOnPage.insertAdjacentHTML('beforeend', newProducts[i].innerHTML);
+                if (i === newProducts.length - 1) {
+                  this._renderButton(html);
+                }
               }, i*300);
             }
-            this._renderButton(html);
           })
           .catch(e => {
             console.error(e);

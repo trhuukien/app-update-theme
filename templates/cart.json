@@ -11,7 +11,33 @@
   "sections": {
     "cart-items": {
       "type": "main-cart-items",
-      "settings": {}
+      "blocks": {
+        "subtotal_pLrB7e": {
+          "type": "subtotal",
+          "settings": {}
+        },
+        "buttons_bzptVW": {
+          "type": "buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "subtotal_pLrB7e",
+        "buttons_bzptVW"
+      ],
+      "custom_css": [
+        "{border-top: 1px solid rgba(var(--colors-line-and-border));}",
+        "@media (min-width: 768px) {.h2 {font-size: 30px; }}"
+      ],
+      "settings": {
+        "heading_tag": "h2",
+        "padding_top": 64,
+        "padding_bottom": 24,
+        "padding_top_mobile": 24,
+        "padding_bottom_mobile": 0
+      }
     },
     "cart-footer": {
       "type": "main-cart-footer",
@@ -22,18 +48,41 @@
         },
         "buttons": {
           "type": "buttons",
-          "settings": {}
+          "settings": {
+            "show_dynamic_checkout": true
+          }
         }
       },
       "block_order": [
         "subtotal",
         "buttons"
       ],
-      "settings": {}
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 60,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 20
+      }
     },
     "cart-upsell": {
       "type": "main-cart-upsell",
-      "settings": {}
+      "custom_css": [
+        "@media (min-width: 768px) {.h2 {font-size: 30px; }}",
+        "@media (min-width: 1024px) {.lg\\:mb-14 {margin-bottom: 2rem; }}"
+      ],
+      "settings": {
+        "heading_tag": "h2",
+        "number_of_columns_on_desktop": 5,
+        "show_quickview": true,
+        "show_highlighted_features": false,
+        "show_highlighted_attributes": true,
+        "spacing": 30,
+        "padding_top": 60,
+        "padding_bottom": 80,
+        "spacing_mobile": 30,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 52
+      }
     }
   },
   "order": [

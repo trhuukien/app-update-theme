@@ -11,9 +11,14 @@
   "sections": {
     "main": {
       "type": "main-login",
+      "custom_css": [
+        "@media (min-width: 768px) {.h2 {font-size: 31.68px; }}"
+      ],
       "settings": {
         "top_padding": 52,
-        "bottom_padding": 52
+        "bottom_padding": 52,
+        "top_padding_mobile": 44,
+        "bottom_padding_mobile": 44
       }
     }
   },

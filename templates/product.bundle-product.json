@@ -1,0 +1,591 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "product_name_xkPbAa": {
+          "type": "product_name",
+          "settings": {
+            "title_size": 80,
+            "heading_tag": "h1"
+          }
+        },
+        "badges_fCnAXm": {
+          "type": "badges",
+          "settings": {
+            "position_adapt": false
+          }
+        },
+        "product_sku_N89fTj": {
+          "type": "product_sku",
+          "settings": {
+            "heading": "{{ product.vendor }} - SKU:"
+          }
+        },
+        "rating_AeRdFJ": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "text_size_price": 60
+          }
+        },
+        "salepify_gifts_upsell_volume_discount_block_pyCwPE": {
+          "type": "shopify://apps/tek-labs-gifts-upsell/blocks/volume-discount.block/f616e94d-36ae-45cb-9d98-57804196c7a7",
+          "settings": {}
+        },
+        "salepify_gifts_upsell_product_bundle_block_wgRagg": {
+          "type": "shopify://apps/tek-labs-gifts-upsell/blocks/product-bundle.block/f616e94d-36ae-45cb-9d98-57804196c7a7",
+          "settings": {}
+        },
+        "inventory_status_LrbyC8": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "incoming": false,
+            "message_incoming": "",
+            "message_backorder": "",
+            "hide_preorder": false
+          }
+        },
+        "gift_wrapping_EK3NQn": {
+          "type": "gift_wrapping",
+          "settings": {
+            "text_gift": "",
+            "show_border": true,
+            "color_icon_light": "rgba(0,0,0,0)",
+            "border_color_light": "rgba(0,0,0,0)",
+            "color_icon_dark": "rgba(0,0,0,0)",
+            "border_color_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "show_variant_option": true,
+            "enable_color_swatches": true,
+            "swatch_size": "small"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "show_button_style": "primary",
+            "show_dynamic_checkout": false,
+            "show_atc_quantity": true,
+            "show_add_to_cart": true,
+            "show_price": false,
+            "hide_sale_price": true,
+            "show_gift_card_recipient": false,
+            "pickup_availability": true,
+            "hide_when_pre_order": false,
+            "preorder_button_label": "Vorbestellung",
+            "preorder_message": "",
+            "preorder_show_dynamic_button": false,
+            "show_background": false,
+            "box_type": "square",
+            "background_color_light": "rgba(0,0,0,0)",
+            "message_color_light": "rgba(0,0,0,0)",
+            "background_color_dark": "rgba(0,0,0,0)",
+            "message_color_dark": "rgba(0,0,0,0)",
+            "button_light": "rgba(0,0,0,0)",
+            "button_text_light": "rgba(0,0,0,0)",
+            "button_hover_light": "rgba(0,0,0,0)",
+            "button_text_hover_light": "rgba(0,0,0,0)",
+            "secondary_button_light": "rgba(0,0,0,0)",
+            "secondary_button_text_light": "rgba(0,0,0,0)",
+            "button_dark": "rgba(0,0,0,0)",
+            "button_text_dark": "rgba(0,0,0,0)",
+            "button_hover_dark": "rgba(0,0,0,0)",
+            "button_text_hover_dark": "rgba(0,0,0,0)",
+            "secondary_button_dark": "rgba(0,0,0,0)",
+            "secondary_button_text_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "frequently_bought_Bg7HEM": {
+          "type": "frequently_bought",
+          "settings": {
+            "icon": "shopping-bag",
+            "another_icon": "",
+            "custom_icon": "",
+            "text": "Wird häufig zusammen gekauft",
+            "show_background": false,
+            "show_border": true,
+            "list_products": [
+              "betaine-shampoo-hair-modifix-1000ml",
+              "betaine-mask-modifix-75ml",
+              "betaine-mask-modifix-250ml",
+              "betaine-conditioner-hair-modifix-75ml",
+              "betaine-conditioner-hair-modifix-400ml",
+              "betaine-conditioner-hair-modifix-1000ml"
+            ],
+            "show_vendor": false,
+            "show_rating": false,
+            "show_highlighted_features": false,
+            "variant_type": "button",
+            "border_color_light": "rgba(0,0,0,0)",
+            "border_color_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "description_Db7bTN": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": true,
+            "open_by_default": false,
+            "make_content_center": false,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "heading": "Produktbeschreibung",
+            "number_of_lines_shown": "none",
+            "read_more_label": "Read more",
+            "see_less_label": "See less"
+          }
+        },
+        "complementary_FMm9TV": {
+          "type": "complementary",
+          "settings": {
+            "heading": "Ergänzende Produkte",
+            "show_tab": true,
+            "show_background": true,
+            "show_border": true,
+            "max_product_show": 3,
+            "enable_carousel_desktop": false,
+            "enable_swiper_mobile": true,
+            "number_product_per_page": 3,
+            "image_ratio": "square",
+            "show_vendor": false,
+            "show_product_rating": false,
+            "show_highlighted_features": false,
+            "add_as_bundle": false,
+            "border_color_light": "rgba(0,0,0,0)",
+            "border_color_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "nutrition_fact_tEqfWX": {
+          "type": "nutrition_fact",
+          "disabled": true,
+          "settings": {
+            "show_in_tab": true,
+            "open_by_default": false,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "heading": "Ingredients",
+            "enable_background": false,
+            "metafield_key_list": "",
+            "nutrition_details": "<p>Hyaluronic Acid: 5% <br/>Niacinamide: 100% <br/>Aloe Vera Extract: 5%<br/>Jojoba Oil: 5%</p>",
+            "extra_detail": "This kind of \"ingredient bar\" focuses on highlighting the benefits of the active ingredients in a way that's familiar to consumers",
+            "content_background_color": "rgba(0,0,0,0)",
+            "content_background_color_dark": "rgba(0,0,0,0)",
+            "loading_bar_color": "rgba(0,0,0,0)"
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "open_by_default": false,
+            "icon": "none",
+            "another_icon": "",
+            "custom_icon": "",
+            "use_secondary_background": false,
+            "heading": "Shipping & Return",
+            "tab_content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "payment_methods_kHWDBf": {
+          "type": "payment_methods",
+          "settings": {
+            "heading": "Zahlung & Sicherheit",
+            "text": "Deine Transaktion ist durch moderne Sicherheitsmassnahmen geschützt, damit deine Daten stets vertraulich bleiben.",
+            "custom_payment": "",
+            "show_secondary_background": false,
+            "show_border": false,
+            "background_color_light": "rgba(0,0,0,0)",
+            "heading_color_light": "rgba(0,0,0,0)",
+            "text_color_light": "rgba(0,0,0,0)",
+            "border_color_light": "rgba(0,0,0,0)",
+            "background_color_dark": "rgba(0,0,0,0)",
+            "heading_color_dark": "rgba(0,0,0,0)",
+            "text_color_dark": "rgba(0,0,0,0)",
+            "border_color_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "social-sharing": {
+          "type": "social_sharing",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "product_name_xkPbAa",
+        "badges_fCnAXm",
+        "product_sku_N89fTj",
+        "rating_AeRdFJ",
+        "price",
+        "salepify_gifts_upsell_volume_discount_block_pyCwPE",
+        "salepify_gifts_upsell_product_bundle_block_wgRagg",
+        "inventory_status_LrbyC8",
+        "gift_wrapping_EK3NQn",
+        "variant_picker",
+        "buy_buttons",
+        "frequently_bought_Bg7HEM",
+        "description_Db7bTN",
+        "complementary_FMm9TV",
+        "nutrition_fact_tEqfWX",
+        "collapsible-row-1",
+        "payment_methods_kHWDBf",
+        "social-sharing"
+      ],
+      "custom_css": [
+        "div.relative.preload-image {background-color: rgba(var(--colors-background-secondary));}",
+        ".x-block-product-title {margin-bottom: 0.5rem;}",
+        "li.bg-\\[rgba\\(var\\(--colors-background-secondary\\)\\)\\] {background-color: #ffffff;}",
+        ".x-block-buy-buttons {margin-bottom: 0;}",
+        "@media (min-width: 768px) {.accordion p.font-medium, .x-block-payment-methods > p.h4 {font-size: 16px; }}"
+      ],
+      "settings": {
+        "enable_sticky_image": true,
+        "show_product_name": false,
+        "title_size": 100,
+        "heading_tag": "h1",
+        "show_vendor": false,
+        "link_vendor": false,
+        "make_content_center": false,
+        "desktop_layout": "left",
+        "desktop_media_layout": "stacked",
+        "show_arrow_button": true,
+        "mobile_media_size": "full_width",
+        "show_thumnail_mobile": false,
+        "transition_style": "fade",
+        "image_ratio": "natural",
+        "thumbnail_position": "vertical",
+        "enable_image_zoom": false,
+        "zoom_effect": "enlarge",
+        "enable_video_autoplay": false,
+        "enable_video_loop": false,
+        "show_first_image_avaiable": true,
+        "show_media_with_variant_selected": false,
+        "option_to_classify_variant_media": "",
+        "enable_microdata": false,
+        "show_breadcrumbs": true,
+        "show_breadcrumbs_border": true,
+        "full_width_breadcrumb": true,
+        "desktop_content_alignment": "text-center",
+        "mobile_content_alignment": "text-center",
+        "background_color_light": "#ffffff",
+        "text_color_light": "rgba(0,0,0,0)",
+        "textlink_color_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "text_color_dark": "rgba(0,0,0,0)",
+        "textlink_color_dark": "rgba(0,0,0,0)",
+        "full_width": false,
+        "spacing_col": "small",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40
+      }
+    },
+    "product_description_djVffX": {
+      "type": "product-description",
+      "name": "t:sections.product-description.name",
+      "settings": {
+        "heading": "Produktbeschreibung",
+        "highlight_type": "underline",
+        "heading_size": 80,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "content_alignment": "left",
+        "number_of_lines_shown": "none",
+        "read_more_label": "Read more",
+        "see_less_label": "See less",
+        "text_size": 100,
+        "background_color_light": "#ffffff",
+        "heading_light": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "text_color_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "heading_dark": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "text_color_dark": "rgba(0,0,0,0)",
+        "width_content": 100,
+        "full_width": false,
+        "show_section_divider": false,
+        "line_spacing": 100,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "show_section_divider_mobile": true,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "text_column_with_image_VKgqKt": {
+      "type": "text-column-with-image",
+      "blocks": {
+        "column_U4kGjE": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/6.png",
+            "image_link": "",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Gift Packaging Info",
+            "highlight_type": "underline",
+            "heading_size": 80,
+            "text": "<p>Mention if items come in branded or vintage-style packaging.</p>",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_P8WhP4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hair-stylist-combing-womans-hair.jpg",
+            "image_link": "",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Für Salons entwickelt",
+            "highlight_type": "underline",
+            "heading_size": 80,
+            "text": "<p>Alle Produkte sind <strong>exklusiv für den professionellen Gebrauch</strong> konzipiert, mit Ergebnissen, die <strong>sichtbar überzeugen</strong>.</p>",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        },
+        "column_RAqNTJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1_1.png",
+            "image_link": "",
+            "open_new_window_image": false,
+            "sub_title": "",
+            "title": "Versandinformation",
+            "highlight_type": "underline",
+            "heading_size": 80,
+            "text": "<p>Bestellungen vor 12 Uhr werden am gleichen Tag versendet. Zustellung innerhalb von 1-2 Arbeitstagen gegen Unterschrift.</p>",
+            "button_label": "",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_U4kGjE",
+        "column_P8WhP4",
+        "column_RAqNTJ"
+      ],
+      "name": "t:sections.text-column-image.name",
+      "settings": {
+        "title": "Zusätzliche Informationen",
+        "highlight_type": "underline",
+        "heading_size": 80,
+        "heading_tag": "h2",
+        "secondary_background": "column",
+        "image_ratio": "75%",
+        "adapt_corners": true,
+        "rounded_corner_image": false,
+        "column_content_alignment": "center",
+        "background_color_light": "rgba(0,0,0,0)",
+        "heading_light": "rgba(0,0,0,0)",
+        "text_light": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "heading_dark": "rgba(0,0,0,0)",
+        "text_dark": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "enable_desktop_slider": false,
+        "swiper_on_mobile": false,
+        "enable_arrow_mobile": false,
+        "auto_play": false,
+        "change_bar_every": 5,
+        "image_position_desktop": "top",
+        "column_layout_desktop": "lg:w-1/3",
+        "spacing_desktop": 30,
+        "full_width": false,
+        "padding_full_width": false,
+        "show_section_divider": false,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "image_position_mobile": "top",
+        "column_layout_mobile": "w-full",
+        "spacing_mobile": 16,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "Empfehlungen für Dich",
+        "highlight_type": "underline",
+        "heading_size": 80,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "products_to_show": 5,
+        "background_color_light": "",
+        "background_color_dark": "",
+        "show_vendor": false,
+        "show_rating": false,
+        "show_highlighted_features": false,
+        "show_highlighted_attributes": false,
+        "show_quickview": true,
+        "enable_carousel_desktop": false,
+        "enable_swiper_mobile": true,
+        "enable_arrow_mobile": false,
+        "columns_desktop": 5,
+        "full_width": true,
+        "show_section_divider": false,
+        "spacing": 20,
+        "padding_top": 60,
+        "padding_bottom": 0,
+        "columns_mobile": "2",
+        "show_section_divider_mobile": false,
+        "spacing_mobile": 10,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "multicolumn_yjqDtQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zyHcqD": {
+          "type": "column",
+          "settings": {
+            "icon": "truck",
+            "another_icon": "",
+            "custom_icon": "",
+            "title": "Kostenlose Lieferung",
+            "highlight_type": "underline",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 80,
+            "text": "<p>Bei Bestellungen über 300 CHF</p>"
+          }
+        },
+        "column_6r9Wy4": {
+          "type": "column",
+          "settings": {
+            "icon": "credit-card",
+            "another_icon": "",
+            "custom_icon": "",
+            "title": "Zahlung mit höchster Sicherheit",
+            "highlight_type": "underline",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 80,
+            "text": "<p>Visa, Mastercard, Amex, PayPal</p>"
+          }
+        },
+        "column_hJb3HY": {
+          "type": "column",
+          "settings": {
+            "icon": "feather",
+            "another_icon": "",
+            "custom_icon": "",
+            "title": "Qualität & Wirkung",
+            "highlight_type": "underline",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 80,
+            "text": "<p><strong>Trichologisch entwickelt</strong> – Wissenschaftlich fundierte Formulierungen für professionelle Ergebnisse.</p>"
+          }
+        },
+        "column_M8Vj4N": {
+          "type": "column",
+          "settings": {
+            "icon": "briefcase",
+            "another_icon": "",
+            "custom_icon": "",
+            "title": "Für Profis entwickelt",
+            "highlight_type": "underline",
+            "title_link": "",
+            "open_new_window": false,
+            "heading_size": 80,
+            "text": "<p>Exklusiv für Coiffeursalons</p>"
+          }
+        }
+      },
+      "block_order": [
+        "column_zyHcqD",
+        "column_6r9Wy4",
+        "column_hJb3HY",
+        "column_M8Vj4N"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "title": "",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "secondary_background": "column",
+        "border_column": "none",
+        "column_content_alignment": "start",
+        "icon_position": "next",
+        "icon_size": 30,
+        "enable_desktop_slider": false,
+        "swiper_on_mobile": false,
+        "enable_arrow_mobile": false,
+        "auto_play": true,
+        "change_bar_every": 5,
+        "background_color_light": "rgba(0,0,0,0)",
+        "heading_light": "rgba(0,0,0,0)",
+        "text_light": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "line_border_light": "rgba(0,0,0,0)",
+        "color_icon_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "heading_dark": "rgba(0,0,0,0)",
+        "text_dark": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "line_border_dark": "rgba(0,0,0,0)",
+        "color_icon_dark": "rgba(0,0,0,0)",
+        "column_layout_desktop": "lg:w-1/4",
+        "section_height_desktop": "md:py-7",
+        "spacing_desktop": 12,
+        "full_width": false,
+        "padding_full_width": false,
+        "show_section_divider": false,
+        "padding_top": 40,
+        "padding_bottom": 80,
+        "column_layout_mobile": "w-full",
+        "section_height_mobile": "py-5",
+        "spacing_mobile": 10,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product_description_djVffX",
+    "text_column_with_image_VKgqKt",
+    "product-recommendations",
+    "multicolumn_yjqDtQ"
+  ]
+}

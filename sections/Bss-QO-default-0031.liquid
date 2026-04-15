@@ -1,0 +1,43 @@
+
+        {% assign banner_width = section.settings.banner_width | default: 1920 %}
+        {% assign container_width = section.settings.container_width | default: 1200 %}
+        <!-- <pre>{{ section.settings | json }}</pre> -->
+        <div>
+            <script>
+                window.currencyFormats = {{ shop.currency | json }};
+                window.money_format = {{ shop.money_format | json }};
+                window.money_with_currency_format = {{ shop.money_with_currency_format | json }};
+            </script>
+            <bss-qo
+                banner-width="{{ banner_width }}px"
+                container-width="{{ container_width }}px"
+                form-id="450"
+            ></bss-qo>
+        </div>
+
+        {% schema %}
+        {
+            "name": "BSS Quick Order",
+            "settings": [
+                {
+                    "type": "range",
+                    "id": "banner_width",
+                    "label": "Banner width (px)",
+                    "min": 1100,
+                    "max": 1920,
+                    "step": 20,
+                    "default": 1200
+                },
+                {
+                    "type": "range",
+                    "id": "container_width",
+                    "label": "Container width (px)",
+                    "min": 1100,
+                    "max": 1920,
+                    "step": 20,
+                    "default": 1200
+                }
+            ]
+        }
+        {% endschema %}
+    

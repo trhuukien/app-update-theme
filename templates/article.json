@@ -14,11 +14,12 @@
       "blocks": {
         "featured_image": {
           "type": "featured_image",
+          "disabled": true,
           "settings": {
-            "desktop_height": "auto",
-            "full_width": false,
-            "mobile_height": "auto",
-            "full_width_mobile": false
+            "desktop_height": "450px",
+            "full_width": true,
+            "mobile_height": "250px",
+            "full_width_mobile": true
           }
         },
         "breadcrumbs": {
@@ -26,9 +27,9 @@
           "settings": {
             "show_breadcrumbs_border": false,
             "full_width_breadcrumb": false,
-            "desktop_content_alignment": "text-left",
-            "mobile_content_alignment": "text-left",
-            "background_color_light": "rgba(0,0,0,0)",
+            "desktop_content_alignment": "text-center",
+            "mobile_content_alignment": "text-center",
+            "background_color_light": "#f7f7f7",
             "text_color_light": "rgba(0,0,0,0)",
             "textlink_color_light": "rgba(0,0,0,0)",
             "background_color_dark": "rgba(0,0,0,0)",
@@ -39,13 +40,18 @@
         "title": {
           "type": "title",
           "settings": {
+            "heading_tag": "h1",
             "blog_show_author": false,
-            "blog_show_date": false
+            "blog_show_date": false,
+            "content_alignment": "text-center",
+            "title_size": 100
           }
         },
         "content": {
           "type": "content",
-          "settings": {}
+          "settings": {
+            "text_size": 100
+          }
         },
         "button": {
           "type": "button",
@@ -65,8 +71,79 @@
       ],
       "settings": {
         "blog_show_comment_counts": false,
+        "enable_microdata": false,
         "top_padding": 0,
-        "bottom_padding": 0
+        "bottom_padding": 0,
+        "page_width": 1400,
+        "enable_table_of_contents": true,
+        "table_of_contents_title": "Table of Contents",
+        "table_position": "left",
+        "open_tab": true,
+        "sticky_table_of_contents": false,
+        "list_style": "Ordered",
+        "social_sharing": false
+      }
+    },
+    "side_bar_gVY8Re": {
+      "type": "side-bar",
+      "blocks": {
+        "highlight_text_f9b7AH": {
+          "type": "highlight_text",
+          "settings": {
+            "title": "Dr. Sorbie",
+            "title_size": 80,
+            "text": "<p>Wissenschaft für sichtbar gesundes Haar.</p>",
+            "text_size": 100
+          }
+        },
+        "promotion_banner_dDkEBw": {
+          "type": "promotion-banner",
+          "settings": {
+            "image": "shopify://shop_images/DTS_Skin_Deep_Daniel_FarA__4257.jpg",
+            "image_height": 350,
+            "overlay_opacity": 30,
+            "subheading": "",
+            "heading": "Entdecke die Produktewelt",
+            "highlight_type": "underline",
+            "heading_size": 70,
+            "content": "",
+            "text_size": 100,
+            "button_label": "Produkte ansehen",
+            "button_link": "shopify://collections/all",
+            "open_new_window_button": true,
+            "show_button_style": "primary",
+            "content_alignment": "left",
+            "content_position": "bottom",
+            "color_text": "#ffffff",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "color_button": "rgba(0,0,0,0)",
+            "color_text_button": "rgba(0,0,0,0)",
+            "color_button_hover": "rgba(0,0,0,0)",
+            "color_text_button_hover": "rgba(0,0,0,0)",
+            "color_button_secondary": "rgba(0,0,0,0)",
+            "secondary_button_text": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)"
+          }
+        },
+        "product_Yi7CCf": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": 80,
+            "product_list": [],
+            "show_rating": false
+          }
+        }
+      },
+      "block_order": [
+        "highlight_text_f9b7AH",
+        "promotion_banner_dDkEBw",
+        "product_Yi7CCf"
+      ],
+      "settings": {
+        "side_bar_position": "left",
+        "enable_sticky_side_bar": true
       }
     },
     "c76580cd-4e30-403e-a8b4-d687105c2965": {
@@ -74,19 +151,31 @@
       "blocks": {
         "template--15961075744868__c76580cd-4e30-403e-a8b4-d687105c2965-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "number_of_lines_shown": "none",
+            "read_more_label": "Read more",
+            "see_less_label": "See less"
           }
         }
       },
       "block_order": [
         "template--15961075744868__c76580cd-4e30-403e-a8b4-d687105c2965-text-1"
       ],
+      "disabled": true,
       "settings": {
+        "heading_light": "rgba(0,0,0,0)",
+        "color_heading_highlight_light": "rgba(0,0,0,0)",
+        "text_light": "rgba(0,0,0,0)",
         "background_color_light": "",
+        "heading_dark": "rgba(0,0,0,0)",
+        "color_heading_highlight_dark": "rgba(0,0,0,0)",
+        "text_dark": "rgba(0,0,0,0)",
         "background_color_dark": "",
         "content_alignment": "left",
         "show_section_divider": false,
+        "make_full_page_width": true,
         "padding_top": 28,
         "padding_bottom": 28,
         "content_alignment_mobile": "left",
@@ -98,6 +187,7 @@
   },
   "order": [
     "main",
+    "side_bar_gVY8Re",
     "c76580cd-4e30-403e-a8b4-d687105c2965"
   ]
 }

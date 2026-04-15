@@ -90,8 +90,8 @@ document.addEventListener('alpine:init', () => {
       rangeInput.forEach((input) => {
         input.addEventListener("input", (e) => {
           e.preventDefault();
-          let minVal = parseInt(rangeInput[0].value),
-            maxVal = parseInt(rangeInput[1].value);
+          let minVal = Number(rangeInput[0].value).toFixed(2),
+            maxVal = Number(rangeInput[1].value).toFixed(2);;
           
           if (maxVal - minVal < priceGap) {
             if (e.target.className === "range-min") {
@@ -116,8 +116,8 @@ document.addEventListener('alpine:init', () => {
       const rangeInput = el.querySelectorAll(".range-input input"),
       range = el.querySelector(".slider .progress");
       
-      let minVal = parseInt(rangeInput[0].value),
-      maxVal = parseInt(rangeInput[1].value);
+      let minVal = Number(rangeInput[0].value).toFixed(2),
+      maxVal = Number(rangeInput[1].value).toFixed(2);;
       range.style.setProperty('--left_range', (minVal / rangeInput[0].max) * 100 + '%');
       range.style.setProperty('--right_range',100 - (maxVal / rangeInput[1].max) * 100 + '%');
     },
@@ -160,51 +160,46 @@ document.addEventListener('alpine:init', () => {
     },
     _renderFilters(html) {
       const parsedHTML = new DOMParser().parseFromString(html, 'text/html');
-      const facetDetailsElements =
-        parsedHTML.querySelectorAll('.js-filter');
-      let facetsToRender;
-      if(this.$el.classList.contains('filter-and')) {
-        facetsToRender = Array.from(facetDetailsElements);
-      } else {
-        const matchesIndex = (element) => {
-          const jsFilter = !this.$el.classList.contains('facet-reset') ? this.$el.closest('.js-filter') : undefined;
-          return jsFilter ? element.dataset.index === jsFilter.dataset.index : false;
-        }
-        facetsToRender = Array.from(facetDetailsElements).filter(element => !matchesIndex(element));
-        const countsToRender = Array.from(facetDetailsElements).find(matchesIndex);
-        if (countsToRender) this._renderCounts(countsToRender, this.$el .closest('.js-filter'));
+      let blockFiltesDrawer = '.form-drawer';
+      let blockFiltesAside = '.form-aside';
+      const selectBlockFiltesDrawer = document.querySelector(blockFiltesDrawer);
+      const selectBlockFiltesAside = document.querySelector(blockFiltesAside);
+      let activeTag = document.getElementById("active-filter-tag")
 
-        if (this.$el.closest(".filter-advanced-2")) {
-          this._initFilter(this.$el.closest(".filter-advanced-2"))
-        }
+      if (activeTag) {
+        activeTag.innerHTML = parsedHTML.getElementById("active-filter-tag").innerHTML;   
       }
-      
-      
-      facetsToRender.forEach((element) => {
-        if (element.querySelector(".filter-advanced-2")) {
-          this._initFilter(element)
-        } 
-        document.querySelector(`.js-filter[data-index="${element.dataset.index}"]`).innerHTML = element.innerHTML;
-      });
-
-      this._renderActiveFacets(parsedHTML);
-      this._renderAdditionalElements(parsedHTML);
-      
-    },
-    _initFilter(element) {
-      const fieldset = [...element.querySelectorAll(`input`)];
-      const filterSelected = element.querySelector("input:checked");
-      if (filterSelected) {
-        fieldset.forEach((input) => {
-          if (input.checked) {
-            input.closest("label").classList.remove("opacity-40")
-          } else {
-            input.closest("label").classList.add("opacity-40")
+      if (selectBlockFiltesDrawer) {
+        if (this.$el.id) {  
+          const eleOpening = parsedHTML.getElementById(this.$el.id) ? parsedHTML.getElementById(this.$el.id).closest('.js-filter') : undefined;
+          if (eleOpening) {
+            eleOpening.setAttribute('x-data', '{open: true}');
+            parsedHTML.getElementById(this.$el.id).closest('.js-filter').innerHTML = eleOpening.innerHTML;
           }
-        })
-      } else {
-        fieldset.forEach((input) => {
-          input.closest("label").classList.remove("opacity-40")
+        }
+        selectBlockFiltesDrawer.innerHTML = parsedHTML.querySelector(blockFiltesDrawer).innerHTML;
+        this._renderAdditionalElements(parsedHTML);
+      };
+      if (selectBlockFiltesAside) {
+        if (this.$el.id) {
+          const eleOpening = parsedHTML.getElementById(this.$el.id) ? parsedHTML.getElementById(this.$el.id).closest('.js-filter') : undefined;
+          if (eleOpening) {
+            eleOpening.setAttribute('x-data', '{open: true}');
+            parsedHTML.getElementById(this.$el.id).closest('.js-filter').innerHTML = eleOpening.innerHTML;
+          }
+        }
+        selectBlockFiltesAside.innerHTML = parsedHTML.querySelector(blockFiltesAside).innerHTML;
+        this._renderAdditionalElements(parsedHTML);
+      };
+      this._renderAdvancedFilters(parsedHTML);
+    },
+    _renderAdvancedFilters(html) {
+      const destination = document.querySelectorAll(".filter-advanced");
+      const source = html.querySelectorAll('.filter-advanced');
+
+      if (source.length > 0 && destination.length > 0) {
+        destination.forEach((destination, index) => {
+          destination.innerHTML = source[index].innerHTML;
         })
       }
     },
@@ -222,30 +217,9 @@ document.addEventListener('alpine:init', () => {
         container.classList.remove('loading');
       }
     },
-    _renderActiveFacets(html) {
-      const filterTag = document.getElementById('active-filter-tag');
-      const filterTagMobile = document.getElementById('active-filter-tag-mobile');
-      if (filterTag) filterTag.innerHTML = html.getElementById('active-filter-tag').innerHTML;
-      if (filterTagMobile) filterTagMobile.innerHTML = html.getElementById('active-filter-tag-mobile').innerHTML;
-    },
     _renderAdditionalElements(html) {
       const container = document.getElementById('ProductPerPage');
       if (container) container.innerHTML = html.getElementById('ProductPerPage').innerHTML;
-    },
-    _renderCounts(source, target) {
-      const targetElement = target.querySelector('.facets__selected');
-      const sourceElement = source.querySelector('.facets__selected');
-  
-      const targetElementAccessibility = target.querySelector('.facets__summary');
-      const sourceElementAccessibility = source.querySelector('.facets__summary');
-  
-      if (sourceElement && targetElement) {
-        target.querySelector('.facets__selected').outerHTML = source.querySelector('.facets__selected').outerHTML;
-      }
-  
-      if (targetElementAccessibility && sourceElementAccessibility) {
-        target.querySelector('.facets__summary').outerHTML = source.querySelector('.facets__summary').outerHTML;
-      }
     },
     _filterFocus() {
       Alpine.store('xFocusElement').trapFocus('ProductFilter','CloseFilter');
@@ -261,12 +235,23 @@ document.addEventListener('alpine:init', () => {
       elRect = el.getBoundingClientRect();
       const elPopup = el.getElementsByClassName('popup-above')[0];
       let spacingRight = window.innerWidth - elRect.left;
-      let checkSpacing = spacingRight - 320;
+      let checkSpacing = spacingRight - el.innerWidth;
       if (checkSpacing >= 0) {
         elPopup.style.left = '0px';
       } else {
         elPopup.style.left = checkSpacing+ 'px';
       }
+    },
+    getPopupPosition(el) {
+      this.$nextTick(() => {
+        const elPopup = el.getElementsByClassName('popup-above')[0];
+        if (elPopup) {
+          const popupRect = elPopup.getBoundingClientRect();
+          if( popupRect.right > window.innerWidth){
+            elPopup.style.right = 0;
+          }
+        }
+      });
     }
   }));
 });

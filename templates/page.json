@@ -13,11 +13,11 @@
       "type": "main-page",
       "settings": {
         "show_heading": true,
-        "heading_size": 100,
+        "heading_size": 170,
         "heading_tag": "h1",
-        "show_breadcrumbs": false,
+        "show_breadcrumbs": true,
         "show_breadcrumbs_border": false,
-        "full_width_breadcrumb": false,
+        "full_width_breadcrumb": true,
         "desktop_content_alignment": "text-left",
         "mobile_content_alignment": "text-left",
         "background_color_light": "#f2f2f2",
@@ -26,14 +26,216 @@
         "background_color_dark": "#313131",
         "text_color_dark": "rgba(0,0,0,0)",
         "textlink_color_dark": "rgba(0,0,0,0)",
-        "padding_top": 40,
-        "padding_bottom": 0,
+        "max_container_page_width": 100,
+        "padding_top": 28,
+        "padding_bottom": 28,
         "padding_top_mobile": 20,
-        "padding_bottom_mobile": 0
+        "padding_bottom_mobile": 20
+      }
+    },
+    "image_with_text_QzDNiD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Kapf9J": {
+          "type": "heading",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "highlight_type": "underline",
+            "heading_base_size": 100,
+            "heading_tag": "h2",
+            "text": "<p>ENTFACHE DEINE KREATIVITÄT<br/><br/>Erlebe Trainings, die dich inspirieren und deine Expertise erweitern.<br/>Vertiefe dein Wissen über Produkte, entdecke neue Business-Strategien, trendige Farbtechniken und innovative Skills, für deinen Vorsprung als Trendsetter.<br/><br/>ZERTIFIZIERUNG MIT MEHRWERT<br/><br/>Beweise dein Können und sichere dir dein Zertifikat.<br/>Werde zur anerkannten Expert:in in deinem Salon und beeindrucke deine Kund:innen mit Professionalität und neuem Know-how.<br/><br/>STÄRKER GEMEINSAM<br/><br/>Werde Teil einer leidenschaftlichen Community von Hairstylist:innen aus der ganzen Welt.<br/>Tausche dich aus, wachse gemeinsam und lass dich von der Energie und dem Wissen anderer Profis inspirieren.</p>",
+            "number_of_lines_shown": "none",
+            "read_more_label": "Read more",
+            "see_less_label": "See less",
+            "heading_light": "rgba(0,0,0,0)",
+            "text_light": "rgba(0,0,0,0)",
+            "color_heading_highlight_light": "rgba(0,0,0,0)",
+            "heading_dark": "rgba(0,0,0,0)",
+            "text_dark": "rgba(0,0,0,0)",
+            "color_heading_highlight_dark": "rgba(0,0,0,0)"
+          }
+        },
+        "button_nhbQxD": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "open_new_window": false,
+            "show_button_style": "primary",
+            "button_light": "rgba(0,0,0,0)",
+            "button_text_light": "rgba(0,0,0,0)",
+            "button_hover_light": "rgba(0,0,0,0)",
+            "button_text_hover_light": "rgba(0,0,0,0)",
+            "secondary_button_light": "rgba(0,0,0,0)",
+            "secondary_button_text_light": "rgba(0,0,0,0)",
+            "colors_text_link": "rgba(0,0,0,0)",
+            "button_dark": "rgba(0,0,0,0)",
+            "button_text_dark": "rgba(0,0,0,0)",
+            "button_hover_dark": "rgba(0,0,0,0)",
+            "button_text_hover_dark": "rgba(0,0,0,0)",
+            "secondary_button_dark": "rgba(0,0,0,0)",
+            "secondary_button_text_dark": "rgba(0,0,0,0)",
+            "colors_text_link_dark": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Kapf9J",
+        "button_nhbQxD"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "show_hero": false,
+        "image": "shopify://shop_images/image_square_1_1.png",
+        "desktop_height": "550px",
+        "mobile_height": "400px",
+        "desktop_image_width": "large",
+        "image_layout": "normal",
+        "adapt_radius": true,
+        "image_corner_radius": 0,
+        "show_sound_control": false,
+        "video_url": "",
+        "video_alt_text": "",
+        "enable_video_autoplay": false,
+        "content_layout": "overlap",
+        "spacing_image": false,
+        "text_position": "center",
+        "text_alignment": "start",
+        "background_color_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "line_border": "dashed",
+        "icon_position": "col",
+        "icon_size": 45,
+        "alignment": "center",
+        "columns_desktop": 4,
+        "columns_mobile": "2",
+        "heading_color_light": "rgba(0,0,0,0)",
+        "text_color_light": "rgba(0,0,0,0)",
+        "line_border_light": "rgba(0,0,0,0)",
+        "icon_color_light": "rgba(0,0,0,0)",
+        "heading_color_dark": "rgba(0,0,0,0)",
+        "text_color_dark": "rgba(0,0,0,0)",
+        "line_border_dark": "rgba(0,0,0,0)",
+        "icon_color_dark": "rgba(0,0,0,0)",
+        "image_alignment": "left",
+        "full_width": false,
+        "padding_full_width": false,
+        "top_padding": 0,
+        "bottom_padding": 0,
+        "image_alignment_mobile": "left",
+        "full_width_mobile": false,
+        "top_padding_mobile": 0,
+        "bottom_padding_mobile": 0
+      }
+    },
+    "contact_form_pfWtan": {
+      "type": "contact-form",
+      "blocks": {
+        "name_Q438xb": {
+          "type": "name",
+          "settings": {
+            "heading": "Vor- und Nachname",
+            "mark_as_required": true
+          }
+        },
+        "form_eRhwa4": {
+          "type": "form",
+          "settings": {
+            "heading": "Salonname",
+            "mark_as_required": true,
+            "type_field": "text",
+            "options": ""
+          }
+        },
+        "email_NeDx7F": {
+          "type": "email",
+          "settings": {
+            "heading": "Email"
+          }
+        },
+        "phone_nm4KMm": {
+          "type": "phone",
+          "settings": {
+            "heading": "Telefonnummer",
+            "mark_as_required": true
+          }
+        },
+        "form_fQng8x": {
+          "type": "form",
+          "settings": {
+            "heading": "Adresse",
+            "mark_as_required": true,
+            "type_field": "text",
+            "options": ""
+          }
+        },
+        "form_aRPcGQ": {
+          "type": "form",
+          "settings": {
+            "heading": "Anzahl Teilnehmer/innen",
+            "mark_as_required": true,
+            "type_field": "text",
+            "options": ""
+          }
+        },
+        "message_pjBCJP": {
+          "type": "message",
+          "settings": {
+            "heading": "Nachricht",
+            "mark_as_required": false
+          }
+        }
+      },
+      "block_order": [
+        "name_Q438xb",
+        "form_eRhwa4",
+        "email_NeDx7F",
+        "phone_nm4KMm",
+        "form_fQng8x",
+        "form_aRPcGQ",
+        "message_pjBCJP"
+      ],
+      "name": "t:sections.contact-form.name",
+      "settings": {
+        "heading": "Dein nächster Schritt beginnt hier.",
+        "highlight_type": "underline",
+        "heading_size": 100,
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "text": "",
+        "background_color_light": "rgba(0,0,0,0)",
+        "background_color_dark": "rgba(0,0,0,0)",
+        "button_label": "Kontakt aufnehmen",
+        "button_alignment": "center",
+        "success_message": "Vielen Dank für dein Interesse an unseren Schulungen. Wir freuen uns sehr, dass du mit uns in Kontakt getreten bist. Deine Anfrage ist bei uns eingegangen, und wir melden uns in Kürze persönlich bei dir, um gemeinsam den passenden Weg für dich oder dein Team zu finden.",
+        "show_content": "none",
+        "form_alignment": "left",
+        "desktop_height": "550px",
+        "mobile_height": "400px",
+        "contact_heading": "Contact infomation",
+        "highlight_type_1": "underline",
+        "heading_tag_2": "h2",
+        "infomation": "",
+        "address": "75 9th Ave, New York, NY 10011-7006",
+        "phone_nummber": "+1234567890",
+        "email_address": "info@yourstore.com",
+        "contact_text": "<p>Opening hours</p></br><p>Mon - Fri, 8:30am - 10:30pm,</br>Saturday, 8:30am - 10:30pm,</br>Sunday, 8:30am - 10:30pm</p>",
+        "full_width": false,
+        "show_section_divider": false,
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "full_width_mobile": false,
+        "show_section_divider_mobile": false,
+        "padding_top_mobile": 28,
+        "padding_bottom_mobile": 28
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_QzDNiD",
+    "contact_form_pfWtan"
   ]
 }

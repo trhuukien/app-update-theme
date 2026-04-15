@@ -1,0 +1,28 @@
+{% if product.metafields.custom.frequently_bought_together != blank %}
+
+<div class="fbt-wrapper page-width">
+  <h2 class="fbt-heading">FBT</h2> <!-- Name gekürzt auf <25 Zeichen -->
+
+  <div class="fbt-products">
+    {% for fbt_product in product.metafields.custom.frequently_bought_together %}
+      <div class="fbt-item">
+        <a href="{{ fbt_product.url }}">
+          {% if fbt_product.featured_image %}
+            {{ fbt_product.featured_image | image_url: width: 300 | image_tag }}
+          {% endif %}
+          <p class="fbt-title">{{ fbt_product.title }}</p>
+          <p class="fbt-price">{{ fbt_product.price | money }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% endif %}
+
+{% schema %}
+{
+  "name": "FBT",
+  "settings": []
+}
+{% endschema %}

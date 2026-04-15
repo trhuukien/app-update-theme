@@ -1,0 +1,43 @@
+<script>
+(() => {
+    const config = { attributes: true, childList: true, subtree: true };
+
+    const callback = (mutationList, observer) => {
+        const salepifyWidget = document.querySelector('.salepify-product-bundle');
+
+        if (!salepifyWidget) return;
+        const hidePriceElement = document.querySelector('.product-info .bss-lock-element');
+
+        if (!hidePriceElement){
+          if (window.Login?.elements?.length === 0) {
+            const priceElements = salepifyWidget.querySelectorAll('.salepify-product-bundle-item-info>.block-stack');
+            priceElements.forEach(element => element.style.visibility = 'visible')
+          }
+          return;
+        }
+        const totalPriceWrapper = salepifyWidget.querySelector('.salepify-product-bundle-total');
+        if (!totalPriceWrapper) return;
+        const priceDisplay = totalPriceWrapper.querySelector('.inline-stack');
+        if (priceDisplay.innerText != "{{ 'drsorbie.app.hide_price_text' | t }}") {
+            const grabButton = salepifyWidget.querySelector('.salepify-product-bundle-grab-btn');
+            if (grabButton) {
+                // insert after button
+                const customBundleButton = document.getElementById('bss-custom-bundle-button');
+                grabButton.parentNode.insertBefore(customBundleButton, grabButton);
+                {% comment %} customBundleButton.style.display = 'block' {% endcomment %}
+                grabButton.remove();
+            }
+            priceDisplay.innerText = "{{ 'drsorbie.app.hide_price_text' | t }}"
+        }
+    };
+
+    const observer = new MutationObserver(callback);
+    observer.observe(document.body, config);
+})()
+</script>
+<button style="display:none" data-test="{{ 'drsorbie.app.hide_price_text' | t }}" id="bss-custom-bundle-button" class="bss-lock-custom-btn button button-solid w-full block mr-auto ml-auto mt-2 md:mt-4 pt-2.5 pb-2.5 md:pt-3 md:pb-3 leading-normal">
+  {% assign button_label = 'drsorbie.app.hide_price_button' | t %}
+  <span class="flex items-center justify-center">
+    {% render 'button-label', button_label: button_label, show_button_style: 'primary' %}
+  </span>
+</button>

@@ -1,0 +1,330 @@
+{% if customer %}
+    <div
+      x-data="xProductCart"
+      class="mt-2 md:mt-4 w-full{% if show_icon_atc %} hide-btn text-right rtl:text-left{% else %} hide-icon{% endif %}"
+    >
+      {% if product.options_with_values.size == swatch_count or product.has_only_default_variant %}
+        {%- assign product_form_id = 'product-form-choose-option' | append: product.id | append: index_param -%}
+        {%- form 'product',
+          product,
+          id: product_form_id,
+          class: 'form h-full',
+          novalidate: 'novalidate',
+          data-type: 'add-to-cart-form',
+          x-ref: 'product_form'
+        -%}
+        <div class="grid gap-2">
+            <div class="text-center">
+              {% liquid
+                assign style_quantity = 'rounded-none'
+                if settings.buttons_type == 'rounded_corners' or settings.buttons_type == 'mixed'
+                  assign style_quantity = 'rounded-md'
+                elsif settings.buttons_type == 'rounded'
+                  assign style_quantity = 'rounded-full'
+                endif
+              %}
+              <div
+                class="inline-flex w-fit border border-solid items-center bg-[rgba(var(--background-color),1)] {{ style_quantity }}"
+                x-data="
+                  {
+                  qty: {{ product.selected_or_first_available_variant.quantity_rule.min }},
+                  min: {{ product.selected_or_first_available_variant.quantity_rule.min }},
+                  max: {{ product.selected_or_first_available_variant.quantity_rule.max | json }},
+                  minus(value) {
+                      if(this.qty <= {{ product.selected_or_first_available_variant.quantity_rule.min }}) {
+                      this.qty = {{ product.selected_or_first_available_variant.quantity_rule.min }};
+                      }else {
+                      this.qty = parseInt(this.qty);
+                      (this.qty == 1) ? this.qty = 1 : this.qty -= value;
+                      }
+                  },
+                  plus(value) {
+                      if(this.qty >= parseInt(this.max) && false) {
+                      this.qty = parseInt(this.max);
+                      } else {
+                      this.qty = parseInt(this.qty);
+                      this.qty += value;
+                      }
+                  },
+                  invalid(el) {
+                      const number = parseFloat(el.value);
+                      if (!Number.isInteger(number) || number < {{ product.selected_or_first_available_variant.quantity_rule.min }}) {
+                      this.qty = {{ product.selected_or_first_available_variant.quantity_rule.min }};
+                      }
+                      if (number > parseInt(this.max) && false) {
+                      this.qty = parseInt(this.max);
+                      }
+                  }
+                  }
+                "
+                style="border-color: #D0D0C8"
+              >
+                <button
+                  class="w-5 cursor-pointer pt-2.5 pb-2.5 md:pt-4 md:pb-4 bg-transparent pl-2 select-none opacity-50"
+                  name="minus"
+                  aria-label="minus"
+                  @click.prevent="minus({{ product.selected_or_first_available_variant.quantity_rule.increment }})"
+                >
+                  {% render 'icon-alls', icon: 'icon-minus' %}
+                </button>
+                <input
+                  class="outer-spin-button hide-spin-input focus:outline-none w-20 pt-2 pb-2 md:pt-2.5 md:pb-2.5 text-center bg-transparent"
+                  type="number"
+                  name="quantity"
+                  min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                  {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
+                    max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                  {% endif %}
+                  step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
+                  value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                  form="{{ product_form_id }}"
+                  x-model="qty"
+                  x-on:blur="invalid($el)"
+                >
+                <button
+                  class="w-5 cursor-pointer pt-2.5 pb-2.5 md:pt-4 md:pb-4 bg-transparent pr-2 select-none opacity-50"
+                  name="plus"
+                  @click.prevent="plus({{ product.selected_or_first_available_variant.quantity_rule.increment }})"
+                  aria-label="minus"
+                >
+                  {% render 'icon-alls', icon: 'icon-plus' %}
+                </button>
+              </div>
+            </div>
+  
+            <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+            {% if settings.show_in_cart_items != 'none' %}
+              {% render 'estimate-shipping-cart',
+                product: product,
+                message: settings.message_estimate_cart,
+                disable_cart_edt: disable_cart_edt
+              %}
+            {% endif %}
+            {% if can_show_preorder %}
+              <input name="properties[{{ 'general.preorder.name' | t }}]" class="hidden" value="{{ message_preorder }}">
+            {% endif %}
+            <button
+              type="submit"
+              name="add"
+              {%- if product.has_only_default_variant
+                or product.selected_or_first_available_variant.available == false
+              -%}
+                @click.prevent="errorMessage == false && addToCart($event)"
+              {%- else -%}
+                {% if settings.products_color_swatches_enable_on_collection_page %}
+                  @click.prevent="errorMessage == false && addToCart($event)"
+                {% else %}
+                  @click.prevent="setTimeout(() => { $store.xQuickView && (showOptions = !showOptions); $store.xQuickView.showChooseOption('{{ section_id }}-{{ product.id }}-{{ block_id }}', $el); }, 0)"
+                  x-on:mouseover="setTimeout(() => { $store.xQuickView && $store.xQuickView.loadChooseOptions('{{ product.url | within: collection | split: "?" | first }}', $el, '{{ section_id }}-{{ product.id }}-{{ block_id }}', {{ index_param }}); }, 0)"
+                {% endif %}
+              {%- endif -%}
+              data-id="{{ section_id }}-{{ product.id }}-{{ block_id }}"
+              class="button button-solid not-icon leading-normal w-full pr-5 pl-5 py-2.5 lg:py-3 h-full text-[12px] lg:text-[14px] lg:-translate-x-0 disabled:cursor-not-allowed disabled:opacity-60 block"
+              {% if settings.enable_shipping_insurance
+                and settings.shipping_insurance_added_by_default
+                and shipping_insurance
+              %}
+                x-init="loadInsurance('{{ shipping_insurance }}')"
+              {% endif %}
+              {% if settings.enable_shipping_insurance
+                and settings.product_shipping_insurance != blank
+                and settings.product_shipping_insurance.id == product.id
+              %}
+                style="display: none;"
+              {% endif %}
+              :class="errorMessage && 'opacity-60 cursor-not-allowed'"
+              {% if product.selected_or_first_available_variant.available == false %}
+                disabled
+                aria-label="{{ 'products.product.sold_out' | t }}"
+              {% else %}
+                {%- if product.has_only_default_variant -%}
+                  aria-label="{{ 'products.product.add_to_cart' | t }}"
+                {% else %}
+                  {% if settings.products_color_swatches_enable_on_collection_page %}
+                    aria-label="{{ 'products.product.add_to_cart' | t }}"
+                  {% else %}
+                    aria-label="{{ 'products.product.choose_options' | t }}"
+                  {% endif %}
+                {% endif %}
+              {% endif %}
+            >
+              <span :class="{ 'lg:block opacity-0 is-focus-button' : loading, 'hidden' : errorMessage}">
+                {%- if product.selected_or_first_available_variant.available -%}
+                  {%- if product.has_only_default_variant -%}
+                    {% liquid
+                      if can_show_preorder
+                        assign button_label = 'products.product.pre_order' | t
+                        if settings.card_button_preorder != blank
+                          assign button_label = settings.card_button_preorder
+                        endif
+                      else
+                        assign button_label = 'products.product.add_to_cart' | t
+                      endif
+                    %}
+                    <span class="flex items-center justify-center">
+                      {% render 'button-label', button_label: button_label, show_button_style: 'primary' %}
+                    </span>
+                  {%- else -%}
+                    {% liquid
+                      if settings.products_color_swatches_enable_on_collection_page
+                        if can_show_preorder
+                          assign button_label = 'products.product.pre_order' | t
+                          if settings.card_button_preorder != blank
+                            assign button_label = settings.card_button_preorder
+                          endif
+                        else
+                          assign button_label = 'products.product.add_to_cart' | t
+                        endif
+                      else
+                        assign button_label = 'products.product.choose_options' | t
+                      endif
+                    %}
+                    <span class="flex items-center justify-center">
+                      {% render 'button-label', button_label: button_label, show_button_style: 'primary' %}
+                    </span>
+                  {%- endif -%}
+                {%- else -%}
+                  {{ 'products.product.sold_out' | t }}
+                {%- endif -%}
+              </span>
+              <div
+                class="flex gap-x-2 items-center justify-center"
+                role="alert"
+                x-cloak
+                x-show="errorMessage"
+              >
+                {{ 'products.product.sold_out' | t }}
+              </div>
+              <div
+                class="lg:inline-block animate-spin w-4 h-4 md:w-5 md:h-5 absolute top-[calc(50%-8px)] left-[calc(50%-8px)] md:top-[calc(50%-10px)] md:left-[calc(50%-10px)]"
+                x-show="loading"
+                x-cloak
+              >
+                {% render 'icon-alls', icon: 'icon-loading' %}
+              </div>
+            </button>
+            <button
+              type="submit"
+              name="add"
+              {%- if product.has_only_default_variant
+                or product.selected_or_first_available_variant.available == false
+              -%}
+                @click.prevent="errorMessage == false && addToCart($event)"
+              {%- else -%}
+                {% if settings.products_color_swatches_enable_on_collection_page %}
+                  @click.prevent="errorMessage == false && addToCart($event)"
+                {% else %}
+                  @click.prevent="setTimeout(() => { $store.xQuickView && (showOptions = !showOptions); $store.xQuickView.showChooseOption('{{ section_id }}-{{ product.id }}-{{ block_id }}', $el); }, 0)"
+                  x-on:mouseover="setTimeout(() => { $store.xQuickView && $store.xQuickView.loadChooseOptions('{{ product.url | within: collection | split: "?" | first }}', $el, '{{ section_id }}-{{ product.id }}-{{ block_id }}', {{ index_param }}); }, 0)"
+                {% endif %}
+              {%- endif -%}
+              class="button label-btn-quickview button-disable-effect not-icon button--quickview rounded-full lg:leading-snug none_border h-full p-[6px] disabled:cursor-not-allowed disabled:opacity-60 hidden"
+              {% if settings.enable_shipping_insurance
+                and settings.shipping_insurance_added_by_default
+                and shipping_insurance
+              %}
+                x-init="loadInsurance('{{ shipping_insurance }}')"
+              {% endif %}
+              {% if settings.enable_shipping_insurance
+                and settings.product_shipping_insurance != blank
+                and settings.product_shipping_insurance.id == product.id
+              %}
+                style="display: none;"
+              {% endif %}
+              data-id="{{ section_id }}-{{ product.id }}-{{ block_id }}"
+              :class="errorMessage && 'opacity-60 cursor-not-allowed'"
+              {% if product.selected_or_first_available_variant.available == false %}
+                disabled
+                aria-label="{{ 'products.product.sold_out' | t }}"
+              {% else %}
+                {%- if product.has_only_default_variant -%}
+                  aria-label="{{ 'products.product.add_to_cart' | t }}"
+                {% else %}
+                  {% if settings.products_color_swatches_enable_on_collection_page %}
+                    aria-label="{{ 'products.product.add_to_cart' | t }}"
+                  {% else %}
+                    aria-label="{{ 'products.product.choose_options' | t }}"
+                  {% endif %}
+                {% endif %}
+              {% endif %}
+              x-customer-event-data="{{ data_for_customer_event | escape }}"
+            >
+              <span class="w-5 h-5 flex items-center justify-center md:w-6 md:h-6" x-show="!loading">
+                {%- render 'icon-cart-all', icon: 'icon-cart-quick-add' -%}
+              </span>
+              <span class="block w-5 h-5 animate-spin" x-show="loading" x-cloak>
+                {% render 'icon-alls', icon: 'icon-loading' %}
+              </span>
+            </button>
+          </div>
+        {%- endform -%}
+      {% else %}
+        <button
+          type="submit"
+          name="add"
+  
+          @click.prevent="setTimeout(() => { $store.xQuickView && (showOptions = !showOptions); $store.xQuickView.showChooseOption('{{ section_id }}-{{ product.id }}-{{ block_id }}', $el); }, 0)"
+          x-on:mouseover="setTimeout(() => { $store.xQuickView && $store.xQuickView.loadChooseOptions('{{ product.url | within: collection | split: "?" | first }}', $el, '{{ section_id }}-{{ product.id }}-{{ block_id }}', {{ index_param }}); }, 0)"
+          data-id="{{ section_id }}-{{ product.id }}-{{ block_id }}"
+          class="button button--quickview button-solid not-icon leading-normal w-full pr-5 pl-5 py-2.5 lg:py-3 h-full text-[12px] lg:text-[14px] lg:-translate-x-0 disabled:cursor-not-allowed disabled:opacity-60 block"
+          :class="errorMessage && 'opacity-60 cursor-not-allowed'"
+          {% if product.selected_or_first_available_variant.available == false %}
+            disabled
+            aria-label="{{ 'products.product.sold_out' | t }}"
+          {% else %}
+            aria-label="{{ 'products.product.choose_options' | t }}"
+          {% endif %}
+        >
+          <span :class="{ 'lg:block opacity-0 is-focus-button' : loading, 'hidden' : errorMessage}">
+            {% if product.selected_or_first_available_variant.available == false %}
+              {% assign button_label = 'products.product.sold_out' | t %}
+            {% else %}
+              {% assign button_label = 'products.product.choose_options' | t %}
+            {% endif %}
+            <span class="flex items-center justify-center">
+              {% render 'button-label', button_label: button_label, show_button_style: 'primary' %}
+            </span>
+          </span>
+          <div
+            class="lg:inline-block animate-spin w-4 h-4 md:w-5 md:h-5 absolute top-[calc(50%-8px)] left-[calc(50%-8px)] md:top-[calc(50%-10px)] md:left-[calc(50%-10px)]"
+            x-show="loading"
+            x-cloak
+          >
+            {% render 'icon-alls', icon: 'icon-loading' %}
+          </div>
+        </button>
+        <button
+          type="submit"
+          name="add"
+          @click.prevent="setTimeout(() => { $store.xQuickView && (showOptions = !showOptions); $store.xQuickView.showChooseOption('{{ section_id }}-{{ product.id }}-{{ block_id }}', $el); }, 0)"
+          x-on:mouseover="setTimeout(() => { $store.xQuickView && $store.xQuickView.loadChooseOptions('{{ product.url | within: collection | split: "?" | first }}', $el, '{{ section_id }}-{{ product.id }}-{{ block_id }}', {{ index_param }}); }, 0)"
+          class="button label-btn-quickview button-disable-effect not-icon button--quickview rounded-full lg:leading-snug none_border hidden h-full p-[6px] disabled:cursor-not-allowed disabled:opacity-60"
+          data-id="{{ section_id }}-{{ product.id }}-{{ block_id }}"
+          :class="errorMessage && 'opacity-60 cursor-not-allowed'"
+          {% if product.selected_or_first_available_variant.available == false %}
+            disabled
+            aria-label="{{ 'products.product.sold_out' | t }}"
+          {% else %}
+            {%- if product.has_only_default_variant -%}
+              aria-label="{{ 'products.product.add_to_cart' | t }}"
+            {% else %}
+              {% if settings.products_color_swatches_enable_on_collection_page %}
+                aria-label="{{ 'products.product.add_to_cart' | t }}"
+              {% else %}
+                aria-label="{{ 'products.product.choose_options' | t }}"
+              {% endif %}
+            {% endif %}
+          {% endif %}
+          x-customer-event-data="{{ data_for_customer_event | escape }}"
+        >
+          <span class="w-5 h-5 flex items-center justify-center md:w-6 md:h-6" x-show="!loading">
+            {%- render 'icon-cart-all', icon: 'icon-cart-quick-add' -%}
+          </span>
+          <span class="block w-5 h-5 animate-spin" x-show="loading" x-cloak>
+            {% render 'icon-alls', icon: 'icon-loading' %}
+          </span>
+        </button>
+      {% endif %}
+    </div>
+{% endif %}
+  

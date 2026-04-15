@@ -76,7 +76,7 @@
           assign color_value = option_value
           break
         endif
-        assign multiColors = option_value | remove_first: '#' | split: '#'
+        assign multi_colors = option_value | remove_first: '#' | split: '#'
         if option_key == value
           assign color_custom = option_key
           assign color_value = option_value
@@ -96,13 +96,13 @@
           [data-swatch="{{ color_custom }}"]:before {
             background-image: url({{ color_value | file_img_url: "100x100" }});
           }
-        {% elsif multiColors.size == 3 %}
+        {% elsif multi_colors.size == 3 %}
           [data-swatch="{{ color_custom }}"]:before {
-            background: linear-gradient(45deg, {{ '#' | append: multiColors[0] }}, {{ '#' | append: multiColors[0] }} 33.3%, {{ '#' | append: multiColors[1] }} 33.3%, {{ '#' | append: multiColors[1] }} 66.6%, {{ '#' | append: multiColors[2] }} 66.6%, {{ '#' | append: multiColors[2] }});
+            background: linear-gradient(45deg, {{ '#' | append: multi_colors[0] }}, {{ '#' | append: multi_colors[0] }} 33.3%, {{ '#' | append: multi_colors[1] }} 33.3%, {{ '#' | append: multi_colors[1] }} 66.6%, {{ '#' | append: multi_colors[2] }} 66.6%, {{ '#' | append: multi_colors[2] }});
           }
-        {% elsif multiColors.size == 2 %}
+        {% elsif multi_colors.size == 2 %}
           [data-swatch="{{ color_custom }}"]:before {
-            background: linear-gradient(45deg, {{ '#' | append: multiColors[0] }}, {{ '#' | append: multiColors[0] }} 50%, {{ '#' | append: multiColors[1] }} 50%, {{ '#' | append: multiColors[1] }});
+            background: linear-gradient(45deg, {{ '#' | append: multi_colors[0] }}, {{ '#' | append: multi_colors[0] }} 50%, {{ '#' | append: multi_colors[1] }} 50%, {{ '#' | append: multi_colors[1] }});
           }
         {% else %}
           [data-swatch="{{ color_custom }}"]:before {
@@ -142,7 +142,17 @@
         for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" 
         data-swatch="{{ color_custom }}"
         {% if preview_image == blank or settings.replace_color_with_variant_images == false and color_custom == '' %}
-          style="background: {{ value | split: ' ' | last | handle }};"
+          {% liquid
+            if value.swatch.image
+              assign image_url = value.swatch.image | image_url: width: 50
+              assign swatch_value = 'url(' | append: image_url | append: ')'
+            elsif value.swatch.color
+              assign swatch_value = 'rgb(' | append: value.swatch.color.rgb | append: ')'
+            else
+              assign swatch_value = value | split: ' ' | last | handle
+            endif
+          %}
+          style="background: {% if color_custom == '' %}{{ swatch_value }}{% else %}none{% endif %};"
         {% elsif swatch_natural and ratio_image %}
           style="--ratio-image: {{ ratio_image }}%;"
         {% endif %}
@@ -164,7 +174,7 @@
       class="text-left rtl:text-right rtl:pr-5 whitespace-normal cursor-pointer content-{{ section.id }} bg-[rgba(var(--background-color),1)]"{% if value.selected %} selected="selected"{% endif %}
     >
       {% if option_disabled -%}
-        {{- 'products.product.value_unavailable' | t: value: value | escape -}}
+        {{- 'products.product.value_unavailable' | t: value: value -}}
       {%- else -%}
         {{- value | escape -}}
       {%- endif %}

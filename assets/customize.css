@@ -1,0 +1,151 @@
+/* App Lock Product BSS */
+.bss-lock-element,
+.card-product .x-card-price:not(:has(.bss-lock-element)) {
+    width: 100%;
+    border-top: 1px solid rgba(var(--colors-line-and-border));
+    padding-top: .75rem;
+}
+.x-block-product-complementary .card-product .x-card-price:not(:has(.bss-lock-element)) {
+    width: auto;
+    border-top: none;
+    padding-top: 0;
+}
+.product-content-container .bss-lock-element {
+  margin-bottom: .5rem;
+}
+.bss-lock-element > a {
+    width: 100%;
+}
+.bss-lock-element > a .bss-commerce-passcode-input-label,
+.bss-lock-element > a #bsscommerce-password,
+.bss-lock-element > a #bsscommerce-password-submit,
+.bss-lock-element > a {
+    font-size: 12.6px !important;
+}
+#cart-upsell-drawer .group .card:has(.bss-lock-element) .grow form,
+.card-info:has(.bss-lock-element) + .block-button-card-product {
+    display: none;
+}
+.card-product h3.card__heading {
+    padding-inline: 8px;
+}
+/* Hide btn and border in small element */
+#search-result .bss-lock-element,
+#cart-upsell-drawer .bss-lock-element,
+.x-block-product-complementary .bss-lock-element {
+    border-top: none;
+}
+#search-result .bss-lock-element > a,
+#cart-upsell-drawer .bss-lock-element > a,
+.x-block-product-complementary .bss-lock-element > a {
+    text-align: left !important;
+}
+#search-result .bss-lock-element button.button.button-solid,
+#cart-upsell-drawer .bss-lock-element button.button.button-solid,
+.x-block-product-complementary .bss-lock-element button.button.button-solid {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .bss-lock-element,
+    .card-product .x-card-price:not(:has(.bss-lock-element)) {
+        padding-top: 1rem;
+    }
+    .x-block-product-complementary .card-product .x-card-price:not(:has(.bss-lock-element)) {
+        padding-top: 0;
+    }
+    .product-content-container .bss-lock-element {
+        margin-bottom: 1rem;
+    }
+
+    .bss-lock-element > a .bss-commerce-passcode-input-label,
+    .bss-lock-element > a #bsscommerce-password,
+    .bss-lock-element > a #bsscommerce-password-submit,
+    .bss-lock-element > a {
+        font-size: 14px !important;
+    }
+
+    .bss-lock-element > a > span {
+        font-size: 12px;
+    }
+
+    .card-product h3.card__heading {
+        padding-inline: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .button-quickview-icon.bottom-11 {
+        top: .5rem;
+    }
+}
+/* App Lock Product BSS */
+
+
+
+
+
+/* App Form Builder */
+.section-apps .globo-form-app {
+    font-family: var(--font-body-family);
+}
+.section-apps .globo-form-app .panels {
+    z-index: 10;
+}
+.section-apps .globo-form-control input,
+.section-apps .globo-form-control textarea,
+.section-apps .globo-form-control select {
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1px solid #eaeaea;
+    box-shadow: none;
+}
+
+.section-apps .globo-form-control {
+    margin-bottom: 1rem;
+}
+.section-apps .globo-form-control textarea {
+    height: 150px;
+}
+.section-apps .globo-form-control .heading-title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.section-apps .globo-form-control label {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.section-apps .globo-form-control .help-text {
+    font-size: 14px;
+}
+.section-apps .padding-top-form-app {
+    padding-top: 24px;
+}
+.gfb__footer button.action {
+    padding-block: 1rem;
+    border-radius: var(--border-radius);
+}
+
+@media (max-width: 768px) {
+    .section-apps .globo-form-control .heading-title {
+        font-size: 22.6px;
+    }
+    .section-apps .globo-form-control label {
+        font-size: 14.4px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    .section-apps .globo-form-control .help-text {
+        font-size: 12px;
+    }
+    .section-apps .padding-top-form-app {
+        padding-top: 12px;
+    }
+    .gfb__footer button.action {
+        padding-block: 1rem;
+        border-radius: var(--border-radius);
+    }
+}
+/* App Form Builder */
