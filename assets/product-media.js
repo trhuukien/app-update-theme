@@ -1,5 +1,5 @@
-if (!window.Eurus.loadedScript.includes('product-media.js')) {
-  window.Eurus.loadedScript.push('product-media.js');
+if (!window.Eurus.loadedScript.has('product-media.js')) {
+  window.Eurus.loadedScript.add('product-media.js');
 
   requestAnimationFrame(() => {
     document.addEventListener('alpine:init', () => {
@@ -11,6 +11,24 @@ if (!window.Eurus.loadedScript.includes('product-media.js')) {
         zoomIsOpen: false,
         productMediaIsOpen: '',
         videoExternalListened: false,
+        xPosition: 0,
+        yPosition: 0,
+        imageWidth: 0,
+        imageHeight: 0,
+        startZoom(event) {
+          const elem = event.currentTarget;
+          const size = elem.getBoundingClientRect();
+          this.xOffset = size.left;
+          this.yOffset = size.top;
+          this.imageWidth = size.width;
+          this.imageHeight = size.height;
+        },
+        updatePosition(event) {
+          if (this.imageWidth && this.imageHeight) {
+            this.xPosition = ((event.clientX - this.xOffset) / this.imageWidth) * 100;
+            this.yPosition = ((event.clientY - this.yOffset)  / this.imageHeight) * 100;
+          }
+        },
         thumbnailHandleMouseDown(e) {
           this.thumbnailOnMouseDown = true;
           this.thumbnailGrabbingClass = 'cursor-grabbing';
@@ -46,12 +64,39 @@ if (!window.Eurus.loadedScript.includes('product-media.js')) {
           this.thumbnailOnMouseDown = false;
           this.thumbnailGrabbingClass = 'md:cursor-grab';
         },
-        zoomOpen(position) {
+        zoomOpen(position, isSplide) {
           this.zoomIsOpen = true;
           Alpine.store('xPopup').open = true;
           setTimeout(() => {
-            document.getElementById(position + '-image-zoom-' + settings.section_id).scrollIntoView()
-          }, 10);
+            if (isSplide) {
+              const splideEl = document.getElementById(`media-gallery-${settings.section_id}`)
+              if (splideEl && splideEl.splide) {
+                let nextSlideIndex = 0;
+                const childrenArray = Array.from(splideEl.querySelector('.splide__list').children)
+                childrenArray.map((item, index) => {
+                  if (item.getAttribute('x-slide-index') == position) {
+                    nextSlideIndex = index
+                  }
+                })
+                splideEl.splide.go(nextSlideIndex);
+              }
+              document.addEventListener(`eurus:zoom-image-ready:${settings.section_id}`, () => {
+                if (splideEl && splideEl.splide) {
+                  let nextSlideIndex = 0;
+                  const childrenArray = Array.from(splideEl.querySelector('.splide__list').children)
+                  childrenArray.map((item, index) => {
+                    if (item.getAttribute('x-slide-index') == position) {
+                      nextSlideIndex = index
+                    }
+                  })
+                  splideEl.splide.go(nextSlideIndex);
+                }
+              });
+            }
+            else {
+              document.getElementById(position + '-image-zoom-' + settings.section_id).scrollIntoView({ behavior: 'smooth', block: 'start' })
+            }
+          }, 200);
           Alpine.store('xModal').activeElement = 'product-image-' + settings.section_id + '-' + position;
         },
         zoomClose() {

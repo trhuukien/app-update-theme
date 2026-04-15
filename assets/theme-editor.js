@@ -75,7 +75,11 @@ document.addEventListener('shopify:block:select', function(event) {
   }
   /* end featured-collection.liquid */
   if (event.target.id.includes("__header") || event.target.id.includes("announcement-bar")) {
-    Alpine.store('xHeaderMenu').setPositionTop();
+    Alpine?.store('xHeaderMenu').setPositionTop();
+  }
+
+  if (blockSelected.contains('side-bar-block')) {
+    Alpine?.store('xSideBar').setPositionSideBar();
   }
 });
 
@@ -142,7 +146,14 @@ document.addEventListener('shopify:section:select', function(event) {
     }
   }
   /* end quick-view.liquid */
-
+  /* start slideshow vertical */
+  if (sectionSelected.contains('section-slideshow-vertical')) {
+    let sectionEl = document.getElementById(event.target.id);
+    setTimeout(() => {
+      sectionEl.scrollIntoView({ behavior: "smooth", block: "center" });
+    }, 1000)
+  }
+  /* end slideshow vertical*/
   /* start cookie-banner.liquid */
   if (event.target.id.includes('cookie-banner')) {
     if (window.Alpine) {
@@ -193,6 +204,10 @@ document.addEventListener('shopify:section:select', function(event) {
   if (event.target.id.includes("__header") || event.target.id.includes("announcement-bar")) {
     Alpine.store('xHeaderMenu').setPositionTop();
   }
+
+  if (event.target.classList.contains('section-side-bar')) {
+    Alpine.store('xSideBar').setPositionSideBar();
+  }
 })
 
 document.addEventListener('shopify:section:deselect', function(event) {
@@ -215,6 +230,15 @@ document.addEventListener('shopify:section:deselect', function(event) {
 document.addEventListener('shopify:section:load', function(event) {
   if (event.target.id.includes("__header") || event.target.id.includes("announcement-bar")) {
     Alpine.store('xHeaderMenu').setPositionTop();
+  }
+  if (event.target.classList.contains('section-side-bar')) {
+    Alpine.store('xSideBar').setPositionSideBar();
+  }
+})
+
+document.addEventListener('shopify:section:unload', function(event) {
+  if (event.target.classList.contains('section-side-bar')) {
+    Alpine.store('xSideBar').hideSideBar();
   }
 })
 

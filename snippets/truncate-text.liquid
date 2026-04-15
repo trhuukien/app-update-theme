@@ -36,12 +36,12 @@
         {{ content | replace: '<iframe ', '<iframe loading="lazy" ' }}
       </div>
 
-      <div class="gradient block" :class="expanded ? 'hidden' : 'block'"></div>
+      <div class="{% if gradient_style == 'secondary' %}gradient-secondary {% else %}gradient {% endif %}block" :class="expanded ? 'hidden' : 'block'"></div>
     </div>
     <template 
       x-if="truncatable" x-show="truncatable"
     >
-      <button class="button-link relative effect-inline inline mt-4 mb-4" x-transition @click.prevent="open($el);" x-show="truncated">{{ read_more_label }}</button>
+      <button class="button-link relative effect-inline inline mt-4 mb-4" x-init="label = '{{ read_more_label }}'" x-transition @click.prevent="truncated ? open($el, '{{ see_less_label }}') : close($el, '{{ read_more_label }}', '{{ quick_view }}');" x-text="label"></button>
     </template>
   </div>
 {% else %}

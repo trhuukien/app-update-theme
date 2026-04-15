@@ -6,7 +6,7 @@ else
 endif
 %}
 <div class="customer order pt-[{{ section.settings.top_padding_mobile }}px] md:pt-[{{ section.settings.top_padding }}px] pb-[{{ section.settings.bottom_padding_mobile }}px] md:pb-[{{ section.settings.bottom_padding }}px]">
-  <div class="page-width">
+  <div class="x-pgw page-width">
     <div class="flex justify-between border-b pb-2.5 md:pb-3.5">
       <h1 class="h2">{{ 'customer.account.title' | t }}</h1>
       <a class="flex pl-1.5 pr-1.5 items-center justify-center underline underline-offset-2 disable-effect lg:hover:text-[rgb(var(--colors-text-link))]" href="{{ routes.account_url }}">{{ 'customer.account.return' | t }}</a>
@@ -311,9 +311,21 @@ endif
                 </td>
               </tr>
             {%- endif -%}
+            {%- if order.total_refunded_amount > 0 -%}
+              <tr class="flex justify-between mt-3" role="row">
+                <td class="{% if is_rtl %} md:pr-3.5{% else %} md:pl-3.5{% endif %}" id="RowRefunded" role="rowheader" scope="row" colspan="4">{{ 'customer.order.refunded' | t }}</td>
+                <td class="{% if is_rtl %} md:pl-3.5{% else %} md:pr-3.5{% endif %}" headers="RowRefunded" role="cell" data-label="{{ 'customer.order.refunded' | t }}">
+                  {% if settings.currency_code_enable %}
+                    {{ order.total_refunded_amount | money_with_currency }}
+                  {% else %}
+                    {{ order.total_refunded_amount | money }}
+                  {% endif %}
+                </td>
+              </tr>
+            {%- endif -%}
             <tr class="flex justify-between text-large mt-3 text-[rgba(var(--colors-heading))]" role="row">
               <td class="{% if is_rtl %} md:pr-3.5{% else %} md:pl-3.5{% endif %}" id="RowTotal" role="rowheader" scope="row" colspan="3">{{ 'customer.order.total' | t }}</td>
-              <td class="{% if is_rtl %} md:pl-3.5{% else %} md:pr-3.5{% endif %}" headers="RowTotal" role="cell" colspan="2" data-label="{{ 'customer.order.total' | t }}">{{ order.total_price | money_with_currency }}</td>
+              <td class="{% if is_rtl %} md:pl-3.5{% else %} md:pr-3.5{% endif %}" headers="RowTotal" role="cell" colspan="2" data-label="{{ 'customer.order.total' | t }}">{{ order.total_net_amount | money_with_currency }}</td>
             </tr>
           </tfoot>
         </table>
